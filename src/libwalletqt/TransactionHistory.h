@@ -5,7 +5,7 @@
 #include <QList>
 #include <QDateTime>
 
-namespace Monero {
+namespace Electroneum {
 class TransactionHistory;
 }
 
@@ -41,11 +41,11 @@ public slots:
 
 
 private:
-    explicit TransactionHistory(Monero::TransactionHistory * pimpl, QObject *parent = 0);
+    explicit TransactionHistory(Electroneum::TransactionHistory * pimpl, QObject *parent = 0);
 
 private:
     friend class Wallet;
-    Monero::TransactionHistory * m_pimpl;
+    Electroneum::TransactionHistory * m_pimpl;
     mutable QList<TransactionInfo*> m_tinfo;
     mutable QDateTime   m_firstDateTime;
     mutable QDateTime   m_lastDateTime;

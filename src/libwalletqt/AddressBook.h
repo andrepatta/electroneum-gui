@@ -6,7 +6,7 @@
 #include <QList>
 #include <QDateTime>
 
-namespace Monero {
+namespace Electroneum {
 class AddressBook;
 }
 class AddressBookRow;
@@ -15,8 +15,8 @@ class AddressBook : public QObject
 {
     Q_OBJECT
 public:
-    Q_INVOKABLE QList<Monero::AddressBookRow*> getAll(bool update = false) const;
-    Q_INVOKABLE Monero::AddressBookRow * getRow(int index) const;
+    Q_INVOKABLE QList<Electroneum::AddressBookRow*> getAll(bool update = false) const;
+    Q_INVOKABLE Electroneum::AddressBookRow * getRow(int index) const;
     Q_INVOKABLE bool addRow(const QString &address, const QString &payment_id, const QString &description) const;
     Q_INVOKABLE bool deleteRow(int rowId) const;
     quint64 count() const;
@@ -42,10 +42,10 @@ signals:
 public slots:
 
 private:
-    explicit AddressBook(Monero::AddressBook * abImpl, QObject *parent);
+    explicit AddressBook(Electroneum::AddressBook * abImpl, QObject *parent);
     friend class Wallet;
-    Monero::AddressBook * m_addressBookImpl;
-    mutable QList<Monero::AddressBookRow*> m_rows;
+    Electroneum::AddressBook * m_addressBookImpl;
+    mutable QList<Electroneum::AddressBookRow*> m_rows;
 };
 
 #endif // ADDRESSBOOK_H

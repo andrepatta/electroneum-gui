@@ -1,4 +1,3 @@
 [submodule "electroneum"]
 	path = electroneum
 	url = https://github.com/electroneum/electroneum
-	ignore = all

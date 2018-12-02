@@ -2,7 +2,7 @@ TEMPLATE = app
 
 QT += qml quick widgets
 
-WALLET_ROOT=$$PWD/monero
+WALLET_ROOT=$$PWD/electroneum
 
 CONFIG += c++11
 
@@ -264,16 +264,15 @@ macx {
     # }
     LIBS+= \
         -L/usr/local/lib \
-        -L/usr/local/opt/openssl/lib \
-        -L/usr/local/opt/boost/lib \
-        -lboost_serialization \
+        -L/opt/local/lib \
+        -lboost_serialization-mt \
         -lboost_thread-mt \
-        -lboost_system \
-        -lboost_date_time \
-        -lboost_filesystem \
-        -lboost_regex \
-        -lboost_chrono \
-        -lboost_program_options \
+        -lboost_system-mt \
+        -lboost_date_time-mt \
+        -lboost_filesystem-mt \
+        -lboost_regex-mt \
+        -lboost_chrono-mt \
+        -lboost_program_options-mt \
         -lssl \
         -lcrypto \
         -ldl
@@ -400,12 +399,12 @@ OTHER_FILES += \
 
 DISTFILES += \
     notes.txt \
-    monero/src/wallet/CMakeLists.txt \
+    electroneum/src/wallet/CMakeLists.txt \
     components/MobileHeader.qml
 
 
 # windows application icon
-RC_FILE = monero-core.rc
+RC_FILE = electroneum-core.rc
 
 # mac application icon
 ICON = $$PWD/images/appicon.icns

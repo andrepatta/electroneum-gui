@@ -107,7 +107,7 @@ QList<Transfer*> TransactionInfo::transfers() const
     return m_transfers;
 }
 
-TransactionInfo::TransactionInfo(Monero::TransactionInfo *pimpl, QObject *parent)
+TransactionInfo::TransactionInfo(Electroneum::TransactionInfo *pimpl, QObject *parent)
     : QObject(parent), m_pimpl(pimpl)
 {
 

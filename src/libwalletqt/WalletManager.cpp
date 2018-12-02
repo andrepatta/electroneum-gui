@@ -32,7 +32,7 @@ Wallet *WalletManager::createWallet(const QString &path, const QString &password
         qDebug() << "Closing open m_currentWallet" << m_currentWallet;
         delete m_currentWallet;
     }
-    Monero::Wallet * w = m_pimpl->createWallet(path.toStdString(), password.toStdString(),
+    Electroneum::Wallet * w = m_pimpl->createWallet(path.toStdString(), password.toStdString(),
                                                   language.toStdString(), testnet);
     m_currentWallet  = new Wallet(w);
     return m_currentWallet;
@@ -48,7 +48,7 @@ Wallet *WalletManager::openWallet(const QString &path, const QString &password, 
     qDebug("%s: opening wallet at %s, testnet = %d ",
            __PRETTY_FUNCTION__, qPrintable(path), testnet);
 
-    Monero::Wallet * w =  m_pimpl->openWallet(path.toStdString(), password.toStdString(), testnet);
+    Electroneum::Wallet * w =  m_pimpl->openWallet(path.toStdString(), password.toStdString(), testnet);
     qDebug("%s: opened wallet: %s, status: %d", __PRETTY_FUNCTION__, w->address().c_str(), w->status());
     m_currentWallet  = new Wallet(w);
 
@@ -83,7 +83,7 @@ Wallet *WalletManager::recoveryWallet(const QString &path, const QString &memo, 
         qDebug() << "Closing open m_currentWallet" << m_currentWallet;
         delete m_currentWallet;
     }
-    Monero::Wallet * w = m_pimpl->recoveryWallet(path.toStdString(), memo.toStdString(), testnet, restoreHeight);
+    Electroneum::Wallet * w = m_pimpl->recoveryWallet(path.toStdString(), memo.toStdString(), testnet, restoreHeight);
     m_currentWallet = new Wallet(w);
     return m_currentWallet;
 }
@@ -98,7 +98,7 @@ Wallet *WalletManager::createWalletFromKeys(const QString &path, const QString &
         delete m_currentWallet;
         m_currentWallet = NULL;
     }
-    Monero::Wallet * w = m_pimpl->createWalletFromKeys(path.toStdString(), language.toStdString(), testnet, restoreHeight,
+    Electroneum::Wallet * w = m_pimpl->createWalletFromKeys(path.toStdString(), language.toStdString(), testnet, restoreHeight,
                                                        address.toStdString(), viewkey.toStdString(), spendkey.toStdString());
     m_currentWallet = new Wallet(w);
     return m_currentWallet;
@@ -166,7 +166,7 @@ QString WalletManager::walletLanguage(const QString &locale)
 
 quint64 WalletManager::maximumAllowedAmount() const
 {
-    return Monero::Wallet::maximumAllowedAmount();
+    return Electroneum::Wallet::maximumAllowedAmount();
 }
 
 QString WalletManager::maximumAllowedAmountAsSting() const
@@ -178,33 +178,33 @@ QString WalletManager::maximumAllowedAmountAsSting() const
 
 QString WalletManager::displayAmount(quint64 amount) const
 {
-    return QString::fromStdString(Monero::Wallet::displayAmount(amount));
+    return QString::fromStdString(Electroneum::Wallet::displayAmount(amount));
 }
 
 quint64 WalletManager::amountFromString(const QString &amount) const
 {
-    return Monero::Wallet::amountFromString(amount.toStdString());
+    return Electroneum::Wallet::amountFromString(amount.toStdString());
 }
 
 quint64 WalletManager::amountFromDouble(double amount) const
 {
-    return Monero::Wallet::amountFromDouble(amount);
+    return Electroneum::Wallet::amountFromDouble(amount);
 }
 
 bool WalletManager::paymentIdValid(const QString &payment_id) const
 {
-    return Monero::Wallet::paymentIdValid(payment_id.toStdString());
+    return Electroneum::Wallet::paymentIdValid(payment_id.toStdString());
 }
 
 bool WalletManager::addressValid(const QString &address, bool testnet) const
 {
-    return Monero::Wallet::addressValid(address.toStdString(), testnet);
+    return Electroneum::Wallet::addressValid(address.toStdString(), testnet);
 }
 
 bool WalletManager::keyValid(const QString &key, const QString &address, bool isViewKey,  bool testnet) const
 {
     std::string error;
-    if(!Monero::Wallet::keyValid(key.toStdString(), address.toStdString(), isViewKey, testnet, error)){
+    if(!Electroneum::Wallet::keyValid(key.toStdString(), address.toStdString(), isViewKey, testnet, error)){
         qDebug() << QString::fromStdString(error);
         return false;
     }
@@ -213,7 +213,7 @@ bool WalletManager::keyValid(const QString &key, const QString &address, bool is
 
 QString WalletManager::paymentIdFromAddress(const QString &address, bool testnet) const
 {
-    return QString::fromStdString(Monero::Wallet::paymentIdFromAddress(address.toStdString(), testnet));
+    return QString::fromStdString(Electroneum::Wallet::paymentIdFromAddress(address.toStdString(), testnet));
 }
 
 QString WalletManager::checkPayment(const QString &address, const QString &txid, const QString &txkey, const QString &daemon_address) const
@@ -291,12 +291,12 @@ bool WalletManager::parse_uri(const QString &uri, QString &address, QString &pay
 
 void WalletManager::setLogLevel(int logLevel)
 {
-    Monero::WalletManagerFactory::setLogLevel(logLevel);
+    Electroneum::WalletManagerFactory::setLogLevel(logLevel);
 }
 
 void WalletManager::setLogCategories(const QString &categories)
 {
-    Monero::WalletManagerFactory::setLogCategories(categories.toStdString());
+    Electroneum::WalletManagerFactory::setLogCategories(categories.toStdString());
 }
 
 QString WalletManager::urlToLocalPath(const QUrl &url) const
@@ -351,7 +351,7 @@ void WalletManager::checkUpdatesAsync(const QString &software, const QString &su
 QString WalletManager::checkUpdates(const QString &software, const QString &subdir) const
 {
   qDebug() << "Checking for updates";
-  const std::tuple<bool, std::string, std::string, std::string, std::string> result = Monero::WalletManager::checkUpdates(software.toStdString(), subdir.toStdString());
+  const std::tuple<bool, std::string, std::string, std::string, std::string> result = Electroneum::WalletManager::checkUpdates(software.toStdString(), subdir.toStdString());
   if (!std::get<0>(result))
     return QString("");
   return QString::fromStdString(std::get<1>(result) + "|" + std::get<2>(result) + "|" + std::get<3>(result) + "|" + std::get<4>(result));
@@ -377,5 +377,5 @@ bool WalletManager::clearWalletCache(const QString &wallet_path) const
 
 WalletManager::WalletManager(QObject *parent) : QObject(parent)
 {
-    m_pimpl =  Monero::WalletManagerFactory::getWalletManager();
+    m_pimpl =  Electroneum::WalletManagerFactory::getWalletManager();
 }

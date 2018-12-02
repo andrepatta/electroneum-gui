@@ -88,7 +88,7 @@ cd build
 qmake ../monero-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit 
 
-# Copy monerod to bin folder
+# Copy electroneumd to bin folder
 if [ "$platform" != "mingw32" ] && [ "$ANDROID" != true ]; then
 cp ../$ELECTRONEUM_DIR/bin/$ELECTRONEUMD_EXEC $BIN_PATH
 fi

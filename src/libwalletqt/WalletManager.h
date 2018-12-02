@@ -8,7 +8,7 @@
 #include <QPointer>
 
 class Wallet;
-namespace Monero {
+namespace Electroneum {
     class WalletManager;
 }
 
@@ -19,14 +19,14 @@ class WalletManager : public QObject
 
 public:
     enum LogLevel {
-        LogLevel_Silent = Monero::WalletManagerFactory::LogLevel_Silent,
-        LogLevel_0 = Monero::WalletManagerFactory::LogLevel_0,
-        LogLevel_1 = Monero::WalletManagerFactory::LogLevel_1,
-        LogLevel_2 = Monero::WalletManagerFactory::LogLevel_2,
-        LogLevel_3 = Monero::WalletManagerFactory::LogLevel_3,
-        LogLevel_4 = Monero::WalletManagerFactory::LogLevel_4,
-        LogLevel_Min = Monero::WalletManagerFactory::LogLevel_Min,
-        LogLevel_Max = Monero::WalletManagerFactory::LogLevel_Max,
+        LogLevel_Silent = Electroneum::WalletManagerFactory::LogLevel_Silent,
+        LogLevel_0 = Electroneum::WalletManagerFactory::LogLevel_0,
+        LogLevel_1 = Electroneum::WalletManagerFactory::LogLevel_1,
+        LogLevel_2 = Electroneum::WalletManagerFactory::LogLevel_2,
+        LogLevel_3 = Electroneum::WalletManagerFactory::LogLevel_3,
+        LogLevel_4 = Electroneum::WalletManagerFactory::LogLevel_4,
+        LogLevel_Min = Electroneum::WalletManagerFactory::LogLevel_Min,
+        LogLevel_Max = Electroneum::WalletManagerFactory::LogLevel_Max,
     };
 
     static WalletManager * instance();
@@ -151,7 +151,7 @@ private:
 
     explicit WalletManager(QObject *parent = 0);
     static WalletManager * m_instance;
-    Monero::WalletManager * m_pimpl;
+    Electroneum::WalletManager * m_pimpl;
     QMutex m_mutex;
     QPointer<Wallet> m_currentWallet;
 
