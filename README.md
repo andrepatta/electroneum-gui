@@ -1,5 +1,5 @@
 
-# Electroneum GUI
+# Electroneum GUI Wallet
 
   
 Copyright (c) 2014-2017, The Monero Project
