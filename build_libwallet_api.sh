@@ -1,8 +1,6 @@
 #!/bin/bash
 
 
-# MONERO_URL=https://github.com/monero-project/monero.git
-# MONERO_BRANCH=master
 CPU_CORE_COUNT=$(grep -c ^processor /proc/cpuinfo 2>/dev/null || sysctl -n hw.ncpu)
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -11,16 +9,16 @@ source $ROOT_DIR/utils.sh
 
 
 INSTALL_DIR=$ROOT_DIR/wallet
-MONERO_DIR=$ROOT_DIR/monero
+ELECTRONEUM_DIR=$ROOT_DIR/electroneum
 
 
-mkdir -p $MONERO_DIR/build/release
-pushd $MONERO_DIR/build/release
+mkdir -p $ELECTRONEUM_DIR/build/release
+pushd $ELECTRONEUM_DIR/build/release
 
 # reusing function from "utils.sh"
 platform=$(get_platform)
 
-pushd $MONERO_DIR/build/release/src/wallet
+pushd $ELECTRONEUM_DIR/build/release/src/wallet
 make -j$CPU_CORE_COUNT
 make install -j$CPU_CORE_COUNT
 popd
@@ -31,7 +29,7 @@ popd
 
 if [ "$platform" != "linux" ]; then
     echo "Building libunbound..."
-    pushd $MONERO_DIR/build/release/external/unbound
+    pushd $ELECTRONEUM_DIR/build/release/external/unbound
     # no need to make, it was already built as dependency for libwallet
     # make -j$CPU_CORE_COUNT
     make install -j$CPU_CORE_COUNT
