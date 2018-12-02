@@ -613,7 +613,7 @@ QString Wallet::getDaemonLogPath() const
 
 QString Wallet::getWalletLogPath() const
 {
-    return QCoreApplication::applicationDirPath() + "/monero-wallet-gui.log";
+    return QCoreApplication::applicationDirPath() + "/electroneum-wallet-gui.log";
 }
 
 Wallet::Wallet(Electroneum::Wallet *w, QObject *parent)

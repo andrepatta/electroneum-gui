@@ -108,10 +108,10 @@ Window {
                 id: okButton
                 visible:false
                 fontSize: 14
-                shadowReleasedColor: "#FF4304"
+                shadowReleasedColor: "#1b83bf"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                releasedColor: "#25A7F1"
+                pressedColor: "#1b83bf"
                 text: qsTr("Start daemon (%1)").arg(countDown)
                 KeyNavigation.tab: cancelButton
                 onClicked: {
@@ -125,10 +125,10 @@ Window {
             MoneroComponents.StandardButton {
                 id: cancelButton
                 fontSize: 14
-                shadowReleasedColor: "#FF4304"
+                shadowReleasedColor: "#1b83bf"
                 shadowPressedColor: "#B32D00"
-                releasedColor: "#FF6C3C"
-                pressedColor: "#FF4304"
+                releasedColor: "#25A7F1"
+                pressedColor: "#1b83bf"
                 text: qsTr("Use custom settings")
 
                 onClicked: {

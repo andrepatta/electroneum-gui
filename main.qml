@@ -42,7 +42,7 @@ import "wizard"
 
 ApplicationWindow {
     id: appWindow
-    title: "Monero"
+    title: "Electroneum"
 
     property var currentItem
     property bool whatIsEnable: false
@@ -880,7 +880,7 @@ ApplicationWindow {
         property bool   allow_background_mining : false
         property bool   miningIgnoreBattery : true
         property bool   testnet: false
-        property string daemon_address: testnet ? "localhost:28081" : "localhost:18081"
+        property string daemon_address: testnet ? "localhost:34568" : "localhost:26968"
         property string payment_id
         property int    restore_height : 0
         property bool   is_recovering : false
@@ -1042,7 +1042,7 @@ ApplicationWindow {
 //                PropertyChanges { target: frameArea; blocked: true }
                 PropertyChanges { target: titleBar; visible: true }
 //                PropertyChanges { target: titleBar; y: 0 }
-                PropertyChanges { target: titleBar; title: qsTr("Monero") + translationManager.emptyString }
+                PropertyChanges { target: titleBar; title: qsTr("Electroneum") + translationManager.emptyString }
             }
         ]
 
@@ -1306,7 +1306,7 @@ ApplicationWindow {
             property alias text: content.text
             width: content.width + 12
             height: content.height + 17
-            color: "#FF6C3C"
+            color: "#25A7F1"
             //radius: 3
             visible:false;
 
@@ -1379,7 +1379,7 @@ ApplicationWindow {
           var hash = parts[1]
           var user_url = parts[2]
           var auto_url = parts[3]
-          var msg = qsTr("New version of monero-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
+          var msg = qsTr("New version of electroneum-wallet-gui is available: %1<br>%2").arg(version).arg(user_url) + translationManager.emptyString
           notifier.show(msg)
         }
         else {

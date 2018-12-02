@@ -71,7 +71,7 @@ if [ "$ANDROID" != true ] && ([ "$platform" == "linux32" ] || [ "$platform" == "
 fi
 
 if [ "$platform" == "darwin" ]; then
-    BIN_PATH=$BIN_PATH/monero-wallet-gui.app/Contents/MacOS/
+    BIN_PATH=$BIN_PATH/electroneum-wallet-gui.app/Contents/MacOS/
 elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
     ELECTRONEUMD_EXEC=electroneumd.exe
 fi
@@ -85,7 +85,7 @@ popd
 echo "var GUI_MONERO_VERSION = \"$TAGNAME\"" >> version.js
 
 cd build
-qmake ../monero-wallet-gui.pro "$CONFIG" || exit
+qmake ../electroneum-wallet-gui.pro "$CONFIG" || exit
 $MAKE || exit 
 
 # Copy electroneumd to bin folder

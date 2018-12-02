@@ -1,21 +1,21 @@
 // Copyright (c) 2014-2015, The Monero Project
-// 
+//
 // All rights reserved.
-// 
+//
 // Redistribution and use in source and binary forms, with or without modification, are
 // permitted provided that the following conditions are met:
-// 
+//
 // 1. Redistributions of source code must retain the above copyright notice, this list of
 //    conditions and the following disclaimer.
-// 
+//
 // 2. Redistributions in binary form must reproduce the above copyright notice, this list
 //    of conditions and the following disclaimer in the documentation and/or other
 //    materials provided with the distribution.
-// 
+//
 // 3. Neither the name of the copyright holder nor the names of its contributors may be
 //    used to endorse or promote products derived from this software without specific
 //    prior written permission.
-// 
+//
 // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
 // EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
 // MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
@@ -71,55 +71,15 @@ Rectangle {
     color: "#FFFFFF"
 
     // Item with monero logo
-    Item {
-        visible: !isMobile
-        id: logoItem
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.top: parent.top
-        anchors.topMargin: (persistentSettings.customDecorations)? 66 : 36
-        height: logo.implicitHeight
-
-        Image {
-            id: logo
-            anchors.left: parent.left
-            anchors.leftMargin: 50
-            source: "images/moneroLogo.png"
-        }
-
-        Text {
-            id: testnetLabel
-            visible: persistentSettings.testnet
-            text: qsTr("Testnet") + translationManager.emptyString
-            anchors.top: logo.bottom
-            anchors.topMargin: 5
-            anchors.left: parent.left
-            anchors.leftMargin: 50
-            font.bold: true
-            color: "red"
-        }
-
-      /* Disable twitter/news panel
-        Image {
-            anchors.left: parent.left
-            anchors.verticalCenter: logo.verticalCenter
-            anchors.leftMargin: 19
-            source: appWindow.rightPanelExpanded ? "images/expandRightPanel.png" :
-                                                   "images/collapseRightPanel.png"
-        }
-
-        MouseArea {
-            anchors.fill: parent
-            onClicked: appWindow.rightPanelExpanded = !appWindow.rightPanelExpanded
-        }
-      */
-    }
 
 
 
     Column {
         visible: !isMobile
         id: column1
+        y: 46
+        anchors.rightMargin: 0
+        anchors.leftMargin: 0
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.top: logoItem.bottom
@@ -278,7 +238,7 @@ Rectangle {
                 anchors.right: parent.right
                 text: qsTr("Send") + translationManager.emptyString
                 symbol: qsTr("S") + translationManager.emptyString
-                dotColor: "#FF6C3C"
+                dotColor: "#25A7F1"
                 onClicked: {
                     parent.previousButton.checked = false
                     parent.previousButton = transferButton
@@ -369,6 +329,7 @@ Rectangle {
             }
 
             // ------------- Advanced tab ---------------
+            /*
             MenuButton {
                 id: advancedButton
                 anchors.left: parent.left
@@ -461,6 +422,7 @@ Rectangle {
                 color: "#505050"
                 height: 1
             }
+            */
             // ------------- Settings tab ---------------
             MenuButton {
                 id: settingsButton
@@ -502,6 +464,20 @@ Rectangle {
             anchors.right: parent.right
             anchors.bottom: parent.bottom
         }
+    }
+
+    Text {
+        id: testnetLabel
+        x: 6
+        y: 155
+        color: "#ff0000"
+        text: qsTr("Testnet") + translationManager.emptyString
+        anchors.leftMargin: 49
+        font.bold: true
+        anchors.topMargin: 5
+        visible: persistentSettings.testnet
+        anchors.top: logo.bottom
+        anchors.left: parent.left
     }
 
 

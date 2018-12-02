@@ -63,7 +63,7 @@ Item {
             width: row.x
 
             color: {
-                if(item.fillLevel < 3) return "#FF6C3C"
+                if(item.fillLevel < 3) return "#25A7F1"
                 if(item.fillLevel < 13) return "#AAFFBB"
                 return "#36B25C"
             }
