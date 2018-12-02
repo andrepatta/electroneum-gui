@@ -185,7 +185,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("isIOS", isIOS);
 
     if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Monero/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Electroneum/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 
