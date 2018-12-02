@@ -117,7 +117,7 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Monero daemon in %1 seconds</source>
+        <source>Starting Electroneum daemon in %1 seconds</source>
         <translation>모네로 데몬이 %1 초 후 실행됩니다</translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the Electroneum network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Electroneum. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation>당신의 컴퓨터로 마이닝을 하면 모네로 네트워크가 강화됩니다. 더 많은 사람이 조금씩이라도 마이닝을 시행할수록 네트워크가 공격으로부터 안전해집니다. 또한 마이닝은 약간의 모네로를 벌 수있는 작은 기회를 제공합니다. 컴퓨터가 마이닝을 시행하면, 블록 솔루션을 찾는 해시를 만들고, 맞는 블록을 찾으면 해당하는 보상을 받게됩니다. 행운을 빕니다!</translation>
     </message>
     <message>
@@ -908,7 +908,7 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Monero version: </source>
+        <source>Embedded Electroneum version: </source>
         <translation>임베디드 모네로 버전:</translation>
     </message>
     <message>
@@ -1574,12 +1574,12 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
+        <source>We’re almost there - let’s just configure some Electroneum preferences</source>
         <translation> 거의 끝나갑니다 - 선호하는 모네로 환경설정을 구성해 보세요.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
+        <source>Kickstart the Electroneum blockchain?</source>
         <translation>모네로 블록체인 구동을 시작하겠습니까?</translation>
     </message>
     <message>
@@ -1594,7 +1594,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Electroneum instance. However, storing the full blockchain is beneficial to the security of the Electroneum network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
         <translation>디스크 절약 모드는 매우 적은 디스크 공간을 사용하지만 일반 모네로 인스턴스와 같은 양의 데이터를 사용합니다. 하지만 블록체인 전체를 저장하는 것이 모네로 네트워크를 안전하게 하는데 도움이 됩니다. 이 옵션은 디스크 공간이 제한적인 장치에 적합합니다.</translation>
     </message>
     <message>
@@ -1604,7 +1604,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Electroneum network, and also pays a small reward for the work done. This option will let Electroneum mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>마이닝은 모네로 네트워크를 보호하고 수행 한 작업에 대해 작은 보상을 지불합니다. 이 옵션은 당신의 컴퓨터가 전원에 연결되어 있고 게다가 유휴 상태 일 때 자동으로 모네로의 채굴을 할 수 있도록합니다. 당신이 작업을 다시 시작하면 채굴은 중지됩니다.</translation>
     </message>
 </context>
@@ -1628,7 +1628,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
+        <source>Electroneum development is solely supported by donations</source>
         <translation>모네로의 개발은 전적으로 기부금 지원으로 이루어집니다</translation>
     </message>
     <message>
@@ -1643,7 +1643,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Electroneum development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Electroneum development.</source>
         <translation>모든 거래에 대해 작은 수수료가 부과됩니다. 해당 옵션은 수수료 이외에 수수료의 일부에 해당하는 금액을 모네로 개발팀에 기부하는 것을 허용합니다. 예를 들어, 자동 기부율이 50%이고 거래 수수료가 0.005 XMR이면 0.0025 XMR이 개발팀에 대한 기부로 거래금액에 추가됩니다.</translation>
     </message>
     <message>
@@ -1653,7 +1653,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <source>Mining secures the Electroneum network, and also pays a small reward for the work done. This option will let Electroneum mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
         <translation>마이닝은 모네로 네트워크를 보호하고 수행한 작업에 대해 작은 보상을 지불합니다. 이 옵션은 당신의 컴퓨터가 전원에 연결되어 있고 IDLE 상태일때 자동으로 모네로를 채굴할 수 있도록합니다. 당신이 작업을 다시 시작하면 채굴은 중지됩니다.</translation>
     </message>
 </context>
@@ -1738,7 +1738,7 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
+        <source>USE Electroneum</source>
         <translation>모네로 사용하기</translation>
     </message>
     <message>
@@ -1834,7 +1834,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Electroneum!</source>
         <translation>모네로에 오신 것을 환영합니다!</translation>
     </message>
     <message>
@@ -1909,7 +1909,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Monero!</source>
+        <source>Welcome to Electroneum!</source>
         <translation>모네로에 오신 것을 환영합니다!</translation>
     </message>
     <message>
@@ -2034,7 +2034,7 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="734"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
+        <source>This address received %1 Electroneum, with %2 confirmation(s).</source>
         <translation>이 주소로 %1 XMR을 받아, %2 번의 컨펌을 받았습니다.</translation>
     </message>
     <message>
@@ -2054,8 +2054,8 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1361"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>monero-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
+        <source>New version of Electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Electroneum-wallet-gui의 새 버전을 사용할 수 있습니다: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="529"/>
@@ -2104,7 +2104,7 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="729"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
+        <source>This address received %1 Electroneum, but the transaction is not yet mined</source>
         <translation>이 주소는 % 1XMR을 받았지만, 해당 거래가 아직 채굴에 포함되지 않았습니다</translation>
     </message>
     <message>
@@ -2134,7 +2134,7 @@ Amount: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1024"/>
-        <source>Monero</source>
+        <source>Electroneum</source>
         <translation>모네로</translation>
     </message>
     <message>

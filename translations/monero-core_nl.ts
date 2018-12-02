@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Monero daemon in %1 seconds</source>
-        <translation>Monero node wordt gestart in %1 seconde(n)</translation>
+        <source>Starting Electroneum daemon in %1 seconds</source>
+        <translation>Electroneum node wordt gestart in %1 seconde(n)</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -431,8 +431,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minen met uw computer helpt het Monero-netwerk sterker te worden. Hoe meer individuen er minen, des te moeilijker het is om het Monero-netwerk aan te vallen. Ieder beetje helpt dus.&lt;br&gt; &lt;br&gt; Minen geeft u ook een kleine kans om Monero te verdienen. Uw computer zal namelijk specifieke tekenreeksen berekenen en zodoende op zoek gaan naar Monero blok-oplossingen. Als u een blok vindt, ontvangt u de bijbehorende beloning. Veel success!</translation>
+        <source>Mining with your computer helps strengthen the Electroneum network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Electroneum. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minen met uw computer helpt het Electroneum-netwerk sterker te worden. Hoe meer individuen er minen, des te moeilijker het is om het Electroneum-netwerk aan te vallen. Ieder beetje helpt dus.&lt;br&gt; &lt;br&gt; Minen geeft u ook een kleine kans om Electroneum te verdienen. Uw computer zal namelijk specifieke tekenreeksen berekenen en zodoende op zoek gaan naar Electroneum blok-oplossingen. Als u een blok vindt, ontvangt u de bijbehorende beloning. Veel success!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -995,8 +995,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Monero version: </source>
-        <translation>Ingebouwde Monero-versie: </translation>
+        <source>Embedded Electroneum version: </source>
+        <translation>Ingebouwde Electroneum-versie: </translation>
     </message>
 </context>
 <context>
@@ -1576,13 +1576,13 @@ Ringgrootte: </translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation>Bijna klaar - laten we enkele Monero voorkeuren instellen</translation>
+        <source>We’re almost there - let’s just configure some Electroneum preferences</source>
+        <translation>Bijna klaar - laten we enkele Electroneum voorkeuren instellen</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation>De Monero-blockchain starten?</translation>
+        <source>Kickstart the Electroneum blockchain?</source>
+        <translation>De Electroneum-blockchain starten?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1596,8 +1596,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>De modus voor schijfbehoud gebruikt substantieel minder schijfruimte, maar dezelfde hoeveelheid bandbreedte als een gewone Monero-installatie. Het volledig opslaan van de Monero-blockchain is echter beter voor de beveiliging van het Monero-netwerk. Deze optie is geschikt als u een apparaat gebruikt met beperkte schijfruimte.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Electroneum instance. However, storing the full blockchain is beneficial to the security of the Electroneum network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>De modus voor schijfbehoud gebruikt substantieel minder schijfruimte, maar dezelfde hoeveelheid bandbreedte als een gewone Electroneum-installatie. Het volledig opslaan van de Electroneum-blockchain is echter beter voor de beveiliging van het Electroneum-netwerk. Deze optie is geschikt als u een apparaat gebruikt met beperkte schijfruimte.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1606,8 +1606,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minen beveiligt het Monero-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Monero minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
+        <source>Mining secures the Electroneum network, and also pays a small reward for the work done. This option will let Electroneum mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minen beveiligt het Electroneum-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Electroneum minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
     </message>
 </context>
 <context>
@@ -1630,8 +1630,8 @@ Ringgrootte: </translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
-        <translation>De ontwikkeling van Monero wordt uitsluitend ondersteund door donaties</translation>
+        <source>Electroneum development is solely supported by donations</source>
+        <translation>De ontwikkeling van Electroneum wordt uitsluitend ondersteund door donaties</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1645,8 +1645,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Voor elke transactie betaalt u een kleine vergoeding. Met deze optie voegt u een extra bedrag (als percentage van die vergoeding) aan uw transactie toe om de ontwikkeling van Monero te ondersteunen. Bijvoorbeeld, een automatische donatie van 50% neemt een transactievergoeding van 0.005 XMR en voegt 0.0025 XMR toe om de ontwikkeling van Monero te ondersteunen.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Electroneum development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Electroneum development.</source>
+        <translation>Voor elke transactie betaalt u een kleine vergoeding. Met deze optie voegt u een extra bedrag (als percentage van die vergoeding) aan uw transactie toe om de ontwikkeling van Electroneum te ondersteunen. Bijvoorbeeld, een automatische donatie van 50% neemt een transactievergoeding van 0.005 XMR en voegt 0.0025 XMR toe om de ontwikkeling van Electroneum te ondersteunen.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1655,8 +1655,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minen beveiligt het Monero-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Monero minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
+        <source>Mining secures the Electroneum network, and also pays a small reward for the work done. This option will let Electroneum mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minen beveiligt het Electroneum-netwerk en u ontvangt ook een kleine beloning voor het verrichte werk. Deze optie laat Electroneum minen als uw computer op netstroom is aangesloten en niets aan het doen is. Het stopt met minen als u weer gebruikt maakt van uw computer.</translation>
     </message>
 </context>
 <context>
@@ -1740,8 +1740,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>GEBRUIK MONERO</translation>
+        <source>USE Electroneum</source>
+        <translation>GEBRUIK Electroneum</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>
@@ -1837,8 +1837,8 @@ Ringgrootte: </translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Monero!</source>
-        <translation>Welkom bij Monero!</translation>
+        <source>Welcome to Electroneum!</source>
+        <translation>Welkom bij Electroneum!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1912,8 +1912,8 @@ Ringgrootte: </translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Monero!</source>
-        <translation>Welkom bij Monero!</translation>
+        <source>Welcome to Electroneum!</source>
+        <translation>Welkom bij Electroneum!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2004,8 +2004,8 @@ Omschrijving: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Dit adres heeft %1 monero ontvangen, maar de transactie is nog niet verwerkt</translation>
+        <source>This address received %1 Electroneum, but the transaction is not yet mined</source>
+        <translation>Dit adres heeft %1 Electroneum ontvangen, maar de transactie is nog niet verwerkt</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2112,8 +2112,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Dit adres heeft %1 monero ontvangen, met %2 bevestiging(en).</translation>
+        <source>This address received %1 Electroneum, with %2 confirmation(s).</source>
+        <translation>Dit adres heeft %1 Electroneum ontvangen, met %2 bevestiging(en).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="744"/>
@@ -2137,8 +2137,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Monero</source>
-        <translation>Monero</translation>
+        <source>Electroneum</source>
+        <translation>Electroneum</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>
@@ -2162,8 +2162,8 @@ Ringgrootte: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>Nieuwe versie van monero-wallet-gui is beschikbaar: %1&lt;br&gt;%2</translation>
+        <source>New version of Electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>Nieuwe versie van Electroneum-wallet-gui is beschikbaar: %1&lt;br&gt;%2</translation>
     </message>
 </context>
 </TS>

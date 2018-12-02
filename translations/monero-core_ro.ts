@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Monero daemon in %1 seconds</source>
-        <translation>Serviciul Monero pornește în %1 secunde</translation>
+        <source>Starting Electroneum daemon in %1 seconds</source>
+        <translation>Serviciul Electroneum pornește în %1 secunde</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minatul cu propriul calculator ajută la creșterea puterii rețelei Monero. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de Monero. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
+        <source>Mining with your computer helps strengthen the Electroneum network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Electroneum. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minatul cu propriul calculator ajută la creșterea puterii rețelei Electroneum. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de Electroneum. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -943,8 +943,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Monero version: </source>
-        <translation>Versiune Monero integrată: </translation>
+        <source>Embedded Electroneum version: </source>
+        <translation>Versiune Electroneum integrată: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1574,13 +1574,13 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Monero preferences</source>
-        <translation>Aproape am terminat - mai avem de configurat câteva setări Monero</translation>
+        <source>We’re almost there - let’s just configure some Electroneum preferences</source>
+        <translation>Aproape am terminat - mai avem de configurat câteva setări Electroneum</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Monero blockchain?</source>
-        <translation>Pornește blockchain-ul Monero?</translation>
+        <source>Kickstart the Electroneum blockchain?</source>
+        <translation>Pornește blockchain-ul Electroneum?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1594,8 +1594,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Monero instance. However, storing the full blockchain is beneficial to the security of the Monero network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Modul de economisire spațiu pe disc folosește mult mai puțin spațiu, dar la fel de multă lățime de bandă ca și o instanță normală Monero. Totuși, stocarea întregului blockchain este benefică pentru securitatea rețelei Monero. Dacă folosești un dispozitiv cu spațiu de stocare limitat, această setare este potrivită pentru tine.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Electroneum instance. However, storing the full blockchain is beneficial to the security of the Electroneum network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Modul de economisire spațiu pe disc folosește mult mai puțin spațiu, dar la fel de multă lățime de bandă ca și o instanță normală Electroneum. Totuși, stocarea întregului blockchain este benefică pentru securitatea rețelei Electroneum. Dacă folosești un dispozitiv cu spațiu de stocare limitat, această setare este potrivită pentru tine.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1604,8 +1604,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minatul securizează rețeaua Monero și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Monero atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
+        <source>Mining secures the Electroneum network, and also pays a small reward for the work done. This option will let Electroneum mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minatul securizează rețeaua Electroneum și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Electroneum atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
     </message>
 </context>
 <context>
@@ -1628,8 +1628,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Monero development is solely supported by donations</source>
-        <translation>Dezvoltarea Monero este susținută exclusiv prin donații</translation>
+        <source>Electroneum development is solely supported by donations</source>
+        <translation>Dezvoltarea Electroneum este susținută exclusiv prin donații</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1643,8 +1643,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Monero development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Monero development.</source>
-        <translation>Pentru fiecare tranzacție se plătește un mic comision de tranzacție. Această setare îți permite să adaugi o mică sumă la tranzacție, ca procent din comisionul respectiv, pentru a susține dezvoltarea Monero. De exemplu, pentru un comision de 0.005 XMR, o donație automată de 50% adaugă 0.0025 XMR pentru susținerea dezvoltării Monero.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Electroneum development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Electroneum development.</source>
+        <translation>Pentru fiecare tranzacție se plătește un mic comision de tranzacție. Această setare îți permite să adaugi o mică sumă la tranzacție, ca procent din comisionul respectiv, pentru a susține dezvoltarea Electroneum. De exemplu, pentru un comision de 0.005 XMR, o donație automată de 50% adaugă 0.0025 XMR pentru susținerea dezvoltării Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1653,8 +1653,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Monero network, and also pays a small reward for the work done. This option will let Monero mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Minatul securizează rețeaua Monero și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Monero atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
+        <source>Mining secures the Electroneum network, and also pays a small reward for the work done. This option will let Electroneum mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Minatul securizează rețeaua Electroneum și, de asemenea, oferă o mică sumă ca recompensă pentru munca efectuată. Această setare permite minatul Electroneum atunci când calculatorul este inactiv și conectat la rețeaua electrică. Minatul se va opri atunci când reîncepi să folosești calculatorul.</translation>
     </message>
 </context>
 <context>
@@ -1738,8 +1738,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="366"/>
-        <source>USE MONERO</source>
-        <translation>FOLOSEȘTE MONERO</translation>
+        <source>USE Electroneum</source>
+        <translation>FOLOSEȘTE Electroneum</translation>
     </message>
     <message>
         <location filename="../wizard/WizardMain.qml" line="383"/>
@@ -1834,8 +1834,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Monero!</source>
-        <translation>Bine ai venit la Monero!</translation>
+        <source>Welcome to Electroneum!</source>
+        <translation>Bine ai venit la Electroneum!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1909,8 +1909,8 @@ Actualizează sau conectează-te la un alt serviciu</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Monero!</source>
-        <translation>Bine ai venit la Monero!</translation>
+        <source>Welcome to Electroneum!</source>
+        <translation>Bine ai venit la Electroneum!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2063,13 +2063,13 @@ Ringsize: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1355"/>
-        <source>New version of monero-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>O nouă versiune monero-wallet-gui este disponiilă: %1&lt;br&gt;%2</translation>
+        <source>New version of Electroneum-wallet-gui is available: %1&lt;br&gt;%2</source>
+        <translation>O nouă versiune Electroneum-wallet-gui este disponiilă: %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="728"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Această adresă a primit %1 monero, având %2 confirmări.</translation>
+        <source>This address received %1 Electroneum, with %2 confirmation(s).</source>
+        <translation>Această adresă a primit %1 Electroneum, având %2 confirmări.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="523"/>
@@ -2124,8 +2124,8 @@ Descriere: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="723"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Această adresă a primit %1 monero, dar tranzacția nu a fost încă minată</translation>
+        <source>This address received %1 Electroneum, but the transaction is not yet mined</source>
+        <translation>Această adresă a primit %1 Electroneum, dar tranzacția nu a fost încă minată</translation>
     </message>
     <message>
         <location filename="../main.qml" line="732"/>
@@ -2154,8 +2154,8 @@ Descriere: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Monero</source>
-        <translation>Monero</translation>
+        <source>Electroneum</source>
+        <translation>Electroneum</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>
