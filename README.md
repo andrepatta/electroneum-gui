@@ -1,8 +1,9 @@
 
-# Electroneum GUI
+# Non-Official Electroneum GUI Wallet
 
   
 Copyright (c) 2014-2017, The Monero Project
+
 Copyright (c) 2018, Electroneum
 
   
@@ -157,11 +158,11 @@ See [LICENSE](LICENSE).
 
   
 
-2. Grab an up-to-date copy of the electroneum repository
+2. Grab an up-to-date copy of the Electroneum GUI repository
 
   
 
-`git clone https://github.com/electroneum/electroneum.git`
+`git clone https://github.com/andrepatta/electroneum-gui.git`
 
   
 
@@ -169,7 +170,7 @@ See [LICENSE](LICENSE).
 
   
 
-`cd electroneum`
+`cd electroneum-gui`
 
   
 
@@ -265,7 +266,7 @@ The executable can be found in the build/release/bin folder.
 
 2. Install [homebrew](http://brew.sh/)
 
-3. Install [electroneum](https://github.com/electroneum/electroneum) dependencies:
+3. Install [electroneum](https://github.com/andrepatta/electroneum-gui) dependencies:
 
   
 
@@ -307,11 +308,11 @@ This is the directory where Qt 5.x is installed on **your** system
 
   
 
-6. Grab an up-to-date copy of the electroneum repository
+6. Grab an up-to-date copy of the Electroneum GUI repository
 
   
 
-`git clone https://github.com/electroneum/electroneum.git`
+`git clone https://github.com/andrepatta/electroneum-gui.git`
 
   
 
@@ -319,7 +320,7 @@ This is the directory where Qt 5.x is installed on **your** system
 
   
 
-`cd electroneum`
+`cd electroneum-gui`
 
   
 
@@ -446,7 +447,7 @@ cd boost_1_63_0
 
 cd
 
-git clone https://github.com/electroneum/electroneum.git
+git clone https://github.com/andrepatta/electroneum-gui.git
 
 ```
 
@@ -456,7 +457,7 @@ git clone https://github.com/electroneum/electroneum.git
 
 ```
 
-cd electroneum
+cd electroneum-gui
 
 export PATH=$(ls -rd /c/Qt/5.[6,7,8]/mingw53_32/bin | head -1):$PATH
 
