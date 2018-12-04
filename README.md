@@ -194,11 +194,11 @@ See [LICENSE](LICENSE).
 
   
 
-- For Linux Mint 18 "Sarah" - Cinnamon x64
+- For Linux Mint 19 "Tarah" - Cinnamon x64
 
   
 
-`sudo apt install qml-module-qt-labs-settings qml-module-qtgraphicaleffects`
+`sudo apt-get install qtbase5-dev qt5-default qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-xmllistmodel qttools5-dev-tools qml-module-qtquick-dialogs qml-module-qt-labs-settings libqt5qml-graphicaleffects libreadline-dev`
 
   
 
