@@ -103,7 +103,7 @@ Item {
             font.pixelSize: checkBox.fontSize
             color: ElectroneumComponents.Style.defaultFontColor
             textFormat: Text.RichText
-            wrapMode: Text.Wrap
+            wrapMode: Text.NoWrap
         }
     }
 
