@@ -3509,12 +3509,12 @@ Amount: </source>
     <message>
         <location filename="../main.qml" line="1054"/>
         <source>This address received %1 electroneum, but the transaction is not yet mined</source>
-        <translation>このアドレスは%1XMRを受け取りましたが、取引はまだ承認されていません。</translation>
+        <translation>このアドレスは%1ETNを受け取りましたが、取引はまだ承認されていません。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1057"/>
         <source>This address received %1 electroneum, with %2 confirmation(s).</source>
-        <translation>このアドレスは%1XMRを受け取り、その取引は%2回承認されました。</translation>
+        <translation>このアドレスは%1ETNを受け取り、その取引は%2回承認されました。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1061"/>

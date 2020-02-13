@@ -149,7 +149,8 @@ LIBS += -L$$WALLET_ROOT/lib \
         -lepee \
         -lunbound \
         -lsodium \
-        -leasylogging
+        -leasylogging \
+        -led25519-donna
 }
 
 android {
@@ -160,7 +161,8 @@ android {
         -lepee \
         -lunbound \
         -lsodium \
-        -leasylogging
+        -leasylogging \
+        -led25519-donna
 }
 
 
@@ -180,7 +182,8 @@ ios {
         -lepee \
         -lunbound \
         -lsodium \
-        -leasylogging
+        -leasylogging \
+        -led25519-donna
 
     LIBS+= \
         -L$$PWD/../OpenSSL-for-iPhone/lib \

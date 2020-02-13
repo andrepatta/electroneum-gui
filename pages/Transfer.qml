@@ -204,10 +204,10 @@ Rectangle {
                    id: priorityModelV5
 
                    ListElement { column1: qsTr("Automatic") ; column2: ""; priority: 0}
-                   ListElement { column1: qsTr("Slow (x0.25 fee)") ; column2: ""; priority: 1}
+                   ListElement { column1: qsTr("Slow (x0.5 fee)") ; column2: ""; priority: 1}
                    ListElement { column1: qsTr("Normal (x1 fee)") ; column2: ""; priority: 2 }
-                   ListElement { column1: qsTr("Fast (x5 fee)") ; column2: ""; priority: 3 }
-                   ListElement { column1: qsTr("Fastest (x41.5 fee)")  ; column2: "";  priority: 4 }
+                   ListElement { column1: qsTr("Fast (x2 fee)") ; column2: ""; priority: 3 }
+                   ListElement { column1: qsTr("Fastest (x4 fee)")  ; column2: "";  priority: 4 }
                }
 
               StandardDropdown {
@@ -236,7 +236,7 @@ Rectangle {
               labelButtonText: qsTr("Resolve") + translationManager.emptyString
               placeholderText: {
                   if(persistentSettings.nettype == NetworkType.MAINNET){
-                      return "4.. / 8.. / OpenAlias";
+                      return "etnk.. / etnj..";
                   } else if (persistentSettings.nettype == NetworkType.STAGENET){
                       return "5.. / 7..";
                   } else if(persistentSettings.nettype == NetworkType.TESTNET){

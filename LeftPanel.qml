@@ -536,7 +536,7 @@ Rectangle {
             }
 
             // ------------- Merchant tab ---------------
-
+            /*
             ElectroneumComponents.MenuButton {
                 id: merchantButton
                 visible: appWindow.walletMode >= 2
@@ -559,7 +559,7 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.leftMargin: 16
             }
-
+            */
             // ------------- History tab ---------------
 
             ElectroneumComponents.MenuButton {
@@ -606,6 +606,7 @@ Rectangle {
             }
 
             // ------------- Mining tab ---------------
+            /*
             ElectroneumComponents.MenuButton {
                 id: miningButton
                 visible: !isAndroid && !isIOS && appWindow.walletMode >= 2
@@ -628,6 +629,8 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.leftMargin: 16
             }
+
+            */
 
             // ------------- TxKey tab ---------------
             ElectroneumComponents.MenuButton {
@@ -654,6 +657,7 @@ Rectangle {
             }
 
             // ------------- Shared RingDB tab ---------------
+            /*
             ElectroneumComponents.MenuButton {
                 id: sharedringdbButton
                 visible: appWindow.walletMode >= 2
@@ -676,6 +680,7 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.leftMargin: 16
             }
+            */
 
             // ------------- Sign/verify tab ---------------
             ElectroneumComponents.MenuButton {

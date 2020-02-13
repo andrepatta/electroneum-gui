@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ko" sourcelanguage="en">
+<TS version="2.1" language="uk">
 <context>
     <name>Account</name>
     <message>
         <location filename="../pages/Account.qml" line="53"/>
         <source>Set the label of the selected account:</source>
-        <translation>선택된 계정의 라벨을 설정하십시오:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Account.qml" line="85"/>
         <source>Balance All</source>
-        <translation>총액</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Account.qml" line="92"/>
         <source>Total balance: </source>
-        <translation>합산 총액: </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Account.qml" line="116"/>
         <location filename="../pages/Account.qml" line="150"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../pages/Account.qml" line="126"/>
@@ -42,7 +42,7 @@
     <message>
         <location filename="../pages/Account.qml" line="318"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../pages/Account.qml" line="360"/>
@@ -57,7 +57,7 @@
     <message>
         <location filename="../pages/Account.qml" line="363"/>
         <source>(Untitled)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Без назви)</translation>
     </message>
 </context>
 <context>
@@ -81,12 +81,12 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="135"/>
         <source>Address book</source>
-        <translation>주소록</translation>
+        <translation>Адресна книга</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="263"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="293"/>
@@ -106,33 +106,33 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="353"/>
         <source>Resolve</source>
-        <translation>문제해결</translation>
+        <translation>Вирішити</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="368"/>
         <source>No valid address found at this OpenAlias address</source>
-        <translation>이 Open Alias 주소에 유효한 주소가 없습니다</translation>
+        <translation>Не знайдено дійсного адресу на цьому OpenAlias</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="373"/>
         <source>Address found, but the DNSSEC signatures could not be verified, so this address may be spoofed</source>
-        <translation>주소가 발견되었으나 DNSSEC 서명이 확인되지 않습니다. 이 주소는 스푸핑(spoof)되었을 수 있습니다</translation>
+        <translation>Адрес знайдений, але підписи DNSSEC не можуть бути перевірені, тому цей адрес може бути підробленим</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="375"/>
         <source>No valid address found at this OpenAlias address, but the DNSSEC signatures could not be verified, so this may be spoofed</source>
-        <translation>이 Open Alias 주소에서 유효한 주소 또는 DNSSEC 서명을 확인할 수 없습니다. 이 주소는 스푸핑(spoof)되었을 수 있습니다</translation>
+        <translation>На цьому OpenAlias не знайдено дійсного адресу, підписи DNSSEC не можуть бути перевірені, тому цей адрес може бути підробленим</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="378"/>
         <location filename="../pages/AddressBook.qml" line="381"/>
         <source>Internal error</source>
-        <translation>내부 오류</translation>
+        <translation>Внутрішня помилка</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="384"/>
         <source>No address found</source>
-        <translation>주소를 찾을 수 없음</translation>
+        <translation>Адрес не знайдено</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="392"/>
@@ -147,7 +147,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="400"/>
         <source>Add</source>
-        <translation>추가</translation>
+        <translation>Додати</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="400"/>
@@ -157,22 +157,22 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="405"/>
         <source>Error</source>
-        <translation>오류</translation>
+        <translation>Помилка</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="408"/>
         <source>Invalid address</source>
-        <translation>잘못된 주소</translation>
+        <translation>Невірний адрес</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="412"/>
         <source>Can&apos;t create entry</source>
-        <translation>항목을 만들 수 없습니다</translation>
+        <translation>Неможливо створити запис</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="431"/>
         <source>Cancel</source>
-        <translation>취소</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="448"/>
@@ -182,7 +182,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="508"/>
         <source>OpenAlias error</source>
-        <translation>Open Alias 오류</translation>
+        <translation>Помилка OpenAlias</translation>
     </message>
 </context>
 <context>
@@ -190,7 +190,7 @@
     <message>
         <location filename="../components/DaemonConsole.qml" line="177"/>
         <source>command + enter (e.g help)</source>
-        <translation>커멘드 + 엔터 (예: 도움말)</translation>
+        <translation>Введіть команду і натисніть ENTER (наприклад help)</translation>
     </message>
 </context>
 <context>
@@ -198,17 +198,17 @@
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
         <source>Starting local node in %1 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск локальної ноди через %1 секунд</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="113"/>
         <source>Start daemon (%1)</source>
-        <translation>데몬 시작 (%1)</translation>
+        <translation>Запуск демона (%1)</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="126"/>
         <source>Use custom settings</source>
-        <translation>사용자 정의 설정 사용</translation>
+        <translation>Використовувати інші налаштування</translation>
     </message>
 </context>
 <context>
@@ -227,7 +227,7 @@
         <location filename="../pages/History.qml" line="310"/>
         <location filename="../pages/History.qml" line="858"/>
         <source>Date</source>
-        <translation>날짜</translation>
+        <translation>Дата</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="87"/>
@@ -253,7 +253,7 @@
         <location filename="../pages/History.qml" line="250"/>
         <location filename="../pages/History.qml" line="750"/>
         <source>Blockheight</source>
-        <translation type="unfinished"></translation>
+        <translation>Висота блока</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="370"/>
@@ -278,17 +278,17 @@
     <message>
         <location filename="../pages/History.qml" line="639"/>
         <source>Sent</source>
-        <translation>전송됨</translation>
+        <translation>Відправлені</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="639"/>
         <source>Received</source>
-        <translation>받음</translation>
+        <translation>Отримані</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="689"/>
         <source>Fee</source>
-        <translation>수수료</translation>
+        <translation>Комісія</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="689"/>
@@ -313,12 +313,12 @@
     <message>
         <location filename="../pages/History.qml" line="974"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Опис</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1042"/>
         <source>Transaction ID</source>
-        <translation>거래 아이디</translation>
+        <translation>ID транзакції</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1086"/>
@@ -343,7 +343,7 @@
     <message>
         <location filename="../pages/History.qml" line="1303"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>Додаткові налаштування</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1319"/>
@@ -393,12 +393,12 @@
     <message>
         <location filename="../pages/History.qml" line="1614"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1623"/>
         <source>Tx ID:</source>
-        <translation>거래 아이디:</translation>
+        <translation>Хеш транзакції (Tx ID):</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1624"/>
@@ -413,27 +413,27 @@
     <message>
         <location filename="../pages/History.qml" line="1626"/>
         <source>Payment ID:</source>
-        <translation>결제 아이디:</translation>
+        <translation>ID платежу:</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1627"/>
         <source>Tx key:</source>
-        <translation>거래 암호:</translation>
+        <translation>Ключ транзакції (Tx Key):</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1628"/>
         <source>Tx note:</source>
-        <translation>거래 메모</translation>
+        <translation>Примітка транзакції:</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1629"/>
         <source>Destinations:</source>
-        <translation>목적지:</translation>
+        <translation>Отримувачі:</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1630"/>
         <source>Rings:</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмір кільця:</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1647"/>
@@ -443,7 +443,7 @@
     <message>
         <location filename="../pages/History.qml" line="1657"/>
         <source>Success</source>
-        <translation>성공</translation>
+        <translation>Успішно</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1658"/>
@@ -458,7 +458,7 @@
     <message>
         <location filename="../pages/History.qml" line="1663"/>
         <source>Error</source>
-        <translation>오류</translation>
+        <translation>Помилка</translation>
     </message>
     <message>
         <location filename="../pages/History.qml" line="1664"/>
@@ -469,9 +469,19 @@
 <context>
     <name>HistoryTable</name>
     <message>
+        <location filename="../components/HistoryTable.qml" line="82"/>
+        <source>No more results</source>
+        <translation>Немає результатів</translation>
+    </message>
+    <message>
+        <location filename="../components/HistoryTable.qml" line="53"/>
+        <source>Payment ID:</source>
+        <translation>ID платежу:</translation>
+    </message>
+    <message>
         <location filename="../components/HistoryTable.qml" line="50"/>
         <source>Tx ID:</source>
-        <translation>거래 아이디:</translation>
+        <translation>Хеш транзакції (Tx ID):</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="51"/>
@@ -484,49 +494,39 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../components/HistoryTable.qml" line="53"/>
-        <source>Payment ID:</source>
-        <translation>결제 아이디:</translation>
-    </message>
-    <message>
         <location filename="../components/HistoryTable.qml" line="54"/>
         <source>Tx key:</source>
-        <translation>거래 암호:</translation>
+        <translation>Ключ транзакції (Tx Key):</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
         <source>Tx note:</source>
-        <translation>거래 메모</translation>
+        <translation>Примітка транзакції:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="56"/>
         <source>Destinations:</source>
-        <translation>목적지:</translation>
+        <translation>Отримувачі:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="57"/>
         <source>Rings:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../components/HistoryTable.qml" line="82"/>
-        <source>No more results</source>
-        <translation>결과가 더 이상 없음</translation>
+        <translation>Розмір кільця:</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="156"/>
         <source>Sent</source>
-        <translation>전송됨</translation>
+        <translation>Відправлені</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="156"/>
         <source>Received</source>
-        <translation>받음</translation>
+        <translation>Отримані</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="194"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="239"/>
@@ -536,22 +536,22 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="262"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="314"/>
         <source>Transaction ID</source>
-        <translation>거래 아이디</translation>
+        <translation>ID транзакції</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="361"/>
         <source>Blockheight</source>
-        <translation type="unfinished"></translation>
+        <translation>Висота блока</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="385"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Опис</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="397"/>
@@ -566,27 +566,27 @@
     <message>
         <location filename="../components/HistoryTable.qml" line="365"/>
         <source>(%1/%2 confirmations)</source>
-        <translation>(%1/%2의 컨퍼메이션}</translation>
+        <translation>(%1/%2 підтверджень)</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="369"/>
         <source>UNCONFIRMED</source>
-        <translation>확인되지 않음</translation>
+        <translation>НЕПІДТВЕРДЖЕНА</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="371"/>
         <source>FAILED</source>
-        <translation type="unfinished"></translation>
+        <translation>НЕВІДПРАВЛЕНА</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="372"/>
         <source>PENDING</source>
-        <translation>보류 중</translation>
+        <translation>ОЧІКУЄ ПІДТВЕРДЖЕННЯ</translation>
     </message>
     <message>
         <location filename="../components/HistoryTable.qml" line="327"/>
         <source>Fee</source>
-        <translation>수수료</translation>
+        <translation>Комісія</translation>
     </message>
 </context>
 <context>
@@ -594,12 +594,12 @@
     <message>
         <location filename="../components/InputDialog.qml" line="135"/>
         <source>Cancel</source>
-        <translation>취소</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../components/InputDialog.qml" line="147"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>ОК</translation>
     </message>
 </context>
 <context>
@@ -607,17 +607,17 @@
     <message>
         <location filename="../pages/Keys.qml" line="73"/>
         <source>Mnemonic seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Мнемонічна seed-фраза</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="106"/>
         <source>Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Ключі</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="62"/>
         <source>WARNING: Do not reuse your Electroneum keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation type="unfinished"></translation>
+        <translation>ПОПЕРЕДЖЕННЯ: Не використовуйте повторно свої ключі Electroneum в іншому форку, ЯКЩО ТІЛЬКИ цей форк не має вбудованих засобів захисту від компрометації введених ключів. Подібні дії можуть зашкодити вашій конфіденційності.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
@@ -627,19 +627,19 @@
     <message>
         <location filename="../pages/Keys.qml" line="159"/>
         <source>Export wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Експорт гаманця</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="174"/>
         <location filename="../pages/Keys.qml" line="216"/>
         <source>Spendable Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Повнофункціональний гаманець</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="184"/>
         <location filename="../pages/Keys.qml" line="216"/>
         <source>View Only Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаманець тільки для перегляду</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="231"/>
@@ -664,22 +664,22 @@
     <message>
         <location filename="../pages/Keys.qml" line="120"/>
         <source>Secret view key</source>
-        <translation>비공개 키</translation>
+        <translation>Приватний ключ перегляду</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="129"/>
         <source>Public view key</source>
-        <translation>공개 키</translation>
+        <translation>Публічний ключ перегляду</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="138"/>
         <source>Secret spend key</source>
-        <translation>비공개 결제 키</translation>
+        <translation>Приватний ключ витрати</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="147"/>
         <source>Public spend key</source>
-        <translation>공개 결제 키</translation>
+        <translation>Публічний ключ витрати</translation>
     </message>
 </context>
 <context>
@@ -687,37 +687,52 @@
     <message>
         <location filename="../LeftPanel.qml" line="400"/>
         <source>Balance</source>
-        <translation>잔액</translation>
+        <translation>Баланс</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="387"/>
         <source>Unlocked balance</source>
-        <translation>잠금해제된 잔액</translation>
+        <translation>Розблокований баланс</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="479"/>
         <source>Send</source>
-        <translation>전송</translation>
+        <translation>Надіслати</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="525"/>
         <source>Receive</source>
-        <translation>수취</translation>
+        <translation>Отримати</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="154"/>
-        <source>Testnet</source>
-        <translation>테스트넷</translation>
+        <location filename="../LeftPanel.qml" line="526"/>
+        <source>R</source>
+        <translation>R</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="154"/>
-        <source>Stagenet</source>
-        <translation type="unfinished"></translation>
+        <location filename="../LeftPanel.qml" line="642"/>
+        <source>Prove/check</source>
+        <translation>Підтвердити/перевірити</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="643"/>
+        <source>K</source>
+        <translation>K</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="168"/>
         <source>View Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Тільки для перегляду</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="154"/>
+        <source>Testnet</source>
+        <translation>Тестова мережа (testnet)</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="154"/>
+        <source>Stagenet</source>
+        <translation>Тестова мережа (stagenet)</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="277"/>
@@ -725,7 +740,7 @@
         <location filename="../LeftPanel.qml" line="349"/>
         <location filename="../LeftPanel.qml" line="379"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="457"/>
@@ -738,24 +753,14 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="480"/>
-        <source>S</source>
-        <translation>S</translation>
-    </message>
-    <message>
         <location filename="../LeftPanel.qml" line="502"/>
         <source>Address book</source>
-        <translation>주소록</translation>
+        <translation>Адресна книга</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="503"/>
         <source>B</source>
         <translation>B</translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="526"/>
-        <source>R</source>
-        <translation>R</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="549"/>
@@ -780,7 +785,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="596"/>
         <source>Advanced</source>
-        <translation>고급</translation>
+        <translation>Додатково</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="597"/>
@@ -790,7 +795,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="618"/>
         <source>Mining</source>
-        <translation>마이닝</translation>
+        <translation>Майнінг</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="619"/>
@@ -798,49 +803,39 @@
         <translation>M</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="642"/>
-        <source>Prove/check</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../LeftPanel.qml" line="666"/>
         <source>Shared RingDB</source>
-        <translation type="unfinished"></translation>
+        <translation>Загальна база RingDB</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="736"/>
         <source>Seed &amp; Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Seed-фраза &amp; Ключі</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="737"/>
         <source>Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="786"/>
         <source>Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаманець</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="795"/>
         <source>Daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="643"/>
-        <source>K</source>
-        <translation>K</translation>
-    </message>
-    <message>
-        <location filename="../LeftPanel.qml" line="667"/>
-        <source>G</source>
-        <translation type="unfinished"></translation>
+        <translation>Демон</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="690"/>
         <source>Sign/verify</source>
-        <translation>서명/확인</translation>
+        <translation>Підписати/перевірити</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="667"/>
+        <source>G</source>
+        <translation>G</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="691"/>
@@ -850,12 +845,17 @@
     <message>
         <location filename="../LeftPanel.qml" line="713"/>
         <source>Settings</source>
-        <translation>환경설정</translation>
+        <translation>Налаштування</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="714"/>
         <source>E</source>
         <translation>E</translation>
+    </message>
+    <message>
+        <location filename="../LeftPanel.qml" line="480"/>
+        <source>S</source>
+        <translation>S</translation>
     </message>
 </context>
 <context>
@@ -868,7 +868,7 @@
     <message>
         <location filename="../components/LineEdit.qml" line="136"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
 </context>
 <context>
@@ -881,7 +881,7 @@
     <message>
         <location filename="../components/LineEditMulti.qml" line="142"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../components/LineEditMulti.qml" line="150"/>
@@ -910,7 +910,7 @@
     <message>
         <location filename="../pages/merchant/Merchant.qml" line="240"/>
         <source>Save As</source>
-        <translation>다른 이름으로 저장</translation>
+        <translation>Зберегти як</translation>
     </message>
     <message>
         <location filename="../pages/merchant/Merchant.qml" line="299"/>
@@ -925,13 +925,13 @@
     <message>
         <location filename="../pages/merchant/Merchant.qml" line="422"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../pages/merchant/Merchant.qml" line="455"/>
         <location filename="../pages/merchant/Merchant.qml" line="508"/>
         <source>Amount to receive</source>
-        <translation>받을 금액</translation>
+        <translation>Сума до отримання</translation>
     </message>
     <message>
         <location filename="../pages/merchant/Merchant.qml" line="536"/>
@@ -951,17 +951,17 @@
     <message>
         <location filename="../pages/merchant/Merchant.qml" line="593"/>
         <source>WARNING: no connection to daemon</source>
-        <translation>경고: 데몬에 연결되지 않았습니다.</translation>
+        <translation>УВАГА: немає підключення до демона</translation>
     </message>
     <message>
         <location filename="../pages/merchant/Merchant.qml" line="697"/>
         <source>Save QrCode</source>
-        <translation>Qr코드 저장</translation>
+        <translation>Зберегти QR-код</translation>
     </message>
     <message>
         <location filename="../pages/merchant/Merchant.qml" line="698"/>
         <source>Failed to save QrCode to </source>
-        <translation>Qr코드를 저장하지 못했습니다 </translation>
+        <translation>Не вдалося зберегти QR-код в</translation>
     </message>
 </context>
 <context>
@@ -985,12 +985,12 @@
         <location filename="../pages/merchant/MerchantTrackingList.qml" line="167"/>
         <location filename="../pages/merchant/MerchantTrackingList.qml" line="169"/>
         <source>confirmations</source>
-        <translation type="unfinished"></translation>
+        <translation>підтверджень</translation>
     </message>
     <message>
         <location filename="../pages/merchant/MerchantTrackingList.qml" line="172"/>
         <source>confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>підтвердження</translation>
     </message>
 </context>
 <context>
@@ -998,12 +998,12 @@
     <message>
         <location filename="../MiddlePanel.qml" line="50"/>
         <source>Balance</source>
-        <translation>잔액</translation>
+        <translation>Баланс</translation>
     </message>
     <message>
         <location filename="../MiddlePanel.qml" line="52"/>
         <source>Unlocked Balance</source>
-        <translation>잠금해제된 잔액</translation>
+        <translation>Розблокований баланс</translation>
     </message>
 </context>
 <context>
@@ -1011,17 +1011,17 @@
     <message>
         <location filename="../pages/Mining.qml" line="54"/>
         <source>Solo mining</source>
-        <translation>개별 마이닝</translation>
+        <translation>Соло-майнінг</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="65"/>
         <source>Your daemon must be synchronized before you can start mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Ваш демон повинен бути синхронізований для запуску майнінгу</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="99"/>
         <source>CPU threads</source>
-        <translation>CPU 쓰레드</translation>
+        <translation>Потоки CPU</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="59"/>
@@ -1068,42 +1068,42 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../pages/Mining.qml" line="155"/>
         <source>Background mining (experimental)</source>
-        <translation>백그라운드 마이닝 (실험적 기능)</translation>
+        <translation>Фоновий майнінг (експериментально)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="167"/>
         <source>Enable mining when running on battery</source>
-        <translation>배터리로 구동시 마이닝 사용가능</translation>
+        <translation>Дозволити майнінг при роботі від батареї</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="178"/>
         <source>Manage miner</source>
-        <translation>마이닝 관리</translation>
+        <translation>Управління майнером</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="194"/>
         <source>Start mining</source>
-        <translation>마이닝 시작</translation>
+        <translation>Запустити майнінг</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="200"/>
         <source>Error starting mining</source>
-        <translation>마이닝 시작 중 오류 발생</translation>
+        <translation>Помилка запуску майнінгу</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="201"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
-        <translation>마이닝을 시작할 수 없습니다.&lt;br&gt;</translation>
+        <translation>Неможливо запустити майнінг.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="203"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation>마이닝은 로컬 데몬에서만 사용할 수 있습니다. 로컬 데몬을 실행하여 마이닝을 활성화합니다.&lt;br&gt;</translation>
+        <translation>Майнінг доступний тільки на локальному демоні. Запустіть локальний демон, щоб розпочати майнінг.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="214"/>
         <source>Stop mining</source>
-        <translation>마이닝 중지</translation>
+        <translation>Зупинити майнінг</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="230"/>
@@ -1113,13 +1113,13 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../pages/Mining.qml" line="254"/>
         <source>Mining at %1 H/s</source>
-        <translation> %1 H/s 로 마이닝 중</translation>
+        <translation>Майнінг на швидкості %1 H/s</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="242"/>
         <location filename="../pages/Mining.qml" line="257"/>
         <source>Not mining</source>
-        <translation>마이닝중이 아님</translation>
+        <translation>Майнінг вимкнений</translation>
     </message>
 </context>
 <context>
@@ -1127,7 +1127,7 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/MobileHeader.qml" line="93"/>
         <source>Unlocked Balance:</source>
-        <translation>잠금해제된 잔액</translation>
+        <translation>Розблокований баланс:</translation>
     </message>
 </context>
 <context>
@@ -1135,7 +1135,7 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../pages/settings/Navbar.qml" line="143"/>
         <source>Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаманець</translation>
     </message>
     <message>
         <location filename="../pages/settings/Navbar.qml" line="195"/>
@@ -1161,29 +1161,34 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
 <context>
     <name>NetworkStatusItem</name>
     <message>
-        <location filename="../components/NetworkStatusItem.qml" line="43"/>
-        <source>Synchronizing</source>
-        <translation>동기화 중</translation>
-    </message>
-    <message>
-        <location filename="../components/NetworkStatusItem.qml" line="45"/>
-        <source>Remote node</source>
-        <translation type="unfinished"></translation>
+        <location filename="../components/NetworkStatusItem.qml" line="118"/>
+        <source>Network status</source>
+        <translation>Статус мережі</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="46"/>
         <source>Connected</source>
-        <translation>연결됨</translation>
+        <translation>Підключено</translation>
+    </message>
+    <message>
+        <location filename="../components/NetworkStatusItem.qml" line="43"/>
+        <source>Synchronizing</source>
+        <translation>Синхронізація...</translation>
+    </message>
+    <message>
+        <location filename="../components/NetworkStatusItem.qml" line="45"/>
+        <source>Remote node</source>
+        <translation>Віддалена нода</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="46"/>
         <source>Mining</source>
-        <translation>마이닝</translation>
+        <translation>Майнінг</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="49"/>
         <source>Wrong version</source>
-        <translation>잘못된 버전</translation>
+        <translation>Неправильна версія</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="52"/>
@@ -1193,17 +1198,12 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="54"/>
         <source>Disconnected</source>
-        <translation>연결이 끊어짐</translation>
+        <translation>Відключено</translation>
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="57"/>
         <source>Invalid connection status</source>
-        <translation>잘못된 연결 상태</translation>
-    </message>
-    <message>
-        <location filename="../components/NetworkStatusItem.qml" line="118"/>
-        <source>Network status</source>
-        <translation>네트워크 상태</translation>
+        <translation>Недійсний статус з&apos;єднання.</translation>
     </message>
 </context>
 <context>
@@ -1211,22 +1211,22 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/NewPasswordDialog.qml" line="99"/>
         <source>Please enter new password</source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, введіть новий пароль</translation>
     </message>
     <message>
         <location filename="../components/NewPasswordDialog.qml" line="176"/>
         <source>Please confirm new password</source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, підтвердіть новий пароль</translation>
     </message>
     <message>
         <location filename="../components/NewPasswordDialog.qml" line="267"/>
         <source>Cancel</source>
-        <translation>취소</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../components/NewPasswordDialog.qml" line="276"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Продовжити</translation>
     </message>
 </context>
 <context>
@@ -1254,12 +1254,12 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/PassphraseDialog.qml" line="301"/>
         <source>Cancel</source>
-        <translation>취소</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../components/PassphraseDialog.qml" line="310"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Продовжити</translation>
     </message>
 </context>
 <context>
@@ -1267,12 +1267,12 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/PasswordDialog.qml" line="105"/>
         <source>Please enter wallet password</source>
-        <translation>지갑 비밀번호를 입력하세요</translation>
+        <translation>Будь ласка, введіть пароль гаманця</translation>
     </message>
     <message>
         <location filename="../components/PasswordDialog.qml" line="105"/>
         <source>Please enter wallet password for: </source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, введіть пароль гаманця для: </translation>
     </message>
     <message>
         <location filename="../components/PasswordDialog.qml" line="146"/>
@@ -1282,7 +1282,7 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/PasswordDialog.qml" line="232"/>
         <source>Cancel</source>
-        <translation>취소</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../components/PasswordDialog.qml" line="232"/>
@@ -1292,7 +1292,7 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/PasswordDialog.qml" line="243"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Продовжити</translation>
     </message>
 </context>
 <context>
@@ -1300,12 +1300,12 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/ProgressBar.qml" line="38"/>
         <source>%1 blocks remaining: </source>
-        <translation type="unfinished"></translation>
+        <translation>%1 блоків залишилось: </translation>
     </message>
     <message>
         <location filename="../components/ProgressBar.qml" line="72"/>
         <source>Synchronizing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Синхронізовано %1</translation>
     </message>
 </context>
 <context>
@@ -1313,7 +1313,7 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/QRCodeScanner.qml" line="129"/>
         <source>QrCode Scanned</source>
-        <translation type="unfinished"></translation>
+        <translation>QR-код відскановано</translation>
     </message>
 </context>
 <context>
@@ -1321,17 +1321,17 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../pages/Receive.qml" line="54"/>
         <source>Set the label of the selected address:</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити мітку вибраного адресу:</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="89"/>
         <source>Addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>Адреси</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="308"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="321"/>
@@ -1341,17 +1341,17 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../pages/Receive.qml" line="254"/>
         <source>Set the label of the new address:</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавити мітку для нового адреса:</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="255"/>
         <source>(Untitled)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Без назви)</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="215"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="252"/>
@@ -1361,12 +1361,12 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../pages/Receive.qml" line="328"/>
         <source>Save QrCode</source>
-        <translation>Qr코드 저장</translation>
+        <translation>Зберегти QR-код</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="329"/>
         <source>Failed to save QrCode to </source>
-        <translation>Qr코드를 저장하지 못했습니다 </translation>
+        <translation>Не вдалося зберегти QR-код в</translation>
     </message>
 </context>
 <context>
@@ -1374,12 +1374,12 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../components/RemoteNodeEdit.qml" line="82"/>
         <source>Remote Node Hostname / IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Ім&apos;я хоста / IP віддаленої Ноди</translation>
     </message>
     <message>
         <location filename="../components/RemoteNodeEdit.qml" line="101"/>
         <source>Port</source>
-        <translation>포트</translation>
+        <translation>Порт</translation>
     </message>
 </context>
 <context>
@@ -1398,27 +1398,27 @@ Mining also gives you a small chance to earn some Electroneum. Your computer wil
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="69"/>
         <source>GUI version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Версія GUI: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="99"/>
         <source>Embedded Electroneum version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Вбудована версія Electroneum: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="129"/>
         <source>Wallet path: </source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях до гаманця: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="167"/>
         <source>Wallet creation height: </source>
-        <translation type="unfinished"></translation>
+        <translation>Висота блоку створення гаманця: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="177"/>
         <source> &lt;a href=&apos;#&apos;&gt; (Click to change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;a href=&apos;#&apos;&gt;(Натиснути для зміни)&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="179"/>
@@ -1434,7 +1434,7 @@ You can enter a block height or a date (YYYY-MM-DD):</source>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="199"/>
         <source>Rescan wallet cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Пересканувати кеш гаманця</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="200"/>
@@ -1446,17 +1446,23 @@ The following information will be deleted
 
 The old wallet cache file will be renamed and can be restored later.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Ви дійсно хочете оновити кеш гаманця?
+Наступна інформація буде видалена
+- Адреси одержувачів
+- Ключі транзакцій
+- Описи транзакцій
+
+Старий файл, який містить кеш гаманця буде перейменований і зможе бути відновлений пізніше.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="208"/>
         <source>Cancel</source>
-        <translation>취소</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="256"/>
         <source>Wallet log path: </source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях для журналу гаманця: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="287"/>
@@ -1471,12 +1477,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="332"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Копіювати в буфер обміну</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="354"/>
         <source>Copied to clipboard</source>
-        <translation>클립보드에 복사되었습니다</translation>
+        <translation>Скопійовано в буфер обміну</translation>
     </message>
 </context>
 <context>
@@ -1484,7 +1490,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="59"/>
         <source>Custom decorations</source>
-        <translation type="unfinished"></translation>
+        <translation>Прикраси користувача</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="70"/>
@@ -1554,7 +1560,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLayout.qml" line="276"/>
         <source>No Layout options exist yet in mobile mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування інтерфейсу в мобільній версії поки не доступні.</translation>
     </message>
 </context>
 <context>
@@ -1562,17 +1568,17 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="68"/>
         <source>Log level</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування рівня журналу</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="134"/>
         <source>Daemon log</source>
-        <translation>데몬 로그</translation>
+        <translation>Журнал демона</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsLog.qml" line="214"/>
         <source>command + enter (e.g &apos;help&apos; or &apos;status&apos;)</source>
-        <translation type="unfinished"></translation>
+        <translation>command + enter (приклад &apos;help&apos; або &apos;status&apos;)</translation>
     </message>
 </context>
 <context>
@@ -1580,37 +1586,37 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="123"/>
         <source>Local node</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальна нода</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="141"/>
         <source>The blockchain is downloaded to your computer. Provides higher security and requires more local storage.</source>
-        <translation type="unfinished"></translation>
+        <translation>Блокчейн завантажений на ваш комп&apos;ютер. Це забезпечить кращу конфіденційність, але потребуватиме більше вільного місця.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="228"/>
         <source>Remote node</source>
-        <translation type="unfinished"></translation>
+        <translation>Віддалена нода</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="247"/>
         <source>Uses a third-party server to connect to the Electroneum network. Less secure, but easier on your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовувати сторонній вузол для підключення до мережі Electroneum. Менш безпечно, але більш зручно.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="293"/>
         <source>To find a remote node, type &apos;Electroneum remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation type="unfinished"></translation>
+        <translation>Щоб отримати список віддалених нод, введіть &apos;Electroneum remote node&apos; у вашій улюбленій пошуковій системі. Будь ласка, переконайтеся, що обраній ноді можна довіряти.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="301"/>
         <source>Address</source>
-        <translation>주소</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="302"/>
         <source>Port</source>
-        <translation>포트</translation>
+        <translation>Порт</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="314"/>
@@ -1621,12 +1627,12 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/settings/SettingsNode.qml" line="328"/>
         <location filename="../pages/settings/SettingsNode.qml" line="430"/>
         <source>(optional)</source>
-        <translation>(선택 항목)</translation>
+        <translation>(опційно)</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="339"/>
         <source>Password</source>
-        <translation>비밀번호</translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="354"/>
@@ -1636,12 +1642,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="361"/>
         <source>Connect</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключити</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="384"/>
         <source>Stop local node</source>
-        <translation type="unfinished"></translation>
+        <translation>Зупинити локальну ноду</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="384"/>
@@ -1651,32 +1657,32 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="403"/>
         <source>Blockchain location</source>
-        <translation>블록체인 위치</translation>
+        <translation>Шлях до блокчейну</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="403"/>
         <source> &lt;a href=&apos;#&apos;&gt; (change)&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation> &lt;a href=&apos;#&apos;&gt; (змінити)&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="404"/>
         <source>(default)</source>
-        <translation type="unfinished"></translation>
+        <translation>(за замовчуванням)</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="429"/>
         <source>Daemon startup flags</source>
-        <translation type="unfinished"></translation>
+        <translation>Команди запуску демона</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="448"/>
         <source>Bootstrap Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Адрес початкового завантаження</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="449"/>
         <source>Bootstrap Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Порт початкового завантаження</translation>
     </message>
 </context>
 <context>
@@ -1684,22 +1690,22 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="80"/>
         <source>Close this wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити цей гаманець</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="90"/>
         <source>Logs out of this wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вийти з цього гаманця</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="96"/>
         <source>Close wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрити гаманець</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="137"/>
         <source>Create a view-only wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Створити гаманець тільки для перегляду</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="147"/>
@@ -1709,12 +1715,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="153"/>
         <source>Create wallet</source>
-        <translation>지갑 만들기</translation>
+        <translation>Створити гаманець</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="158"/>
         <source>Success</source>
-        <translation>성공</translation>
+        <translation>Успішно</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="159"/>
@@ -1726,54 +1732,54 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="202"/>
         <source>Show seed &amp; keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати seed-фразу &amp; ключі</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="212"/>
         <source>Store this information safely to recover your wallet in the future.</source>
-        <translation type="unfinished"></translation>
+        <translation>Зберігайте цю інформацію в безпечному місці, щоб мати змогу відновити ваш гаманець в майбутньому.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="218"/>
         <source>Show seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Показати seed-фразу</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="256"/>
         <source>Rescan wallet balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Пересканувати баланс гаманця</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="266"/>
         <source>Use this feature if you think the shown balance is not accurate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Використовуйте цю функцію, якщо вважаєте, що показаний баланс не є правильним.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="272"/>
         <source>Rescan</source>
-        <translation type="unfinished"></translation>
+        <translation>Пересканувати</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="163"/>
         <location filename="../pages/settings/SettingsWallet.qml" line="276"/>
         <location filename="../pages/settings/SettingsWallet.qml" line="344"/>
         <source>Error</source>
-        <translation>오류</translation>
+        <translation>Помилка</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="277"/>
         <source>Error: </source>
-        <translation>오류: </translation>
+        <translation>Помилка: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="282"/>
         <source>Information</source>
-        <translation>정보</translation>
+        <translation>Інформація</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="283"/>
         <source>Successfully rescanned spent outputs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Витрачені виходи успішно перескановані</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="322"/>
@@ -1793,7 +1799,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="345"/>
         <source>Wrong password</source>
-        <translation>잘못된 암호</translation>
+        <translation>Невірний пароль</translation>
     </message>
 </context>
 <context>
@@ -1801,155 +1807,155 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="100"/>
         <source>Shared RingDB</source>
-        <translation type="unfinished"></translation>
+        <translation>Загальна база RingDB</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="104"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Electroneum wallets as well as wallets from Electroneum clones which reuse the Electroneum keys.</source>
-        <translation type="unfinished"></translation>
+        <translation>На цій сторінці можна взаємодіяти із загальною базою даних RingDB. Ця база даних призначена для використання гаманцями Electroneum або їх клонів, які зможуть повторно використовувати ключі Electroneum.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="117"/>
         <location filename="../pages/SharedRingDB.qml" line="119"/>
         <source>Outputs marked as spent</source>
-        <translation type="unfinished"></translation>
+        <translation>Заблоковані виходи</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="117"/>
         <location filename="../pages/SharedRingDB.qml" line="254"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Допомога</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="120"/>
         <source>In order to obscure which inputs in a Electroneum transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Electroneum uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by The Monero Project, 2020 The Electroneum Project and is availelectroneumn the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Electroneum clelectroneumyourself using the electroneum-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Для того щоб приховати які входи в транзакціях Electroneum були витрачені, третя сторона не повинна повідомляти які входи в кільці вже задіяні в витраті. Адже якщо це зробити, то це послабить захист, який забезпечується кільцевими підписами. Якщо відомо, що всі, крім одного з входів, вже витрачені, то фактично трата входу стає очевидною, тим самим анулюється ефект кільцевих підписів, одного з трьох основних рівнів захисту конфіденційності Electroneum.&lt;br&gt;Щоб допомогти транзакціям уникнути витрати цих входів, можна використовувати список відомих витрачених входів, щоб уникнути їх використання в нових транзакціях. Такий список підтримується проектом Electroneum і доступний нelectroneumсайті getmonero.org, і ви можете імпортувати цей список тут.&lt;br&gt;Крім того, ви можете просканувати блокчейн (і блокчейни клонів Electroneum) самостійно, вelectroneumтовуючи інструмент electroneum-blockchain-mark-spent-outputs, щоб створити список відомих витрачених входів.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="141"/>
         <source>This sets which outputs are known to be spent, and thus not to be used as privacy placeholders in ring signatures. </source>
-        <translation type="unfinished"></translation>
+        <translation>Тут встановлюється, які з виходів відомі як витрачені, і отже, їх не можна використовувати в якості секретних, в кільцевих підписах.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="142"/>
         <source>You should only have to load a file when you want to refresh the list. Manual adding/removing is possible if needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вам потрібно лише завантажити файл, якщо ви хочете оновити список. При необхідності можливе ручне додавання/видалення елементів.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="154"/>
         <source>Please choose a file from which to load outputs to mark as spent</source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, виберіть файл для завантаження списку заблокованих виходів</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="168"/>
         <source>Path to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Шлях до файлу</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="170"/>
         <source>Filename with outputs to mark as spent</source>
-        <translation type="unfinished"></translation>
+        <translation>Ім&apos;я файла зі списком заблокованих виходів</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="181"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Огляд</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="191"/>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Завантажити</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="208"/>
         <source>Or manually mark a single output as spent/unspent:</source>
-        <translation type="unfinished"></translation>
+        <translation>Або вручну заблокуйте/розблокуйте вихід:</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="210"/>
         <source>Paste output amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставте вихід публічного ключа</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="222"/>
         <source>Paste output offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставте вихідне зміщення</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="234"/>
         <source>Mark as spent</source>
-        <translation type="unfinished"></translation>
+        <translation>Заблокувати</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="242"/>
         <source>Mark as unspent</source>
-        <translation type="unfinished"></translation>
+        <translation>Розблокувати</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="254"/>
         <location filename="../pages/SharedRingDB.qml" line="256"/>
         <source>Rings</source>
-        <translation type="unfinished"></translation>
+        <translation>Розмір кільця</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="257"/>
         <source>In order to avoid nullifying the protection afforded by Electroneum&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Electroneum clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Electroneum and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Electroneum clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Electroneum safely.&lt;br&gt;If you do not use a key-reusing Electroneum clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Щоб уникнути скасування захисту, що забезпечується кільцевими підписами Electroneum, вихід не повинен проводитися з різними кільцями на різних блокчейнах. Хоча це як правило не викликає занепокоєння, він може стати одним, якщо якийсь клон Electroneum, що використовує ключ повторно, дозволяє вам витрачати існуючі виходи. В цьому випадку вам необхідно забезпечити, щоб ці існуючі виходи використовували одне і те ж кільце для обох блокчейнів.&lt;br&gt;Це може бути зроблено автоматично, або будь-яким програмним забезпеченням з можливістю повторного використання ключів, яке не спробує позбавити вас конфіденційності.&lt;br&gt;Якщо ви використовуєте клон Electroneum з повторним використанням ключа, і цей клон не включає цей захист, ви все одно можете гарантувати, що ваші транзакції будуть захищені, зробивши їх спочатку на клоні, потім вручну додати кільце на цій сторінці, що дозволить вам конфіденційно перевести ваші Electroneum.&lt;br&gt;Якщо ви не використовуєте клон Electroneum з повторним використанням ключів без цих функцій безпеки, то вам не потрібно нічого робити, оскільки все автоматизовано.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="279"/>
         <source>This records rings used by outputs spent on Electroneum on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тут записуються кільця, що використовуються виходами проведеними на Electroneum, так що одне і те ж кільце можна використовувати повторно, щоб уникнути проблем з конфіденційністю.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="290"/>
         <source>Key image</source>
-        <translation type="unfinished"></translation>
+        <translation>Образ ключа</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="292"/>
         <source>Paste key image</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставити образ ключа</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="309"/>
         <source>Get ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Отримати кільце</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="321"/>
         <source>Get Ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Отримати Кільце</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="327"/>
         <source>No ring found</source>
-        <translation type="unfinished"></translation>
+        <translation>Не знайдено кілець</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="345"/>
         <source>Set ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити кільце</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="357"/>
         <source>Set Ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Встановити Кільце</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="376"/>
         <source>I intend to spend on key-reusing fork(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Я маю намір повторно використовувати ключ в іншому клоні(ах)</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="388"/>
         <source>I might want to spend on key-reusing fork(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Я можливо захочу повторно використати ключ в іншому клоні(ах)</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="400"/>
         <source>Relative</source>
-        <translation type="unfinished"></translation>
+        <translation>Пов&apos;язані</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="418"/>
@@ -1962,39 +1968,39 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Sign.qml" line="62"/>
         <source>Good signature</source>
-        <translation>올바른 서명</translation>
+        <translation>Підпис перевірено</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="63"/>
         <source>This is a good signature</source>
-        <translation>올바른 서명입니다</translation>
+        <translation>Це перевірений підпис</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="67"/>
         <source>Bad signature</source>
-        <translation>잘못된 서명</translation>
+        <translation>Підпис неперевірено</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="68"/>
         <source>This signature did not verify</source>
-        <translation>이 서명은 확인할 수 없습니다.</translation>
+        <translation>Цей підпис неперевірено</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="106"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
-        <translation type="unfinished"></translation>
+        <translation>На цій сторінці можна підписати/перевірити повідомлення (або файл) вашим адресом.</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="136"/>
         <location filename="../pages/Sign.qml" line="184"/>
         <location filename="../pages/Sign.qml" line="299"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Повідомлення</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="102"/>
         <source>Sign/verify</source>
-        <translation>서명/확인</translation>
+        <translation>Підписати/перевірити</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="122"/>
@@ -2033,7 +2039,7 @@ You can change the password in the wallet settings.</source>
         <location filename="../pages/Sign.qml" line="216"/>
         <location filename="../pages/Sign.qml" line="329"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Огляд</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="232"/>
@@ -2064,12 +2070,12 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Sign.qml" line="291"/>
         <source>Verify message</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевірити повідомлення</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="291"/>
         <source>Verify file</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевірити файл</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="301"/>
@@ -2079,7 +2085,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Sign.qml" line="341"/>
         <source>Address</source>
-        <translation>주소</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="344"/>
@@ -2104,18 +2110,18 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Sign.qml" line="408"/>
         <source>Please choose a file to sign</source>
-        <translation>서명할 파일을 선택하세요</translation>
-    </message>
-    <message>
-        <location filename="../pages/Sign.qml" line="419"/>
-        <source>Please choose a file to verify</source>
-        <translation>확인할 파일을 선택하세요</translation>
+        <translation>Будь ласка, виберіть файл для підпису</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="230"/>
         <location filename="../pages/Sign.qml" line="353"/>
         <source>Signature</source>
-        <translation>서명</translation>
+        <translation>Підпис</translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="419"/>
+        <source>Please choose a file to verify</source>
+        <translation>Виберіть файл для перевірки</translation>
     </message>
 </context>
 <context>
@@ -2123,22 +2129,22 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../components/StandardDialog.qml" line="147"/>
         <source>Double tap to copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Подвійний клік, щоб скопіювати</translation>
     </message>
     <message>
         <location filename="../components/StandardDialog.qml" line="154"/>
         <source>Content copied to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Контент скопійовано в буфер обміну</translation>
     </message>
     <message>
         <location filename="../components/StandardDialog.qml" line="169"/>
         <source>Cancel</source>
-        <translation>취소</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../components/StandardDialog.qml" line="178"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>ОК</translation>
     </message>
 </context>
 <context>
@@ -2146,52 +2152,52 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../components/StandardDropdown.qml" line="175"/>
         <source>Low (x1 fee)</source>
-        <translation>낮은 (x1 보상)</translation>
+        <translation>Низький (х1 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="176"/>
         <source>Medium (x20 fee)</source>
-        <translation>중간 (x20 보상)</translation>
+        <translation>Середній (х20 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="177"/>
         <source>High (x166 fee)</source>
-        <translation>높음 (x166 수수료)</translation>
+        <translation>Високий (х166 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="178"/>
         <source>Slow (x0.25 fee)</source>
-        <translation>느림 (x0.25 수수료)</translation>
+        <translation>Мінімальній (x0.25 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="179"/>
         <source>Default (x1 fee)</source>
-        <translation>기본 (x1 수수료)</translation>
+        <translation>За замовчуванням (x1 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="180"/>
         <source>Fast (x5 fee)</source>
-        <translation>빠름 (x5 수수료)</translation>
+        <translation>Підвищений (x5 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="181"/>
         <source>Fastest (x41.5 fee)</source>
-        <translation>가장 빠름 (x41.5 수수료)</translation>
+        <translation>Максимальний (x41.5 комісія)</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="182"/>
         <source>All</source>
-        <translation>전부</translation>
+        <translation>Всі</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="183"/>
         <source>Sent</source>
-        <translation>전송됨</translation>
+        <translation>Відправлені</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="184"/>
         <source>Received</source>
-        <translation>받음</translation>
+        <translation>Отримані</translation>
     </message>
 </context>
 <context>
@@ -2199,137 +2205,111 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../components/TableDropdown.qml" line="182"/>
         <source>&lt;b&gt;Copy address to clipboard&lt;/b&gt;</source>
-        <translation>&lt;b&gt;주소를 클립 보드에 복사&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Скопіювати адрес в буфер обміну&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../components/TableDropdown.qml" line="183"/>
         <source>&lt;b&gt;Send to this address&lt;/b&gt;</source>
-        <translation>&lt;b&gt;이 주소로 보내기&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Відправити на цей адрес&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../components/TableDropdown.qml" line="184"/>
         <source>&lt;b&gt;Find similar transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;비슷한 거래 찾기&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Знайти схожі транзакції&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../components/TableDropdown.qml" line="185"/>
         <source>&lt;b&gt;Remove from address book&lt;/b&gt;</source>
-        <translation>&lt;b&gt;주소록에서 제거&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Видалити з адресної книги&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>Transfer</name>
     <message>
-        <location filename="../pages/Transfer.qml" line="64"/>
-        <source>OpenAlias error</source>
-        <translation>Open Alias 오류</translation>
-    </message>
-    <message>
         <location filename="../pages/Transfer.qml" line="189"/>
         <source>Transaction priority</source>
-        <translation>거래 우선순위</translation>
+        <translation>Пріоритет транзакції</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="91"/>
+        <source></source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="497"/>
+        <source>Sign tx file</source>
+        <translation>Підписати файл транзакції</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="508"/>
+        <source>Submit tx file</source>
+        <translation>Відправити файл транзакції</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="685"/>
+        <source>Wallet is not connected to daemon.</source>
+        <translation>Гаманець не підключений до демона</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="64"/>
+        <source>OpenAlias error</source>
+        <translation>Помилка OpenAlias</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="170"/>
         <source>All</source>
-        <translation>전부</translation>
+        <translation>Всі</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="234"/>
-        <location filename="../pages/Transfer.qml" line="282"/>
-        <source>Resolve</source>
-        <translation>문제해결</translation>
+        <location filename="../pages/Transfer.qml" line="204"/>
+        <source>Automatic</source>
+        <translation>Автоматично</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="55"/>
-        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/Transfer.qml" line="205"/>
+        <source>Slow (x0.25 fee)</source>
+        <translation>Низький (x0.25 комісія)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="206"/>
-        <source>Normal (x1 fee)</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/Transfer.qml" line="207"/>
+        <source>Fast (x5 fee)</source>
+        <translation>Високий (x5 комісія)</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="231"/>
-        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/Transfer.qml" line="208"/>
+        <source>Fastest (x41.5 fee)</source>
+        <translation>Максимальний (x41.5 комісія)</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="299"/>
         <source>No valid address found at this OpenAlias address</source>
-        <translation>이 Open Alias 주소에 유효한 주소가 없습니다</translation>
+        <translation>Не знайдено дійсного адресу на цьому OpenAlias</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="304"/>
         <source>Address found, but the DNSSEC signatures could not be verified, so this address may be spoofed</source>
-        <translation>주소가 발견되었으나 DNSSEC 서명이 확인되지 않습니다. 이 주소는 스푸핑(spoof)되었을 수 있습니다</translation>
+        <translation>Адрес знайдений, але підписи DNSSEC не можуть бути перевірені, тому цей адрес може бути підробленим</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="308"/>
         <source>No valid address found at this OpenAlias address, but the DNSSEC signatures could not be verified, so this may be spoofed</source>
-        <translation>이 Open Alias 주소에서 유효한 주소 또는 DNSSEC 서명을 확인할 수 없습니다. 이 주소는 스푸핑(spoof)되었을 수 있습니다</translation>
+        <translation>На цьому OpenAlias не знайдено дійсного адресу, підписи DNSSEC не можуть бути перевірені, тому цей адрес може бути підробленим</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="312"/>
         <location filename="../pages/Transfer.qml" line="316"/>
         <source>Internal error</source>
-        <translation>내부 오류</translation>
+        <translation>Внутрішня помилка</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="320"/>
         <source>No address found</source>
-        <translation>주소를 찾을 수 없음</translation>
+        <translation>Адрес не знайдено</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="347"/>
         <source>Saved to local wallet history</source>
-        <translation>로컬 지갑 기록에 저장됨</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="404"/>
-        <source>Send</source>
-        <translation>전송</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="458"/>
-        <source>Advanced options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="621"/>
-        <source>Electroneum sent successfully</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="468"/>
-        <source>Sweep Unmixable</source>
-        <translation>혼합 불가능한 스윕</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="160"/>
-        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                                   Amount &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Change account&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="204"/>
-        <source>Automatic</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="337"/>
-        <source>Add description</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="364"/>
-        <source>Add payment ID</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="376"/>
-        <source>64 hexadecimal characters</source>
-        <translation type="unfinished"></translation>
+        <translation>Збережеться в локальній історії гаманця.</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="388"/>
@@ -2337,81 +2317,26 @@ You can change the password in the wallet settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="479"/>
-        <source>Create tx file</source>
-        <translation>거래 파일 만들기</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="497"/>
-        <source>Sign tx file</source>
-        <translation>거래 파일 서명</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="508"/>
-        <source>Submit tx file</source>
-        <translation>거래 파일 제출</translation>
-    </message>
-    <message>
         <location filename="../pages/Transfer.qml" line="520"/>
         <source>Export key images</source>
-        <translation type="unfinished"></translation>
+        <translation>Експортувати образи ключів</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="532"/>
         <source>Import key images</source>
-        <translation type="unfinished"></translation>
+        <translation>Імпортувати образи ключів</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="558"/>
-        <location filename="../pages/Transfer.qml" line="614"/>
-        <source>Error</source>
-        <translation>오류</translation>
+        <location filename="../pages/Transfer.qml" line="621"/>
+        <source>Electroneum sent successfully</source>
+        <translation>Electroneum відправлено успішно</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="566"/>
-        <source>
-Number of transactions: </source>
-        <translation>거래 횟수: </translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="568"/>
-        <source>
-Transaction #%1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="569"/>
-        <source>
-Recipient: </source>
-        <translation>수신자: </translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="570"/>
-        <source>
-payment ID: </source>
-        <translation>결제 신분증: </translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="571"/>
-        <source>
-Amount: </source>
-        <translation>금액: </translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="573"/>
-        <source>
-Ringsize: </source>
-        <translation>반지 사이즈:</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="620"/>
-        <source>Information</source>
-        <translation>정보</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="709"/>
-        <source>Waiting on daemon synchronization to finish.</source>
-        <translation type="unfinished"></translation>
+        <location filename="../pages/Transfer.qml" line="704"/>
+        <source>Connected daemon is not compatible with GUI. 
+Please upgrade or connect to another daemon</source>
+        <translation>Підключений демон не сумісний з GUI.
+Будь ласка, оновіться або підключіться до іншого демона</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="742"/>
@@ -2429,82 +2354,178 @@ Ringsize: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../pages/Transfer.qml" line="234"/>
+        <location filename="../pages/Transfer.qml" line="282"/>
+        <source>Resolve</source>
+        <translation>Вирішити</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="404"/>
+        <source>Send</source>
+        <translation>Надіслати</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="468"/>
+        <source>Sweep Unmixable</source>
+        <translation>Прибрати незмішувані</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="479"/>
+        <source>Create tx file</source>
+        <translation>Створити файл транзакції</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="558"/>
+        <location filename="../pages/Transfer.qml" line="614"/>
+        <source>Error</source>
+        <translation>Помилка</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="620"/>
+        <source>Information</source>
+        <translation>Інформація</translation>
+    </message>
+    <message>
         <location filename="../pages/Transfer.qml" line="547"/>
         <location filename="../pages/Transfer.qml" line="608"/>
         <location filename="../pages/Transfer.qml" line="652"/>
         <source>Please choose a file</source>
-        <translation>파일을 선택하세요</translation>
+        <translation>Будь ласка, виберіть файл</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="55"/>
+        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Start daemon&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</source>
+        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #FF6C3C; font-size: 14px;}&lt;/style&gt;&lt;font size=&apos;2&apos;&gt; (&lt;/font&gt;&lt;a href=&apos;#&apos;&gt;Запустити демон&lt;/a&gt;&lt;font size=&apos;2&apos;&gt;)&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="160"/>
+        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                                   Amount &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Change account&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="206"/>
+        <source>Normal (x1 fee)</source>
+        <translation>Нормальний (x1 комісія)</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="231"/>
+        <source>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Address &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Address book&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</source>
+        <translation>&lt;style type=&apos;text/css&apos;&gt;a {text-decoration: none; color: #858585; font-size: 14px;}&lt;/style&gt;                Адрес &lt;font size=&apos;2&apos;&gt;  ( &lt;/font&gt; &lt;a href=&apos;#&apos;&gt;Адресна книга&lt;/a&gt;&lt;font size=&apos;2&apos;&gt; )&lt;/font&gt;</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="337"/>
+        <source>Add description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="364"/>
+        <source>Add payment ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="376"/>
+        <source>64 hexadecimal characters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="458"/>
+        <source>Advanced options</source>
+        <translation>Додаткові налаштування</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="559"/>
         <source>Can&apos;t load unsigned transaction: </source>
-        <translation>서명되지 않은 거래를 불러올 수 없습니다: </translation>
+        <translation>Неможливо завантажити підписану транзакцію: </translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="566"/>
+        <source>
+Number of transactions: </source>
+        <translation>
+Число транзакцій: </translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="568"/>
+        <source>
+Transaction #%1</source>
+        <translation>
+Транзакція #%1</translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="569"/>
+        <source>
+Recipient: </source>
+        <translation>
+Отримувач: </translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="570"/>
+        <source>
+payment ID: </source>
+        <translation>
+ID платежу: </translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="571"/>
+        <source>
+Amount: </source>
+        <translation>
+Кількість: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="572"/>
         <source>
 Fee: </source>
-        <translation>수수료:</translation>
+        <translation>
+Комісія: </translation>
+    </message>
+    <message>
+        <location filename="../pages/Transfer.qml" line="573"/>
+        <source>
+Ringsize: </source>
+        <translation>
+Розмір кільця: </translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="587"/>
         <source>Confirmation</source>
-        <translation>확인</translation>
+        <translation>Підтвердження</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="615"/>
         <source>Can&apos;t submit transaction: </source>
-        <translation>거래를 전송할 수 없습니다:</translation>
+        <translation>Неможливо відправити транзакцію: </translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="685"/>
-        <source>Wallet is not connected to daemon.</source>
-        <translation>지갑이 데몬에 연결되어있지 않습니다.</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="704"/>
-        <source>Connected daemon is not compatible with GUI. 
-Please upgrade or connect to another daemon</source>
-        <translation>연결된 데몬은 GUI와 호환되지 않습니다. 다른 데몬으로 업그레이드하거나 연결하세요.</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="91"/>
-        <source></source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="205"/>
-        <source>Slow (x0.25 fee)</source>
-        <translation>느린 (x0.25 수수료)</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="207"/>
-        <source>Fast (x5 fee)</source>
-        <translation>빠른 (x5 수수료)</translation>
-    </message>
-    <message>
-        <location filename="../pages/Transfer.qml" line="208"/>
-        <source>Fastest (x41.5 fee)</source>
-        <translation>가장 빠른 (x41.5 수수료)</translation>
+        <location filename="../pages/Transfer.qml" line="709"/>
+        <source>Waiting on daemon synchronization to finish.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>TxKey</name>
     <message>
-        <location filename="../pages/TxKey.qml" line="219"/>
-        <source>If a payment had several transactions then each must be checked and the results combined.</source>
-        <translation>결제에 여러 거래가있는 경우 각각을 점검하고 결과를 결합해야합니다.</translation>
-    </message>
-    <message>
         <location filename="../pages/TxKey.qml" line="92"/>
         <location filename="../pages/TxKey.qml" line="165"/>
         <source>Address</source>
-        <translation>주소</translation>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="95"/>
+        <location filename="../pages/TxKey.qml" line="168"/>
+        <source>Recipient&apos;s wallet address</source>
+        <translation>Адрес гаманця отримувача</translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="80"/>
+        <location filename="../pages/TxKey.qml" line="153"/>
+        <source>Transaction ID</source>
+        <translation>ID транзакції</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="63"/>
         <source>Prove Transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтвердити здійснення транзакції</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="68"/>
@@ -2513,65 +2534,59 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="95"/>
-        <location filename="../pages/TxKey.qml" line="168"/>
-        <source>Recipient&apos;s wallet address</source>
-        <translation>수취인의 지갑 주소</translation>
+        <location filename="../pages/TxKey.qml" line="83"/>
+        <location filename="../pages/TxKey.qml" line="156"/>
+        <source>Paste tx ID</source>
+        <translation>Вставити ID транзакції</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="105"/>
         <location filename="../pages/TxKey.qml" line="178"/>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Повідомлення</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="107"/>
         <location filename="../pages/TxKey.qml" line="180"/>
         <source>Optional message against which the signature is signed</source>
-        <translation type="unfinished"></translation>
+        <translation>Опційне повідомлення, на основі якого буде створено підпис</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="115"/>
         <source>Generate</source>
-        <translation>생성</translation>
+        <translation>Згенерувати</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="136"/>
         <source>Check Transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Перевірити транзакцію</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="140"/>
         <source>Verify that funds were paid to an address by supplying the transaction ID, the recipient address, the message used for signing and the signature.
 For the case with Spend Proof, you don&apos;t need to specify the recipient address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Переконайтеся у відправці коштів на адрес, вказавши ID транзакції, адрес отримувача, повідомлення, яке використовується для підпису, і сам підпис.
+У випадку з Spend Proof (доказом надсилання) вам не потрібно вказувати адрес отримувача.</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="190"/>
         <source>Signature</source>
-        <translation>서명</translation>
+        <translation>Підпис</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="192"/>
         <source>Paste tx proof</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/TxKey.qml" line="80"/>
-        <location filename="../pages/TxKey.qml" line="153"/>
-        <source>Transaction ID</source>
-        <translation>거래 아이디</translation>
-    </message>
-    <message>
-        <location filename="../pages/TxKey.qml" line="83"/>
-        <location filename="../pages/TxKey.qml" line="156"/>
-        <source>Paste tx ID</source>
-        <translation>거래 아이디 붙여넣기</translation>
+        <translation>Вставити доказ надсилання</translation>
     </message>
     <message>
         <location filename="../pages/TxKey.qml" line="200"/>
         <source>Check</source>
-        <translation>검사</translation>
+        <translation>Перевірити</translation>
+    </message>
+    <message>
+        <location filename="../pages/TxKey.qml" line="219"/>
+        <source>If a payment had several transactions then each must be checked and the results combined.</source>
+        <translation>Якщо у платежі було кілька транзакцій, кожна з них повинна бути перевірена, а результати об&apos;єднані.</translation>
     </message>
 </context>
 <context>
@@ -2579,7 +2594,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../js/Utils.js" line="42"/>
         <source>Wrong password</source>
-        <translation>잘못된 암호</translation>
+        <translation>Невірний пароль</translation>
     </message>
     <message>
         <location filename="../js/Utils.js" line="61"/>
@@ -2625,17 +2640,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../js/Utils.js" line="94"/>
         <source>Testnet</source>
-        <translation>테스트넷</translation>
+        <translation>Тестова мережа (testnet)</translation>
     </message>
     <message>
         <location filename="../js/Utils.js" line="94"/>
         <source>Stagenet</source>
-        <translation></translation>
+        <translation>Тестова мережа (stagenet)</translation>
     </message>
     <message>
         <location filename="../js/Utils.js" line="94"/>
         <source>Mainnet</source>
-        <translation></translation>
+        <translation>Основна мережа (Mainnet)</translation>
     </message>
 </context>
 <context>
@@ -2649,22 +2664,22 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../wizard/WizardAskPassword.qml" line="53"/>
         <location filename="../wizard/WizardAskPassword.qml" line="72"/>
         <source>Low</source>
-        <translation>낮음</translation>
+        <translation>Низька</translation>
     </message>
     <message>
         <location filename="../wizard/WizardAskPassword.qml" line="74"/>
         <source>Medium</source>
-        <translation>중간</translation>
+        <translation>Середня</translation>
     </message>
     <message>
         <location filename="../wizard/WizardAskPassword.qml" line="76"/>
         <source>High</source>
-        <translation>높음</translation>
+        <translation>Висока</translation>
     </message>
     <message>
         <location filename="../wizard/WizardAskPassword.qml" line="85"/>
         <source>Give your wallet a password</source>
-        <translation>지갑의 비밀번호를 설정하세요</translation>
+        <translation>Введіть новий пароль для вашого гаманця</translation>
     </message>
     <message>
         <location filename="../wizard/WizardAskPassword.qml" line="86"/>
@@ -2679,7 +2694,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardAskPassword.qml" line="155"/>
         <source>Password</source>
-        <translation>비밀번호</translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="../wizard/WizardAskPassword.qml" line="212"/>
@@ -2692,7 +2707,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardController.qml" line="322"/>
         <source>Please choose a file</source>
-        <translation>파일을 선택하세요</translation>
+        <translation>Будь ласка, виберіть файл</translation>
     </message>
     <message>
         <location filename="../wizard/WizardController.qml" line="446"/>
@@ -2715,7 +2730,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateDevice1.qml" line="75"/>
         <source>Create a new wallet</source>
-        <translation>새 지갑 만들기</translation>
+        <translation>Створити новий гаманець</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateDevice1.qml" line="76"/>
@@ -2740,12 +2755,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateDevice1.qml" line="125"/>
         <source>Restore height</source>
-        <translation>높이 복원</translation>
+        <translation>Висота блока відновлення</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateDevice1.qml" line="143"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>Додаткові налаштування</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateDevice1.qml" line="150"/>
@@ -2766,7 +2781,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateDevice1.qml" line="184"/>
         <source>Create wallet</source>
-        <translation>지갑 만들기</translation>
+        <translation>Створити гаманець</translation>
     </message>
 </context>
 <context>
@@ -2774,7 +2789,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWallet1.qml" line="60"/>
         <source>Create a new wallet</source>
-        <translation>새 지갑 만들기</translation>
+        <translation>Створити новий гаманець</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet1.qml" line="61"/>
@@ -2784,12 +2799,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWallet1.qml" line="89"/>
         <source>Mnemonic seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Мнемонічна seed-фраза</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet1.qml" line="127"/>
         <source>This seed is &lt;b&gt;very&lt;/b&gt; important to write down and keep secret. It is all you need to backup and restore your wallet.</source>
-        <translation> 지갑의 백업 및 복원에 필요한 유일한 정보인 이 시드를 받아 적어, 보안이 되는 안전한 장소에 보관 하는것은 &lt;b&gt;매우 &lt;/b&gt; 중요합니다.</translation>
+        <translatorcomment>Would be better to have only the corrispondent of &quot;very&quot; between &lt;b&gt;&lt;/b&gt;</translatorcomment>
+        <translation>Цю seed-фразу &lt;b&gt; необхідно записати, і зберігати в безпечному місці&lt;/b&gt;. Це все що потрібно для резервної копії та відновлення вашого гаманця.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet1.qml" line="135"/>
@@ -2828,7 +2844,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWallet4.qml" line="59"/>
         <source>New wallet details:</source>
-        <translation>새 지갑 세부정보:</translation>
+        <translation>Дані нового гаманця:</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet4.qml" line="66"/>
@@ -2841,7 +2857,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="52"/>
         <source>Start a node automatically in background (recommended)</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматично запускати ноду в фоновому режимі (рекомендується)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="75"/>
@@ -2851,12 +2867,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="77"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартний</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="81"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Огляд</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="95"/>
@@ -2871,7 +2887,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="175"/>
         <source>Connect to a remote node</source>
-        <translation type="unfinished"></translation>
+        <translation>Підключитися до віддаленої ноди</translation>
     </message>
 </context>
 <context>
@@ -2884,7 +2900,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardHome.qml" line="65"/>
         <source>Create a new wallet</source>
-        <translation>새 지갑 만들기</translation>
+        <translation>Створити новий гаманець</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="66"/>
@@ -2904,7 +2920,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardHome.qml" line="106"/>
         <source>Open a wallet from file</source>
-        <translation>파일에서 지갑 열기</translation>
+        <translation>Відкрити гаманець із файлу</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="107"/>
@@ -2914,7 +2930,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardHome.qml" line="125"/>
         <source>Restore wallet from keys or mnemonic seed</source>
-        <translation>니모닉 시드 또는 개인 키에서 지갑을 복원</translation>
+        <translation>Відновити гаманець із ключів або за мнемонічною seed-фразою</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="126"/>
@@ -2934,7 +2950,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardHome.qml" line="168"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation>Додаткові налаштування</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="207"/>
@@ -3093,7 +3109,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardOpenWallet1.qml" line="65"/>
         <source>Open a wallet from file</source>
-        <translation>파일에서 지갑 열기</translation>
+        <translation>Відкрити гаманець із файлу</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOpenWallet1.qml" line="66"/>
@@ -3108,17 +3124,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardOpenWallet1.qml" line="129"/>
         <source>Mainnet</source>
-        <translation type="unfinished"></translation>
+        <translation>Основна мережа (Mainnet)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOpenWallet1.qml" line="130"/>
         <source>Testnet</source>
-        <translation>테스트넷</translation>
+        <translation>Тестова мережа (testnet)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOpenWallet1.qml" line="131"/>
         <source>Stagenet</source>
-        <translation type="unfinished"></translation>
+        <translation>Тестова мережа (stagenet)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOpenWallet1.qml" line="307"/>
@@ -3141,7 +3157,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="105"/>
         <source>Restore wallet</source>
-        <translation>지갑 복원</translation>
+        <translation>Відновити гаманець</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="106"/>
@@ -3151,37 +3167,37 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="117"/>
         <source>Restore from seed</source>
-        <translation>시드(seed)에서 복원</translation>
+        <translation>Відновити за допомогою seed-фрази</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="127"/>
         <source>Restore from keys</source>
-        <translation>키에서 복원</translation>
+        <translation>Відновити за допомогою ключів</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="137"/>
         <source>From QR Code</source>
-        <translation type="unfinished"></translation>
+        <translation>Із QR-коду</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="200"/>
         <source>Enter your 25 (or 24) word mnemonic seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Введіть свою мнемонічну seed-фразу із 25 (або 24) слів</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="213"/>
         <source>Account address (public)</source>
-        <translation>계정 주소 (공개)</translation>
+        <translation>Адрес гаманця (публічний)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="225"/>
         <source>View key (private)</source>
-        <translation>보기 키 (비공개)</translation>
+        <translation>Ключ для перегляду (приватний)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="237"/>
         <source>Spend key (private)</source>
-        <translation>결제 키 (비공개)</translation>
+        <translation>Ключ для витрати (приватний)</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="248"/>
@@ -3191,7 +3207,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="251"/>
         <source>Restore height</source>
-        <translation>높이 복원</translation>
+        <translation>Висота блока відновлення</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet1.qml" line="272"/>
@@ -3232,7 +3248,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../wizard/WizardRestoreWallet4.qml" line="59"/>
         <source>New wallet details:</source>
-        <translation>새 지갑 세부정보:</translation>
+        <translation>Дані нового гаманця:</translation>
     </message>
 </context>
 <context>
@@ -3241,27 +3257,27 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
         <location filename="../wizard/WizardSummary.qml" line="44"/>
         <location filename="../wizard/WizardSummary.qml" line="62"/>
         <source>Wallet name</source>
-        <translation>지갑 이름</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardSummary.qml" line="50"/>
         <source>Wallet path</source>
-        <translation>지갑 경로</translation>
+        <translation>Шлях до гаманця</translation>
     </message>
     <message>
         <location filename="../wizard/WizardSummary.qml" line="56"/>
         <source>Language</source>
-        <translation>언어</translation>
+        <translation>Мова</translation>
     </message>
     <message>
         <location filename="../wizard/WizardSummary.qml" line="68"/>
         <source>Restore height</source>
-        <translation>높이 복원</translation>
+        <translation>Висота блока відновлення</translation>
     </message>
     <message>
         <location filename="../wizard/WizardSummary.qml" line="82"/>
         <source>Daemon address</source>
-        <translation>데몬 주소</translation>
+        <translation>Адрес демона</translation>
     </message>
     <message>
         <location filename="../wizard/WizardSummary.qml" line="89"/>
@@ -3271,7 +3287,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../wizard/WizardSummary.qml" line="95"/>
         <source>Network Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип Мережі</translation>
     </message>
 </context>
 <context>
@@ -3279,7 +3295,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../wizard/WizardWalletInput.qml" line="73"/>
         <source>Wallet name</source>
-        <translation>지갑 이름</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../wizard/WizardWalletInput.qml" line="87"/>
@@ -3289,22 +3305,16 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../wizard/WizardWalletInput.qml" line="93"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Огляд</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWalletInput.qml" line="108"/>
         <source>Please choose a directory</source>
-        <translation>디렉토리를 선택하세요</translation>
+        <translation>Будь ласка, виберіть папку</translation>
     </message>
 </context>
 <context>
     <name>main</name>
-    <message>
-        <location filename="../main.qml" line="407"/>
-        <location filename="../main.qml" line="408"/>
-        <source>HIDDEN</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../main.qml" line="336"/>
         <location filename="../main.qml" line="797"/>
@@ -3317,115 +3327,67 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
         <location filename="../main.qml" line="1071"/>
         <location filename="../main.qml" line="1544"/>
         <source>Error</source>
-        <translation>오류</translation>
+        <translation>Помилка</translation>
     </message>
     <message>
         <location filename="../main.qml" line="337"/>
         <location filename="../main.qml" line="548"/>
         <source>Couldn&apos;t open wallet: </source>
-        <translation>지갑을 열 수 없습니다:</translation>
+        <translation>Неможливо відкрити гаманець:</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="599"/>
-        <source>Unlocked balance (waiting for block)</source>
-        <translation>잠금해제된 잔액 (블록 대기 중)</translation>
+        <location filename="../main.qml" line="648"/>
+        <source>Waiting for daemon to sync</source>
+        <translation>Очікування синхронізації з демоном</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="599"/>
-        <source>Unlocked balance (~%1 min)</source>
-        <translation>잠금해제된 잔액 (~%1 분)</translation>
+        <location filename="../main.qml" line="650"/>
+        <source>Daemon is synchronized (%1)</source>
+        <translation>Демон синхронізований на (%1)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="599"/>
-        <location filename="../main.qml" line="2190"/>
-        <source>Unlocked balance</source>
-        <translation>잠금해제된 잔액</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="696"/>
-        <source>Waiting for daemon to start...</source>
-        <translation>데몬 시작까지 기다리는 중...</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="702"/>
-        <source>Waiting for daemon to stop...</source>
-        <translation>데몬 종료까지 기다리는 중...</translation>
+        <location filename="../main.qml" line="652"/>
+        <source>Wallet is synchronized</source>
+        <translation>Гаманець синхронізований</translation>
     </message>
     <message>
         <location filename="../main.qml" line="729"/>
         <source>Daemon failed to start</source>
-        <translation>데몬 시작에 실패했습니다</translation>
+        <translation>Не вдалося запустити демон</translation>
     </message>
     <message>
         <location filename="../main.qml" line="730"/>
         <source>Please check your wallet and daemon log for errors. You can also try to start %1 manually.</source>
-        <translation>지갑과 데몬 로그에서 오류를 확인하십시오. 수동으로 %1을 시작할 수도 있습니다.</translation>
+        <translation>Будь ласка, перевірте логи гаманця і демона на наявність помилок. Ви також можете спробувати запустити %1 вручну.</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="746"/>
+        <source>Daemon is synchronized</source>
+        <translation>Демон синхронізований</translation>
     </message>
     <message>
         <location filename="../main.qml" line="799"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
-        <translation>잘못된 데몬 버전으로 거래를 만들 수 없습니다: </translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="801"/>
-        <location filename="../main.qml" line="917"/>
-        <source>Can&apos;t create transaction: </source>
-        <translation>거래를 만들 수 없습니다:</translation>
+        <translation>Неможливо створити транзакцію: Невірна версія демона:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="810"/>
         <location filename="../main.qml" line="926"/>
         <source>No unmixable outputs to sweep</source>
-        <translation>스윕처리할 비혼합 아웃풋 없습니다</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="938"/>
-        <source>Confirmation</source>
-        <translation>확인</translation>
+        <translation>Немає незмішуваних виходів для розгортки</translation>
     </message>
     <message>
         <location filename="../main.qml" line="821"/>
         <location filename="../main.qml" line="939"/>
         <source>Please confirm transaction:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, підтвердіть транзакцію:
+</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="824"/>
-        <source>
-Payment ID: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="826"/>
-        <location filename="../main.qml" line="941"/>
-        <source>
-Fee: </source>
-        <translation>
-수수료:</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1014"/>
-        <source>Payment proof</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1017"/>
-        <source>Couldn&apos;t generate a proof because of the following reason: 
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1047"/>
-        <location filename="../main.qml" line="1066"/>
-        <source>Payment proof check</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1050"/>
-        <location filename="../main.qml" line="1068"/>
-        <source>Bad signature</source>
-        <translation>잘못된 서명</translation>
+        <location filename="../main.qml" line="823"/>
+        <source>Address: </source>
+        <translation>Адрес: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="825"/>
@@ -3433,7 +3395,89 @@ Fee: </source>
         <source>
 
 Amount: </source>
-        <translation>금액: </translation>
+        <translation>
+
+Кількість: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="863"/>
+        <source>Amount is wrong: expected number from %1 to %2</source>
+        <translation>Сума неправильна: очікуване число від %1 до %2</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="2102"/>
+        <source>Tap again to close...</source>
+        <translation>Натисніть ще раз, щоб закрити...</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="2115"/>
+        <source>Daemon is running</source>
+        <translation>Демон запущено</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="2116"/>
+        <source>Daemon will still be running in background when GUI is closed.</source>
+        <translation>Демон буде все ще працювати у фоновому режимі після закриття GUI</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="2118"/>
+        <source>Stop daemon</source>
+        <translation>Зупинити демон</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="801"/>
+        <location filename="../main.qml" line="917"/>
+        <source>Can&apos;t create transaction: </source>
+        <translation>Неможливо створити транзакцію: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="407"/>
+        <location filename="../main.qml" line="408"/>
+        <source>HIDDEN</source>
+        <translation>ПРИХОВАНО</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="599"/>
+        <source>Unlocked balance (~%1 min)</source>
+        <translation>Розблокований баланс (~%1 хв)</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="599"/>
+        <location filename="../main.qml" line="2190"/>
+        <source>Unlocked balance</source>
+        <translation>Розблокований баланс</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="599"/>
+        <source>Unlocked balance (waiting for block)</source>
+        <translation>Розблокований баланс (очікування блока)</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="696"/>
+        <source>Waiting for daemon to start...</source>
+        <translation>Очікування запуску демона...</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="702"/>
+        <source>Waiting for daemon to stop...</source>
+        <translation>Очікування зупинки демона...</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="938"/>
+        <source>Confirmation</source>
+        <translation>Підтвердження</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="824"/>
+        <source>
+Payment ID: </source>
+        <translation>
+ID платежу: </translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="424"/>
+        <source>Balance (#%1%2)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../main.qml" line="499"/>
@@ -3452,95 +3496,47 @@ Amount: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.qml" line="648"/>
-        <source>Waiting for daemon to sync</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="650"/>
-        <source>Daemon is synchronized (%1)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="652"/>
-        <source>Wallet is synchronized</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="746"/>
-        <source>Daemon is synchronized</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="823"/>
-        <source>Address: </source>
-        <translation type="unfinished"></translation>
+        <location filename="../main.qml" line="826"/>
+        <location filename="../main.qml" line="941"/>
+        <source>
+Fee: </source>
+        <translation>
+Комісія: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="827"/>
         <source>
 Ringsize: </source>
         <translation>
-반지 사이즈:</translation>
+Розмір кільця: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="828"/>
         <source>
 
 Number of transactions: </source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+Кількість транзакцій: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="829"/>
         <source>
 Description: </source>
-        <translation type="unfinished"></translation>
+        <translation>
+Опис: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="831"/>
         <source>
 Spending address index: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="1057"/>
-        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
-        <translation>이 주소로 %1 XMR을 받아, %2 번의 컨펌을 받았습니다.</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="2102"/>
-        <source>Tap again to close...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="2115"/>
-        <source>Daemon is running</source>
-        <translation>데몬이 실행 중입니다</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="2116"/>
-        <source>Daemon will still be running in background when GUI is closed.</source>
-        <translation>GUI가 닫혀도 데몬은 백그라운드에서 계속 실행됩니다.</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="2118"/>
-        <source>Stop daemon</source>
-        <translation>데몬 중지</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="863"/>
-        <source>Amount is wrong: expected number from %1 to %2</source>
-        <translation>금액이 잘못되었습니다 : % 1에서 % 2까지의 예상 숫자</translation>
-    </message>
-    <message>
-        <location filename="../main.qml" line="424"/>
-        <source>Balance (#%1%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Індекс адреса витрати: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="875"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
-        <translation>잔액이 불충분합니다. 잠금해제 된 잔액: %1</translation>
+        <translation>Недостатньо коштів. Розблокований баланс: %1</translation>
     </message>
     <message>
         <location filename="../main.qml" line="965"/>
@@ -3550,100 +3546,118 @@ Spending address index: </source>
     <message>
         <location filename="../main.qml" line="974"/>
         <source>Couldn&apos;t send the money: </source>
-        <translation>돈을 전송하지 못했습니다.</translation>
+        <translation>Неможливо відправити гроші: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="978"/>
         <location filename="../main.qml" line="1540"/>
         <source>Information</source>
-        <translation>정보</translation>
+        <translation>Інформація</translation>
     </message>
     <message>
         <location filename="../main.qml" line="984"/>
         <source>Transaction saved to file: %1</source>
-        <translation>거래 데이터를 파일에 저장되었습니다: %1</translation>
+        <translation>Транзакція збережена в файл: %1</translation>
     </message>
     <message>
         <location filename="../main.qml" line="984"/>
         <source>Electroneum sent successfully: %1 transaction(s) </source>
-        <translation type="unfinished"></translation>
+        <translation>Electroneum успішно відправлені: %1 транзакция(й) </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1054"/>
-        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
-        <translation>이 주소는 % 1XMR을 받았지만, 해당 거래가 아직 채굴에 포함되지 않았습니다</translation>
+        <location filename="../main.qml" line="1014"/>
+        <source>Payment proof</source>
+        <translation>Доказ платежу</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1061"/>
-        <source>This address received nothing</source>
-        <translation>이 주소는 아무것도 받지 못했습니다</translation>
+        <location filename="../main.qml" line="1017"/>
+        <source>Couldn&apos;t generate a proof because of the following reason: 
+</source>
+        <translation>Неможливо згенерувати доказ з наступних причин:</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1047"/>
+        <location filename="../main.qml" line="1066"/>
+        <source>Payment proof check</source>
+        <translation>Перевірка доказу платежу</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1050"/>
+        <location filename="../main.qml" line="1068"/>
+        <source>Bad signature</source>
+        <translation>Підпис неперевірено</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1057"/>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Цей адрес отримав %1 ETN, із %2 підтвердженнями(и)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1068"/>
         <source>Good signature</source>
-        <translation>올바른 서명</translation>
+        <translation>Підпис перевірено</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1080"/>
         <source>Balance (syncing)</source>
-        <translation>잔액 (동기화)</translation>
+        <translation>Баланс (синхронізація)</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1080"/>
         <location filename="../main.qml" line="2191"/>
         <source>Balance</source>
-        <translation>잔액</translation>
+        <translation>Баланс</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1428"/>
         <location filename="../main.qml" line="2219"/>
         <source>Wrong password</source>
-        <translation>잘못된 암호</translation>
+        <translation>Невірний пароль</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1469"/>
         <source>Warning</source>
-        <translation>경고</translation>
+        <translation>Попередження</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1472"/>
         <source>Error: Filesystem is read only</source>
-        <translation>오류: 해당 파일시스템은 읽기전용입니다</translation>
+        <translation>Помилка: Файлова система доступна тільки для читання</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1474"/>
         <source>Warning: There&apos;s only %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>경고 : 해당장치에 사용 가능한 공간은 %1 GB뿐입니다. 블록체인에는 ~ %2 GB의 데이터가 필요합니다.</translation>
+        <translation>Попередження: На пристрої є тільки %1 GB вільного простору. Для зберігання блокчейну потрібно як мінімум ~%2 GB.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1476"/>
         <source>Note: There&apos;s %1 GB available on the device. Blockchain requires ~%2 GB of data.</source>
-        <translation>참고: %1 GB의 장치를 사용할 수 있습니다. 블록체인에는 ~ %2 GB의 데이터가 필요합니다.</translation>
+        <translation>Попередження: На пристрої є тільки %1 GB вільного простору. Для зберігання блокчейну потрібно як мінімум ~%2 GB.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1478"/>
         <source>Note: lmdb folder not found. A new folder will be created.</source>
-        <translation>참고: lmdb 폴더를 찾을 수 없습니다. 새 폴더가 생성됩니다.</translation>
+        <translation>Примітка: Папку з назвою lmdb не знайдено тому її буде створено.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1481"/>
         <source>Cancel</source>
-        <translation>취소</translation>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1541"/>
         <source>Password changed successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>Пароль успішно змінений</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1545"/>
         <source>Error: </source>
-        <translation>오류: </translation>
+        <translation>Помилка: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1588"/>
         <source>Please wait...</source>
-        <translation>기다려주십시오...</translation>
+        <translation>Будь ласка, зачекайте...</translation>
     </message>
     <message>
         <location filename="../main.qml" line="2046"/>
@@ -3663,7 +3677,17 @@ Spending address index: </source>
     <message>
         <location filename="../main.qml" line="2251"/>
         <source>Daemon log</source>
-        <translation>데몬 로그</translation>
+        <translation>Логи демона</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1054"/>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Цей адрес отримав %1 ETN, але транзакція ще не була підтверджена майнерами</translation>
+    </message>
+    <message>
+        <location filename="../main.qml" line="1061"/>
+        <source>This address received nothing</source>
+        <translation>Цей адрес ще нічого не отримав</translation>
     </message>
 </context>
 </TS>

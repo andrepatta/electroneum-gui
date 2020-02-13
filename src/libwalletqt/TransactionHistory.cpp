@@ -79,7 +79,7 @@ QList<TransactionInfo *> TransactionHistory::getAll(quint32 accountIndex) const
         if (ti->timestamp() <= firstDateTime) {
             firstDateTime = ti->timestamp();
         }
-        quint64 requiredConfirmations = (ti->blockHeight() < ti->unlockTime()) ? ti->unlockTime() - ti->blockHeight() : 10;
+        quint64 requiredConfirmations = (ti->blockHeight() < ti->unlockTime()) ? ti->unlockTime() - ti->blockHeight() : 5;
         // store last tx height
         if (ti->confirmations() < requiredConfirmations && ti->blockHeight() >= lastTxHeight) {
             lastTxHeight = ti->blockHeight();

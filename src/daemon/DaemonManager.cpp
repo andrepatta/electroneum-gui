@@ -109,7 +109,7 @@ bool DaemonManager::start(const QString &flags, NetworkType::Type nettype, const
         arguments << "--max-concurrency" << QString::number(concurrency);
     }
 
-    qDebug() << "starting electroneumd "electroneumlectroneumd;
+    qDebug() << "starting electroneumd " << m_electroneumd;
     qDebug() << "With command line arguments " << arguments;
 
     m_daemon = new QProcess();
@@ -324,9 +324,9 @@ DaemonManager::DaemonManager(QObject *parent)
 
     // Platform depetent path to electroneumd
 #ifdef Q_OS_WIN
-    m_electroneumd = QApplication::applicationDirPath()electroneumlectroneumd.exe";
+    m_electroneumd = QApplication::applicationDirPath() + "/electroneumd.exe";
 #elif defined(Q_OS_UNIX)
-    m_electroneumd = QApplication::applicationDirPath()electroneumlectroneumd";
+    m_electroneumd = QApplication::applicationDirPath() + "/electroneumd";
 #endif
 
     if (m_electroneumd.length() == 0) {

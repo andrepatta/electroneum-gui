@@ -122,7 +122,7 @@ Rectangle {
                 property int maxWidth: bar.width
                 width: (maxWidth * fillLevel) / 100
                 radius: 8
-                color: "#FA6800"
+                color: "#2ab1f3"
             }
 
             Rectangle {

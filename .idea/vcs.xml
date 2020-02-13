@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/electroneum" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/electroneum/external/miniupnp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/electroneum/external/rapidjson" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/electroneum/external/trezor-common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/electroneum/external/unbound" vcs="Git" />
+  </component>
+</project>

@@ -234,6 +234,9 @@ if [ "$platform" != "mingw32" ] && [ "$ANDROID" != true ]; then
     popd
 fi
 
+# build ed25519-donna epee
+eval make -C $ELECTRONEUM_DIR/build/$BUILD_TYPE/external/ed25519-donna all install
+
 # build install epee
 eval make -C $ELECTRONEUM_DIR/build/$BUILD_TYPE/contrib/epee all install
 

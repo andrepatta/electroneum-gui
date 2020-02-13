@@ -88,21 +88,21 @@ ApplicationWindow {
     property bool themeTransition: false
 
     // fiat price conversion
-    property int fiatPriceXMRUSD: 0
-    property int fiatPriceXMREUR: 0
+    property int fiatPriceETNUSD: 0
+    property int fiatPriceETNEUR: 0
     property var fiatPriceAPIs: {
         return {
             "kraken": {
-                "xmrusd": "https://api.kraken.com/0/public/Ticker?pair=XMRUSD",
-                "xmreur": "https://api.kraken.com/0/public/Ticker?pair=XMREUR"
+                "etnusd": "https://api.kraken.com/0/public/Ticker?pair=ETNUSD",
+                "etneur": "https://api.kraken.com/0/public/Ticker?pair=ETNEUR"
             },
             "coingecko": {
-                "xmrusd": "https://api.coingecko.com/api/v3/simple/price?ids=electroneum&vs_currencies=usd",
-                "xmreur": "https://api.coingecko.com/api/v3/simple/price?ids=electroneum&vs_currencies=eur"
+                "etnusd": "https://api.coingecko.com/api/v3/simple/price?ids=electroneum&vs_currencies=usd",
+                "etneur": "https://api.coingecko.com/api/v3/simple/price?ids=electroneum&vs_currencies=eur"
             },
             "cryptocompare": {
-                "xmrusd": "https://min-api.cryptocompare.com/data/price?fsym=XMR&tsyms=USD",
-                "xmreur": "https://min-api.cryptocompare.com/data/price?fsym=XMR&tsyms=EUR",
+                "etnusd": "https://min-api.cryptocompare.com/data/price?fsym=ETN&tsyms=USD",
+                "etneur": "https://min-api.cryptocompare.com/data/price?fsym=ETN&tsyms=EUR",
             }
         }
     }
@@ -117,7 +117,7 @@ ApplicationWindow {
         }
 
         // electroneum-gui workgroup maintained
-        return "https://autonode.xmr.pm/"
+        return "https://autonode.etn.pm/"
     }
 
     // true if wallet ever synchronized
@@ -721,7 +721,7 @@ ApplicationWindow {
         currentWallet.startRefresh();
         daemonRunning = false;
         informationPopup.title = qsTr("Daemon failed to start") + translationManager.emptyString;
-        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "electroneumd.exeelectroneumlectroneumd")
+        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "electroneumd.exe" : "electroneumd")
         informationPopup.icon  = StandardIcon.Critical
         informationPopup.onCloseCallback = null
         informationPopup.open();
@@ -818,7 +818,6 @@ ApplicationWindow {
             transactionConfirmationPopup.text += (paymentId === "" ? "" : (qsTr("\nPayment ID: ") + paymentId));
             transactionConfirmationPopup.text +=  qsTr("\n\nAmount: ") + walletManager.displayAmount(transaction.amount);
             transactionConfirmationPopup.text +=  qsTr("\nFee: ") + walletManager.displayAmount(transaction.fee);
-            transactionConfirmationPopup.text +=  qsTr("\nRingsize: ") + (mixinCount + 1);
             transactionConfirmationPopup.text +=  qsTr("\n\nNumber of transactions: ") + transaction.txCount
             transactionConfirmationPopup.text +=  (transactionDescription === "" ? "" : (qsTr("\nDescription: ") + transactionDescription))
             for (var i = 0; i < transaction.subaddrIndices.length; ++i){
@@ -848,10 +847,10 @@ ApplicationWindow {
 
         // validate amount;
         if (amount !== "(all)") {
-            var amountxmr = walletManager.amountFromString(amount);
-            console.log("integer amount: ", amountxmr);
+            var amountetn = walletManager.amountFromString(amount);
+            console.log("integer amount: ", amountetn);
             console.log("integer unlocked",currentWallet.unlockedBalance)
-            if (amountxmr <= 0) {
+            if (amountetn <= 0) {
                 hideProcessingSplash()
                 informationPopup.title = qsTr("Error") + translationManager.emptyString;
                 informationPopup.text  = qsTr("Amount is wrong: expected number from %1 to %2")
@@ -863,7 +862,7 @@ ApplicationWindow {
                 informationPopup.onCloseCallback = null
                 informationPopup.open()
                 return;
-            } else if (amountxmr > currentWallet.unlockedBalance) {
+            } else if (amountetn > currentWallet.unlockedBalance) {
                 hideProcessingSplash()
                 informationPopup.title = qsTr("Error") + translationManager.emptyString;
                 informationPopup.text  = qsTr("Insufficient funds. Unlocked balance: %1")
@@ -880,7 +879,7 @@ ApplicationWindow {
         if (amount === "(all)")
             currentWallet.createTransactionAllAsync(address, paymentId, mixinCount, priority);
         else
-            currentWallet.createTransactionAsync(address, paymentId, amountxmr, mixinCount, priority);
+            currentWallet.createTransactionAsync(address, paymentId, amountetn, mixinCount, priority);
     }
 
     //Choose where to save transaction
@@ -1175,18 +1174,18 @@ ApplicationWindow {
                 return;
             }
 
-            var key = currency === "xmreur" ? "XXMRZEUR" : "XXMRZUSD";
+            var key = currency === "etneur" ? "XETNZEUR" : "XETNZUSD";
             var ticker = resp.result[key]["o"];
             return ticker;
         } else if(resp._url.startsWith("https://api.coingecko.com/api/v3/")){
-            var key = currency === "xmreur" ? "eur" : "usd";
-            if(!resp.hasOwnProperty("electroneum") || !relectroneumlectroneum"].hasOwnProperty(key)){
+            var key = currency === "etneur" ? "eur" : "usd";
+            if(!resp.hasOwnProperty("electroneum") || !resp["electroneum"].hasOwnProperty(key)){
                 appWindow.fiatApiError("Coingecko API has error(s)");
                 return;
             }
             return resp["electroneum"][key];
         } else if(resp._url.startsWith("https://min-api.cryptocompare.com/data/")){
-            var key = currency === "xmreur" ? "EUR" : "USD";
+            var key = currency === "etneur" ? "EUR" : "USD";
             if(!resp.hasOwnProperty(key)){
                 appWindow.fiatApiError("cryptocompare API has error(s)");
                 return;
@@ -1233,10 +1232,10 @@ ApplicationWindow {
             return;
         }
 
-        if(persistentSettings.fiatPriceCurrency === "xmrusd")
-            appWindow.fiatPriceXMRUSD = ticker;
-        else if(persistentSettings.fiatPriceCurrency === "xmreur")
-            appWindow.fiatPriceXMREUR = ticker;
+        if(persistentSettings.fiatPriceCurrency === "etnusd")
+            appWindow.fiatPriceETNUSD = ticker;
+        else if(persistentSettings.fiatPriceCurrency === "etneur")
+            appWindow.fiatPriceETNEUR = ticker;
 
         appWindow.updateBalance();
     }
@@ -1264,8 +1263,8 @@ ApplicationWindow {
 
     function fiatApiUpdateBalance(balance, unlocked_balance){
         // update balance card
-        var ticker = persistentSettings.fiatPriceCurrency === "xmrusd" ? appWindow.fiatPriceXMRUSD : appWindow.fiatPriceXMREUR;
-        var symbol = persistentSettings.fiatPriceCurrency === "xmrusd" ? "$" : "€"
+        var ticker = persistentSettings.fiatPriceCurrency === "etnusd" ? appWindow.fiatPriceETNUSD : appWindow.fiatPriceETNEUR;
+        var symbol = persistentSettings.fiatPriceCurrency === "etnusd" ? "$" : "€"
         if(ticker <= 0){
             console.log(fiatApiError("Could not update balance card; invalid ticker value"));
             leftPanel.unlockedBalanceTextFiat = "N/A";
@@ -1400,7 +1399,7 @@ ApplicationWindow {
         property bool fiatPriceEnabled: false
         property bool fiatPriceToggle: false
         property string fiatPriceProvider: "kraken"
-        property string fiatPriceCurrency: "xmrusd"
+        property string fiatPriceCurrency: "etnusd"
 
         Component.onCompleted: {
             ElectroneumComponents.Style.blackTheme = persistentSettings.blackTheme

@@ -58,7 +58,7 @@ signals:
 private:
     QLocalServer *m_server;
     QString m_queuedCmd;
-    QFileInfo m_socketFile = QFileInfo(QString(QDir::tempPath() + "/xmr-gui_%2.sock").arg(getAccountName()));
+    QFileInfo m_socketFile = QFileInfo(QString(QDir::tempPath() + "/etn-gui_%2.sock").arg(getAccountName()));
 };
 
 #endif // IPC_H

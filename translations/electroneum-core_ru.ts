@@ -3600,7 +3600,7 @@ Spending address index: </source>
     <message>
         <location filename="../main.qml" line="1057"/>
         <source>This address received %1 electroneum, with %2 confirmation(s).</source>
-        <translation>Этот адрес получил %1 XMR, с %2 подтверждениями</translation>
+        <translation>Этот адрес получил %1 ETN, с %2 подтверждениями</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1068"/>
@@ -3692,7 +3692,7 @@ Spending address index: </source>
     <message>
         <location filename="../main.qml" line="1054"/>
         <source>This address received %1 electroneum, but the transaction is not yet mined</source>
-        <translation>Этот адрес получил %1 XMR, но транзакции все еще не подтверждены майнерами</translation>
+        <translation>Этот адрес получил %1 ETN, но транзакции все еще не подтверждены майнерами</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1061"/>

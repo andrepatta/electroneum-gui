@@ -75,12 +75,12 @@ function isValidOpenAliasAddress(address) {
 }
 
 function makeQRCodeString(addr, amount) {
-    var XMR_URI_SCHEME = "electroneum:"
-    var XMR_AMOUNT = "tx_amount"
+    var ETN_URI_SCHEME = "electroneum:"
+    var ETN_AMOUNT = "tx_amount"
     var qrCodeString =""
-    qrCodeString += (XMR_URI_SCHEME + addr)
+    qrCodeString += (ETN_URI_SCHEME + addr)
     if (amount !== undefined && amount !== ""){
-      qrCodeString += ("?" + XMR_AMOUNT + "=" + amount)
+      qrCodeString += ("?" + ETN_AMOUNT + "=" + amount)
     }
     return qrCodeString
 }

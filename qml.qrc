@@ -170,8 +170,8 @@
         <file>images/settings_local.svg</file>
         <file>images/settings_remote.svg</file>
         <file>components/WarningBox.qml</file>
-        <file>images/miningxmr.png</file>
-        <file>images/miningxmr@2x.png</file>
+        <file>images/miningetn.png</file>
+        <file>images/miningetn@2x.png</file>
         <file>images/plus-in-circle-medium-white.png</file>
         <file>images/plus-in-circle-medium-white@2x.png</file>
         <file>pages/merchant/Merchant.qml</file>
