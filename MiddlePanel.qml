@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2018, The Electroneum Project
+// Copyright (c) 2020, The Monero Project, 2020 The Electroneum Project
+// Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
 // 
@@ -77,7 +78,7 @@ Rectangle {
     Rectangle {
         // grey background on merchantView
         visible: currentView === merchantView
-        color: ElectroneumComponents.Style.electroneumGrey
+        color: ElectroneumComponents.SelectroneumlectroneumGrey
         anchors.fill: parent
     }
 

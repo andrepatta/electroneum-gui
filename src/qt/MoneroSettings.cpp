@@ -4,7 +4,8 @@
 ** Contact: https://www.qt.io/licensing/
 **
 ****************************************************************************/
-// Copyright (c) 2014-2019, The Electroneum Project
+// Copyright (c) 2020, The Monero Project, 2020 The Electroneum Project
+// Copyright (c) 2014-2019, The Monero Project
 //
 // All rights reserved.
 //

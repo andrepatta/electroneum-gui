@@ -571,7 +571,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             font.pixelSize: 14
             font.bold: true
-            color: ElectroneumComponents.Style.electroneumGrey
+            color: ElectroneumComponents.SelectroneumlectroneumGrey
             text: qsTr("The merchant page requires a larger window") + translationManager.emptyString
             themeTransition: false
         }

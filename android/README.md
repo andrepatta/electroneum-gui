@@ -1,4 +1,4 @@
-Copyright (c) 2014-2018, The Electroneum Project
+Copyright (c) 2014-2018, The Monero Project, 2020 The Electroneum Project
 
 
 ## Current status : ALPHA
@@ -18,11 +18,11 @@ Copyright (c) 2014-2018, The Electroneum Project
 
         cd android/docker
         docker build -t electroneum-gui-android .
-        docker create -it --name electroneum-gui-android electroneum-gui-android bash
+        docker create -it --name electroneum-gui-andelectroneumlectroneum-gui-android bash
 
 # Get the apk
 
-        docker cp electroneum-gui-android:/opt/android/electroneum-gui/build/release/bin/bin/QtApp-debug.apk .
+        docker cp electroneum-gui-android:/opt/andelectroneumlectroneum-gui/build/release/bin/bin/QtApp-debug.apk .
        
 ## Deployment
 

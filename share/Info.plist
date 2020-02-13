@@ -24,7 +24,7 @@
   <string>Electroneum GUI</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.electroneum-project.electroneum-wallet-gui</string>
+  <string>org.electroneum-proelectroneumlectroneum-wallet-gui</string>
 
   <key>NSSupportsAutomaticGraphicsSwitching</key>
   <true/>

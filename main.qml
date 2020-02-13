@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2019, The Electroneum Project
+// Copyright (c) 2020, The Monero Project, 2020 The Electroneum Project
+// Copyright (c) 2014-2019, The Monero Project
 //
 // All rights reserved.
 //
@@ -720,7 +721,7 @@ ApplicationWindow {
         currentWallet.startRefresh();
         daemonRunning = false;
         informationPopup.title = qsTr("Daemon failed to start") + translationManager.emptyString;
-        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "electroneumd.exe" : "electroneumd")
+        informationPopup.text  = qsTr("Please check your wallet and daemon log for errors. You can also try to start %1 manually.").arg((isWindows)? "electroneumd.exeelectroneumlectroneumd")
         informationPopup.icon  = StandardIcon.Critical
         informationPopup.onCloseCallback = null
         informationPopup.open();
@@ -1179,7 +1180,7 @@ ApplicationWindow {
             return ticker;
         } else if(resp._url.startsWith("https://api.coingecko.com/api/v3/")){
             var key = currency === "xmreur" ? "eur" : "usd";
-            if(!resp.hasOwnProperty("electroneum") || !resp["electroneum"].hasOwnProperty(key)){
+            if(!resp.hasOwnProperty("electroneum") || !relectroneumlectroneum"].hasOwnProperty(key)){
                 appWindow.fiatApiError("Coingecko API has error(s)");
                 return;
             }
@@ -1351,7 +1352,7 @@ ApplicationWindow {
         id: persistentSettings
         fileName: {
             if(isTails && tailsUsePersistence)
-                return homePath + "/Persistent/Electroneum/electroneum-core.conf";
+                return homePath + "/Persistent/Electroelectroneumlectroneum-core.conf";
             return "";
         }
 
@@ -2144,13 +2145,13 @@ ApplicationWindow {
             //var auto_url = parts[3]
             var osBuildTag = isMac ? "mac-x64" : isWindows ? "win-x64" : isLinux ? "linux-x64" : "unknownBuildTag"
             var extension = isMac || isLinux ? ".tar.bz2" : isWindows ? ".zip" : ".unknownExtension"
-            var base_url = "https://downloads.getelectroneum.org/gui/electroneum-gui-"
+            var base_url = "https://downloads.getmonero.orgelectroneumlectroneum-gui-"
             var download_url = base_url + osBuildTag + "-v" + version + extension
             var msg = ""
             if (osBuildTag !== "unknownBuildTag") {
                 msg = qsTr("New version of Electroneum v.%1 is available.<br><br>Download:<br>%2<br><br>SHA256 Hash:<br>%3").arg(version).arg(download_url).arg(hash) + translationManager.emptyString
             } else {
-                msg = qsTr("New version of Electroneum is available. Check out getelectroneum.org") + translationManager.emptyString
+                msg = qsTr("New version of Electroneum is available. Check ouelectroneumlectroneum.org") + translationManager.emptyString
             }
             notifier.show(msg)
         } else {

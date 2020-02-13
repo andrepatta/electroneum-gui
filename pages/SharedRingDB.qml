@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Electroneum Project
+// Copyright (c) 2018, The Monero Project, 2020 The Electroneum Project
 //
 // All rights reserved.
 //
@@ -124,7 +124,7 @@ Rectangle {
                     "actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers " +
                     "of privacy protection Electroneum uses.<br>" +
                     "To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new " +
-                    "transactions. Such a list is maintained by the Electroneum project and is available on the getelectroneum.org website, " +
+                    "transactions. Such a list is maintained by The Monero Project, 2020 The Electroneum Project and is available on thelectroneumlectroneum.org website, " +
                     "and you can import this list here.<br>" +
                     "Alternatively, you can scan the blockchain (and the blockchain of key-reusing Electroneum clones) yourself " +
                     "using the electroneum-blockchain-mark-spent-outputs tool to create a list of known spent outputs.<br>"

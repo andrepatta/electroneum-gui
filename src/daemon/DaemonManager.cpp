@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2019, The Electroneum Project
+// Copyright (c) 2020, The Monero Project, 2020 The Electroneum Project
+// Copyright (c) 2014-2019, The Monero Project
 //
 // All rights reserved.
 //
@@ -108,7 +109,7 @@ bool DaemonManager::start(const QString &flags, NetworkType::Type nettype, const
         arguments << "--max-concurrency" << QString::number(concurrency);
     }
 
-    qDebug() << "starting electroneumd " + m_electroneumd;
+    qDebug() << "starting electroneumd "electroneumlectroneumd;
     qDebug() << "With command line arguments " << arguments;
 
     m_daemon = new QProcess();
@@ -323,9 +324,9 @@ DaemonManager::DaemonManager(QObject *parent)
 
     // Platform depetent path to electroneumd
 #ifdef Q_OS_WIN
-    m_electroneumd = QApplication::applicationDirPath() + "/electroneumd.exe";
+    m_electroneumd = QApplication::applicationDirPath()electroneumlectroneumd.exe";
 #elif defined(Q_OS_UNIX)
-    m_electroneumd = QApplication::applicationDirPath() + "/electroneumd";
+    m_electroneumd = QApplication::applicationDirPath()electroneumlectroneumd";
 #endif
 
     if (m_electroneumd.length() == 0) {

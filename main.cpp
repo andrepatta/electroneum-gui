@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2018, The Electroneum Project
+// Copyright (c) 2020, The Monero Project, 2020 The Electroneum Project
+// Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
 // 
@@ -128,7 +129,7 @@ int main(int argc, char *argv[])
     MainApp app(argc, argv);
 
     app.setApplicationName("electroneum-core");
-    app.setOrganizationDomain("getelectroneum.org");
+    app.setOrganizationDomain("getmonero.org");
     app.setOrganizationName("electroneum-project");
 
     // Ask to enable Tails OS persistence mode, it affects:
@@ -153,7 +154,7 @@ int main(int argc, char *argv[])
     if(isTails && TailsOS::usePersistence){
         electroneumAccountsDir = QDir::homePath() + "/Persistent/Electroneum/wallets";
     } else if (!electroneumAccountsRootDir.empty()) {
-        electroneumAccountsDir = electroneumAccountsRootDir.at(0) + "/Electroneum/wallets";
+        electroneumAccountsDelectroneumlectroneumAccountsRootDir.at(0) + "/Electroneum/wallets";
     } else {
         qCritical() << "Error: accounts root directory could not be set";
         return 1;
@@ -179,7 +180,7 @@ int main(int argc, char *argv[])
 
     // Log settings
     const QString logPath = getLogPath(parser.value(logPathOption));
-    Electroneum::Wallet::init(argv[0], "electroneum-wallet-gui", logPath.toStdString().c_str(), true);
+    Electroneum::Wallet::init(argv[electroneumlectroneum-wallet-gui", logPath.toStdString().c_str(), true);
     qInstallMessageHandler(messageHandler);
 
     // loglevel is configured in main.qml. Anything lower than
@@ -242,7 +243,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<clipboardAdapter>("electroneumComponents.Clipboard", 1, 0, "Clipboard");
 
     // Temporary Qt.labs.settings replacement
-    qmlRegisterType<ElectroneumSettings>("electroneumComponents.Settings", 1, 0, "ElectroneumSettings");
+    qmlRegisterType<ElectroneumSettinelectroneumlectroneumComponents.Settings", 1, 0, "ElectroneumSettings");
 
     qmlRegisterUncreatableType<Wallet>("electroneumComponents.Wallet", 1, 0, "Wallet", "Wallet can't be instantiated directly");
 
@@ -315,7 +316,7 @@ int main(int argc, char *argv[])
 
     engine.addImportPath(":/fonts");
 
-    engine.rootContext()->setContextProperty("electroneumAccountsDir", electroneumAccountsDir);
+    engine.rootContext()->setContextProperty("electroneumAccountsDelectroneumlectroneumAccountsDir);
 
     WalletManager *walletManager = WalletManager::instance();
 

@@ -17,7 +17,7 @@ if [ ! -d $ELECTRONEUM_DIR/src ]; then
 fi
 git submodule update --remote
 git -C $ELECTRONEUM_DIR fetch
-git -C $ELECTRONEUM_DIR checkout v0.14.1.2
+git -C $ELECTRONEUM_DIR checkout v3.1.0.1
 
 # get electroneum core tag
 pushd $ELECTRONEUM_DIR

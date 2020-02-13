@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2019, The Electroneum Project
+// Copyright (c) 2020, The Monero Project, 2020 The Electroneum Project
+// Copyright (c) 2014-2019, The Monero Project
 //
 // All rights reserved.
 //
@@ -80,7 +81,7 @@ QString xdgMime(QApplication &app){
         "Type=Application\n"
         "Icon=electroneum\n"
         "Categories=Network;GNOME;Qt;\n"
-        "MimeType=x-scheme-handler/electroneum;x-scheme-handler/electroneumseed\n"
+        "MimeType=x-scheme-handler/electroneum;x-scheme-hanelectroneumlectroneumseed\n"
         "StartupNotify=true\n"
         "X-GNOME-Bugzilla-Bugzilla=GNOME\n"
         "X-GNOME-UsesNotifications=true\n"

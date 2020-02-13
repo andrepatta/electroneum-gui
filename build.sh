@@ -65,7 +65,7 @@ source ./utils.sh
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ELECTRONEUM_DIR=electroneum
-ELECTRONEUMD_EXEC=electroneumd
+ELECTRONEUM_EXEC=electroneumd
 
 MAKE='make'
 if [[ $platform == *bsd* ]]; then
@@ -95,7 +95,7 @@ fi
 if [ "$platform" == "darwin" ]; then
     BIN_PATH=$BIN_PATH/electroneum-wallet-gui.app/Contents/MacOS/
 elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
-    ELECTRONEUMD_EXEC=electroneumd.exe
+    ELECTRONEUMD_electroneumlectroneumd.exe
 fi
 
 # force version update

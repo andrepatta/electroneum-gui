@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015, The Electroneum Project
+// Copyright (c) 2014-2015, The Monero Project, 2020 The Electroneum Project
 //
 // All rights reserved.
 //

@@ -1,5 +1,5 @@
 ; Electroneum Boron Butterfly GUI Wallet Installer for Windows
-; Copyright (c) 2017-2019, The Electroneum Project
+; Copyright (c) 2017-2019, The Monero Project, 2020 The Electroneum Project
 ; See LICENSE
 
 [Setup]
@@ -20,7 +20,7 @@ WizardImageFile=WelcomeImage.bmp
 DisableWelcomePage=no
 LicenseFile=LICENSE
 AppPublisher=The Electroneum Developer Community
-AppPublisherURL=https://getelectroneum.org
+AppPublisherURL=https://getmonero.org
 TimeStampsInUTC=yes
 CompressionThreads=1
 
@@ -208,7 +208,7 @@ begin
 
   // Evaluate proposal for the blockchain location
   // In case of an update take the blockchain location from the actual setting in the registry
-  RegQueryStringValue(HKEY_CURRENT_USER, 'Software\electroneum-project\electroneum-core', 'blockchainDataDir', blockChainDir);
+  RegQueryStringValue(HKEY_CURRENT_USER, 'Software\electroneum-proelectroneumlectroneum-core', 'blockchainDataDir', blockChainDir);
   if blockChainDir = '' then begin
     blockChainDir := GetPreviousData('BlockChainDir', '');
   end;
@@ -313,13 +313,13 @@ end;
 ; Icons in the "Electroneum GUI Wallet" program group
 ; Windows will almost always display icons in alphabetical order, per level, so specify the text accordingly
 Name: "{group}\GUI Wallet"; Filename: "{app}\electroneum-wallet-gui.exe";
-Name: "{group}\GUI Wallet Guide"; Filename: "{app}\electroneum-GUI-guide.pdf"; IconFilename: "{app}\electroneum-wallet-gui.exe"
+Name: "{group}\GUI Wallet Guide"; Filename: "{app}\electroneum-GUI-guide.pdf"; IconFilename: "{electroneumlectroneum-wallet-gui.exe"
 Name: "{group}\Uninstall GUI Wallet"; Filename: "{uninstallexe}"
 
 ; Sub-folder "Utilities";
 ; Note that Windows 10, unlike Windows 7, ignores such sub-folders completely
 ; and insists on displaying ALL icons on one single level
-Name: "{group}\Utilities\Electroneum Daemon"; Filename: "{app}\electroneumd.exe"; Parameters: {code:DaemonFlags}
+Name: "{group}\Utilities\Electroneum Daemon"; Filename: "{electroneumlectroneumd.exe"; Parameters: {code:DaemonFlags}
 Name: "{group}\Utilities\Read Me"; Filename: "{app}\ReadMe.htm"
 
 ; CLI wallet: Needs a working directory ("Start in:") set in the icon, because with no such directory set
@@ -332,7 +332,7 @@ Name: "{group}\Utilities\Textual (CLI) Wallet"; Filename: "{app}\electroneum-wal
 Name: "{group}\Utilities\x (Check Blockchain Folder)"; Filename: "{win}\Explorer.exe"; Parameters: {code:BlockChainDir}
 Name: "{group}\Utilities\x (Check Daemon Log)"; Filename: "Notepad"; Parameters: {code:DaemonLog}
 Name: "{group}\Utilities\x (Check Default Wallet Folder)"; Filename: "{win}\Explorer.exe"; Parameters: """{userdocs}\Electroneum\wallets"""
-Name: "{group}\Utilities\x (Check GUI Wallet Log)"; Filename: "Notepad"; Parameters: """{userappdata}\electroneum-wallet-gui\electroneum-wallet-gui.log"""
+Name: "{group}\Utilities\x (Check GUI Wallet Log)"; Filename: "Notepad"; Parameters: """{userappdata}\electroneum-walletelectroneumlectroneum-wallet-gui.log"""
 Name: "{group}\Utilities\x (Try Daemon, Exit Confirm)"; Filename: "{app}\electroneum-daemon.bat"
 Name: "{group}\Utilities\x (Try GUI Wallet Low Graphics Mode)"; Filename: "{app}\start-low-graphics-mode.bat"
 Name: "{group}\Utilities\x (Try Kill Daemon)"; Filename: "Taskkill.exe"; Parameters: "/IM electroneumd.exe /T /F"
@@ -346,19 +346,19 @@ Name: "{commondesktop}\GUI Wallet"; Filename: "{app}\electroneum-wallet-gui.exe"
 ; So if the wallet is used to start the daemon instead of the separate icon the wallet will pass the correct flags
 ; Side effect, mostly positive: The uninstaller will clean the registry
 Root: HKCU; Subkey: "Software\electroneum-project"; Flags: uninsdeletekeyifempty
-Root: HKCU; Subkey: "Software\electroneum-project\electroneum-core"; Flags: uninsdeletekey
-Root: HKCU; Subkey: "Software\electroneum-project\electroneum-core"; ValueType: string; ValueName: "blockchainDataDir"; ValueData: {code:BlockChainDirOrEmpty};
+Root: HKCU; Subkey: "Software\electroneum-proelectroneumlectroneum-core"; Flags: uninsdeletekey
+Root: HKCU; Subkey: "Software\electroneum-proelectroneumlectroneum-core"; ValueType: string; ValueName: "blockchainDataDir"; ValueData: {code:BlockChainDirOrEmpty};
 
 ; Configure a custom URI scheme: Links starting with "electroneum:" will start the GUI wallet exe with the URI as command-line parameter
 ; Used to easily start payments; example URI: "electroneum://<address>?tx_amount=5.0"
 Root: HKCR; Subkey: "electroneum"; ValueType: "string"; ValueData: "URL:Electroneum Payment Protocol"; Flags: uninsdeletekey
 Root: HKCR; Subkey: "electroneum"; ValueType: "string"; ValueName: "URL Protocol"; ValueData: ""
-Root: HKCR; Subkey: "electroneum\DefaultIcon"; ValueType: "string"; ValueData: "{app}\electroneum-wallet-gui.exe,0"
-Root: HKCR; Subkey: "electroneum\shell\open\command"; ValueType: "string"; ValueData: """{app}\electroneum-wallet-gui.exe"" ""%1"""
+Root: HKCR; Subkey: "electroneum\DefaultIcon"; ValueType: "string"; ValueData: "{electroneumlectroneum-wallet-gui.exe,0"
+Root: HKCR; Subkey: "electroneum\shell\open\command"; ValueType: "string"; ValueData: """{electroneumlectroneum-wallet-gui.exe"" ""%1"""
 
 ; Configure a custom URI scheme: Links starting with "electroneumseed:" will start the GUI wallet exe with the URI as command-line parameter
 ; Used to easily hand over custom seed node info to the wallet, with an URI of the form "electroneumseed://a.b.c.d:port"
 Root: HKCR; Subkey: "electroneumseed"; ValueType: "string"; ValueData: "URL:Electroneum Seed Node Protocol"; Flags: uninsdeletekey
 Root: HKCR; Subkey: "electroneumseed"; ValueType: "string"; ValueName: "URL Protocol"; ValueData: ""
-Root: HKCR; Subkey: "electroneumseed\DefaultIcon"; ValueType: "string"; ValueData: "{app}\electroneum-wallet-gui.exe,0"
-Root: HKCR; Subkey: "electroneumseed\shell\open\command"; ValueType: "string"; ValueData: """{app}\electroneum-wallet-gui.exe"" ""%1"""
+Root: HKCR; Subkey: "electroneumseed\DefaultIcon"; ValueType: "string"; ValueData: "{electroneumlectroneum-wallet-gui.exe,0"
+Root: HKCR; Subkey: "electroneumseed\shell\open\command"; ValueType: "string"; ValueData: """{electroneumlectroneum-wallet-gui.exe"" ""%1"""
