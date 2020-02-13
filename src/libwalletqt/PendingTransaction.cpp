@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -93,7 +93,7 @@ void PendingTransaction::setFilename(const QString &fileName)
     m_fileName = fileName;
 }
 
-PendingTransaction::PendingTransaction(Monero::PendingTransaction *pt, QObject *parent)
+PendingTransaction::PendingTransaction(Electroneum::PendingTransaction *pt, QObject *parent)
     : QObject(parent), m_pimpl(pt)
 {
 

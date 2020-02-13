@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -30,9 +30,9 @@ import QtQuick 2.9
 import QtQuick.Dialogs 1.2
 import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.0
-import moneroComponents.NetworkType 1.0
+import electroneumComponents.NetworkType 1.0
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Rectangle {
     id: wizardHome
@@ -57,13 +57,13 @@ Rectangle {
 
             WizardHeader {
                 Layout.bottomMargin: 20
-                title: qsTr("Welcome to Monero.") + translationManager.emptyString
+                title: qsTr("Welcome to Electroneum.") + translationManager.emptyString
                 subtitle: ""
             }
 
             WizardMenuItem {
                 headerText: qsTr("Create a new wallet") + translationManager.emptyString
-                bodyText: qsTr("Choose this option if this is your first time using Monero.") + translationManager.emptyString
+                bodyText: qsTr("Choose this option if this is your first time using Electroneum.") + translationManager.emptyString
                 imageIcon: "qrc:///images/create-wallet.png"
 
                 onMenuClicked: {
@@ -78,13 +78,13 @@ Rectangle {
                 Layout.topMargin: 3
                 Layout.bottomMargin: 3
                 Layout.fillWidth: true
-                color: MoneroComponents.Style.dividerColor
-                opacity: MoneroComponents.Style.dividerOpacity
+                color: ElectroneumComponents.Style.dividerColor
+                opacity: ElectroneumComponents.Style.dividerOpacity
             }
 
             WizardMenuItem {
                 headerText: qsTr("Create a new wallet from hardware") + translationManager.emptyString
-                bodyText: qsTr("Connect your hardware wallet to create a new Monero wallet.") + translationManager.emptyString
+                bodyText: qsTr("Connect your hardware wallet to create a new Electroneum wallet.") + translationManager.emptyString
                 imageIcon: "qrc:///images/restore-wallet-from-hardware.png"
 
                 onMenuClicked: {
@@ -98,8 +98,8 @@ Rectangle {
                 Layout.topMargin: 3
                 Layout.bottomMargin: 3
                 Layout.fillWidth: true
-                color: MoneroComponents.Style.dividerColor
-                opacity: MoneroComponents.Style.dividerOpacity
+                color: ElectroneumComponents.Style.dividerColor
+                opacity: ElectroneumComponents.Style.dividerOpacity
             }
 
             WizardMenuItem {
@@ -117,8 +117,8 @@ Rectangle {
                 Layout.topMargin: 3
                 Layout.bottomMargin: 3
                 Layout.fillWidth: true
-                color: MoneroComponents.Style.dividerColor
-                opacity: MoneroComponents.Style.dividerOpacity
+                color: ElectroneumComponents.Style.dividerColor
+                opacity: ElectroneumComponents.Style.dividerOpacity
             }
 
             WizardMenuItem {
@@ -137,7 +137,7 @@ Rectangle {
                 Layout.topMargin: 16
                 spacing: 20
 
-                MoneroComponents.StandardButton {
+                ElectroneumComponents.StandardButton {
                     small: true
                     text: qsTr("Change wallet mode") + translationManager.emptyString
 
@@ -147,7 +147,7 @@ Rectangle {
                     }                    
                 }
 
-                MoneroComponents.StandardButton {
+                ElectroneumComponents.StandardButton {
                     visible: !persistentSettings.customDecorations
                     small: true
                     text: qsTr("Change language") + translationManager.emptyString
@@ -159,7 +159,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.CheckBox2 {
+            ElectroneumComponents.CheckBox2 {
                 id: showAdvancedCheckbox
                 Layout.topMargin: 30
                 Layout.fillWidth: true
@@ -185,12 +185,12 @@ Rectangle {
                 ColumnLayout {
                     Layout.topMargin: 4
 
-                    MoneroComponents.Label {
+                    ElectroneumComponents.Label {
                         text: qsTr("Change Network:") + translationManager.emptyString
                         fontSize: 14
                     }
 
-                    MoneroComponents.StandardDropdown {
+                    ElectroneumComponents.StandardDropdown {
                         id: networkTypeDropdown
                         dataModel: networkTypeModel
                         Layout.fillWidth: true
@@ -211,7 +211,7 @@ Rectangle {
                     }
                 }
 
-                MoneroComponents.LineEdit {
+                ElectroneumComponents.LineEdit {
                     id: kdfRoundsText
                     Layout.fillWidth: true
 

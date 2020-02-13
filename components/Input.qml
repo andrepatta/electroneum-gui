@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -29,17 +29,17 @@
 import QtQuick.Controls 2.0
 import QtQuick 2.9
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 TextField {
-    font.family: MoneroComponents.Style.fontRegular.name
+    font.family: ElectroneumComponents.Style.fontRegular.name
     font.pixelSize: 18
     font.bold: true
     horizontalAlignment: TextInput.AlignLeft
     selectByMouse: true
-    color: MoneroComponents.Style.defaultFontColor
-    selectionColor: MoneroComponents.Style.textSelectionColor
-    selectedTextColor: MoneroComponents.Style.textSelectedColor
+    color: ElectroneumComponents.Style.defaultFontColor
+    selectionColor: ElectroneumComponents.Style.textSelectionColor
+    selectedTextColor: ElectroneumComponents.Style.textSelectedColor
 
     background: Rectangle {
         color: "transparent"

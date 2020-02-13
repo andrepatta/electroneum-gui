@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -26,7 +26,7 @@
 // STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 import QtQuick 2.9
 import QtQuick.Layouts 1.2
@@ -77,7 +77,7 @@ Rectangle {
                 onNextClicked: {
                     wizardController.recoveryWallet();
                     wizardController.writeWallet();
-                    wizardController.useMoneroClicked();
+                    wizardController.useElectroneumClicked();
                 }
             }
         }

@@ -69,8 +69,8 @@
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="105"/>
-        <source>This makes it easier to send or receive Monero and reduces errors when typing in addresses manually.</source>
-        <translation>Isso facilita o envio ou recebimento de Monero e reduz erros ao digitar endereços manualmente.</translation>
+        <source>This makes it easier to send or receive Electroneum and reduces errors when typing in addresses manually.</source>
+        <translation>Isso facilita o envio ou recebimento de Electroneum e reduz erros ao digitar endereços manualmente.</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="120"/>
@@ -616,13 +616,13 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="62"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>AVISO: Não reutilize suas chaves Monero em outro fork, A NÃO SER QUE este fork tenha mitigações de reutilização embutidas. Fazer isso prejudicará sua privacidade.</translation>
+        <source>WARNING: Do not reuse your Electroneum keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>AVISO: Não reutilize suas chaves Electroneum em outro fork, A NÃO SER QUE este fork tenha mitigações de reutilização embutidas. Fazer isso prejudicará sua privacidade.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
-        <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Monero. Please write down your seed manually.</source>
-        <translation>ATENÇÃO: Copiar a semente para a área de transferência te deixa exposto a certos vírus que podem gravar a semente e roubar o seu Monero. Por favor, escreva a semente manualmente.</translation>
+        <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Electroneum. Please write down your seed manually.</source>
+        <translation>ATENÇÃO: Copiar a semente para a área de transferência te deixa exposto a certos vírus que podem gravar a semente e roubar o seu Electroneum. Por favor, escreva a semente manualmente.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="159"/>
@@ -1030,12 +1030,12 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="71"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.
+        <source>Mining with your computer helps strengthen the Electroneum network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.
 
-Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minerar com seu computador ajuda a fortalecer a rede Monero. Quanto mais pessoas mineram, mais difícil é para a rede ser atacada, e cada pouquinho ajuda.
+Mining also gives you a small chance to earn some Electroneum. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minerar com seu computador ajuda a fortalecer a rede Electroneum. Quanto mais pessoas mineram, mais difícil é para a rede ser atacada, e cada pouquinho ajuda.
 
-A mineração também lhe dá uma pequena chance de ganhar Monero. Seu computador irá criar hashes procurando por soluções de blocos. Se você encontrar um bloco, você receberá a recompensa associada. Boa sorte!</translation>
+A mineração também lhe dá uma pequena chance de ganhar Electroneum. Seu computador irá criar hashes procurando por soluções de blocos. Se você encontrar um bloco, você receberá a recompensa associada. Boa sorte!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="83"/>
@@ -1405,8 +1405,8 @@ A mineração também lhe dá uma pequena chance de ganhar Monero. Seu computado
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="99"/>
-        <source>Embedded Monero version: </source>
-        <translation>Versão do Monero integrada: </translation>
+        <source>Embedded Electroneum version: </source>
+        <translation>Versão do Electroneum integrada: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="129"/>
@@ -1606,13 +1606,13 @@ O arquivo de cache da carteira antiga será renomeado e poderá ser restaurado p
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="247"/>
-        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
-        <translation>Usa o servidor de um terceiro para se conectar com a rede Monero. Menos seguro, porém mais leve para seu computador.</translation>
+        <source>Uses a third-party server to connect to the Electroneum network. Less secure, but easier on your computer.</source>
+        <translation>Usa o servidor de um terceiro para se conectar com a rede Electroneum. Menos seguro, porém mais leve para seu computador.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="293"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Para encontrar um nó remoto, digite &apos;nó remoto do Monero&apos; em seu mecanismo de busca favorito. Certifique-se de que o nó seja executado por um terceiro confiável.</translation>
+        <source>To find a remote node, type &apos;Electroneum remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Para encontrar um nó remoto, digite &apos;nó remoto do Electroneum&apos; em seu mecanismo de busca favorito. Certifique-se de que o nó seja executado por um terceiro confiável.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="301"/>
@@ -1819,8 +1819,8 @@ Você pode alterar a senha nas configurações da carteira.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="104"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
-        <translation>Essa página te permite interagir com a base de dados compartilhada dos anéis. Essa base de dados serve para ser usada por carteiras Monero e outras carteiras de clones do Monero que reutilizam as mesmas chaves.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Electroneum wallets as well as wallets from Electroneum clones which reuse the Electroneum keys.</source>
+        <translation>Essa página te permite interagir com a base de dados compartilhada dos anéis. Essa base de dados serve para ser usada por carteiras Electroneum e outras carteiras de clones do Electroneum que reutilizam as mesmas chaves.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="117"/>
@@ -1836,8 +1836,8 @@ Você pode alterar a senha nas configurações da carteira.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="120"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Para ocultar quais entradas estão sendo gastas numa transação em Monero, um terceiro não deve ser capaz de saber quais entradas num anel já foram gastas. Se ele for capaz, a proteção fornecida pelas assinaturas em anel é enfraquecida. Se todas as entradas forem identificadas como gastas, salvo uma, então a verdadeira entrada fica aparente, anulando o efeito das assinaturas em anel, que é uma das três principais camadas de proteção a privacidade que o Monero usa.&lt;br&gt;Para ajudar que as transações evitem essas entradas, uma lista de entradas já gastas pode ser usada para evitar de adicioná-las em novas transações. Tal lista é mantida pelo projeto Monero e está disponível no website getmonero.org. Você pode importar essa lista aqui.&lt;br&gt;Como alternativa, você pode escanear o blockchain (e dos clones do Monero que reutilizam as chaves) usando a ferramenta monero-blockchain-mark-spent-outputs para criar uma lista de entradas já gastas.&lt;br&gt;</translation>
+        <source>In order to obscure which inputs in a Electroneum transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Electroneum uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Electroneum project and is available on the getelectroneum.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Electroneum clones) yourself using the electroneum-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Para ocultar quais entradas estão sendo gastas numa transação em Electroneum, um terceiro não deve ser capaz de saber quais entradas num anel já foram gastas. Se ele for capaz, a proteção fornecida pelas assinaturas em anel é enfraquecida. Se todas as entradas forem identificadas como gastas, salvo uma, então a verdadeira entrada fica aparente, anulando o efeito das assinaturas em anel, que é uma das três principais camadas de proteção a privacidade que o Electroneum usa.&lt;br&gt;Para ajudar que as transações evitem essas entradas, uma lista de entradas já gastas pode ser usada para evitar de adicioná-las em novas transações. Tal lista é mantida pelo projeto Electroneum e está disponível no website getelectroneum.org. Você pode importar essa lista aqui.&lt;br&gt;Como alternativa, você pode escanear o blockchain (e dos clones do Electroneum que reutilizam as chaves) usando a ferramenta electroneum-blockchain-mark-spent-outputs para criar uma lista de entradas já gastas.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="141"/>
@@ -1907,13 +1907,13 @@ Você pode alterar a senha nas configurações da carteira.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="257"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Para evitar anular a proteção oferecida pelas assinaturas de anel do Monero, uma saída não deve ser gasta com anéis diferentes em blockchains diferentes. Embora isso normalmente não seja uma preocupação, ela pode se tornar uma quando um clone do Monero que reutiliza chaves permita que você gaste as saídas existentes. Nesse caso, você precisa garantir que essas saídas existentes usem o mesmo anel em ambos blockchains.&lt;br&gt;Isso será feito automaticamente pelo Monero e qualquer software de reutilização de chaves que não esteja tentando privá-lo ativamente de sua privacidade.&lt;br&gt;Se você estiver usando um clone do Monero que também reutiliza chaves, e esse clone não incluir essa proteção, você ainda poderá garantir que suas transações sejam protegidas ao gastar primeiramente no clone e, em seguida, adicionar manualmente o anel nesta página, o que lhe permitirá gastar seu Monero com segurança.&lt;br&gt;Se você não usar um clone do Monero que reutiliza chaves sem esses recursos de segurança, não será necessário fazer nada, pois tudo é automatizado.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Electroneum&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Electroneum clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Electroneum and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Electroneum clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Electroneum safely.&lt;br&gt;If you do not use a key-reusing Electroneum clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Para evitar anular a proteção oferecida pelas assinaturas de anel do Electroneum, uma saída não deve ser gasta com anéis diferentes em blockchains diferentes. Embora isso normalmente não seja uma preocupação, ela pode se tornar uma quando um clone do Electroneum que reutiliza chaves permita que você gaste as saídas existentes. Nesse caso, você precisa garantir que essas saídas existentes usem o mesmo anel em ambos blockchains.&lt;br&gt;Isso será feito automaticamente pelo Electroneum e qualquer software de reutilização de chaves que não esteja tentando privá-lo ativamente de sua privacidade.&lt;br&gt;Se você estiver usando um clone do Electroneum que também reutiliza chaves, e esse clone não incluir essa proteção, você ainda poderá garantir que suas transações sejam protegidas ao gastar primeiramente no clone e, em seguida, adicionar manualmente o anel nesta página, o que lhe permitirá gastar seu Electroneum com segurança.&lt;br&gt;Se você não usar um clone do Electroneum que reutiliza chaves sem esses recursos de segurança, não será necessário fazer nada, pois tudo é automatizado.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="279"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Isso registra os anéis usados pelo Monero em um blockchain que reutiliza as mesmas chaves. Dessa maneira o mesmo anel pode ser reutilizado evitando problemas de privacidade.</translation>
+        <source>This records rings used by outputs spent on Electroneum on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>Isso registra os anéis usados pelo Electroneum em um blockchain que reutiliza as mesmas chaves. Dessa maneira o mesmo anel pode ser reutilizado evitando problemas de privacidade.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="290"/>
@@ -2097,8 +2097,8 @@ Você pode alterar a senha nas configurações da carteira.</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="344"/>
-        <source>Enter the Monero Address (example: 44AFFq5kSiGBoZ...)</source>
-        <translation>Escreva o endereço Monero (exemplo: 44AFFq5kSiGBoZ...)</translation>
+        <source>Enter the Electroneum Address (example: 44AFFq5kSiGBoZ...)</source>
+        <translation>Escreva o endereço Electroneum (exemplo: 44AFFq5kSiGBoZ...)</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="355"/>
@@ -2317,8 +2317,8 @@ Você pode alterar a senha nas configurações da carteira.</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="621"/>
-        <source>Monero sent successfully</source>
-        <translation>Monero enviado com sucesso</translation>
+        <source>Electroneum sent successfully</source>
+        <translation>Electroneum enviado com sucesso</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="468"/>
@@ -2838,8 +2838,8 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="58"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.</source>
-        <translation>Para se comunicar com a rede Monero sua carteira precisa estar conectada em um nó da rede. Para maior privacidade é recomendado que você execute seu próprio nó.</translation>
+        <source>To be able to communicate with the Electroneum network your wallet needs to be connected to a Electroneum node. For best privacy it&apos;s recommended to run your own node.</source>
+        <translation>Para se comunicar com a rede Electroneum sua carteira precisa estar conectada em um nó da rede. Para maior privacidade é recomendado que você execute seu próprio nó.</translation>
     </message>
 </context>
 <context>
@@ -2889,8 +2889,8 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="121"/>
-        <source>Additionally, you may specify a bootstrap node to use Monero immediately.</source>
-        <translation>Além disso, você pode especificar um nó bootstrap para usar o Monero imediatamente.</translation>
+        <source>Additionally, you may specify a bootstrap node to use Electroneum immediately.</source>
+        <translation>Além disso, você pode especificar um nó bootstrap para usar o Electroneum imediatamente.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="175"/>
@@ -2902,8 +2902,8 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     <name>WizardHome</name>
     <message>
         <location filename="../wizard/WizardHome.qml" line="60"/>
-        <source>Welcome to Monero.</source>
-        <translation>Bem-vindo ao Monero.</translation>
+        <source>Welcome to Electroneum.</source>
+        <translation>Bem-vindo ao Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="65"/>
@@ -2912,8 +2912,8 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="66"/>
-        <source>Choose this option if this is your first time using Monero.</source>
-        <translation>Escolha esta opção se esta é a primeira vez que você usa Monero.</translation>
+        <source>Choose this option if this is your first time using Electroneum.</source>
+        <translation>Escolha esta opção se esta é a primeira vez que você usa Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="86"/>
@@ -2922,8 +2922,8 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="87"/>
-        <source>Connect your hardware wallet to create a new Monero wallet.</source>
-        <translation>Conecte seu dispositivo físico para criar uma nova carteira Monero.</translation>
+        <source>Connect your hardware wallet to create a new Electroneum wallet.</source>
+        <translation>Conecte seu dispositivo físico para criar uma nova carteira Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="106"/>
@@ -2975,8 +2975,8 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardLang.qml" line="102"/>
-        <source>Change the language of the Monero GUI.</source>
-        <translation>Alterar o idioma da carteira GUI do Monero.</translation>
+        <source>Change the language of the Electroneum GUI.</source>
+        <translation>Alterar o idioma da carteira GUI do Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardLang.qml" line="197"/>
@@ -3003,8 +3003,8 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="81"/>
-        <source>Temporary use of remote nodes is useful in order to use Monero immediately (hence the name &lt;i&gt;bootstrap&lt;/i&gt;), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
-        <translation>O uso temporário de nós remotos facilita o acesso imediato ao Monero (por isso o nome &lt;i&gt;bootstrap&lt;/i&gt;), porém esteja ciente que ao usar nós remotos (incluindo na opção de bootstrap), é possível que eles rastreiem o seu endereço IP e que eles saibam qual altura do bloco você está restaurando sua carteira, além deles poderem te enviar informações incorretas para tentar coletar dados extras sobre suas transações.</translation>
+        <source>Temporary use of remote nodes is useful in order to use Electroneum immediately (hence the name &lt;i&gt;bootstrap&lt;/i&gt;), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
+        <translation>O uso temporário de nós remotos facilita o acesso imediato ao Electroneum (por isso o nome &lt;i&gt;bootstrap&lt;/i&gt;), porém esteja ciente que ao usar nós remotos (incluindo na opção de bootstrap), é possível que eles rastreiem o seu endereço IP e que eles saibam qual altura do bloco você está restaurando sua carteira, além deles poderem te enviar informações incorretas para tentar coletar dados extras sobre suas transações.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="94"/>
@@ -3031,8 +3031,8 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="70"/>
-        <source>This mode is ideal for managing small amounts of Monero. You have access to basic features for making and managing transactions. It will automatically connect to the Monero network so you can start using Monero immediately.</source>
-        <translation>Este é o modo ideal para gerenciar pequenas quantias de Monero. Você terá acesso às funcionalidades básicas para criar e gerenciar transações. Ele se conectará automaticamente com a rede Monero e você poderá utilizar a carteira imediatamente.</translation>
+        <source>This mode is ideal for managing small amounts of Electroneum. You have access to basic features for making and managing transactions. It will automatically connect to the Electroneum network so you can start using Electroneum immediately.</source>
+        <translation>Este é o modo ideal para gerenciar pequenas quantias de Electroneum. Você terá acesso às funcionalidades básicas para criar e gerenciar transações. Ele se conectará automaticamente com a rede Electroneum e você poderá utilizar a carteira imediatamente.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="83"/>
@@ -3240,10 +3240,10 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet3.qml" line="66"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.
+        <source>To be able to communicate with the Electroneum network your wallet needs to be connected to a Electroneum node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>Para se comunicar com a rede Monero sua carteira precisa estar conectada a um nó da rede. Para maior privacidade é recomendado que você execute seu próprio nó.
+        <translation>Para se comunicar com a rede Electroneum sua carteira precisa estar conectada a um nó da rede. Para maior privacidade é recomendado que você execute seu próprio nó.
 
 Se você não tiver a opção de executar seu próprio nó, você pode se conectar a um nó remoto.</translation>
     </message>
@@ -3524,8 +3524,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="984"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
-        <translation>Monero enviado com sucesso: %1 transação(ões) </translation>
+        <source>Electroneum sent successfully: %1 transaction(s) </source>
+        <translation>Electroneum enviado com sucesso: %1 transação(ões) </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1047"/>
@@ -3541,8 +3541,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1057"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Este endereço recebeu %1 monero, com %2 confirmação(ões).</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Este endereço recebeu %1 electroneum, com %2 confirmação(ões).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1068"/>
@@ -3622,13 +3622,13 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="2159"/>
-        <source>New version of Monero v.%1 is available.&lt;br&gt;&lt;br&gt;Download:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;SHA256 Hash:&lt;br&gt;%3</source>
-        <translation>Nova versão do Monero v.%1 disponível.&lt;br&gt;&lt;br&gt;Download:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;Hash SHA256:&lt;br&gt;%3</translation>
+        <source>New version of Electroneum v.%1 is available.&lt;br&gt;&lt;br&gt;Download:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;SHA256 Hash:&lt;br&gt;%3</source>
+        <translation>Nova versão do Electroneum v.%1 disponível.&lt;br&gt;&lt;br&gt;Download:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;Hash SHA256:&lt;br&gt;%3</translation>
     </message>
     <message>
         <location filename="../main.qml" line="2161"/>
-        <source>New version of Monero is available. Check out getmonero.org</source>
-        <translation>Nova versão do Monero disponível. Confira o site getmonero.org</translation>
+        <source>New version of Electroneum is available. Check out getelectroneum.org</source>
+        <translation>Nova versão do Electroneum disponível. Confira o site getelectroneum.org</translation>
     </message>
     <message>
         <location filename="../main.qml" line="2251"/>
@@ -3676,8 +3676,8 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1054"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Este endereço recebeu %1 monero, porém a transação ainda não foi minerada</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Este endereço recebeu %1 electroneum, porém a transação ainda não foi minerada</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1061"/>

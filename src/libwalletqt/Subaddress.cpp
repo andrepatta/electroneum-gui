@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -29,14 +29,14 @@
 #include "Subaddress.h"
 #include <QDebug>
 
-Subaddress::Subaddress(Monero::Subaddress *subaddressImpl, QObject *parent)
+Subaddress::Subaddress(Electroneum::Subaddress *subaddressImpl, QObject *parent)
   : QObject(parent), m_subaddressImpl(subaddressImpl)
 {
     qDebug(__FUNCTION__);
     getAll();
 }
 
-QList<Monero::SubaddressRow*> Subaddress::getAll(bool update) const
+QList<Electroneum::SubaddressRow*> Subaddress::getAll(bool update) const
 {
     qDebug(__FUNCTION__);
 
@@ -55,7 +55,7 @@ QList<Monero::SubaddressRow*> Subaddress::getAll(bool update) const
     return m_rows;
 }
 
-Monero::SubaddressRow * Subaddress::getRow(int index) const
+Electroneum::SubaddressRow * Subaddress::getRow(int index) const
 {
     return m_rows.at(index);
 }

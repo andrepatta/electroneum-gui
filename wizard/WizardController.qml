@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -34,20 +34,20 @@ import QtGraphicalEffects 1.0
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.2
 import QtQuick.Dialogs 1.2
-import moneroComponents.Wallet 1.0
+import electroneumComponents.Wallet 1.0
 
 import "../js/Wizard.js" as Wizard
 import "../js/Windows.js" as Windows
 import "../js/Utils.js" as Utils
-import "../components" as MoneroComponents
-import "../components/effects/" as MoneroEffects
+import "../components" as ElectroneumComponents
+import "../components/effects/" as ElectroneumEffects
 import "../pages"
 
 Rectangle {
     id: wizardController
     anchors.fill: parent
 
-    signal useMoneroClicked()
+    signal useElectroneumClicked()
     signal walletCreatedFromDevice(bool success)
 
     function restart() {
@@ -254,15 +254,15 @@ Rectangle {
             }
         ]
 
-        MoneroEffects.GradientBackground {
+        ElectroneumEffects.GradientBackground {
             anchors.fill: parent
-            fallBackColor: MoneroComponents.Style.middlePanelBackgroundColor
-            initialStartColor: MoneroComponents.Style.wizardBackgroundGradientStart
-            initialStopColor: MoneroComponents.Style.middlePanelBackgroundGradientStop
-            blackColorStart: MoneroComponents.Style._b_wizardBackgroundGradientStart
-            blackColorStop: MoneroComponents.Style._b_middlePanelBackgroundGradientStop
-            whiteColorStart: MoneroComponents.Style._w_wizardBackgroundGradientStart
-            whiteColorStop: MoneroComponents.Style._w_middlePanelBackgroundGradientStop
+            fallBackColor: ElectroneumComponents.Style.middlePanelBackgroundColor
+            initialStartColor: ElectroneumComponents.Style.wizardBackgroundGradientStart
+            initialStopColor: ElectroneumComponents.Style.middlePanelBackgroundGradientStop
+            blackColorStart: ElectroneumComponents.Style._b_wizardBackgroundGradientStart
+            blackColorStop: ElectroneumComponents.Style._b_middlePanelBackgroundGradientStop
+            whiteColorStart: ElectroneumComponents.Style._w_wizardBackgroundGradientStart
+            whiteColorStop: ElectroneumComponents.Style._w_middlePanelBackgroundGradientStop
             start: Qt.point(0, 0)
             end: Qt.point(height, width)
         }
@@ -321,7 +321,7 @@ Rectangle {
     FileDialog {
         id: fileDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" + moneroAccountsDir
+        folder: "file://" + electroneumAccountsDir
         nameFilters: [ "Wallet files (*.keys)"]
         sidebarVisible: false
 
@@ -365,8 +365,8 @@ Rectangle {
             wizardController.walletOptionsName);
 
         if(isIOS) {
-            console.log("saving in ios: " + moneroAccountsDir + new_wallet_filename)
-            wizardController.m_wallet.store(moneroAccountsDir + new_wallet_filename);
+            console.log("saving in ios: " + electroneumAccountsDir + new_wallet_filename)
+            wizardController.m_wallet.store(electroneumAccountsDir + new_wallet_filename);
         } else {
             console.log("saving in wizard: " + new_wallet_filename)
             wizardController.m_wallet.store(new_wallet_filename);
@@ -540,9 +540,9 @@ Rectangle {
             persistentSettings.wallet_path = fn;
 
         if(isIOS)
-            persistentSettings.wallet_path = persistentSettings.wallet_path.replace(moneroAccountsDir, "");
+            persistentSettings.wallet_path = persistentSettings.wallet_path.replace(electroneumAccountsDir, "");
 
-        console.log(moneroAccountsDir);
+        console.log(electroneumAccountsDir);
         console.log(fn);
         console.log(persistentSettings.wallet_path);
 

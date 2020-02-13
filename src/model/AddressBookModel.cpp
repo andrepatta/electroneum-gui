@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -64,7 +64,7 @@ QVariant AddressBookModel::data(const QModelIndex &index, int role) const
         return QVariant();
     }
 
-    Monero::AddressBookRow * ar = m_addressBook->getRow(index.row());
+    Electroneum::AddressBookRow * ar = m_addressBook->getRow(index.row());
 
     QVariant result = "";
     switch (role) {

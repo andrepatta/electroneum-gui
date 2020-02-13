@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -31,7 +31,7 @@ import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.0
 
 import "../js/Wizard.js" as Wizard
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Rectangle {
     id: wizardCreateWallet4
@@ -76,7 +76,7 @@ Rectangle {
                 }
                 onNextClicked: {
                     wizardController.writeWallet();
-                    wizardController.useMoneroClicked();
+                    wizardController.useElectroneumClicked();
                     wizardController.walletOptionsIsRecoveringFromDevice = false;
                 }
             }

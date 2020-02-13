@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -30,14 +30,14 @@ import QtQuick 2.9
 import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.0
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Rectangle {
     property bool active: false
     Layout.preferredWidth: 30
     Layout.fillHeight: true
-    property string activeColor: MoneroComponents.Style.defaultFontColor
-    property string inactiveColor: MoneroComponents.Style.progressBarBackgroundColor
+    property string activeColor: ElectroneumComponents.Style.defaultFontColor
+    property string inactiveColor: ElectroneumComponents.Style.progressBarBackgroundColor
     color: "transparent"
 
     Rectangle {

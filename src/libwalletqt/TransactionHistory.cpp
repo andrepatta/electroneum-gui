@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -136,7 +136,7 @@ bool TransactionHistory::TransactionHistory::locked() const
 }
 
 
-TransactionHistory::TransactionHistory(Monero::TransactionHistory *pimpl, QObject *parent)
+TransactionHistory::TransactionHistory(Electroneum::TransactionHistory *pimpl, QObject *parent)
     : QObject(parent), m_pimpl(pimpl), m_minutesToUnlock(0), m_locked(false)
 {
     m_firstDateTime  = QDateTime(QDate(2014, 4, 18)); // the genesis block
@@ -152,7 +152,7 @@ QString TransactionHistory::writeCSV(quint32 accountIndex, QString out)
 
     // construct filename
     qint64 now = QDateTime::currentDateTime().currentMSecsSinceEpoch();
-    QString fn = QString(QString("%1/monero-txs_%2.csv").arg(out, QString::number(now / 1000)));
+    QString fn = QString(QString("%1/electroneum-txs_%2.csv").arg(out, QString::number(now / 1000)));
 
     // open file
     QFile data(fn);

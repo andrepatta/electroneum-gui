@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -32,14 +32,14 @@ import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 
-import "../components" as MoneroComponents
-import "../components/effects/" as MoneroEffects
+import "../components" as ElectroneumComponents
+import "../components/effects/" as ElectroneumEffects
 
-import moneroComponents.Clipboard 1.0
-import moneroComponents.Wallet 1.0
-import moneroComponents.WalletManager 1.0
-import moneroComponents.TransactionHistory 1.0
-import moneroComponents.TransactionHistoryModel 1.0
+import electroneumComponents.Clipboard 1.0
+import electroneumComponents.Wallet 1.0
+import electroneumComponents.WalletManager 1.0
+import electroneumComponents.TransactionHistory 1.0
+import electroneumComponents.TransactionHistoryModel 1.0
 import "../js/TxUtils.js" as TxUtils
 
 Rectangle {
@@ -78,7 +78,7 @@ Rectangle {
             visible: !selectAndSend
             spacing: 0
 
-            MoneroComponents.LabelSubheader {
+            ElectroneumComponents.LabelSubheader {
                 Layout.fillWidth: true
                 fontSize: 24
                 textFormat: Text.RichText
@@ -88,27 +88,27 @@ Rectangle {
             RowLayout {
                 Layout.topMargin: 22
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     text: qsTr("Total balance: ") + translationManager.emptyString
                     Layout.fillWidth: true
-                    color: MoneroComponents.Style.defaultFontColor
+                    color: ElectroneumComponents.Style.defaultFontColor
                     font.pixelSize: 16
-                    font.family: MoneroComponents.Style.fontRegular.name
+                    font.family: ElectroneumComponents.Style.fontRegular.name
                     themeTransition: false
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     id: balanceAll
-                    font.family: MoneroComponents.Style.fontMonoRegular.name;
+                    font.family: ElectroneumComponents.Style.fontMonoRegular.name;
                     font.pixelSize: 16
-                    color: MoneroComponents.Style.defaultFontColor
+                    color: ElectroneumComponents.Style.defaultFontColor
 
                     MouseArea {
                         hoverEnabled: true
                         anchors.fill: parent
                         cursorShape: Qt.PointingHandCursor
-                        onEntered: parent.color = MoneroComponents.Style.orange
-                        onExited: parent.color = MoneroComponents.Style.defaultFontColor
+                        onEntered: parent.color = ElectroneumComponents.Style.orange
+                        onExited: parent.color = ElectroneumComponents.Style.defaultFontColor
                         onClicked: {
                             console.log("Copied to clipboard");
                             clipboard.setText(parent.text);
@@ -121,27 +121,27 @@ Rectangle {
             RowLayout {
                 Layout.topMargin: 10
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     text: qsTr("Total unlocked balance: ") + translationManager.emptyString
                     Layout.fillWidth: true
-                    color: MoneroComponents.Style.defaultFontColor
+                    color: ElectroneumComponents.Style.defaultFontColor
                     font.pixelSize: 16
-                    font.family: MoneroComponents.Style.fontRegular.name
+                    font.family: ElectroneumComponents.Style.fontRegular.name
                     themeTransition: false
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     id: unlockedBalanceAll
-                    font.family: MoneroComponents.Style.fontMonoRegular.name;
+                    font.family: ElectroneumComponents.Style.fontMonoRegular.name;
                     font.pixelSize: 16
-                    color: MoneroComponents.Style.defaultFontColor
+                    color: ElectroneumComponents.Style.defaultFontColor
 
                     MouseArea {
                         hoverEnabled: true
                         anchors.fill: parent
                         cursorShape: Qt.PointingHandCursor
-                        onEntered: parent.color = MoneroComponents.Style.orange
-                        onExited: parent.color = MoneroComponents.Style.defaultFontColor
+                        onEntered: parent.color = ElectroneumComponents.Style.orange
+                        onExited: parent.color = ElectroneumComponents.Style.defaultFontColor
                         onClicked: {
                             console.log("Copied to clipboard");
                             clipboard.setText(parent.text);
@@ -156,7 +156,7 @@ Rectangle {
             id: addressRow
             spacing: 0
 
-            MoneroComponents.LabelSubheader {
+            ElectroneumComponents.LabelSubheader {
                 Layout.fillWidth: true
                 fontSize: 24
                 textFormat: Text.RichText
@@ -188,17 +188,17 @@ Rectangle {
                         color: "transparent"
 
                         Rectangle {
-                            color: MoneroComponents.Style.appWindowBorderColor
+                            color: ElectroneumComponents.Style.appWindowBorderColor
                             anchors.right: parent.right
                             anchors.left: parent.left
                             anchors.top: parent.top
                             height: 1
                             visible: index !== 0
 
-                            MoneroEffects.ColorTransition {
+                            ElectroneumEffects.ColorTransition {
                                 targetObj: parent
-                                blackColor: MoneroComponents.Style._b_appWindowBorderColor
-                                whiteColor: MoneroComponents.Style._w_appWindowBorderColor
+                                blackColor: ElectroneumComponents.Style._b_appWindowBorderColor
+                                whiteColor: ElectroneumComponents.Style._w_appWindowBorderColor
                             }
                         }
 
@@ -208,9 +208,9 @@ Rectangle {
                             anchors.rightMargin: 80
                             color: "transparent"
 
-                            MoneroComponents.Label {
+                            ElectroneumComponents.Label {
                                 id: idLabel
-                                color: index === appWindow.current_subaddress_account_table_index ? MoneroComponents.Style.defaultFontColor : "#757575"
+                                color: index === appWindow.current_subaddress_account_table_index ? ElectroneumComponents.Style.defaultFontColor : "#757575"
                                 anchors.verticalCenter: parent.verticalCenter
                                 anchors.left: parent.left
                                 anchors.leftMargin: 6
@@ -219,9 +219,9 @@ Rectangle {
                                 themeTransition: false
                             }
 
-                            MoneroComponents.Label {
+                            ElectroneumComponents.Label {
                                 id: nameLabel
-                                color: MoneroComponents.Style.dimmedFontColor
+                                color: ElectroneumComponents.Style.dimmedFontColor
                                 anchors.verticalCenter: parent.verticalCenter
                                 anchors.left: idLabel.right
                                 anchors.leftMargin: 6
@@ -232,22 +232,22 @@ Rectangle {
                                 themeTransition: false
                             }
 
-                            MoneroComponents.Label {
+                            ElectroneumComponents.Label {
                                 id: addressLabel
-                                color: MoneroComponents.Style.defaultFontColor
+                                color: ElectroneumComponents.Style.defaultFontColor
                                 anchors.verticalCenter: parent.verticalCenter
                                 anchors.left: mainLayout.width >= 590 ? balanceTextLabel.left : balanceNumberLabel.left
                                 anchors.leftMargin: -addressLabel.width - 30
                                 fontSize: 16
-                                fontFamily: MoneroComponents.Style.fontMonoRegular.name;
+                                fontFamily: ElectroneumComponents.Style.fontMonoRegular.name;
                                 text: TxUtils.addressTruncatePretty(address, mainLayout.width < 740 ? 1 : (mainLayout.width < 900 ? 2 : 3))
                                 themeTransition: false
                             }
 
-                            MoneroComponents.Label {
+                            ElectroneumComponents.Label {
                                 id: balanceTextLabel
                                 visible: mainLayout.width >= 590
-                                color: MoneroComponents.Style.defaultFontColor
+                                color: ElectroneumComponents.Style.defaultFontColor
                                 anchors.verticalCenter: parent.verticalCenter
                                 anchors.left: balanceNumberLabel.left
                                 anchors.leftMargin: -balanceTextLabel.width - 5
@@ -256,14 +256,14 @@ Rectangle {
                                 themeTransition: false
                             }
 
-                            MoneroComponents.Label {
+                            ElectroneumComponents.Label {
                                 id: balanceNumberLabel
-                                color: MoneroComponents.Style.defaultFontColor
+                                color: ElectroneumComponents.Style.defaultFontColor
                                 anchors.verticalCenter: parent.verticalCenter
                                 anchors.left: parent.right
                                 anchors.leftMargin: -balanceNumberLabel.width
                                 fontSize: 16
-                                fontFamily: MoneroComponents.Style.fontMonoRegular.name;
+                                fontFamily: ElectroneumComponents.Style.fontMonoRegular.name;
                                 text: balance
                                 elide: Text.ElideRight
                                 textWidth: mainLayout.width < 660 ? 70 : 135
@@ -274,7 +274,7 @@ Rectangle {
                                 cursorShape: Qt.PointingHandCursor
                                 anchors.fill: parent
                                 hoverEnabled: true
-                                onEntered: tableItem2.color = MoneroComponents.Style.titleBarButtonHoverColor
+                                onEntered: tableItem2.color = ElectroneumComponents.Style.titleBarButtonHoverColor
                                 onExited: tableItem2.color = "transparent"
                                 onClicked: {
                                     if (index == subaddressAccountListView.currentIndex && selectAndSend)
@@ -291,10 +291,10 @@ Rectangle {
                             height: 21
                             spacing: 10
 
-                            MoneroComponents.IconButton {
+                            ElectroneumComponents.IconButton {
                                 id: renameButton
                                 image: "qrc:///images/edit.svg"
-                                color: MoneroComponents.Style.defaultFontColor
+                                color: ElectroneumComponents.Style.defaultFontColor
                                 opacity: 0.5
                                 Layout.preferredWidth: 23
                                 Layout.preferredHeight: 21
@@ -302,10 +302,10 @@ Rectangle {
                                 onClicked: pageAccount.renameSubaddressAccountLabel(index);
                             }
 
-                            MoneroComponents.IconButton {
+                            ElectroneumComponents.IconButton {
                                 id: copyButton
                                 image: "qrc:///images/copy.svg"
-                                color: MoneroComponents.Style.defaultFontColor
+                                color: ElectroneumComponents.Style.defaultFontColor
                                 opacity: 0.5
                                 Layout.preferredWidth: 16
                                 Layout.preferredHeight: 21
@@ -334,18 +334,18 @@ Rectangle {
             }
 
             Rectangle {
-                color: MoneroComponents.Style.appWindowBorderColor
+                color: ElectroneumComponents.Style.appWindowBorderColor
                 Layout.fillWidth: true
                 height: 1
 
-                MoneroEffects.ColorTransition {
+                ElectroneumEffects.ColorTransition {
                     targetObj: parent
-                    blackColor: MoneroComponents.Style._b_appWindowBorderColor
-                    whiteColor: MoneroComponents.Style._w_appWindowBorderColor
+                    blackColor: ElectroneumComponents.Style._b_appWindowBorderColor
+                    whiteColor: ElectroneumComponents.Style._w_appWindowBorderColor
                 }
             }
 
-            MoneroComponents.CheckBox { 
+            ElectroneumComponents.CheckBox { 
                 id: addNewAccountCheckbox 
                 visible: !selectAndSend
                 border: false

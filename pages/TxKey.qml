@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -31,8 +31,8 @@ import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
-import moneroComponents.Clipboard 1.0
+import "../components" as ElectroneumComponents
+import electroneumComponents.Clipboard 1.0
 
 import "../js/TxUtils.js" as TxUtils
 
@@ -57,23 +57,23 @@ Rectangle {
             id: soloBox
             spacing: 20
 
-            MoneroComponents.Label {
+            ElectroneumComponents.Label {
                 id: soloTitleLabel
                 fontSize: 24
                 text: qsTr("Prove Transaction") + translationManager.emptyString
             }
 
-            MoneroComponents.TextPlain {
+            ElectroneumComponents.TextPlain {
                 Layout.fillWidth: true
                 text: qsTr("Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. \n" +
                            "For the case of outgoing payments, you can get a 'Spend Proof' that proves the authorship of a transaction. In this case, you don't need to specify the recipient address.") + translationManager.emptyString
                 wrapMode: Text.Wrap
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: ElectroneumComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: MoneroComponents.Style.defaultFontColor
+                color: ElectroneumComponents.Style.defaultFontColor
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: getProofTxIdLine
                 Layout.fillWidth: true
                 labelFontSize: 14
@@ -85,7 +85,7 @@ Rectangle {
                 copyButton: true
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: getProofAddressLine
                 Layout.fillWidth: true
                 labelFontSize: 14
@@ -97,7 +97,7 @@ Rectangle {
                 copyButton: true
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: getProofMessageLine
                 Layout.fillWidth: true
                 fontSize: 16
@@ -109,7 +109,7 @@ Rectangle {
                 copyButton: true
             }
 
-            MoneroComponents.StandardButton {
+            ElectroneumComponents.StandardButton {
                 Layout.topMargin: 16
                 small: true
                 text: qsTr("Generate") + translationManager.emptyString
@@ -123,30 +123,30 @@ Rectangle {
             // underline
             Rectangle {
                 height: 1
-                color: MoneroComponents.Style.dividerColor
-                opacity: MoneroComponents.Style.dividerOpacity
+                color: ElectroneumComponents.Style.dividerColor
+                opacity: ElectroneumComponents.Style.dividerOpacity
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignHCenter
                 anchors.bottomMargin: 3
             }
 
-            MoneroComponents.Label {
+            ElectroneumComponents.Label {
                 id: soloTitleLabel2
                 fontSize: 24
                 text: qsTr("Check Transaction") + translationManager.emptyString
             }
 
-            MoneroComponents.TextPlain {
+            ElectroneumComponents.TextPlain {
                 text: qsTr("Verify that funds were paid to an address by supplying the transaction ID, the recipient address, the message used for signing and the signature.\n" +
                            "For the case with Spend Proof, you don't need to specify the recipient address.") + translationManager.emptyString
                 wrapMode: Text.Wrap
                 Layout.fillWidth: true
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: ElectroneumComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: MoneroComponents.Style.defaultFontColor
+                color: ElectroneumComponents.Style.defaultFontColor
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: checkProofTxIdLine
                 Layout.fillWidth: true
                 labelFontSize: 14
@@ -158,7 +158,7 @@ Rectangle {
                 copyButton: true
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: checkProofAddressLine
                 Layout.fillWidth: true
                 labelFontSize: 14
@@ -170,7 +170,7 @@ Rectangle {
                 copyButton: true
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: checkProofMessageLine
                 Layout.fillWidth: true
                 fontSize: 16
@@ -182,7 +182,7 @@ Rectangle {
                 copyButton: true
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: checkProofSignatureLine
                 Layout.fillWidth: true
                 fontSize: 16
@@ -194,7 +194,7 @@ Rectangle {
                 copyButton: true
             }
 
-            MoneroComponents.StandardButton {
+            ElectroneumComponents.StandardButton {
                 Layout.topMargin: 16
                 small: true
                 text: qsTr("Check") + translationManager.emptyString
@@ -208,20 +208,20 @@ Rectangle {
             // underline
             Rectangle {
                 height: 1
-                color: MoneroComponents.Style.dividerColor
-                opacity: MoneroComponents.Style.dividerOpacity
+                color: ElectroneumComponents.Style.dividerColor
+                opacity: ElectroneumComponents.Style.dividerOpacity
                 Layout.fillWidth: true
                 Layout.alignment: Qt.AlignHCenter
                 anchors.bottomMargin: 3
             }
 
-            MoneroComponents.TextPlain {
+            ElectroneumComponents.TextPlain {
                 text: qsTr("If a payment had several transactions then each must be checked and the results combined.") + translationManager.emptyString
                 wrapMode: Text.Wrap
                 Layout.fillWidth: true
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: ElectroneumComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: MoneroComponents.Style.defaultFontColor
+                color: ElectroneumComponents.Style.defaultFontColor
             }
         }
     }

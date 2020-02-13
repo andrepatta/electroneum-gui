@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -78,7 +78,7 @@ private:
     static QStringList m_clArgs;
     QProcess *m_daemon;
     bool initialized = false;
-    QString m_monerod;
+    QString m_electroneumd;
     bool m_has_daemon = true;
     bool m_app_exit = false;
 

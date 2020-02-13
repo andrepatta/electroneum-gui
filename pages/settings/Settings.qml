@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -33,10 +33,10 @@ import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
 import "../../js/Windows.js" as Windows
 import "../../js/Utils.js" as Utils
-import "../../components" as MoneroComponents
+import "../../components" as ElectroneumComponents
 import "../../pages"
 import "."
-import moneroComponents.Clipboard 1.0
+import electroneumComponents.Clipboard 1.0
 
 ColumnLayout {
     id: settingsPage

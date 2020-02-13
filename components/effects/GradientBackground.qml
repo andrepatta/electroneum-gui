@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -29,7 +29,7 @@
 import QtQuick 2.9
 import QtGraphicalEffects 1.0
 
-import "../" as MoneroComponents
+import "../" as ElectroneumComponents
 
 Item {
     id: root
@@ -76,7 +76,7 @@ Item {
         states: [
             State {
                 name: "black";
-                when: isOpenGL && MoneroComponents.Style.blackTheme
+                when: isOpenGL && ElectroneumComponents.Style.blackTheme
                 PropertyChanges {
                     target: gradientStart
                     color: root.blackColorStart
@@ -87,7 +87,7 @@ Item {
                 }
             }, State {
                 name: "white";
-                when: isOpenGL && !MoneroComponents.Style.blackTheme
+                when: isOpenGL && !ElectroneumComponents.Style.blackTheme
                 PropertyChanges {
                     target: gradientStart
                     color: root.whiteColorStart

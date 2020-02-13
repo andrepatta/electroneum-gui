@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -32,8 +32,8 @@ import QtGraphicalEffects 1.0
 import QtQuick.Layouts 1.2
 
 import FontAwesome 1.0
-import "." as MoneroComponents
-import "effects/" as MoneroEffects
+import "." as ElectroneumComponents
+import "effects/" as ElectroneumEffects
 
 Rectangle {
     id: root
@@ -72,16 +72,16 @@ Rectangle {
         }
     ]
 
-    MoneroEffects.GradientBackground {
+    ElectroneumEffects.GradientBackground {
         anchors.fill: parent
         duration: 300
-        fallBackColor: MoneroComponents.Style.middlePanelBackgroundColor
-        initialStartColor: MoneroComponents.Style.titleBarBackgroundGradientStart
-        initialStopColor: MoneroComponents.Style.titleBarBackgroundGradientStop
-        blackColorStart: MoneroComponents.Style._b_titleBarBackgroundGradientStart
-        blackColorStop: MoneroComponents.Style._b_titleBarBackgroundGradientStop
-        whiteColorStart: MoneroComponents.Style._w_titleBarBackgroundGradientStart
-        whiteColorStop: MoneroComponents.Style._w_titleBarBackgroundGradientStop
+        fallBackColor: ElectroneumComponents.Style.middlePanelBackgroundColor
+        initialStartColor: ElectroneumComponents.Style.titleBarBackgroundGradientStart
+        initialStopColor: ElectroneumComponents.Style.titleBarBackgroundGradientStop
+        blackColorStart: ElectroneumComponents.Style._b_titleBarBackgroundGradientStart
+        blackColorStop: ElectroneumComponents.Style._b_titleBarBackgroundGradientStop
+        whiteColorStart: ElectroneumComponents.Style._w_titleBarBackgroundGradientStart
+        whiteColorStop: ElectroneumComponents.Style._w_titleBarBackgroundGradientStop
         start: Qt.point(width, 0)
         end: Qt.point(0, 0)
     }
@@ -99,16 +99,16 @@ Rectangle {
             Layout.preferredWidth: parent.height
             Layout.preferredHeight: parent.height
 
-            MoneroEffects.ImageMask {
+            ElectroneumEffects.ImageMask {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
                 height: 14
                 width: 14
-                image: MoneroComponents.Style.titleBarExpandSource
-                color: MoneroComponents.Style.defaultFontColor
+                image: ElectroneumComponents.Style.titleBarExpandSource
+                color: ElectroneumComponents.Style.defaultFontColor
                 fontAwesomeFallbackIcon: FontAwesome.cube
                 fontAwesomeFallbackSize: 14
-                fontAwesomeFallbackOpacity: MoneroComponents.Style.blackTheme ? 1.0 : 0.9
+                fontAwesomeFallbackOpacity: ElectroneumComponents.Style.blackTheme ? 1.0 : 0.9
                 opacity: 0.75
             }
 
@@ -116,7 +116,7 @@ Rectangle {
                 anchors.fill: parent
                 hoverEnabled: true
                 cursorShape: Qt.PointingHandCursor
-                onEntered: parent.color = MoneroComponents.Style.titleBarButtonHoverColor
+                onEntered: parent.color = ElectroneumComponents.Style.titleBarButtonHoverColor
                 onExited: parent.color = "transparent"
                 onClicked: root.goToBasicVersion(leftPanel.visible)
             }
@@ -133,7 +133,7 @@ Rectangle {
                 text: FontAwesome.globe
                 font.family: FontAwesome.fontFamily
                 font.pixelSize: 16
-                color: MoneroComponents.Style.defaultFontColor
+                color: ElectroneumComponents.Style.defaultFontColor
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
                 opacity: 0.75
@@ -143,7 +143,7 @@ Rectangle {
                 anchors.fill: parent
                 hoverEnabled: true
                 cursorShape: Qt.PointingHandCursor
-                onEntered: parent.color = MoneroComponents.Style.titleBarButtonHoverColor
+                onEntered: parent.color = ElectroneumComponents.Style.titleBarButtonHoverColor
                 onExited: parent.color = "transparent"
                 onClicked: root.languageClicked()
             }
@@ -156,10 +156,10 @@ Rectangle {
             Layout.preferredHeight: parent.height
 
             Text {
-                text: MoneroComponents.Style.blackTheme ? FontAwesome.lightbulbO : FontAwesome.moonO
+                text: ElectroneumComponents.Style.blackTheme ? FontAwesome.lightbulbO : FontAwesome.moonO
                 font.family: FontAwesome.fontFamily
                 font.pixelSize: 16
-                color: MoneroComponents.Style.defaultFontColor
+                color: ElectroneumComponents.Style.defaultFontColor
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
                 opacity: 0.75
@@ -169,11 +169,11 @@ Rectangle {
                 anchors.fill: parent
                 hoverEnabled: true
                 cursorShape: Qt.PointingHandCursor
-                onEntered: parent.color = MoneroComponents.Style.titleBarButtonHoverColor
+                onEntered: parent.color = ElectroneumComponents.Style.titleBarButtonHoverColor
                 onExited: parent.color = "transparent"
                 onClicked: {
-                    MoneroComponents.Style.blackTheme = !MoneroComponents.Style.blackTheme;
-                    persistentSettings.blackTheme = MoneroComponents.Style.blackTheme;
+                    ElectroneumComponents.Style.blackTheme = !ElectroneumComponents.Style.blackTheme;
+                    persistentSettings.blackTheme = ElectroneumComponents.Style.blackTheme;
                 }
             }
         }
@@ -181,13 +181,13 @@ Rectangle {
         Item {
             // make dummy space when hiding buttons when titlebar
             // state is 'essentials' in order for the
-            // monero logo to still be centered
+            // electroneum logo to still be centered
             Layout.preferredWidth: parent.height * 2  // amount of buttons we hide
             Layout.preferredHeight: parent.height
             visible: root.state == "essentials"
         }
 
-        // monero logo
+        // electroneum logo
         Item {
             Layout.fillWidth: true
             Layout.preferredHeight: parent.height
@@ -200,16 +200,16 @@ Rectangle {
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
 
-                source: MoneroComponents.Style.titleBarLogoSource
+                source: ElectroneumComponents.Style.titleBarLogoSource
                 visible: {
                     if(!isOpenGL) return true;
-                    if(!MoneroComponents.Style.blackTheme) return true;
+                    if(!ElectroneumComponents.Style.blackTheme) return true;
                     return false;
                 }
             }
 
             Colorize {
-                visible: isOpenGL && MoneroComponents.Style.blackTheme
+                visible: isOpenGL && ElectroneumComponents.Style.blackTheme
                 anchors.fill: imgLogo
                 source: imgLogo
                 saturation: 0.0
@@ -223,17 +223,17 @@ Rectangle {
             Layout.preferredWidth: parent.height
             Layout.preferredHeight: parent.height
 
-            MoneroEffects.ImageMask {
+            ElectroneumEffects.ImageMask {
                 anchors.bottom: parent.bottom
                 anchors.bottomMargin: 18
                 anchors.horizontalCenter: parent.horizontalCenter
                 height: 3
                 width: 15
-                image: MoneroComponents.Style.titleBarMinimizeSource
-                color: MoneroComponents.Style.defaultFontColor
+                image: ElectroneumComponents.Style.titleBarMinimizeSource
+                color: ElectroneumComponents.Style.defaultFontColor
                 fontAwesomeFallbackIcon: FontAwesome.minus
                 fontAwesomeFallbackSize: 18
-                fontAwesomeFallbackOpacity: MoneroComponents.Style.blackTheme ? 0.8 : 0.6
+                fontAwesomeFallbackOpacity: ElectroneumComponents.Style.blackTheme ? 0.8 : 0.6
                 opacity: 0.75
             }
 
@@ -241,7 +241,7 @@ Rectangle {
                 anchors.fill: parent
                 hoverEnabled: true
                 cursorShape: Qt.PointingHandCursor
-                onEntered: parent.color = MoneroComponents.Style.titleBarButtonHoverColor
+                onEntered: parent.color = ElectroneumComponents.Style.titleBarButtonHoverColor
                 onExited: parent.color = "transparent"
                 onClicked: root.minimizeClicked();
             }
@@ -258,7 +258,7 @@ Rectangle {
             Image {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
-                source: MoneroComponents.Style.titleBarFullscreenSource
+                source: ElectroneumComponents.Style.titleBarFullscreenSource
                 sourceSize.width: 16
                 sourceSize.height: 16
                 smooth: true
@@ -272,7 +272,7 @@ Rectangle {
                 anchors.fill: parent
                 hoverEnabled: true
                 cursorShape: Qt.PointingHandCursor
-                onEntered: parent.color = MoneroComponents.Style.titleBarButtonHoverColor
+                onEntered: parent.color = ElectroneumComponents.Style.titleBarButtonHoverColor
                 onExited: parent.color = "transparent"
                 onClicked: root.maximizeClicked();
             }
@@ -285,16 +285,16 @@ Rectangle {
             Layout.preferredWidth: parent.height
             Layout.preferredHeight: parent.height
 
-            MoneroEffects.ImageMask {
+            ElectroneumEffects.ImageMask {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
                 height: 16
                 width: 16
-                image: MoneroComponents.Style.titleBarCloseSource
-                color: MoneroComponents.Style.defaultFontColor
+                image: ElectroneumComponents.Style.titleBarCloseSource
+                color: ElectroneumComponents.Style.defaultFontColor
                 fontAwesomeFallbackIcon: FontAwesome.timesRectangle
                 fontAwesomeFallbackSize: 18
-                fontAwesomeFallbackOpacity: MoneroComponents.Style.blackTheme ? 0.8 : 0.6
+                fontAwesomeFallbackOpacity: ElectroneumComponents.Style.blackTheme ? 0.8 : 0.6
                 opacity: 0.75
             }
 
@@ -302,7 +302,7 @@ Rectangle {
                 anchors.fill: parent
                 hoverEnabled: true
                 cursorShape: Qt.PointingHandCursor
-                onEntered: parent.color = MoneroComponents.Style.titleBarButtonHoverColor
+                onEntered: parent.color = ElectroneumComponents.Style.titleBarButtonHoverColor
                 onExited: parent.color = "transparent"
                 onClicked: root.closeClicked();
             }
@@ -314,13 +314,13 @@ Rectangle {
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.right: parent.right
-        height: MoneroComponents.Style.blackTheme ? 1 : 1
-        color: MoneroComponents.Style.titleBarBackgroundBorderColor
+        height: ElectroneumComponents.Style.blackTheme ? 1 : 1
+        color: ElectroneumComponents.Style.titleBarBackgroundBorderColor
 
-        MoneroEffects.ColorTransition {
+        ElectroneumEffects.ColorTransition {
             targetObj: parent
-            blackColor: MoneroComponents.Style._b_titleBarBackgroundBorderColor
-            whiteColor: MoneroComponents.Style._w_titleBarBackgroundBorderColor
+            blackColor: ElectroneumComponents.Style._b_titleBarBackgroundBorderColor
+            whiteColor: ElectroneumComponents.Style._w_titleBarBackgroundBorderColor
         }
     }
 

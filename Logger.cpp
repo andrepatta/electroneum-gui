@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -38,15 +38,15 @@
 #include "wallet/api/wallet2_api.h"
 
 // default log path by OS (should be writable)
-static const QString defaultLogName = "monero-wallet-gui.log";
+static const QString defaultLogName = "electroneum-wallet-gui.log";
 #if defined(Q_OS_IOS)
     //AppDataLocation = "<APPROOT>/Library/Application Support"
     static const QString osPath = QStandardPaths::standardLocations(QStandardPaths::AppDataLocation).at(0);
-    static const QString appFolder = "monero-wallet-gui";
+    static const QString appFolder = "electroneum-wallet-gui";
 #elif defined(Q_OS_WIN)
     //AppDataLocation = "C:/Users/<USER>/AppData/Roaming/<APPNAME>"
     static const QString osPath = QStandardPaths::standardLocations(QStandardPaths::AppDataLocation).at(0);
-    static const QString appFolder = "monero-wallet-gui";
+    static const QString appFolder = "electroneum-wallet-gui";
 #elif defined(Q_OS_ANDROID)
     //AppDataLocation = "<USER>/<APPNAME>/files"
     static const QString osPath = QStandardPaths::standardLocations(QStandardPaths::AppDataLocation).at(1);
@@ -58,7 +58,7 @@ static const QString defaultLogName = "monero-wallet-gui.log";
 #else // linux + bsd
     //HomeLocation = "~"
     static const QString osPath = QStandardPaths::standardLocations(QStandardPaths::HomeLocation).at(0);
-    static const QString appFolder = ".bitmonero";
+    static const QString appFolder = ".bitelectroneum";
 #endif
 
 
@@ -68,7 +68,7 @@ const QString getLogPath(const QString logPath)
     const QFileInfo fi(logPath);
 
     if(TailsOS::detect() && TailsOS::usePersistence)
-        return QDir::homePath() + "/Persistent/Monero/logs/" + defaultLogName;
+        return QDir::homePath() + "/Persistent/Electroneum/logs/" + defaultLogName;
 
     if(!logPath.isEmpty() && !fi.isDir())
         return fi.absoluteFilePath();
@@ -90,11 +90,11 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
     const std::string msg = message.toStdString();
     switch(type)
     {
-        case QtDebugMsg: Monero::Wallet::debug(cat, msg); break;
-        case QtInfoMsg: Monero::Wallet::info(cat, msg); break;
-        case QtWarningMsg: Monero::Wallet::warning(cat, msg); break;
-        case QtCriticalMsg: Monero::Wallet::error(cat, msg); break;
-        case QtFatalMsg: Monero::Wallet::error(cat, msg); break;
+        case QtDebugMsg: Electroneum::Wallet::debug(cat, msg); break;
+        case QtInfoMsg: Electroneum::Wallet::info(cat, msg); break;
+        case QtWarningMsg: Electroneum::Wallet::warning(cat, msg); break;
+        case QtCriticalMsg: Electroneum::Wallet::error(cat, msg); break;
+        case QtFatalMsg: Electroneum::Wallet::error(cat, msg); break;
     }
 }
 

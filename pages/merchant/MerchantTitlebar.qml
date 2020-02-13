@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -32,8 +32,8 @@ import QtGraphicalEffects 1.0
 import QtQuick.Layouts 1.2
 
 import FontAwesome 1.0
-import "../../components/" as MoneroComponents
-import "../../components/effects/" as MoneroEffects
+import "../../components/" as ElectroneumComponents
+import "../../components/effects/" as ElectroneumEffects
 
 Rectangle {
     id: root
@@ -72,7 +72,7 @@ Rectangle {
             Layout.preferredWidth: parent.height * 3
         }
 
-        // monero logo
+        // electroneum logo
         Item {
             Layout.fillWidth: true
             Layout.preferredHeight: parent.height
@@ -85,7 +85,7 @@ Rectangle {
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
 
-                source: "qrc:///images/moneroLogo_white.png"
+                source: "qrc:///images/electroneumLogo_white.png"
             }
         }
 
@@ -96,13 +96,13 @@ Rectangle {
             Layout.preferredWidth: parent.height
             Layout.preferredHeight: parent.height
 
-            MoneroEffects.ImageMask {
+            ElectroneumEffects.ImageMask {
                 anchors.bottom: parent.bottom
                 anchors.bottomMargin: 18
                 anchors.horizontalCenter: parent.horizontalCenter
                 height: 3
                 width: 15
-                image: MoneroComponents.Style.titleBarMinimizeSource
+                image: ElectroneumComponents.Style.titleBarMinimizeSource
                 color: "white"
                 opacity: 0.75
             }
@@ -128,7 +128,7 @@ Rectangle {
             Image {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
-                source: MoneroComponents.Style._b_titleBarFullscreenSource
+                source: ElectroneumComponents.Style._b_titleBarFullscreenSource
                 sourceSize.width: 16
                 sourceSize.height: 16
                 smooth: true
@@ -155,12 +155,12 @@ Rectangle {
             Layout.preferredWidth: parent.height
             Layout.preferredHeight: parent.height
 
-            MoneroEffects.ImageMask {
+            ElectroneumEffects.ImageMask {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.horizontalCenter
                 height: 16
                 width: 16
-                image: MoneroComponents.Style._b_titleBarCloseSource
+                image: ElectroneumComponents.Style._b_titleBarCloseSource
                 color: "white"
                 opacity: 0.75
             }

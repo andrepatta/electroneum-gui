@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -33,13 +33,13 @@ import QtQuick.Controls 2.0
 import QtQuick.Controls 1.4
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
-import moneroComponents.Wallet 1.0
+import electroneumComponents.Wallet 1.0
 
 import "./pages"
 import "./pages/settings"
 import "./pages/merchant"
-import "./components" as MoneroComponents
-import "./components/effects/" as MoneroEffects
+import "./components" as ElectroneumComponents
+import "./components/effects/" as ElectroneumEffects
 
 Rectangle {
     id: root
@@ -77,20 +77,20 @@ Rectangle {
     Rectangle {
         // grey background on merchantView
         visible: currentView === merchantView
-        color: MoneroComponents.Style.moneroGrey
+        color: ElectroneumComponents.Style.electroneumGrey
         anchors.fill: parent
     }
 
-    MoneroEffects.GradientBackground {
+    ElectroneumEffects.GradientBackground {
         visible: currentView !== merchantView
         anchors.fill: parent
-        fallBackColor: MoneroComponents.Style.middlePanelBackgroundColor
-        initialStartColor: MoneroComponents.Style.middlePanelBackgroundGradientStart
-        initialStopColor: MoneroComponents.Style.middlePanelBackgroundGradientStop
-        blackColorStart: MoneroComponents.Style._b_middlePanelBackgroundGradientStart
-        blackColorStop: MoneroComponents.Style._b_middlePanelBackgroundGradientStop
-        whiteColorStart: MoneroComponents.Style._w_middlePanelBackgroundGradientStart
-        whiteColorStop: MoneroComponents.Style._w_middlePanelBackgroundGradientStop
+        fallBackColor: ElectroneumComponents.Style.middlePanelBackgroundColor
+        initialStartColor: ElectroneumComponents.Style.middlePanelBackgroundGradientStart
+        initialStopColor: ElectroneumComponents.Style.middlePanelBackgroundGradientStop
+        blackColorStart: ElectroneumComponents.Style._b_middlePanelBackgroundGradientStart
+        blackColorStop: ElectroneumComponents.Style._b_middlePanelBackgroundGradientStop
+        whiteColorStart: ElectroneumComponents.Style._w_middlePanelBackgroundGradientStart
+        whiteColorStop: ElectroneumComponents.Style._w_middlePanelBackgroundGradientStop
         start: Qt.point(0, 0)
         end: Qt.point(height, width)
     }
@@ -262,12 +262,12 @@ Rectangle {
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         width: 1
-        color: MoneroComponents.Style.appWindowBorderColor
+        color: ElectroneumComponents.Style.appWindowBorderColor
 
-        MoneroEffects.ColorTransition {
+        ElectroneumEffects.ColorTransition {
             targetObj: parent
-            blackColor: MoneroComponents.Style._b_appWindowBorderColor
-            whiteColor: MoneroComponents.Style._w_appWindowBorderColor
+            blackColor: ElectroneumComponents.Style._b_appWindowBorderColor
+            whiteColor: ElectroneumComponents.Style._w_appWindowBorderColor
         }
     }
 

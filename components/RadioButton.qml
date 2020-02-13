@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -29,7 +29,7 @@
 import QtQuick 2.9
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Item {
     id: radioButton
@@ -41,8 +41,8 @@ Item {
     height: 26
     width: layout.width
     // legacy properties
-    property var checkedColor: MoneroComponents.Style.blackTheme ? "white" : "#666666"
-    property var borderColor: checked ? MoneroComponents.Style.inputBorderColorActive : MoneroComponents.Style.inputBorderColorInActive
+    property var checkedColor: ElectroneumComponents.Style.blackTheme ? "white" : "#666666"
+    property var borderColor: checked ? ElectroneumComponents.Style.inputBorderColorActive : ElectroneumComponents.Style.inputBorderColorInActive
 
     function toggle(){
         radioButton.checked = !radioButton.checked
@@ -72,11 +72,11 @@ Item {
             }
         }
 
-        MoneroComponents.TextPlain {
+        ElectroneumComponents.TextPlain {
             id: label
             Layout.leftMargin: (!isMobile ? 10 : 8)
-            color: MoneroComponents.Style.defaultFontColor
-            font.family: MoneroComponents.Style.fontRegular.name
+            color: ElectroneumComponents.Style.defaultFontColor
+            font.family: ElectroneumComponents.Style.fontRegular.name
             font.pixelSize: radioButton.fontSize
             wrapMode: Text.Wrap
         }

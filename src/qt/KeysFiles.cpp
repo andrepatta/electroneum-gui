@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -98,15 +98,15 @@ void WalletKeysFilesModel::clear()
     endResetModel();
 }
 
-void WalletKeysFilesModel::refresh(const QString &moneroAccountsDir)
+void WalletKeysFilesModel::refresh(const QString &electroneumAccountsDir)
 {
     this->clear();
-    this->findWallets(moneroAccountsDir);
+    this->findWallets(electroneumAccountsDir);
 }
 
-void WalletKeysFilesModel::findWallets(const QString &moneroAccountsDir)
+void WalletKeysFilesModel::findWallets(const QString &electroneumAccountsDir)
 {
-    QStringList walletDir = this->m_walletManager->findWallets(moneroAccountsDir);
+    QStringList walletDir = this->m_walletManager->findWallets(electroneumAccountsDir);
     foreach(QString wallet, walletDir){
         if(!fileExists(wallet + ".keys"))
             continue;

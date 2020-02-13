@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -155,7 +155,7 @@ QList<Transfer*> TransactionInfo::transfers() const
     return m_transfers;
 }
 
-TransactionInfo::TransactionInfo(Monero::TransactionInfo *pimpl, QObject *parent)
+TransactionInfo::TransactionInfo(Electroneum::TransactionInfo *pimpl, QObject *parent)
     : QObject(parent), m_pimpl(pimpl)
 {
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -33,7 +33,7 @@ import QtQuick.Dialogs 1.2
 
 import "../../js/Utils.js" as Utils
 import "../../js/Windows.js" as Windows
-import "../../components" as MoneroComponents
+import "../../components" as ElectroneumComponents
 
 Rectangle {
     color: "transparent"
@@ -51,7 +51,7 @@ Rectangle {
         anchors.topMargin: 0
         spacing: 6
 
-        MoneroComponents.CheckBox {
+        ElectroneumComponents.CheckBox {
             visible: !isMobile
             id: customDecorationsCheckBox
             checked: persistentSettings.customDecorations
@@ -59,7 +59,7 @@ Rectangle {
             text: qsTr("Custom decorations") + translationManager.emptyString
         }
 
-        MoneroComponents.CheckBox {
+        ElectroneumComponents.CheckBox {
             visible: !isMobile
             id: hideBalanceCheckBox
             checked: persistentSettings.hideBalance
@@ -70,7 +70,7 @@ Rectangle {
             text: qsTr("Hide balance") + translationManager.emptyString
         }
 
-        MoneroComponents.CheckBox {
+        ElectroneumComponents.CheckBox {
             visible: !isMobile
             id: showPidCheckBox
             checked: persistentSettings.showPid
@@ -80,17 +80,17 @@ Rectangle {
             text: qsTr("Enable transfer with payment ID (OBSOLETE)") + translationManager.emptyString
         }
 
-        MoneroComponents.CheckBox {
+        ElectroneumComponents.CheckBox {
             id: themeCheckbox
-            checked: !MoneroComponents.Style.blackTheme
+            checked: !ElectroneumComponents.Style.blackTheme
             text: qsTr("Light theme") + translationManager.emptyString
             onClicked: {
-                MoneroComponents.Style.blackTheme = !MoneroComponents.Style.blackTheme;
-                persistentSettings.blackTheme = MoneroComponents.Style.blackTheme;
+                ElectroneumComponents.Style.blackTheme = !ElectroneumComponents.Style.blackTheme;
+                persistentSettings.blackTheme = ElectroneumComponents.Style.blackTheme;
             }
         }
 
-        MoneroComponents.CheckBox {
+        ElectroneumComponents.CheckBox {
             visible: !isMobile
             id: userInActivityCheckbox
             checked: persistentSettings.lockOnUserInActivity
@@ -105,7 +105,7 @@ Rectangle {
             Layout.leftMargin: 42
             spacing: 0
 
-            MoneroComponents.TextBlock {
+            ElectroneumComponents.TextBlock {
                 font.pixelSize: 14
                 Layout.fillWidth: true
                 text: {
@@ -133,12 +133,12 @@ Rectangle {
                     width: parent.availableWidth
                     height: implicitHeight
                     radius: 2
-                    color: MoneroComponents.Style.progressBarBackgroundColor
+                    color: ElectroneumComponents.Style.progressBarBackgroundColor
 
                     Rectangle {
                         width: parent.visualPosition * parent.width
                         height: parent.height
-                        color: MoneroComponents.Style.green
+                        color: ElectroneumComponents.Style.green
                         radius: 2
                     }
                 }
@@ -150,7 +150,7 @@ Rectangle {
                     implicitHeight: 18
                     radius: 8
                     color: parent.pressed ? "#f0f0f0" : "#f6f6f6"
-                    border.color: MoneroComponents.Style.grey
+                    border.color: ElectroneumComponents.Style.grey
                 }
 
                 onMoved: persistentSettings.lockOnUserInActivityInterval = userInactivitySlider.value;
@@ -159,7 +159,7 @@ Rectangle {
 
         //! Manage pricing
         RowLayout {
-            MoneroComponents.CheckBox {
+            ElectroneumComponents.CheckBox {
                 id: enableConvertCurrency
                 text: qsTr("Enable displaying balance in other currencies") + translationManager.emptyString
                 checked: persistentSettings.fiatPriceEnabled
@@ -184,13 +184,13 @@ Rectangle {
                 spacing: 10
                 Layout.fillWidth: true
 
-                MoneroComponents.Label {
+                ElectroneumComponents.Label {
                     Layout.fillWidth: true
                     fontSize: 14
                     text: qsTr("Price source") + translationManager.emptyString
                 }
 
-                MoneroComponents.StandardDropdown {
+                ElectroneumComponents.StandardDropdown {
                     id: fiatPriceProviderDropDown
                     Layout.fillWidth: true
                     dataModel: fiatPriceProvidersModel
@@ -208,13 +208,13 @@ Rectangle {
                 spacing: 10
                 Layout.fillWidth: true
 
-                MoneroComponents.Label {
+                ElectroneumComponents.Label {
                     Layout.fillWidth: true
                     fontSize: 14
                     text: qsTr("Currency") + translationManager.emptyString
                 }
 
-                MoneroComponents.StandardDropdown {
+                ElectroneumComponents.StandardDropdown {
                     id: fiatPriceCurrencyDropdown
                     Layout.fillWidth: true
                     dataModel: fiatPriceCurrencyModel
@@ -238,11 +238,11 @@ Rectangle {
             Layout.topMargin: 5
             Layout.leftMargin: 36
 
-            MoneroComponents.WarningBox {
+            ElectroneumComponents.WarningBox {
                 text: qsTr("Enabling price conversion exposes your IP address to the selected price source.") + translationManager.emptyString;
             }
 
-            MoneroComponents.StandardButton {
+            ElectroneumComponents.StandardButton {
                 Layout.topMargin: 10
                 Layout.bottomMargin: 10
                 small: true
@@ -257,7 +257,7 @@ Rectangle {
             }
         }
 
-        MoneroComponents.StandardButton {
+        ElectroneumComponents.StandardButton {
             visible: !persistentSettings.customDecorations
             Layout.topMargin: 10
             small: true
@@ -268,7 +268,7 @@ Rectangle {
             }
         }
 
-        MoneroComponents.TextBlock {
+        ElectroneumComponents.TextBlock {
             visible: isMobile
             font.pixelSize: 14
             textFormat: Text.RichText

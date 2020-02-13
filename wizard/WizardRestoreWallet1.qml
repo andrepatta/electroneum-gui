@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -32,7 +32,7 @@ import QtQuick.Controls 2.0
 
 import "../js/Wizard.js" as Wizard
 import "../js/Utils.js" as Utils
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Rectangle {
     id: wizardRestoreWallet1
@@ -114,7 +114,7 @@ Rectangle {
             GridLayout{
                 columns: 3
 
-                MoneroComponents.StandardButton {
+                ElectroneumComponents.StandardButton {
                     text: qsTr("Restore from seed") + translationManager.emptyString
                     small: true
                     enabled: wizardController.walletRestoreMode !== 'seed'
@@ -124,7 +124,7 @@ Rectangle {
                     }
                 }
 
-                MoneroComponents.StandardButton {
+                ElectroneumComponents.StandardButton {
                     text: qsTr("Restore from keys") + translationManager.emptyString
                     small: true
                     enabled: wizardController.walletRestoreMode !== 'keys'
@@ -134,7 +134,7 @@ Rectangle {
                     }
                 }
 
-                MoneroComponents.StandardButton {
+                ElectroneumComponents.StandardButton {
                     text: qsTr("From QR Code") + translationManager.emptyString
                     small: true
                     visible: appWindow.qrScannerEnabled
@@ -164,11 +164,11 @@ Rectangle {
                     border.width: 1
                     border.color: {
                         if(seedInput.text !== "" && seedInput.error){
-                            return MoneroComponents.Style.inputBorderColorInvalid;
+                            return ElectroneumComponents.Style.inputBorderColorInvalid;
                         } else if(seedInput.activeFocus){
-                            return MoneroComponents.Style.inputBorderColorActive;
+                            return ElectroneumComponents.Style.inputBorderColorActive;
                         } else {
-                            return MoneroComponents.Style.inputBorderColorInActive;
+                            return ElectroneumComponents.Style.inputBorderColorInActive;
                         }
                     }
 
@@ -178,35 +178,35 @@ Rectangle {
                         width: parent.width
                         height: 100
 
-                        color: MoneroComponents.Style.defaultFontColor
+                        color: ElectroneumComponents.Style.defaultFontColor
                         textMargin: 2
                         text: ""
 
-                        font.family: MoneroComponents.Style.fontRegular.name
+                        font.family: ElectroneumComponents.Style.fontRegular.name
                         font.pixelSize: 16
-                        selectionColor: MoneroComponents.Style.textSelectionColor
-                        selectedTextColor: MoneroComponents.Style.textSelectedColor
+                        selectionColor: ElectroneumComponents.Style.textSelectionColor
+                        selectedTextColor: ElectroneumComponents.Style.textSelectedColor
                         wrapMode: TextInput.Wrap
 
                         selectByMouse: true
 
-                        MoneroComponents.TextPlain {
+                        ElectroneumComponents.TextPlain {
                             id: memoTextPlaceholder
                             opacity: 0.35
                             anchors.fill:parent
                             font.pixelSize: 16
                             anchors.margins: 8
                             anchors.leftMargin: 10
-                            font.family: MoneroComponents.Style.fontRegular.name
+                            font.family: ElectroneumComponents.Style.fontRegular.name
                             text: qsTr("Enter your 25 (or 24) word mnemonic seed") + translationManager.emptyString
-                            color: MoneroComponents.Style.defaultFontColor
+                            color: ElectroneumComponents.Style.defaultFontColor
                             visible: !seedInput.text && !parent.focus
                         }
                     }
                 }
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: addressLine
                 visible: wizardController.walletRestoreMode === 'keys'
                 Layout.fillWidth: true
@@ -218,7 +218,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: viewKeyLine
                 visible: wizardController.walletRestoreMode === 'keys'
                 Layout.fillWidth: true
@@ -230,7 +230,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.LineEdit {
+            ElectroneumComponents.LineEdit {
                 id: spendKeyLine
                 visible: wizardController.walletRestoreMode === 'keys'
                 Layout.fillWidth: true
@@ -243,7 +243,7 @@ Rectangle {
             }
 
             GridLayout{
-                MoneroComponents.LineEdit {
+                ElectroneumComponents.LineEdit {
                     id: restoreHeight
                     Layout.fillWidth: true
                     labelText: qsTr("Wallet creation date as `YYYY-MM-DD` or restore height") + translationManager.emptyString

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -32,7 +32,7 @@ import QtQuick.Controls 2.0
 import FontAwesome 1.0
 
 import "../js/Wizard.js" as Wizard
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 ColumnLayout {
     id: root
@@ -86,7 +86,7 @@ ColumnLayout {
         subtitle: qsTr("This password cannot be recovered. If you forget it then the wallet will have to be restored from your %1.").arg(!wizardController.walletOptionsIsRecoveringFromDevice ? qsTr("25 word mnemonic seed") : qsTr("hardware wallet"))+ translationManager.emptyString
     }
 
-    MoneroComponents.WarningBox {
+    ElectroneumComponents.WarningBox {
         text: qsTr("<b>Enter a strong password</b> (Using letters, numbers, and/or symbols).") + translationManager.emptyString
     }
 
@@ -99,10 +99,10 @@ ColumnLayout {
             id: progressText
             Layout.topMargin: 6
             Layout.bottomMargin: 6
-            font.family: MoneroComponents.Style.fontMedium.name
+            font.family: ElectroneumComponents.Style.fontMedium.name
             font.pixelSize: 14
             font.bold: false
-            color: MoneroComponents.Style.defaultFontColor
+            color: ElectroneumComponents.Style.defaultFontColor
             height: 18
             passwordCharacter: "*"
         }
@@ -113,7 +113,7 @@ ColumnLayout {
             Layout.preferredHeight: 8
 
             radius: 8
-            color: MoneroComponents.Style.progressBarBackgroundColor
+            color: ElectroneumComponents.Style.progressBarBackgroundColor
 
             Rectangle {
                 id: fillRect
@@ -124,11 +124,11 @@ ColumnLayout {
                 property int maxWidth: bar.width
                 width: (maxWidth * root.passwordFill) / 100
                 radius: 8
-                color: MoneroComponents.Style.orange
+                color: ElectroneumComponents.Style.orange
             }
 
             Rectangle {
-                color: MoneroComponents.Style.defaultFontColor
+                color: ElectroneumComponents.Style.defaultFontColor
                 anchors.bottom: parent.bottom
                 anchors.left: parent.left
                 anchors.leftMargin: 8
@@ -145,9 +145,9 @@ ColumnLayout {
             Layout.fillWidth: true
 
             font.pixelSize: 14
-            font.family: MoneroComponents.Style.fontLight.name
+            font.family: ElectroneumComponents.Style.fontLight.name
 
-            color: MoneroComponents.Style.defaultFontColor
+            color: ElectroneumComponents.Style.defaultFontColor
         }
 
         TextField {
@@ -165,21 +165,21 @@ ColumnLayout {
             echoMode: TextInput.Password
             KeyNavigation.tab: passwordInputConfirm
 
-            font.family: MoneroComponents.Style.fontLight.name
+            font.family: ElectroneumComponents.Style.fontLight.name
             font.pixelSize: 15
-            color: MoneroComponents.Style.defaultFontColor
-            selectionColor: MoneroComponents.Style.textSelectionColor
-            selectedTextColor: MoneroComponents.Style.textSelectedColor
+            color: ElectroneumComponents.Style.defaultFontColor
+            selectionColor: ElectroneumComponents.Style.textSelectionColor
+            selectedTextColor: ElectroneumComponents.Style.textSelectedColor
 
             text: walletOptionsPassword
 
             background: Rectangle {
                 radius: 4
-                border.color: MoneroComponents.Style.inputBorderColorActive
+                border.color: ElectroneumComponents.Style.inputBorderColorActive
                 border.width: 1
                 color: "transparent"
 
-                MoneroComponents.Label {
+                ElectroneumComponents.Label {
                     fontSize: 20
                     text: FontAwesome.lock
                     opacity: 0.5
@@ -202,9 +202,9 @@ ColumnLayout {
             Layout.fillWidth: true
 
             font.pixelSize: 14
-            font.family: MoneroComponents.Style.fontLight.name
+            font.family: ElectroneumComponents.Style.fontLight.name
 
-            color: MoneroComponents.Style.defaultFontColor
+            color: ElectroneumComponents.Style.defaultFontColor
         }
 
         TextField {
@@ -222,21 +222,21 @@ ColumnLayout {
             echoMode: TextInput.Password
             KeyNavigation.tab: passwordInputConfirm
 
-            font.family: MoneroComponents.Style.fontLight.name
+            font.family: ElectroneumComponents.Style.fontLight.name
             font.pixelSize: 15
-            color: MoneroComponents.Style.defaultFontColor
-            selectionColor: MoneroComponents.Style.textSelectionColor
-            selectedTextColor: MoneroComponents.Style.textSelectedColor
+            color: ElectroneumComponents.Style.defaultFontColor
+            selectionColor: ElectroneumComponents.Style.textSelectionColor
+            selectedTextColor: ElectroneumComponents.Style.textSelectedColor
 
             text: walletOptionsPassword
 
             background: Rectangle {
                 radius: 4
-                border.color: MoneroComponents.Style.inputBorderColorActive
+                border.color: ElectroneumComponents.Style.inputBorderColorActive
                 border.width: 1
                 color: "transparent"
 
-                MoneroComponents.Label {
+                ElectroneumComponents.Label {
                     fontSize: 20
                     text: FontAwesome.lock
                     opacity: 0.5

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -31,11 +31,11 @@ import QtQuick.Dialogs 1.2
 import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.0
 
-import moneroComponents.Wallet 1.0
+import electroneumComponents.Wallet 1.0
 import "../js/Wizard.js" as Wizard
 import "../js/Utils.js" as Utils
 import "../components"
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Rectangle {
     id: wizardCreateDevice1
@@ -86,7 +86,7 @@ Rectangle {
                 Layout.topMargin: 10
                 Layout.fillWidth: true
 
-                MoneroComponents.RadioButton {
+                ElectroneumComponents.RadioButton {
                     id: newDeviceWallet
                     text: qsTr("Create a new wallet from device.") + translationManager.emptyString
                     fontSize: 16
@@ -98,7 +98,7 @@ Rectangle {
                     }
                 }
 
-                MoneroComponents.RadioButton {
+                ElectroneumComponents.RadioButton {
                     id: restoreDeviceWallet
                     Layout.topMargin: 10
                     text: qsTr("Restore a wallet from device. Use this if you used your hardware wallet before.") + translationManager.emptyString
@@ -116,7 +116,7 @@ Rectangle {
                 Layout.fillWidth: true
                 spacing: 20
 
-                MoneroComponents.LineEdit {
+                ElectroneumComponents.LineEdit {
                     id: restoreHeight
                     visible: !newDeviceWallet.checked
                     Layout.fillWidth: true
@@ -130,7 +130,7 @@ Rectangle {
                     text: "0"
                 }
 
-                MoneroComponents.StandardDropdown {
+                ElectroneumComponents.StandardDropdown {
                     id: deviceNameDropdown
                     dataModel: deviceNameModel
                     Layout.fillWidth: true
@@ -144,7 +144,7 @@ Rectangle {
                     text: qsTr("Advanced options") + translationManager.emptyString
                 }
 
-                MoneroComponents.LineEdit {
+                ElectroneumComponents.LineEdit {
                     id: lookahead
                     Layout.fillWidth: true
                     visible: showAdvancedCheckbox.checked
@@ -161,12 +161,12 @@ Rectangle {
                 text: qsTr("Error writing wallet from hardware device. Check application logs.") + translationManager.emptyString;
                 visible: errorMsg.text !== ""
                 Layout.fillWidth: true
-                font.family: MoneroComponents.Style.fontRegular.name
-                color: MoneroComponents.Style.errorColor
+                font.family: ElectroneumComponents.Style.fontRegular.name
+                color: ElectroneumComponents.Style.errorColor
                 font.pixelSize: 16
 
-                selectionColor: MoneroComponents.Style.textSelectionColor
-                selectedTextColor: MoneroComponents.Style.textSelectedColor
+                selectionColor: ElectroneumComponents.Style.textSelectionColor
+                selectedTextColor: ElectroneumComponents.Style.textSelectedColor
 
                 selectByMouse: true
                 wrapMode: Text.WordWrap

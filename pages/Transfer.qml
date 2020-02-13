@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -29,13 +29,13 @@
 import QtQuick 2.9
 import QtQuick.Layouts 1.1
 import QtQuick.Dialogs 1.2
-import moneroComponents.Clipboard 1.0
-import moneroComponents.PendingTransaction 1.0
-import moneroComponents.Wallet 1.0
-import moneroComponents.NetworkType 1.0
+import electroneumComponents.Clipboard 1.0
+import electroneumComponents.PendingTransaction 1.0
+import electroneumComponents.Wallet 1.0
+import electroneumComponents.NetworkType 1.0
 import FontAwesome 1.0
 import "../components"
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 import "." 1.0
 import "../js/TxUtils.js" as TxUtils
 
@@ -135,7 +135,7 @@ Rectangle {
       RowLayout {
           visible: root.warningContent !== ""
 
-          MoneroComponents.WarningBox {
+          ElectroneumComponents.WarningBox {
               text: warningContent
               onLinkActivated: {
                   appWindow.startDaemon(appWindow.persistentSettings.daemonFlags);
@@ -267,8 +267,8 @@ Rectangle {
               inlineButton.text: FontAwesome.qrcode
               inlineButton.fontPixelSize: 22
               inlineButton.fontFamily: FontAwesome.fontFamily
-              inlineButton.textColor: MoneroComponents.Style.defaultFontColor
-              inlineButton.buttonColor: MoneroComponents.Style.orange
+              inlineButton.textColor: ElectroneumComponents.Style.defaultFontColor
+              inlineButton.buttonColor: ElectroneumComponents.Style.orange
               inlineButton.onClicked: {
                   cameraUi.state = "Capture"
                   cameraUi.qrcode_decoded.connect(updateFromQrCode)
@@ -383,14 +383,14 @@ Rectangle {
           }
       }
 
-      MoneroComponents.WarningBox {
+      ElectroneumComponents.WarningBox {
           // @TODO: remove after pid removal hardfork
           id: paymentIdWarningBox
           text: qsTr("You can enable transfers with payment ID on the settings page.") + translationManager.emptyString;
           visible: !persistentSettings.showPid && (warningLongPidTransfer || warningLongPidDescription)
       }
 
-      MoneroComponents.WarningBox {
+      ElectroneumComponents.WarningBox {
           id: sendButtonWarningBox
           text: root.sendButtonWarning
           visible: root.sendButtonWarning !== ""
@@ -546,7 +546,7 @@ Rectangle {
     FileDialog {
         id: signTxDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" +moneroAccountsDir
+        folder: "file://" +electroneumAccountsDir
         nameFilters: [ "Unsigned transfers (*)"]
 
         onAccepted: {
@@ -607,7 +607,7 @@ Rectangle {
     FileDialog {
         id: submitTxDialog
         title: qsTr("Please choose a file") + translationManager.emptyString
-        folder: "file://" +moneroAccountsDir
+        folder: "file://" +electroneumAccountsDir
         nameFilters: [ "signed transfers (*)"]
 
         onAccepted: {
@@ -619,7 +619,7 @@ Rectangle {
                 informationPopup.open();
             } else {
                 informationPopup.title = qsTr("Information") + translationManager.emptyString
-                informationPopup.text  = qsTr("Monero sent successfully") + translationManager.emptyString
+                informationPopup.text  = qsTr("Electroneum sent successfully") + translationManager.emptyString
                 informationPopup.icon  = StandardIcon.Information
                 informationPopup.onCloseCallback = null
                 informationPopup.open();

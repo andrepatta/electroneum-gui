@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -29,7 +29,7 @@
 #include "AddressBook.h"
 #include <QDebug>
 
-AddressBook::AddressBook(Monero::AddressBook *abImpl,QObject *parent)
+AddressBook::AddressBook(Electroneum::AddressBook *abImpl,QObject *parent)
   : QObject(parent), m_addressBookImpl(abImpl)
 {
     qDebug(__FUNCTION__);
@@ -46,7 +46,7 @@ int AddressBook::errorCode() const
     return m_addressBookImpl->errorCode();
 }
 
-QList<Monero::AddressBookRow*> AddressBook::getAll(bool update) const
+QList<Electroneum::AddressBookRow*> AddressBook::getAll(bool update) const
 {
     qDebug(__FUNCTION__);
 
@@ -66,7 +66,7 @@ QList<Monero::AddressBookRow*> AddressBook::getAll(bool update) const
 
 }
 
-Monero::AddressBookRow * AddressBook::getRow(int index) const
+Electroneum::AddressBookRow * AddressBook::getRow(int index) const
 {
     return m_rows.at(index);
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -31,11 +31,11 @@ import QtQuick.Window 2.1
 import QtQuick.Controls 1.4
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 Rectangle {
     id: root
-    color: MoneroComponents.Style.blackTheme ? "white" : "transparent"
+    color: ElectroneumComponents.Style.blackTheme ? "white" : "transparent"
     visible: false
     z: 11
     property alias messageText: messageTitle.text
@@ -70,7 +70,7 @@ Rectangle {
             Layout.alignment: Qt.AlignVCenter | Qt.AlignHCenter
         }
 
-        MoneroComponents.TextPlain {
+        ElectroneumComponents.TextPlain {
             id: messageTitle
             text: "Please wait..."
             font {
@@ -84,7 +84,7 @@ Rectangle {
         }
 
 
-        MoneroComponents.TextPlain {
+        ElectroneumComponents.TextPlain {
             id: heightProgress
             font {
                 pixelSize: 18

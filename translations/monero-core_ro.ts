@@ -69,8 +69,8 @@
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="105"/>
-        <source>This makes it easier to send or receive Monero and reduces errors when typing in addresses manually.</source>
-        <translation>Aceasta face mai ușor trimiterea și primirea de Monero și reduce erorile atunci când scrii adresele manual.</translation>
+        <source>This makes it easier to send or receive Electroneum and reduces errors when typing in addresses manually.</source>
+        <translation>Aceasta face mai ușor trimiterea și primirea de Electroneum și reduce erorile atunci când scrii adresele manual.</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="120"/>
@@ -616,13 +616,13 @@
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="62"/>
-        <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>ATENȚIE: Nu reutilizați cheile Monero în alte rețele. Făcând asta, vă va dăuna confidențialitatea.</translation>
+        <source>WARNING: Do not reuse your Electroneum keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>ATENȚIE: Nu reutilizați cheile Electroneum în alte rețele. Făcând asta, vă va dăuna confidențialitatea.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
-        <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Monero. Please write down your seed manually.</source>
-        <translation>ATENȚIE: Copiatul seminței în memorie vă poate expune la aplicații rău intenționate, care pot să vă înregistreze sămânța și să vă fure Monero. Vă rugăm să scrieți sămânța de mână.</translation>
+        <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Electroneum. Please write down your seed manually.</source>
+        <translation>ATENȚIE: Copiatul seminței în memorie vă poate expune la aplicații rău intenționate, care pot să vă înregistreze sămânța și să vă fure Electroneum. Vă rugăm să scrieți sămânța de mână.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="159"/>
@@ -1030,12 +1030,12 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="71"/>
-        <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.
+        <source>Mining with your computer helps strengthen the Electroneum network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.
 
-Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Minând cu calculatorul dumneavoastră ajutați la întărirea rețelei Monero. Cu cât mai mulți oameni minează, cu atât e mai greu ca rețeaua să fie atacată și orice ajutor e binevenit.
+Mining also gives you a small chance to earn some Electroneum. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Minând cu calculatorul dumneavoastră ajutați la întărirea rețelei Electroneum. Cu cât mai mulți oameni minează, cu atât e mai greu ca rețeaua să fie atacată și orice ajutor e binevenit.
 
-De asemenea, minând aveți o mică ocazie să câștigați niște Monero. Computerul dumneavoastră va căuta niște soluții la blocuri. Dacă găsiți un bloc, veți primi recompensa asociată. Baftă!</translation>
+De asemenea, minând aveți o mică ocazie să câștigați niște Electroneum. Computerul dumneavoastră va căuta niște soluții la blocuri. Dacă găsiți un bloc, veți primi recompensa asociată. Baftă!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="83"/>
@@ -1404,8 +1404,8 @@ De asemenea, minând aveți o mică ocazie să câștigați niște Monero. Compu
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="99"/>
-        <source>Embedded Monero version: </source>
-        <translation>Versiune Monero încorporat: </translation>
+        <source>Embedded Electroneum version: </source>
+        <translation>Versiune Electroneum încorporat: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="129"/>
@@ -1604,13 +1604,13 @@ Vechiul fișier cache va fi redenumit și va putea fi restaurat mai tâziu.
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="247"/>
-        <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
-        <translation>Utilizează un server terțiar pentru a se conecta la rețeaua Monero. Mai puțin securizat, dar mai ușor de folosit pe calculatorul tău.</translation>
+        <source>Uses a third-party server to connect to the Electroneum network. Less secure, but easier on your computer.</source>
+        <translation>Utilizează un server terțiar pentru a se conecta la rețeaua Electroneum. Mai puțin securizat, dar mai ușor de folosit pe calculatorul tău.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="293"/>
-        <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>Pentru a găsi un nod la distanță, tastați &apos;Monero remote node&apos; în motorul de căutare favorit. Vă rugăm să fiți siguri că nodul este rulat de o terța parte de încredere.</translation>
+        <source>To find a remote node, type &apos;Electroneum remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
+        <translation>Pentru a găsi un nod la distanță, tastați &apos;Electroneum remote node&apos; în motorul de căutare favorit. Vă rugăm să fiți siguri că nodul este rulat de o terța parte de încredere.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="301"/>
@@ -1817,8 +1817,8 @@ Puteți schimba parola în setările portofelului.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="104"/>
-        <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
-        <translation>Această pagina vă permite să interacționați cu baza de date ce conține inelele distribuite. Această bază de date este menită să fie folosită de portofelul Monero și de alte portofele ale clonelor Monero ce refolosesc cheile Monero.</translation>
+        <source>This page allows you to interact with the shared ring database. This database is meant for use by Electroneum wallets as well as wallets from Electroneum clones which reuse the Electroneum keys.</source>
+        <translation>Această pagina vă permite să interacționați cu baza de date ce conține inelele distribuite. Această bază de date este menită să fie folosită de portofelul Electroneum și de alte portofele ale clonelor Electroneum ce refolosesc cheile Electroneum.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="117"/>
@@ -1834,8 +1834,8 @@ Puteți schimba parola în setările portofelului.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="120"/>
-        <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Pentru a ascunde ce inputuri sunt folosite intr-o tranzacție Monero, o terță parte nu ar trebui să știe ce inputuri într-un inel au fost deja folosite. Dacă ar putea să facă asta, ar slăbi protecția semnăturilor de inel. Dacă toate inputurile cu excepția unuia sunt deja știute să fie folosite, atunci inputul ce va fi folosit devine vizibil, anulând efectul semnăturilor de inel, unul dintre cele trei straturi principale de protecție a confidențialității ce este folosit de Monero.&lt;br&gt;Pentru a ajuta tranzacțiile să evite aceste inputuri, o listă a acestora ce sunt conuscute poate fi folosită pentru a evita utilizarea lor in noi tranzacții. O asemenea lista este întreținută de proiectul Monero și este disponibila la adresa getmonero.org, și puteți importa această lista aici.&lt;br&gt;Sau, puteți scana blockchain (și blockchain al clonelor Monero) inșivă folosind unealta monero-blockchain-mark-spent-outputs pentru a crea o listă de rezultate cunoscute folosite.&lt;br&gt;</translation>
+        <source>In order to obscure which inputs in a Electroneum transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Electroneum uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Electroneum project and is available on the getelectroneum.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Electroneum clones) yourself using the electroneum-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
+        <translation>Pentru a ascunde ce inputuri sunt folosite intr-o tranzacție Electroneum, o terță parte nu ar trebui să știe ce inputuri într-un inel au fost deja folosite. Dacă ar putea să facă asta, ar slăbi protecția semnăturilor de inel. Dacă toate inputurile cu excepția unuia sunt deja știute să fie folosite, atunci inputul ce va fi folosit devine vizibil, anulând efectul semnăturilor de inel, unul dintre cele trei straturi principale de protecție a confidențialității ce este folosit de Electroneum.&lt;br&gt;Pentru a ajuta tranzacțiile să evite aceste inputuri, o listă a acestora ce sunt conuscute poate fi folosită pentru a evita utilizarea lor in noi tranzacții. O asemenea lista este întreținută de proiectul Electroneum și este disponibila la adresa getelectroneum.org, și puteți importa această lista aici.&lt;br&gt;Sau, puteți scana blockchain (și blockchain al clonelor Electroneum) inșivă folosind unealta electroneum-blockchain-mark-spent-outputs pentru a crea o listă de rezultate cunoscute folosite.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="141"/>
@@ -1905,13 +1905,13 @@ Puteți schimba parola în setările portofelului.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="257"/>
-        <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Pentru a nu anula protecția oferită de semnăturile de tip ring ale Monero, o tranzacție nu ar trebui refolosită cu diferite ring-uri pe diferite blockchain-uri. De obicei această operație nu ar trebui să fie un motiv de îngrijorare, dar poate deveni unul când o clonă Monero permite să folosiți un output existent. în acest caz, trebuie să fiți sigur că output-urile existente folosesc același ring în ambele rețele.&lt;br&gt;</translation>
+        <source>In order to avoid nullifying the protection afforded by Electroneum&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Electroneum clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Electroneum and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Electroneum clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Electroneum safely.&lt;br&gt;If you do not use a key-reusing Electroneum clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
+        <translation>Pentru a nu anula protecția oferită de semnăturile de tip ring ale Electroneum, o tranzacție nu ar trebui refolosită cu diferite ring-uri pe diferite blockchain-uri. De obicei această operație nu ar trebui să fie un motiv de îngrijorare, dar poate deveni unul când o clonă Electroneum permite să folosiți un output existent. în acest caz, trebuie să fiți sigur că output-urile existente folosesc același ring în ambele rețele.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="279"/>
-        <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Aceste inele înregistrate sunt folosite pentru outputurile cheltuite in Monero pe un lanț de chei refolosite, deci același inel poate fi refolosit pentru a evita probleme de confidențialitate.</translation>
+        <source>This records rings used by outputs spent on Electroneum on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
+        <translation>Aceste inele înregistrate sunt folosite pentru outputurile cheltuite in Electroneum pe un lanț de chei refolosite, deci același inel poate fi refolosit pentru a evita probleme de confidențialitate.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="290"/>
@@ -2095,8 +2095,8 @@ Puteți schimba parola în setările portofelului.</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="344"/>
-        <source>Enter the Monero Address (example: 44AFFq5kSiGBoZ...)</source>
-        <translation>Introdu adresa Monero (de exemplu: 44AFFq5kSiGBoZ...)</translation>
+        <source>Enter the Electroneum Address (example: 44AFFq5kSiGBoZ...)</source>
+        <translation>Introdu adresa Electroneum (de exemplu: 44AFFq5kSiGBoZ...)</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="355"/>
@@ -2325,8 +2325,8 @@ Puteți schimba parola în setările portofelului.</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="621"/>
-        <source>Monero sent successfully</source>
-        <translation>Monero trimiți cu succes</translation>
+        <source>Electroneum sent successfully</source>
+        <translation>Electroneum trimiți cu succes</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="468"/>
@@ -2836,8 +2836,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="58"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.</source>
-        <translation>Pentru a comunica cu rețeaua Monero, portofelul trebuie să fie conectat la un nod de rețea. Pentru cea mai bună intimitate este recomandat să rulați propriul nod.</translation>
+        <source>To be able to communicate with the Electroneum network your wallet needs to be connected to a Electroneum node. For best privacy it&apos;s recommended to run your own node.</source>
+        <translation>Pentru a comunica cu rețeaua Electroneum, portofelul trebuie să fie conectat la un nod de rețea. Pentru cea mai bună intimitate este recomandat să rulați propriul nod.</translation>
     </message>
 </context>
 <context>
@@ -2887,8 +2887,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="121"/>
-        <source>Additionally, you may specify a bootstrap node to use Monero immediately.</source>
-        <translation>În plus, puteți specifica un nod de tip bootstrap pentru a folosi Monero imediat.</translation>
+        <source>Additionally, you may specify a bootstrap node to use Electroneum immediately.</source>
+        <translation>În plus, puteți specifica un nod de tip bootstrap pentru a folosi Electroneum imediat.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="175"/>
@@ -2900,8 +2900,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     <name>WizardHome</name>
     <message>
         <location filename="../wizard/WizardHome.qml" line="60"/>
-        <source>Welcome to Monero.</source>
-        <translation>Bine ați venit la Monero.</translation>
+        <source>Welcome to Electroneum.</source>
+        <translation>Bine ați venit la Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="65"/>
@@ -2910,8 +2910,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="66"/>
-        <source>Choose this option if this is your first time using Monero.</source>
-        <translation>Alegeți această opțiune dacă este prima dată când folosiți Monero.</translation>
+        <source>Choose this option if this is your first time using Electroneum.</source>
+        <translation>Alegeți această opțiune dacă este prima dată când folosiți Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="86"/>
@@ -2920,8 +2920,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="87"/>
-        <source>Connect your hardware wallet to create a new Monero wallet.</source>
-        <translation>Conectați dispozitivul hardware pentru a crea un portofel nou Monero.</translation>
+        <source>Connect your hardware wallet to create a new Electroneum wallet.</source>
+        <translation>Conectați dispozitivul hardware pentru a crea un portofel nou Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="106"/>
@@ -2973,8 +2973,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardLang.qml" line="102"/>
-        <source>Change the language of the Monero GUI.</source>
-        <translation>Schimbă limba interfeței Monero.</translation>
+        <source>Change the language of the Electroneum GUI.</source>
+        <translation>Schimbă limba interfeței Electroneum.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardLang.qml" line="197"/>
@@ -3001,8 +3001,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="81"/>
-        <source>Temporary use of remote nodes is useful in order to use Monero immediately (hence the name &lt;i&gt;bootstrap&lt;/i&gt;), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
-        <translation>Utilizarea temporară a nodurilor la distanță este utilă pentru a utiliza imediat Monero (de aici numele &lt;i&gt;bootstrap&lt;/i&gt;), cu toate acestea, rețineți că atunci când utilizați nodurile de la distanță (inclusiv cu setarea de bootstrap), nodurile pot să vă urmărească adresa IP, să vă urmărească datele de solicitare de blocare a recuperării și asociate și să vă trimită informații inexacte pentru a afla mai multe despre tranzacțiile pe care le faceți.</translation>
+        <source>Temporary use of remote nodes is useful in order to use Electroneum immediately (hence the name &lt;i&gt;bootstrap&lt;/i&gt;), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
+        <translation>Utilizarea temporară a nodurilor la distanță este utilă pentru a utiliza imediat Electroneum (de aici numele &lt;i&gt;bootstrap&lt;/i&gt;), cu toate acestea, rețineți că atunci când utilizați nodurile de la distanță (inclusiv cu setarea de bootstrap), nodurile pot să vă urmărească adresa IP, să vă urmărească datele de solicitare de blocare a recuperării și asociate și să vă trimită informații inexacte pentru a afla mai multe despre tranzacțiile pe care le faceți.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="94"/>
@@ -3029,8 +3029,8 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="70"/>
-        <source>This mode is ideal for managing small amounts of Monero. You have access to basic features for making and managing transactions. It will automatically connect to the Monero network so you can start using Monero immediately.</source>
-        <translation>Acest mod este ideal pentru gestionarea cantităților mici de Monero. Aveți acces la caracteristicile de bază pentru efectuarea și gestionarea tranzacțiilor. Se va conecta automat la rețeaua Monero, astfel încât să puteți începe să utilizați Monero imediat.</translation>
+        <source>This mode is ideal for managing small amounts of Electroneum. You have access to basic features for making and managing transactions. It will automatically connect to the Electroneum network so you can start using Electroneum immediately.</source>
+        <translation>Acest mod este ideal pentru gestionarea cantităților mici de Electroneum. Aveți acces la caracteristicile de bază pentru efectuarea și gestionarea tranzacțiilor. Se va conecta automat la rețeaua Electroneum, astfel încât să puteți începe să utilizați Electroneum imediat.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="83"/>
@@ -3238,10 +3238,10 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet3.qml" line="66"/>
-        <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.
+        <source>To be able to communicate with the Electroneum network your wallet needs to be connected to a Electroneum node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>Pentru a putea comunica cu rețeaua Monero, portofelul trebuie să fie conectat la un nod Monero. Pentru cea mai bună confidențialitate, este recomandat să rulați propriul nod.
+        <translation>Pentru a putea comunica cu rețeaua Electroneum, portofelul trebuie să fie conectat la un nod Electroneum. Pentru cea mai bună confidențialitate, este recomandat să rulați propriul nod.
 
 Dacă nu aveți opțiunea de a rula propriul nod, există o opțiune de conectare la un nod de la distanță.</translation>
     </message>
@@ -3517,8 +3517,8 @@ Indexul adresei de cheltuit:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="984"/>
-        <source>Monero sent successfully: %1 transaction(s) </source>
-        <translation>Monero trimiți cu succes: %1 tranzacție</translation>
+        <source>Electroneum sent successfully: %1 transaction(s) </source>
+        <translation>Electroneum trimiți cu succes: %1 tranzacție</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1014"/>
@@ -3621,13 +3621,13 @@ Indexul adresei de cheltuit:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="2159"/>
-        <source>New version of Monero v.%1 is available.&lt;br&gt;&lt;br&gt;Download:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;SHA256 Hash:&lt;br&gt;%3</source>
-        <translation>Versiune nouă Monero v.%1 este disponibilă.&lt;br&gt;&lt;br&gt;Descarcă:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;SHA256 Hash:&lt;br&gt;%3</translation>
+        <source>New version of Electroneum v.%1 is available.&lt;br&gt;&lt;br&gt;Download:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;SHA256 Hash:&lt;br&gt;%3</source>
+        <translation>Versiune nouă Electroneum v.%1 este disponibilă.&lt;br&gt;&lt;br&gt;Descarcă:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;SHA256 Hash:&lt;br&gt;%3</translation>
     </message>
     <message>
         <location filename="../main.qml" line="2161"/>
-        <source>New version of Monero is available. Check out getmonero.org</source>
-        <translation>Versiune nouă Monero este disponibilă. Verifică getmonero.org</translation>
+        <source>New version of Electroneum is available. Check out getelectroneum.org</source>
+        <translation>Versiune nouă Electroneum este disponibilă. Verifică getelectroneum.org</translation>
     </message>
     <message>
         <location filename="../main.qml" line="2251"/>
@@ -3636,8 +3636,8 @@ Indexul adresei de cheltuit:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1057"/>
-        <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Această adresă a primit %1 monero, având %2 confirmări.</translation>
+        <source>This address received %1 electroneum, with %2 confirmation(s).</source>
+        <translation>Această adresă a primit %1 electroneum, având %2 confirmări.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="407"/>
@@ -3673,8 +3673,8 @@ Indexul adresei de cheltuit:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1054"/>
-        <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Această adresă a primit %1 monero, dar tranzacția nu a fost încă minată</translation>
+        <source>This address received %1 electroneum, but the transaction is not yet mined</source>
+        <translation>Această adresă a primit %1 electroneum, dar tranzacția nu a fost încă minată</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1061"/>

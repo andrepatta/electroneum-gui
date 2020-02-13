@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -32,8 +32,8 @@ import QtQuick.Layouts 1.2
 import QtGraphicalEffects 1.0
 import QtQuick.Controls.Styles 1.2
 
-import "." as MoneroComponents
-import "effects/" as MoneroEffects
+import "." as ElectroneumComponents
+import "effects/" as ElectroneumEffects
 
 Item {
     id: datePicker
@@ -41,7 +41,7 @@ Item {
     property bool expanded: false
     property date currentDate
     property bool showCurrentDate: true
-    property color backgroundColor : MoneroComponents.Style.appWindowBorderColor
+    property color backgroundColor : ElectroneumComponents.Style.appWindowBorderColor
     property color errorColor : "red"
     property bool error: false
     property alias inputLabel: inputLabel
@@ -71,16 +71,16 @@ Item {
         height: 22
         width: parent.width
 
-        MoneroComponents.TextPlain {
+        ElectroneumComponents.TextPlain {
             id: inputLabel
             anchors.top: parent.top
             anchors.topMargin: 2
             anchors.left: parent.left
-            font.family: MoneroComponents.Style.fontLight.name
+            font.family: ElectroneumComponents.Style.fontLight.name
             font.pixelSize: 14
             font.bold: false
             textFormat: Text.RichText
-            color: MoneroComponents.Style.defaultFontColor
+            color: ElectroneumComponents.Style.defaultFontColor
             themeTransition: false
 
             MouseArea {
@@ -117,7 +117,7 @@ Item {
             anchors.left: parent.left
             anchors.leftMargin: 2
             anchors.right: parent.right
-            property string headerFontColor: MoneroComponents.Style.blackTheme ? "#e6e6e6" : "#333333"
+            property string headerFontColor: ElectroneumComponents.Style.blackTheme ? "#e6e6e6" : "#333333"
             spacing: 0
 
             function setDate(date) {
@@ -139,10 +139,10 @@ Item {
                 id: dayInput
                 readOnly: true
                 Layout.preferredWidth: childrenRect.width + 40
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: ElectroneumComponents.Style.fontRegular.name
                 font.pixelSize: 14
                 color: datePicker.error ? errorColor : parent.headerFontColor
-                selectionColor: MoneroComponents.Style.dimmedFontColor
+                selectionColor: ElectroneumComponents.Style.dimmedFontColor
                 selectByMouse: true
                 horizontalAlignment: TextInput.AlignHCenter
                 maximumLength: 2
@@ -163,10 +163,10 @@ Item {
                 }
             }
 
-            MoneroComponents.TextPlain {
-                font.family: MoneroComponents.Style.fontRegular.name
+            ElectroneumComponents.TextPlain {
+                font.family: ElectroneumComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : MoneroComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : ElectroneumComponents.Style.defaultFontColor
                 text: "-"
                 themeTransition: false
             }
@@ -175,10 +175,10 @@ Item {
                 id: monthInput
                 readOnly: true
                 Layout.preferredWidth: childrenRect.width + 40
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: ElectroneumComponents.Style.fontRegular.name
                 font.pixelSize: 14
                 color: datePicker.error ? errorColor : parent.headerFontColor
-                selectionColor: MoneroComponents.Style.dimmedFontColor
+                selectionColor: ElectroneumComponents.Style.dimmedFontColor
                 selectByMouse: true
                 horizontalAlignment: TextInput.AlignHCenter
                 maximumLength: 2
@@ -198,10 +198,10 @@ Item {
                 }
             }
 
-            MoneroComponents.TextPlain {
-                font.family: MoneroComponents.Style.fontRegular.name
+            ElectroneumComponents.TextPlain {
+                font.family: ElectroneumComponents.Style.fontRegular.name
                 font.pixelSize: 14
-                color: datePicker.error ? errorColor : MoneroComponents.Style.defaultFontColor
+                color: datePicker.error ? errorColor : ElectroneumComponents.Style.defaultFontColor
                 text: "-"
                 themeTransition: false
             }
@@ -209,10 +209,10 @@ Item {
             TextInput {
                 id: yearInput
                 Layout.preferredWidth: childrenRect.width + 60
-                font.family: MoneroComponents.Style.fontRegular.name
+                font.family: ElectroneumComponents.Style.fontRegular.name
                 font.pixelSize: 14
                 color: datePicker.error ? errorColor : parent.headerFontColor
-                selectionColor: MoneroComponents.Style.dimmedFontColor
+                selectionColor: ElectroneumComponents.Style.dimmedFontColor
                 selectByMouse: true
                 horizontalAlignment: TextInput.AlignHCenter
                 maximumLength: 4
@@ -246,7 +246,7 @@ Item {
                 ColorOverlay {
                     source: button
                     anchors.fill: button
-                    color: MoneroComponents.Style.defaultFontColor
+                    color: ElectroneumComponents.Style.defaultFontColor
                     rotation: datePicker.expanded ? 180 : 0
                     opacity: 1
                 }
@@ -267,9 +267,9 @@ Item {
         anchors.right: parent.right
         anchors.top: head.bottom
         anchors.topMargin: 10
-        color: MoneroComponents.Style.middlePanelBackgroundColor
+        color: ElectroneumComponents.Style.middlePanelBackgroundColor
         border.width: 1
-        border.color: MoneroComponents.Style.appWindowBorderColor
+        border.color: ElectroneumComponents.Style.appWindowBorderColor
         height: datePicker.expanded ? calendar.height + 2 : 0
         clip: true
 
@@ -283,7 +283,7 @@ Item {
             anchors.leftMargin: 1
             anchors.rightMargin: 1
             anchors.top: parent.top
-            color: MoneroComponents.Style.appWindowBorderColor
+            color: ElectroneumComponents.Style.appWindowBorderColor
             height: 1
         }
 
@@ -299,7 +299,7 @@ Item {
 
             style: CalendarStyle {
                 gridVisible: false
-                background: Rectangle { color: MoneroComponents.Style.middlePanelBackgroundColor }
+                background: Rectangle { color: ElectroneumComponents.Style.middlePanelBackgroundColor }
                 dayDelegate: Item {
                     z: parent.z + 1
                     implicitHeight: implicitWidth
@@ -311,15 +311,15 @@ Item {
                         radius: parent.implicitHeight / 2
                         color: {
                             if(dayArea.pressed && styleData.visibleMonth)
-                                return MoneroComponents.Style.blackTheme ? "#20FFFFFF" : "#10000000"
+                                return ElectroneumComponents.Style.blackTheme ? "#20FFFFFF" : "#10000000"
                             return "transparent";
                         }
                     }
 
-                    MoneroComponents.TextPlain {
+                    ElectroneumComponents.TextPlain {
                         id: dayText
                         anchors.centerIn: parent
-                        font.family: MoneroComponents.Style.fontMonoRegular.name
+                        font.family: ElectroneumComponents.Style.fontMonoRegular.name
                         font.pixelSize: {
                             if(!styleData.visibleMonth) return 12
                             return 14
@@ -331,10 +331,10 @@ Item {
                         text: styleData.date.getDate()
                         themeTransition: false
                         color: {
-                            if(!styleData.visibleMonth) return MoneroComponents.Style.lightGreyFontColor
-                            if(dayArea.pressed) return MoneroComponents.Style.defaultFontColor
-                            if(styleData.today) return MoneroComponents.Style.orange
-                            return MoneroComponents.Style.defaultFontColor
+                            if(!styleData.visibleMonth) return ElectroneumComponents.Style.lightGreyFontColor
+                            if(dayArea.pressed) return ElectroneumComponents.Style.defaultFontColor
+                            if(styleData.today) return ElectroneumComponents.Style.orange
+                            return ElectroneumComponents.Style.defaultFontColor
                         }
                     }
 
@@ -342,7 +342,7 @@ Item {
                         id: dayArea
                         anchors.fill: parent
                         hoverEnabled: true
-                        onEntered: dayRect.color = MoneroComponents.Style.blackTheme ? "#20FFFFFF" : "#10000000"
+                        onEntered: dayRect.color = ElectroneumComponents.Style.blackTheme ? "#20FFFFFF" : "#10000000"
                         onExited: dayRect.color = "transparent"
                         cursorShape: Qt.PointingHandCursor
                         onClicked: {
@@ -365,12 +365,12 @@ Item {
                     implicitHeight: 20
                     implicitWidth: calendar.width / 7
 
-                    MoneroComponents.TextPlain {
+                    ElectroneumComponents.TextPlain {
                         anchors.centerIn: parent
                         elide: Text.ElideRight
-                        font.family: MoneroComponents.Style.fontMonoRegular.name
+                        font.family: ElectroneumComponents.Style.fontMonoRegular.name
                         font.pixelSize: 12
-                        color: MoneroComponents.Style.lightGreyFontColor
+                        color: ElectroneumComponents.Style.lightGreyFontColor
                         themeTransition: false
                         text: {
                             var locale = Qt.locale()
@@ -380,15 +380,15 @@ Item {
                 }
 
                 navigationBar: Rectangle {
-                    color: MoneroComponents.Style.middlePanelBackgroundColor
+                    color: ElectroneumComponents.Style.middlePanelBackgroundColor
                     implicitWidth: calendar.width
                     implicitHeight: 30
 
-                    MoneroComponents.TextPlain {
+                    ElectroneumComponents.TextPlain {
                         anchors.centerIn: parent
-                        font.family: MoneroComponents.Style.fontMonoRegular.name
+                        font.family: ElectroneumComponents.Style.fontMonoRegular.name
                         font.pixelSize: 14
-                        color: MoneroComponents.Style.dimmedFontColor
+                        color: ElectroneumComponents.Style.dimmedFontColor
                         themeTransition: false
                         text: styleData.title
                     }
@@ -411,7 +411,7 @@ Item {
                         ColorOverlay {
                             source: prevMonthIcon
                             anchors.fill: prevMonthIcon
-                            color: MoneroComponents.Style.defaultFontColor
+                            color: ElectroneumComponents.Style.defaultFontColor
                             opacity: 0.5
                         }
 
@@ -440,7 +440,7 @@ Item {
                         ColorOverlay {
                             source: nextMonthIcon
                             anchors.fill: nextMonthIcon
-                            color: MoneroComponents.Style.defaultFontColor
+                            color: ElectroneumComponents.Style.defaultFontColor
                             opacity: 0.5
                             rotation: 180
                         }

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -38,8 +38,8 @@ class SubaddressAccount : public QObject
 {
     Q_OBJECT
 public:
-    Q_INVOKABLE QList<Monero::SubaddressAccountRow*> getAll(bool update = false) const;
-    Q_INVOKABLE Monero::SubaddressAccountRow * getRow(int index) const;
+    Q_INVOKABLE QList<Electroneum::SubaddressAccountRow*> getAll(bool update = false) const;
+    Q_INVOKABLE Electroneum::SubaddressAccountRow * getRow(int index) const;
     Q_INVOKABLE void addRow(const QString &label) const;
     Q_INVOKABLE void setLabel(quint32 accountIndex, const QString &label) const;
     Q_INVOKABLE void refresh() const;
@@ -52,10 +52,10 @@ signals:
 public slots:
 
 private:
-    explicit SubaddressAccount(Monero::SubaddressAccount * subaddressAccountImpl, QObject *parent);
+    explicit SubaddressAccount(Electroneum::SubaddressAccount * subaddressAccountImpl, QObject *parent);
     friend class Wallet;
-    Monero::SubaddressAccount * m_subaddressAccountImpl;
-    mutable QList<Monero::SubaddressAccountRow*> m_rows;
+    Electroneum::SubaddressAccount * m_subaddressAccountImpl;
+    mutable QList<Electroneum::SubaddressAccountRow*> m_rows;
 };
 
 #endif // SUBADDRESSACCOUNT_H

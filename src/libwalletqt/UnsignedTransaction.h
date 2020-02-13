@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -48,9 +48,9 @@ class UnsignedTransaction : public QObject
 
 public:
     enum Status {
-        Status_Ok       = Monero::UnsignedTransaction::Status_Ok,
-        Status_Error    = Monero::UnsignedTransaction::Status_Error,
-        Status_Critical    = Monero::UnsignedTransaction::Status_Critical
+        Status_Ok       = Electroneum::UnsignedTransaction::Status_Ok,
+        Status_Error    = Electroneum::UnsignedTransaction::Status_Error,
+        Status_Critical    = Electroneum::UnsignedTransaction::Status_Critical
     };
     Q_ENUM(Status)
 
@@ -68,13 +68,13 @@ public:
     Q_INVOKABLE void setFilename(const QString &fileName);
 
 private:
-    explicit UnsignedTransaction(Monero::UnsignedTransaction * pt, Monero::Wallet *walletImpl, QObject *parent = 0);
+    explicit UnsignedTransaction(Electroneum::UnsignedTransaction * pt, Electroneum::Wallet *walletImpl, QObject *parent = 0);
     ~UnsignedTransaction();
 private:
     friend class Wallet;
-    Monero::UnsignedTransaction * m_pimpl;
+    Electroneum::UnsignedTransaction * m_pimpl;
     QString m_fileName;
-    Monero::Wallet * m_walletImpl;
+    Electroneum::Wallet * m_walletImpl;
 };
 
 #endif // UNSIGNEDTRANSACTION_H

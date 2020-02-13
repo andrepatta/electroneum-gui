@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -31,8 +31,8 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.0
 import FontAwesome 1.0
 
-import "../../components" as MoneroComponents
-import "../../components/effects" as MoneroEffects
+import "../../components" as ElectroneumComponents
+import "../../components/effects" as ElectroneumEffects
 
 Rectangle{
     color: "transparent"
@@ -67,8 +67,8 @@ Rectangle{
                 anchors.left: parent.left
                 anchors.right: parent.right
                 height: 1
-                color: MoneroComponents.Style.dividerColor
-                opacity: MoneroComponents.Style.dividerOpacity
+                color: ElectroneumComponents.Style.dividerColor
+                opacity: ElectroneumComponents.Style.dividerOpacity
             }
 
             Rectangle {
@@ -76,7 +76,7 @@ Rectangle{
                 Layout.fillHeight: true
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
-                color: MoneroComponents.Style.blackTheme ? "white" : "darkgrey"
+                color: ElectroneumComponents.Style.blackTheme ? "white" : "darkgrey"
                 width: 2
             }
 
@@ -96,7 +96,7 @@ Rectangle{
                     anchors.leftMargin: 16
                     anchors.verticalCenter: parent.verticalCenter
 
-                    MoneroEffects.ImageMask {
+                    ElectroneumEffects.ImageMask {
                         height: 27
                         width: 27
                         anchors.horizontalCenter: parent.horizontalCenter
@@ -105,20 +105,20 @@ Rectangle{
                         fontAwesomeFallbackSize: 26
                         image: "qrc:///images/settings_local.svg"
 
-                        color: MoneroComponents.Style.defaultFontColor
-                        opacity: MoneroComponents.Style.blackTheme ? 1.0 : 0.8
+                        color: ElectroneumComponents.Style.defaultFontColor
+                        opacity: ElectroneumComponents.Style.blackTheme ? 1.0 : 0.8
                     }
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     id: localNodeHeader
                     anchors.left: localNodeIcon.right
                     anchors.leftMargin: 14
                     anchors.top: parent.top
-                    color: MoneroComponents.Style.defaultFontColor
-                    opacity: MoneroComponents.Style.blackTheme ? 1.0 : 0.8
+                    color: ElectroneumComponents.Style.defaultFontColor
+                    opacity: ElectroneumComponents.Style.blackTheme ? 1.0 : 0.8
                     font.bold: true
-                    font.family: MoneroComponents.Style.fontRegular.name
+                    font.family: ElectroneumComponents.Style.fontRegular.name
                     font.pixelSize: 16
                     text: qsTr("Local node") + translationManager.emptyString
                 }
@@ -129,8 +129,8 @@ Rectangle{
                     anchors.topMargin: 4
                     anchors.left: localNodeIcon.right
                     anchors.leftMargin: 14
-                    color: MoneroComponents.Style.dimmedFontColor
-                    font.family: MoneroComponents.Style.fontRegular.name
+                    color: ElectroneumComponents.Style.dimmedFontColor
+                    font.family: ElectroneumComponents.Style.fontRegular.name
                     font.pixelSize: 15
                     horizontalAlignment: TextInput.AlignLeft
                     selectByMouse: false
@@ -173,8 +173,8 @@ Rectangle{
                 anchors.left: parent.left
                 anchors.right: parent.right
                 height: 1
-                color: MoneroComponents.Style.dividerColor
-                opacity: MoneroComponents.Style.dividerOpacity
+                color: ElectroneumComponents.Style.dividerColor
+                opacity: ElectroneumComponents.Style.dividerOpacity
             }
 
             Rectangle {
@@ -182,7 +182,7 @@ Rectangle{
                 Layout.fillHeight: true
                 anchors.top: parent.top
                 anchors.bottom: parent.bottom
-                color: MoneroComponents.Style.blackTheme ? "white" : "darkgrey"
+                color: ElectroneumComponents.Style.blackTheme ? "white" : "darkgrey"
                 width: 2
             }
 
@@ -202,7 +202,7 @@ Rectangle{
                     anchors.leftMargin: 16
                     anchors.verticalCenter: parent.verticalCenter
 
-                    MoneroEffects.ImageMask {
+                    ElectroneumEffects.ImageMask {
                         height: 29
                         width: 22
                         anchors.horizontalCenter: parent.horizontalCenter
@@ -210,20 +210,20 @@ Rectangle{
                         fontAwesomeFallbackIcon: FontAwesome.cloudDownload
                         fontAwesomeFallbackSize: 26
                         image: "qrc:///images/settings_remote.svg"
-                        color: MoneroComponents.Style.defaultFontColor
-                        opacity: MoneroComponents.Style.blackTheme ? 1.0 : 0.8
+                        color: ElectroneumComponents.Style.defaultFontColor
+                        opacity: ElectroneumComponents.Style.blackTheme ? 1.0 : 0.8
                     }
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     id: remoteNodeHeader
                     anchors.left: remoteNodeIcon.right
                     anchors.leftMargin: 14
                     anchors.top: parent.top
-                    color: MoneroComponents.Style.defaultFontColor
-                    opacity: MoneroComponents.Style.blackTheme ? 1.0 : 0.8
+                    color: ElectroneumComponents.Style.defaultFontColor
+                    opacity: ElectroneumComponents.Style.blackTheme ? 1.0 : 0.8
                     font.bold: true
-                    font.family: MoneroComponents.Style.fontRegular.name
+                    font.family: ElectroneumComponents.Style.fontRegular.name
                     font.pixelSize: 16
                     text: qsTr("Remote node") + translationManager.emptyString
                 }
@@ -234,8 +234,8 @@ Rectangle{
                     anchors.topMargin: 4
                     anchors.left: remoteNodeIcon.right
                     anchors.leftMargin: 14
-                    color: MoneroComponents.Style.dimmedFontColor
-                    font.family: MoneroComponents.Style.fontRegular.name
+                    color: ElectroneumComponents.Style.dimmedFontColor
+                    font.family: ElectroneumComponents.Style.fontRegular.name
                     font.pixelSize: 15
                     activeFocusOnPress: false
                     horizontalAlignment: TextInput.AlignLeft
@@ -244,7 +244,7 @@ Rectangle{
                     textMargin: 0
                     leftPadding: 0
                     topPadding: 0
-                    text: qsTr("Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.") + translationManager.emptyString
+                    text: qsTr("Uses a third-party server to connect to the Electroneum network. Less secure, but easier on your computer.") + translationManager.emptyString
                     width: parent.width - (remoteNodeIcon.width + remoteNodeIcon.anchors.leftMargin + anchors.leftMargin)
                     readOnly: true
 
@@ -274,8 +274,8 @@ Rectangle{
                 anchors.right: parent.right
                 anchors.bottom: parent.bottom
                 height: 1
-                color: MoneroComponents.Style.dividerColor
-                opacity: MoneroComponents.Style.dividerOpacity
+                color: ElectroneumComponents.Style.dividerColor
+                opacity: ElectroneumComponents.Style.dividerOpacity
             }
         }
 
@@ -287,13 +287,13 @@ Rectangle{
             Layout.topMargin: 20
             visible: !isMobile && persistentSettings.useRemoteNode
 
-            MoneroComponents.WarningBox {
+            ElectroneumComponents.WarningBox {
                 Layout.topMargin: 26
                 Layout.bottomMargin: 6
-                text: qsTr("To find a remote node, type 'Monero remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
+                text: qsTr("To find a remote node, type 'Electroneum remote node' into your favorite search engine. Please ensure the node is run by a trusted third-party.") + translationManager.emptyString
             }
 
-            MoneroComponents.RemoteNodeEdit {
+            ElectroneumComponents.RemoteNodeEdit {
                 id: remoteNodeEdit
                 Layout.minimumWidth: 100
                 placeholderFontSize: 15
@@ -320,7 +320,7 @@ Rectangle{
                 columns: (isMobile) ? 1 : 2
                 columnSpacing: 32
 
-                MoneroComponents.LineEdit {
+                ElectroneumComponents.LineEdit {
                     id: daemonUsername
                     Layout.fillWidth: true
                     labelText: qsTr("Daemon username") + translationManager.emptyString
@@ -331,7 +331,7 @@ Rectangle{
                     fontSize: 15
                 }
 
-                MoneroComponents.LineEdit {
+                ElectroneumComponents.LineEdit {
                     id: daemonPassword
                     Layout.fillWidth: true
                     labelText: qsTr("Daemon password") + translationManager.emptyString
@@ -344,7 +344,7 @@ Rectangle{
                 }
             }
 
-            MoneroComponents.CheckBox {
+            ElectroneumComponents.CheckBox {
                 id: setTrustedDaemonCheckBox
                 checked: persistentSettings.is_trusted_daemon
                 onClicked: {
@@ -354,7 +354,7 @@ Rectangle{
                 text: qsTr("Mark as Trusted Daemon") + translationManager.emptyString
             }
 
-            MoneroComponents.StandardButton {
+            ElectroneumComponents.StandardButton {
                 id: btnConnectRemote
                 enabled: remoteNodeEdit.isValid()
                 small: true
@@ -379,7 +379,7 @@ Rectangle{
             Layout.topMargin: 40
             visible: !isMobile && !persistentSettings.useRemoteNode
 
-            MoneroComponents.StandardButton {
+            ElectroneumComponents.StandardButton {
                 small: true
                 text: (appWindow.daemonRunning ? qsTr("Stop local node") : qsTr("Start daemon")) + translationManager.emptyString
                 onClicked: {
@@ -393,7 +393,7 @@ Rectangle{
             }
 
             RowLayout {
-                MoneroComponents.LineEditMulti {
+                ElectroneumComponents.LineEditMulti {
                     id: blockchainFolder
                     Layout.preferredWidth: 200
                     Layout.fillWidth: true
@@ -420,7 +420,7 @@ Rectangle{
                 }
             }
 
-            MoneroComponents.LineEditMulti {
+            ElectroneumComponents.LineEditMulti {
                 id: daemonFlags
                 Layout.fillWidth: true
                 labelFontSize: 14
@@ -440,7 +440,7 @@ Rectangle{
                 ColumnLayout {
                     Layout.fillWidth: true
 
-                    MoneroComponents.RemoteNodeEdit {
+                    ElectroneumComponents.RemoteNodeEdit {
                         id: bootstrapNodeEdit
                         Layout.minimumWidth: 100
                         Layout.bottomMargin: 20

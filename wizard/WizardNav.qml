@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -31,7 +31,7 @@ import QtQuick.Layouts 1.2
 import QtQuick.Controls 2.0
 
 import "../js/Wizard.js" as Wizard
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 GridLayout {
     id: menuNav
@@ -67,7 +67,7 @@ GridLayout {
         Layout.fillWidth: true
         color: "transparent"
 
-        MoneroComponents.StandardButton {
+        ElectroneumComponents.StandardButton {
             id: btnPrev
             small: true
             text: menuNav.btnPrevText
@@ -103,7 +103,7 @@ GridLayout {
         Layout.fillWidth: true
         color: "transparent"
 
-        MoneroComponents.StandardButton {
+        ElectroneumComponents.StandardButton {
             id: btnNext
             small: true
             text: menuNav.btnNextText

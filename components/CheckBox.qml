@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018, The Monero Project
+// Copyright (c) 2014-2018, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -30,8 +30,8 @@ import QtQuick 2.9
 import QtQuick.Layouts 1.1
 import FontAwesome 1.0
 
-import "." as MoneroComponents
-import "effects/" as MoneroEffects
+import "." as ElectroneumComponents
+import "effects/" as ElectroneumEffects
 
 Item {
     id: checkBox
@@ -73,19 +73,19 @@ Item {
                 color: "transparent"
                 border.color:
                     if(checkBox.checked){
-                        return MoneroComponents.Style.inputBorderColorActive;
+                        return ElectroneumComponents.Style.inputBorderColorActive;
                     } else {
-                        return MoneroComponents.Style.inputBorderColorInActive;
+                        return ElectroneumComponents.Style.inputBorderColorInActive;
                     }
             }
 
-            MoneroEffects.ImageMask {
+            ElectroneumEffects.ImageMask {
                 id: img
                 visible: checkBox.checked || checkBox.uncheckedIcon != ""
                 anchors.centerIn: parent
                 width: checkBox.imgWidth
                 height: checkBox.imgHeight
-                color: MoneroComponents.Style.defaultFontColor
+                color: ElectroneumComponents.Style.defaultFontColor
                 fontAwesomeFallbackIcon: FontAwesome.plus
                 fontAwesomeFallbackSize: 14
                 image: {
@@ -96,11 +96,11 @@ Item {
             }
         }
 
-        MoneroComponents.TextPlain {
+        ElectroneumComponents.TextPlain {
             id: label
-            font.family: MoneroComponents.Style.fontRegular.name
+            font.family: ElectroneumComponents.Style.fontRegular.name
             font.pixelSize: checkBox.fontSize
-            color: MoneroComponents.Style.defaultFontColor
+            color: ElectroneumComponents.Style.defaultFontColor
             textFormat: Text.RichText
             wrapMode: Text.Wrap
         }

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -61,8 +61,8 @@ class TransactionInfo : public QObject
 
 public:
     enum Direction {
-        Direction_In  =  Monero::TransactionInfo::Direction_In,
-        Direction_Out =  Monero::TransactionInfo::Direction_Out,
+        Direction_In  =  Electroneum::TransactionInfo::Direction_In,
+        Direction_Out =  Electroneum::TransactionInfo::Direction_Out,
         Direction_Both // invalid direction value, used for filtering
     };
 
@@ -93,10 +93,10 @@ public:
     //! Could be useful later when addressbook is implemented
     Q_INVOKABLE QList<Transfer*> transfers() const;
 private:
-    explicit TransactionInfo(Monero::TransactionInfo * pimpl, QObject *parent = 0);
+    explicit TransactionInfo(Electroneum::TransactionInfo * pimpl, QObject *parent = 0);
 private:
     friend class TransactionHistory;
-    Monero::TransactionInfo * m_pimpl;
+    Electroneum::TransactionInfo * m_pimpl;
     mutable QList<Transfer*> m_transfers;
 };
 

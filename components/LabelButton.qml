@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2014-2015, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -29,7 +29,7 @@
 import QtQuick 2.9
 import QtQuick.Layouts 1.1
 
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 
 Rectangle {
@@ -37,22 +37,22 @@ Rectangle {
     property alias text: labelButtonText.text
 
     id: labelButton
-    color: MoneroComponents.Style.buttonBackgroundColorDisabled
+    color: ElectroneumComponents.Style.buttonBackgroundColorDisabled
     radius: 3
     height: 20
     width: labelButtonText.width + 14
     anchors.right: copyButton.left
     anchors.rightMargin: 6
 
-    MoneroComponents.TextPlain {
+    ElectroneumComponents.TextPlain {
         id: labelButtonText
         anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
-        font.family: MoneroComponents.Style.fontRegular.name
+        font.family: ElectroneumComponents.Style.fontRegular.name
         font.pixelSize: 12
         font.bold: true
         text: ""
-        color: MoneroComponents.Style.inlineButtonTextColor
+        color: ElectroneumComponents.Style.inlineButtonTextColor
     }
 
     MouseArea {
@@ -61,11 +61,11 @@ Rectangle {
         hoverEnabled: true
         onClicked: labelButton.clicked()
         onEntered: {
-            labelButton.color = MoneroComponents.Style.buttonBackgroundColorDisabledHover;
+            labelButton.color = ElectroneumComponents.Style.buttonBackgroundColorDisabledHover;
             labelButtonText.opacity = 0.8;
         }
         onExited: {
-            labelButton.color = MoneroComponents.Style.buttonBackgroundColorDisabled;
+            labelButton.color = ElectroneumComponents.Style.buttonBackgroundColorDisabled;
             labelButtonText.opacity = 1.0;
         }
     }

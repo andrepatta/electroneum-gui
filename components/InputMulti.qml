@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2014-2015, The Electroneum Project
 //
 // All rights reserved.
 //
@@ -30,26 +30,26 @@ import QtQuick.Controls 2.0
 import QtQuick 2.9
 
 import "../js/TxUtils.js" as TxUtils
-import "../components" as MoneroComponents
+import "../components" as ElectroneumComponents
 
 TextArea {
     property int fontSize: 18
     property bool fontBold: false
-    property string fontColor: MoneroComponents.Style.defaultFontColor
+    property string fontColor: ElectroneumComponents.Style.defaultFontColor
 
     property bool mouseSelection: true
     property bool error: false
     property bool addressValidation: false
 
     id: textArea
-    font.family: MoneroComponents.Style.fontRegular.name
+    font.family: ElectroneumComponents.Style.fontRegular.name
     color: fontColor
     font.pixelSize: fontSize
     font.bold: fontBold
     horizontalAlignment: TextInput.AlignLeft
     selectByMouse: mouseSelection
-    selectionColor: MoneroComponents.Style.textSelectionColor
-    selectedTextColor: MoneroComponents.Style.textSelectedColor
+    selectionColor: ElectroneumComponents.Style.textSelectionColor
+    selectedTextColor: ElectroneumComponents.Style.textSelectedColor
 
     property int minimumHeight: 100
     height: contentHeight > minimumHeight ? contentHeight : minimumHeight

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019, The Monero Project
+// Copyright (c) 2014-2019, The Electroneum Project
 // 
 // All rights reserved.
 // 
@@ -29,13 +29,13 @@
 import QtQuick 2.9
 import QtQuick.Layouts 1.1
 import QtGraphicalEffects 1.0
-import moneroComponents.Wallet 1.0
-import moneroComponents.NetworkType 1.0
-import moneroComponents.Clipboard 1.0
+import electroneumComponents.Wallet 1.0
+import electroneumComponents.NetworkType 1.0
+import electroneumComponents.Clipboard 1.0
 import FontAwesome 1.0
 
-import "components" as MoneroComponents
-import "components/effects/" as MoneroEffects
+import "components" as ElectroneumComponents
+import "components/effects/" as ElectroneumEffects
 
 Rectangle {
     id: panel
@@ -89,21 +89,21 @@ Rectangle {
     anchors.bottom: parent.bottom
     anchors.top: parent.top
 
-    MoneroEffects.GradientBackground {
+    ElectroneumEffects.GradientBackground {
         anchors.fill: parent
-        fallBackColor: MoneroComponents.Style.middlePanelBackgroundColor
-        initialStartColor: MoneroComponents.Style.leftPanelBackgroundGradientStart
-        initialStopColor: MoneroComponents.Style.leftPanelBackgroundGradientStop
-        blackColorStart: MoneroComponents.Style._b_leftPanelBackgroundGradientStart
-        blackColorStop: MoneroComponents.Style._b_leftPanelBackgroundGradientStop
-        whiteColorStart: MoneroComponents.Style._w_leftPanelBackgroundGradientStart
-        whiteColorStop: MoneroComponents.Style._w_leftPanelBackgroundGradientStop
+        fallBackColor: ElectroneumComponents.Style.middlePanelBackgroundColor
+        initialStartColor: ElectroneumComponents.Style.leftPanelBackgroundGradientStart
+        initialStopColor: ElectroneumComponents.Style.leftPanelBackgroundGradientStop
+        blackColorStart: ElectroneumComponents.Style._b_leftPanelBackgroundGradientStart
+        blackColorStop: ElectroneumComponents.Style._b_leftPanelBackgroundGradientStop
+        whiteColorStart: ElectroneumComponents.Style._w_leftPanelBackgroundGradientStart
+        whiteColorStop: ElectroneumComponents.Style._w_leftPanelBackgroundGradientStop
         posStart: 0.6
         start: Qt.point(0, 0)
         end: Qt.point(height, width)
     }
 
-    // card with monero logo
+    // card with electroneum logo
     Column {
         visible: true
         z: 2
@@ -125,7 +125,7 @@ Rectangle {
 
                 Image {
                     id: card
-                    visible: !isOpenGL || MoneroComponents.Style.blackTheme
+                    visible: !isOpenGL || ElectroneumComponents.Style.blackTheme
                     width: 260
                     height: 170
                     fillMode: Image.PreserveAspectFit
@@ -133,7 +133,7 @@ Rectangle {
                 }
 
                 DropShadow {
-                    visible: isOpenGL && !MoneroComponents.Style.blackTheme
+                    visible: isOpenGL && !ElectroneumComponents.Style.blackTheme
                     anchors.fill: card
                     horizontalOffset: 3
                     verticalOffset: 3
@@ -144,7 +144,7 @@ Rectangle {
                     cached: true
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     id: testnetLabel
                     visible: persistentSettings.nettype != NetworkType.MAINNET
                     text: (persistentSettings.nettype == NetworkType.TESTNET ? qsTr("Testnet") : qsTr("Stagenet")) + translationManager.emptyString
@@ -158,7 +158,7 @@ Rectangle {
                     themeTransition: false
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     id: viewOnlyLabel
                     visible: viewOnly
                     text: qsTr("View Only") + translationManager.emptyString
@@ -202,7 +202,7 @@ Rectangle {
                         }
                     }
                 }
-                MoneroComponents.Label {
+                ElectroneumComponents.Label {
                     fontSize: 20
                     text: "¥"
                     color: "white"
@@ -232,7 +232,7 @@ Rectangle {
                 height: 490
                 width: 50
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     visible: !(persistentSettings.fiatPriceToggle && persistentSettings.fiatPriceEnabled)
                     id: balanceText
                     themeTransition: false
@@ -261,10 +261,10 @@ Rectangle {
                         anchors.fill: parent
                         cursorShape: Qt.PointingHandCursor
                         onEntered: {
-                            parent.color = MoneroComponents.Style.orange
+                            parent.color = ElectroneumComponents.Style.orange
                         }
                         onExited: {
-                            parent.color = MoneroComponents.Style.white
+                            parent.color = ElectroneumComponents.Style.white
                         }
                         onClicked: {
                                 console.log("Copied to clipboard");
@@ -274,7 +274,7 @@ Rectangle {
                     }
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     visible: !balanceText.visible
                     id: balanceTextFiat
                     themeTransition: false
@@ -291,10 +291,10 @@ Rectangle {
                         anchors.fill: parent
                         cursorShape: Qt.PointingHandCursor
                         onEntered: {
-                            parent.color = MoneroComponents.Style.orange
+                            parent.color = ElectroneumComponents.Style.orange
                         }
                         onExited: {
-                            parent.color = MoneroComponents.Style.white
+                            parent.color = ElectroneumComponents.Style.white
                         }
                         onClicked: {
                                 console.log("Copied to clipboard");
@@ -304,7 +304,7 @@ Rectangle {
                     }
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     id: unlockedBalanceText
                     visible: !(persistentSettings.fiatPriceToggle && persistentSettings.fiatPriceEnabled)
                     themeTransition: false
@@ -333,10 +333,10 @@ Rectangle {
                         anchors.fill: parent
                         cursorShape: Qt.PointingHandCursor
                         onEntered: {
-                            parent.color = MoneroComponents.Style.orange
+                            parent.color = ElectroneumComponents.Style.orange
                         }
                         onExited: {
-                            parent.color = MoneroComponents.Style.white
+                            parent.color = ElectroneumComponents.Style.white
                         }
                         onClicked: {
                                 console.log("Copied to clipboard");
@@ -346,7 +346,7 @@ Rectangle {
                     }
                 }
 
-                MoneroComponents.TextPlain {
+                ElectroneumComponents.TextPlain {
                     id: unlockedBalanceTextFiat
                     themeTransition: false
                     visible: !unlockedBalanceText.visible
@@ -363,10 +363,10 @@ Rectangle {
                         anchors.fill: parent
                         cursorShape: Qt.PointingHandCursor
                         onEntered: {
-                            parent.color = MoneroComponents.Style.orange
+                            parent.color = ElectroneumComponents.Style.orange
                         }
                         onExited: {
-                            parent.color = MoneroComponents.Style.white
+                            parent.color = ElectroneumComponents.Style.white
                         }
                         onClicked: {
                                 console.log("Copied to clipboard");
@@ -376,7 +376,7 @@ Rectangle {
                     }
                 }
 
-                MoneroComponents.Label {
+                ElectroneumComponents.Label {
                     id: unlockedBalanceLabel
                     visible: true
                     text: qsTr("Unlocked balance") + translationManager.emptyString
@@ -389,7 +389,7 @@ Rectangle {
                     themeTransition: false
                 }
 
-                MoneroComponents.Label {
+                ElectroneumComponents.Label {
                     visible: !isMobile
                     id: balanceLabel
                     text: qsTr("Balance") + translationManager.emptyString
@@ -438,14 +438,14 @@ Rectangle {
             property var previousButton: transferButton
 
             // top border
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.leftMargin: 16
             }
 
             // ------------- Account tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: accountButton
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -459,7 +459,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: accountButton.present
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -467,7 +467,7 @@ Rectangle {
             }
 
             // ------------- Transfer tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: transferButton
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -481,7 +481,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: transferButton.present
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -490,7 +490,7 @@ Rectangle {
 
             // ------------- AddressBook tab ---------------
 
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: addressBookButton
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -505,7 +505,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: addressBookButton.present
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -513,7 +513,7 @@ Rectangle {
             }
 
             // ------------- Receive tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: receiveButton
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -527,7 +527,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: receiveButton.present
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -536,7 +536,7 @@ Rectangle {
 
             // ------------- Merchant tab ---------------
 
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: merchantButton
                 visible: appWindow.walletMode >= 2
                 anchors.left: parent.left
@@ -552,7 +552,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: merchantButton.present && appWindow.walletMode >= 2
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -561,7 +561,7 @@ Rectangle {
 
             // ------------- History tab ---------------
 
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: historyButton
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -575,7 +575,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: historyButton.present
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -583,7 +583,7 @@ Rectangle {
             }
 
             // ------------- Advanced tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: advancedButton
                 visible: appWindow.walletMode >= 2
                 anchors.left: parent.left
@@ -597,7 +597,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: advancedButton.present && appWindow.walletMode >= 2
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -605,7 +605,7 @@ Rectangle {
             }
 
             // ------------- Mining tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: miningButton
                 visible: !isAndroid && !isIOS && appWindow.walletMode >= 2
                 anchors.left: parent.left
@@ -621,7 +621,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: miningButton.present && appWindow.walletMode >= 2
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -629,7 +629,7 @@ Rectangle {
             }
 
             // ------------- TxKey tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: txkeyButton
                 visible: appWindow.walletMode >= 2
                 anchors.left: parent.left
@@ -645,7 +645,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: txkeyButton.present && appWindow.walletMode >= 2
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -653,7 +653,7 @@ Rectangle {
             }
 
             // ------------- Shared RingDB tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: sharedringdbButton
                 visible: appWindow.walletMode >= 2
                 anchors.left: parent.left
@@ -669,7 +669,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: sharedringdbButton.present && appWindow.walletMode >= 2
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -677,7 +677,7 @@ Rectangle {
             }
 
             // ------------- Sign/verify tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: signButton
                 visible: appWindow.walletMode >= 2
                 anchors.left: parent.left
@@ -693,7 +693,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: signButton.present && appWindow.walletMode >= 2
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -701,7 +701,7 @@ Rectangle {
             }
 
             // ------------- Settings tab ---------------
-            MoneroComponents.MenuButton {
+            ElectroneumComponents.MenuButton {
                 id: settingsButton
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -715,7 +715,7 @@ Rectangle {
                 }
             }
 
-            MoneroComponents.MenuButtonDivider {
+            ElectroneumComponents.MenuButtonDivider {
                 visible: settingsButton.present
                 anchors.left: parent.left
                 anchors.right: parent.right
@@ -737,7 +737,7 @@ Rectangle {
             color: "transparent"
         }
 
-        MoneroComponents.NetworkStatusItem {
+        ElectroneumComponents.NetworkStatusItem {
             id: networkStatus
             anchors.left: parent.left
             anchors.right: parent.right
@@ -748,7 +748,7 @@ Rectangle {
             height: 48
         }
 
-        MoneroComponents.ProgressBar {
+        ElectroneumComponents.ProgressBar {
             id: progressBar
             anchors.left: parent.left
             anchors.right: parent.right
@@ -758,7 +758,7 @@ Rectangle {
             visible: networkStatus.connected
         }
 
-        MoneroComponents.ProgressBar {
+        ElectroneumComponents.ProgressBar {
             id: daemonProgressBar
             anchors.left: parent.left
             anchors.right: parent.right
