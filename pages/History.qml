@@ -925,15 +925,6 @@ Rectangle {
                                     }
                                 }
 
-                                Image {
-                                    visible: !isout && confirmationsRequired === 60
-                                    anchors.left: btnDetails.right
-                                    anchors.leftMargin: 16
-                                    width: 28
-                                    height: 28
-                                    source: "qrc:///images/miningetn.png"
-                                }
-
                                 ElectroneumComponents.StandardButton {
                                     visible: isout
                                     anchors.left: btnDetails.right

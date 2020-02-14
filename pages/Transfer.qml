@@ -465,6 +465,7 @@ Rectangle {
             visible: persistentSettings.transferShowAdvanced && appWindow.walletMode >= 2
             columns: (isMobile) ? 2 : 6
 
+            /*
             StandardButton {
                 id: sweepUnmixableButton
                 text: qsTr("Sweep Unmixable") + translationManager.emptyString
@@ -475,6 +476,7 @@ Rectangle {
                     root.sweepUnmixableClicked()
                 }
             }
+            */
 
             StandardButton {
                 id: saveTxButton
