@@ -2223,9 +2223,9 @@ ApplicationWindow {
             case NetworkType.STAGENET:
                 return 38081;
             case NetworkType.TESTNET:
-                return 28081;
+                return 34568;
             default:
-                return 18081;
+                return 26968;
         }
     }
 
