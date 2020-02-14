@@ -3627,7 +3627,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="2161"/>
-        <source>New version of Electroneum is available. Check ouelectroneumlectroneum.org</source>
+        <source>New version of Electroneum is available. Check out electroneum.com</source>
         <translation>Nova versão do Electroneum disponível. Confira o sitelectroneumlectroneum.org</translation>
     </message>
     <message>

@@ -1351,7 +1351,7 @@ ApplicationWindow {
         id: persistentSettings
         fileName: {
             if(isTails && tailsUsePersistence)
-                return homePath + "/Persistent/Electroelectroneumlectroneum-core.conf";
+                return homePath + "/Persistent/Electroneum/electroneum.conf";
             return "";
         }
 
@@ -2144,13 +2144,14 @@ ApplicationWindow {
             //var auto_url = parts[3]
             var osBuildTag = isMac ? "mac-x64" : isWindows ? "win-x64" : isLinux ? "linux-x64" : "unknownBuildTag"
             var extension = isMac || isLinux ? ".tar.bz2" : isWindows ? ".zip" : ".unknownExtension"
-            var base_url = "https://downloads.getmonero.orgelectroneumlectroneum-gui-"
+            //TODO: change url to etn
+            var base_url = "https://downloads.getmonero.org/gui/electroneum-gui-"
             var download_url = base_url + osBuildTag + "-v" + version + extension
             var msg = ""
             if (osBuildTag !== "unknownBuildTag") {
                 msg = qsTr("New version of Electroneum v.%1 is available.<br><br>Download:<br>%2<br><br>SHA256 Hash:<br>%3").arg(version).arg(download_url).arg(hash) + translationManager.emptyString
             } else {
-                msg = qsTr("New version of Electroneum is available. Check ouelectroneumlectroneum.org") + translationManager.emptyString
+                msg = qsTr("New version of Electroneum is available. Check out electroneum.com") + translationManager.emptyString
             }
             notifier.show(msg)
         } else {

@@ -3628,7 +3628,7 @@ Indice d&apos;adresse de dépense : </translation>
     </message>
     <message>
         <location filename="../main.qml" line="2161"/>
-        <source>New version of Electroneum is available. Check ouelectroneumlectroneum.org</source>
+        <source>New version of Electroneum is available. Check out electroneum.com</source>
         <translation>Une nouvelle version de Electroneum est disponible. Visiteelectroneumlectroneum.org</translation>
     </message>
     <message>

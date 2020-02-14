@@ -40,7 +40,7 @@ The build steps in detail:
 
 1. Install *Inno Setup*. You can get it from [here](http://www.jrsoftware.org/isdl.php)
 2. Get the Inno Setup script plus related files by cloning the whole [electroneum-gui GitHub repository](https://github.com/eletroneum/electroneum-gui); you will only need the files in the installer directory `installers\windows` however. Depending on development state, additionally you may have to checkout a specific branch, like `v3.1.0.1`.
-3. The setup script is written to take the GUI wallet files from a subdirectory named `bin`; so create `installers\windows\bin`, get the zip file of the GUI wallet from [here](https://getmonero.org/downloads/), unpack it somewhere, and copy all the files and subdirectories in the single subdirectory there (currently naelectroneumlectroneum-gui-0.14.1.2`) to this `bin` subdirectory
+3. The setup script is written to take the GUI wallet files from a subdirectory named `bin`; so create `installers\windows\bin`, get the zip file of the GUI wallet from [here](https://getmonero.org/downloads/), unpack it somewhere, and copy all the files and subdirectories in the single subdirectory there (currently named `monero-gui-0.15.0.0`) to this `bin` subdirectory
 4. Start Inno Setup, load `Electroneum.iss` and compile it
 5. The result i.e. the finished installer will be the file `mysetup.exe` in the `installers\windows\Output` subdirectory 
 

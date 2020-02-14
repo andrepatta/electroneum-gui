@@ -81,7 +81,7 @@ QString xdgMime(QApplication &app){
         "Type=Application\n"
         "Icon=electroneum\n"
         "Categories=Network;GNOME;Qt;\n"
-        "MimeType=x-scheme-handler/electroneum;x-scheme-hanelectroneumlectroneumseed\n"
+        "MimeType=x-scheme-handler/electroneum;x-scheme-handler/electroneumseed\n"
         "StartupNotify=true\n"
         "X-GNOME-Bugzilla-Bugzilla=GNOME\n"
         "X-GNOME-UsesNotifications=true\n"

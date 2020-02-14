@@ -78,7 +78,7 @@ Rectangle {
     Rectangle {
         // grey background on merchantView
         visible: currentView === merchantView
-        color: ElectroneumComponents.SelectroneumlectroneumGrey
+        color: ElectroneumComponents.electroneumGrey
         anchors.fill: parent
     }
 

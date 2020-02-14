@@ -25,7 +25,10 @@ packagesExist(hidapi-libusb) {
     }
 }
 
-# cleaning "auto-generated" bitelectroneum directory on "make distclean"
+QMAKE_CXXFLAGS += -fPIC -fstack-protector
+QMAKE_LFLAGS += -fstack-protector
+
+# cleaning "auto-generated" electroneum directory on "make distclean"
 QMAKE_DISTCLEAN += -r $$WALLET_ROOT
 
 INCLUDEPATH +=  $$WALLET_ROOT/include \

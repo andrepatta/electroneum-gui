@@ -180,7 +180,7 @@ int main(int argc, char *argv[])
 
     // Log settings
     const QString logPath = getLogPath(parser.value(logPathOption));
-    Electroneum::Wallet::init(argv[0], "electroneumlectroneum-wallet-gui", logPath.toStdString().c_str(), true);
+    Electroneum::Wallet::init(argv[0], "electroneum-wallet-gui", logPath.toStdString().c_str(), true);
     qInstallMessageHandler(messageHandler);
 
     // loglevel is configured in main.qml. Anything lower than

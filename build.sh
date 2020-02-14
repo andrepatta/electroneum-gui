@@ -95,7 +95,7 @@ fi
 if [ "$platform" == "darwin" ]; then
     BIN_PATH=$BIN_PATH/electroneum-wallet-gui.app/Contents/MacOS/
 elif [ "$platform" == "mingw64" ] || [ "$platform" == "mingw32" ]; then
-    ELECTRONEUMD_electroneumlectroneumd.exe
+    ELECTRONEUMD_EXEC=electroneumd.exe
 fi
 
 # force version update

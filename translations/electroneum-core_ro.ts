@@ -3626,7 +3626,7 @@ Indexul adresei de cheltuit:</translation>
     </message>
     <message>
         <location filename="../main.qml" line="2161"/>
-        <source>New version of Electroneum is available. Check ouelectroneumlectroneum.org</source>
+        <source>New version of Electroneum is available. Check out electroneum.com</source>
         <translation>Versiune nouă Electroneum este disponibilă. Verificelectroneumlectroneum.org</translation>
     </message>
     <message>

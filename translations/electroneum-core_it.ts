@@ -3616,7 +3616,7 @@ Indice indirizzo di spesa: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="2161"/>
-        <source>New version of Electroneum is available. Check ouelectroneumlectroneum.org</source>
+        <source>New version of Electroneum is available. Check out electroneum.com</source>
         <translation>È disponibile una nuova versione di Electroneum. Controllelectroneumlectroneum.org</translation>
     </message>
     <message>

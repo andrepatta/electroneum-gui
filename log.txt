@@ -1,0 +1,2256 @@
+Building release-static
+~/electroneum-gui ~/electroneum-gui ~/electroneum-gui
+~/electroneum-gui ~/electroneum-gui
+D	include/INode.h
+D	include/IWallet.h
+M	src/common/dns_utils.cpp
+M	src/crypto/crypto_ops_builder/ref10CommentedCombined/MakeCryptoOps.py
+M	src/crypto/slow-hash.c
+M	src/cryptonote_config.h
+M	src/ringct/rctOps.cpp
+M	src/ringct/rctOps.h
+M	src/ringct/rctSigs.cpp
+M	src/ringct/rctSigs.h
+M	src/ringct/rctTypes.cpp
+M	src/ringct/rctTypes.h
+M	src/simplewallet/simplewallet.cpp
+M	src/wallet/CMakeLists.txt
+M	src/wallet/api/transaction_history.cpp
+M	src/wallet/wallet2.cpp
+M	src/wallet/wallet2.h
+M	src/wallet/wallet_rpc_server.cpp
+M	src/wallet/wallet_rpc_server.h
+M	tests/core_tests/chaingen.cpp
+M	tests/libwallet_api_tests/main.cpp
+M	tests/unit_tests/bulletproofs.cpp
+M	tests/unit_tests/fee.cpp
+M	tests/unit_tests/net.cpp
+M	tests/unit_tests/ringct.cpp
+~/electroneum-gui/electroneum ~/electroneum-gui ~/electroneum-gui
+You are currently on commit bf3f46cb
+The most recent tag was at bf3f46cb
+You are building a tagged release
+~/electroneum-gui ~/electroneum-gui
+D	include/INode.h
+D	include/IWallet.h
+M	src/common/dns_utils.cpp
+M	src/crypto/crypto_ops_builder/ref10CommentedCombined/MakeCryptoOps.py
+M	src/crypto/slow-hash.c
+M	src/cryptonote_config.h
+M	src/ringct/rctOps.cpp
+M	src/ringct/rctOps.h
+M	src/ringct/rctSigs.cpp
+M	src/ringct/rctSigs.h
+M	src/ringct/rctTypes.cpp
+M	src/ringct/rctTypes.h
+M	src/simplewallet/simplewallet.cpp
+M	src/wallet/CMakeLists.txt
+M	src/wallet/api/transaction_history.cpp
+M	src/wallet/wallet2.cpp
+M	src/wallet/wallet2.h
+M	src/wallet/wallet_rpc_server.cpp
+M	src/wallet/wallet_rpc_server.h
+M	tests/core_tests/chaingen.cpp
+M	tests/libwallet_api_tests/main.cpp
+M	tests/unit_tests/bulletproofs.cpp
+M	tests/unit_tests/fee.cpp
+M	tests/unit_tests/net.cpp
+M	tests/unit_tests/ringct.cpp
+libwallet_merged.a not found - Building libwallet
+Building libwallet release-static
+cleaning up existing electroneum build dir, libs and includes
+~/electroneum-gui/electroneum/build/release-static ~/electroneum-gui ~/electroneum-gui
+Configuring build for MINGW64..
+-- CMake version 3.15.6
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Check for working C compiler: C:/msys64/mingw64/bin/x86_64-w64-mingw32-gcc.exe
+-- Check for working C compiler: C:/msys64/mingw64/bin/x86_64-w64-mingw32-gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/msys64/mingw64/bin/x86_64-w64-mingw32-g++.exe
+-- Check for working CXX compiler: C:/msys64/mingw64/bin/x86_64-w64-mingw32-g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/msys64/mingw64/bin/x86_64-w64-mingw32-gcc.exe
+-- Building without build tag
+-- Found Git: C:/msys64/usr/bin/git.exe (found version "2.25.0") 
+-- Checking submodules
+-- Submodule 'external/miniupnp' is up-to-date
+-- Submodule 'external/unbound' is up-to-date
+-- Submodule 'external/rapidjson' is up-to-date
+-- Submodule 'external/trezor-common' is up-to-date
+-- Could not find DEVELOPER_LOCAL_TOOLS in env (not required)
+-- BOOST_IGNORE_SYSTEM_PATHS defaults to OFF
+-- Could not find DEVELOPER_LIBUNBOUND_OLD in env (not required)
+-- Building for a 64-bit system
+-- Building internal libraries as static
+-- MSYS location: C:/msys64
+-- Could not find DATABASE in env (not required unless you want to change database type from default: lmdb)
+-- Using LMDB as default DB type
+-- looking for liblzma
+-- liblzma found
+-- Could not find libunwind (missing: LIBUNWIND_INCLUDE_DIR) 
+-- Stack trace on exception disabled
+-- Found OpenSSL: C:/msys64/mingw64/lib/libcrypto.a (found version "1.1.1d")  
+-- Using OpenSSL include dir at C:/msys64/mingw64/include
+-- Found HIDAPI: C:/msys64/mingw64/lib/libhidapi.a  
+-- Looking for memset_s in c
+-- Looking for memset_s in c - not found
+-- Looking for explicit_bzero in c
+-- Looking for explicit_bzero in c - not found
+-- Looking for strptime
+-- Looking for strptime - not found
+-- Could NOT find MiniUPnPc (missing: MINIUPNP_INCLUDE_DIR MINIUPNP_LIBRARY) 
+-- Using in-tree miniupnpc
+-- Looking for libunbound
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for arpa/inet.h
+-- Looking for arpa/inet.h - not found
+-- Looking for endian.h
+-- Looking for endian.h - not found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - not found
+-- Looking for event.h
+-- Looking for event.h - not found
+-- Looking for getopt.h
+-- Looking for getopt.h - found
+-- Looking for glob.h
+-- Looking for glob.h - not found
+-- Looking for grp.h
+-- Looking for grp.h - not found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for iphlpapi.h
+-- Looking for iphlpapi.h - found
+-- Looking for login_cap.h
+-- Looking for login_cap.h - not found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for netdb.h
+-- Looking for netdb.h - not found
+-- Looking for netinet/in.h
+-- Looking for netinet/in.h - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pwd.h
+-- Looking for pwd.h - not found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for sys/param.h
+-- Looking for sys/param.h - found
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - not found
+-- Looking for sys/sha2.h
+-- Looking for sys/sha2.h - not found
+-- Looking for sys/socket.h
+-- Looking for sys/socket.h - not found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/sysctl.h
+-- Looking for sys/sysctl.h - not found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for sys/uio.h
+-- Looking for sys/uio.h - not found
+-- Looking for sys/un.h
+-- Looking for sys/un.h - not found
+-- Looking for sys/wait.h
+-- Looking for sys/wait.h - not found
+-- Looking for syslog.h
+-- Looking for syslog.h - not found
+-- Looking for time.h
+-- Looking for time.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for vfork.h
+-- Looking for vfork.h - not found
+-- Looking for windows.h
+-- Looking for windows.h - found
+-- Looking for winsock2.h
+-- Looking for winsock2.h - found
+-- Looking for ws2tcpip.h
+-- Looking for ws2tcpip.h - found
+-- Looking for _beginthreadex
+-- Looking for _beginthreadex - found
+-- Looking for arc4random
+-- Looking for arc4random - not found
+-- Looking for arc4random_uniform
+-- Looking for arc4random_uniform - not found
+-- Looking for chown
+-- Looking for chown - not found
+-- Looking for chroot
+-- Looking for chroot - not found
+-- Looking for ctime_r
+-- Looking for ctime_r - not found
+-- Looking for daemon
+-- Looking for daemon - not found
+-- Looking for endprotoent
+-- Looking for endprotoent - not found
+-- Looking for endservent
+-- Looking for endservent - not found
+-- Looking for fork
+-- Looking for fork - not found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for fsync
+-- Looking for fsync - not found
+-- Looking for getauxval
+-- Looking for getauxval - not found
+-- Looking for getentropy
+-- Looking for getentropy - not found
+-- Looking for getpwnam
+-- Looking for getpwnam - not found
+-- Looking for getrlimit
+-- Looking for getrlimit - not found
+-- Looking for glob
+-- Looking for glob - not found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - not found
+-- Looking for fcntl
+-- Looking for fcntl - not found
+-- Looking for inet_aton
+-- Looking for inet_aton - not found
+-- Looking for inet_ntop
+-- Looking for inet_ntop - found
+-- Looking for inet_pton
+-- Looking for inet_pton - found
+-- Looking for initgroups
+-- Looking for initgroups - not found
+-- Looking for ioctlsocket
+-- Looking for ioctlsocket - found
+-- Looking for isblank
+-- Looking for isblank - found
+-- Looking for kill
+-- Looking for kill - not found
+-- Looking for localtime_r
+-- Looking for localtime_r - not found
+-- Looking for malloc
+-- Looking for malloc - found
+-- Looking for memmove
+-- Looking for memmove - found
+-- Looking for random
+-- Looking for random - not found
+-- Looking for reallocarray
+-- Looking for reallocarray - not found
+-- Looking for recvmsg
+-- Looking for recvmsg - not found
+-- Looking for sbrk
+-- Looking for sbrk - not found
+-- Looking for sendmsg
+-- Looking for sendmsg - not found
+-- Looking for setregid
+-- Looking for setregid - not found
+-- Looking for setresgid
+-- Looking for setresgid - not found
+-- Looking for setresuid
+-- Looking for setresuid - not found
+-- Looking for setreuid
+-- Looking for setreuid - not found
+-- Looking for setrlimit
+-- Looking for setrlimit - not found
+-- Looking for setsid
+-- Looking for setsid - not found
+-- Looking for setusercontent
+-- Looking for setusercontent - not found
+-- Looking for sigprocmask
+-- Looking for sigprocmask - not found
+-- Looking for sleep
+-- Looking for sleep - found
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for socketpair
+-- Looking for socketpair - not found
+-- Looking for srandom
+-- Looking for srandom - not found
+-- Looking for strsep
+-- Looking for strsep - not found
+-- Looking for strftime
+-- Looking for strftime - found
+-- Looking for strlcat
+-- Looking for strlcat - not found
+-- Looking for strlcpy
+-- Looking for strlcpy - not found
+-- Looking for strptime
+-- Looking for strptime - not found
+-- Looking for tzset
+-- Looking for tzset - found
+-- Looking for usleep
+-- Looking for usleep - found
+-- Looking for writev
+-- Looking for writev - not found
+-- Looking for getaddrinfo
+-- Looking for getaddrinfo - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Check size of gid_t
+-- Check size of gid_t - failed
+-- Check size of in_addr_t
+-- Check size of in_addr_t - failed
+-- Check size of in_port_t
+-- Check size of in_port_t - failed
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of int8_t
+-- Check size of int8_t - done
+-- Check size of pid_t
+-- Check size of pid_t - done
+-- Check size of rlim_t
+-- Check size of rlim_t - failed
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of uid_t
+-- Check size of uid_t - failed
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Looking for PTHREAD_PRIO_INHERIT
+-- Looking for PTHREAD_PRIO_INHERIT - found
+-- Looking for pthread_rwlock_t
+-- Looking for pthread_rwlock_t - not found
+-- Looking for pthread_spinlock_t
+-- Looking for pthread_spinlock_t - not found
+-- Looking for openssl/conf.h
+-- Looking for openssl/conf.h - found
+-- Looking for openssl/engine.h
+-- Looking for openssl/engine.h - found
+-- Looking for openssl/err.h
+-- Looking for openssl/err.h - found
+-- Looking for openssl/rand.h
+-- Looking for openssl/rand.h - found
+-- Looking for openssl/ssl.h
+-- Looking for openssl/ssl.h - found
+-- Looking for NID_secp384r1
+-- Looking for NID_secp384r1 - found
+-- Looking for NID_X9_62_prime256v1
+-- Looking for NID_X9_62_prime256v1 - found
+-- Looking for sk_SSL_COMP_pop_free
+-- Looking for sk_SSL_COMP_pop_free - found
+-- Looking for SSL_COMP_get_compression_methods
+-- Looking for SSL_COMP_get_compression_methods - found
+-- Looking for EVP_MD_CTX_new
+-- Looking for EVP_MD_CTX_new - found
+-- Looking for EVP_sha1
+-- Looking for EVP_sha1 - found
+-- Looking for EVP_sha256
+-- Looking for EVP_sha256 - found
+-- Looking for EVP_sha512
+-- Looking for EVP_sha512 - found
+-- Looking for FIPS_mode
+-- Looking for FIPS_mode - found
+-- Looking for HMAC_Update
+-- Looking for HMAC_Update - found
+-- Looking for OPENSSL_config
+-- Looking for OPENSSL_config - found
+-- Looking for SHA512_Update
+-- Looking for SHA512_Update - found
+-- Looking for LIBRESSL_VERSION_TEXT
+-- Looking for LIBRESSL_VERSION_TEXT - not found
+-- Using 64-bit LMDB from source tree
+-- Looking for backtrace
+-- Looking for backtrace - not found
+-- Backtrace_LIBRARY: 
+-- Could NOT find Backtrace (missing: Backtrace_LIBRARY Backtrace_INCLUDE_DIR) 
+-- Using HIDAPI include dir at C:/msys64/mingw64/include/hidapi
+-- Could NOT find Protobuf (missing: Protobuf_LIBRARIES Protobuf_INCLUDE_DIR) 
+-- Could NOT find Protobuf (missing: Protobuf_LIBRARIES Protobuf_INCLUDE_DIR) 
+-- Could not find Protobuf
+-- Building on AMD64 for x86-64
+-- AES support enabled
+-- Performing Test _Wformat_c
+-- Performing Test _Wformat_c - Success
+-- Performing Test _Wformat_cxx
+-- Performing Test _Wformat_cxx - Success
+-- Performing Test _Wformat_security_c
+-- Performing Test _Wformat_security_c - Success
+-- Performing Test _Wformat_security_cxx
+-- Performing Test _Wformat_security_cxx - Success
+-- Performing Test _fstack_protector_c
+-- Performing Test _fstack_protector_c - Success
+-- Performing Test _fstack_protector_cxx
+-- Performing Test _fstack_protector_cxx - Success
+-- Performing Test _fstack_protector_strong_c
+-- Performing Test _fstack_protector_strong_c - Success
+-- Performing Test _fstack_protector_strong_cxx
+-- Performing Test _fstack_protector_strong_cxx - Success
+-- Looking for -Wl,-z,relro linker flag
+-- Looking for -Wl,-z,relro linker flag - not found
+-- Looking for -Wl,-z,now linker flag
+-- Looking for -Wl,-z,now linker flag - not found
+-- Looking for -Wl,-z,noexecstack linker flag
+-- Looking for -Wl,-z,noexecstack linker flag - not found
+-- Looking for -Wl,-z,noexecheap linker flag
+-- Looking for -Wl,-z,noexecheap linker flag - not found
+-- Looking for -Wl,--dynamicbase linker flag
+-- Looking for -Wl,--dynamicbase linker flag - found
+-- Looking for -Wl,--nxcompat linker flag
+-- Looking for -Wl,--nxcompat linker flag - found
+-- Using C security hardening flags:  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong
+-- Using C++ security hardening flags:  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -fstack-protector -fstack-protector-strong
+-- Using linker security hardening flags:  -Wl,--dynamicbase -Wl,--nxcompat
+-- Found Boost Version: 107200
+-- Could NOT find Readline (missing: Readline_INCLUDE_DIR) 
+-- Looking for rl_copy_text
+-- Looking for rl_copy_text - not found
+-- Looking for rl_filename_completion_function
+-- Looking for rl_filename_completion_function - not found
+-- Looking for rl_copy_text
+-- Looking for rl_copy_text - found
+-- Looking for rl_filename_completion_function
+-- Looking for rl_filename_completion_function - found
+-- Could not find GNU readline library so building without readline support
+-- Found Git: C:/msys64/usr/bin/git.exe
+-- Trezor support disabled
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Performing Test HAVE_C11
+-- Performing Test HAVE_C11 - Success
+-- Found PythonInterp: C:/msys64/mingw64/bin/python.exe (found version "3.8.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/msys64/home/andre/electroneum-gui/electroneum/build/release-static
+~/electroneum-gui/electroneum/build/release-static/src/wallet ~/electroneum-gui/electroneum/build/release-static ~/electroneum-gui ~/electroneum-gui
+make: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make[1]: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make[3]: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target genversion
+make[3]: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make[3]: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Generating ../version.cpp
+-- You are currently on commit bf3f46cbe
+-- The most recent tag was at bf3f46cb
+-- You are ahead of or behind a tagged release
+make[3]: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Built target genversion
+make[3]: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_version
+make[3]: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make[3]: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Building CXX object src/CMakeFiles/obj_version.dir/__/version.cpp.obj
+make[3]: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Built target obj_version
+make[3]: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target version
+make[3]: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make[3]: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Linking CXX static library libversion.a
+make[3]: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+Built target version
+make[2]: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make[1]: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static'
+make[1]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target ed25519-donna
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target easylogging
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target generate_translations_header
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target lmdb
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_cncrypto
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_device_trezor
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_checkpoints
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  0%] Building C object CMakeFiles/ed25519-donna.dir/external/ed25519-donna/ed25519.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  0%] Building CXX object external/easylogging++/CMakeFiles/easylogging.dir/easylogging++.cc.obj
+Scanning dependencies of target obj_ringct_basic
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  1%] Generating generated_stagenet_blocks.c
+[  1%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/aesb.c.obj
+[  1%] Generating generated_checkpoints.c
+Scanning dependencies of target obj_device
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  2%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/blake256.c.obj
+[  2%] Generating generated_testnet_blocks.c
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  4%] Building CXX object src/device_trezor/CMakeFiles/obj_device_trezor.dir/device_trezor.cpp.obj
+[  4%] Building C object external/db_drivers/liblmdb/CMakeFiles/lmdb.dir/mdb.c.obj
+[  4%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/chacha.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  4%] Creating directories for 'generate_translations_header'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target unbound
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  4%] Building CXX object src/checkpoints/CMakeFiles/obj_checkpoints.dir/checkpoints.cpp.obj
+[  4%] Built target genversion
+[  5%] Building CXX object src/ringct/CMakeFiles/obj_ringct_basic.dir/rctOps.cpp.obj
+[  5%] Building CXX object src/device/CMakeFiles/obj_device.dir/device.cpp.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  5%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/crypto-ops-data.c.obj
+[  6%] Building CXX object src/ringct/CMakeFiles/obj_ringct_basic.dir/rctTypes.cpp.obj
+[  6%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/crypto-ops.c.obj
+[  6%] Building C object external/unbound/CMakeFiles/unbound.dir/services/authzone.c.obj
+[  6%] Building CXX object src/crypto/CMakeFiles/obj_cncrypto.dir/crypto.cpp.obj
+[  6%] Building C object src/ringct/CMakeFiles/obj_ringct_basic.dir/rctCryptoOps.c.obj
+Scanning dependencies of target obj_ringct
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  6%] Building CXX object src/ringct/CMakeFiles/obj_ringct.dir/rctSigs.cpp.obj
+[  6%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/groestl.c.obj
+[  8%] Building CXX object src/ringct/CMakeFiles/obj_ringct_basic.dir/multiexp.cc.obj
+[  9%] No download step for 'generate_translations_header'
+[  9%] Linking C static library libed25519-donna.a
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  9%] No patch step for 'generate_translations_header'
+[  9%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash-extra-blake.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  9%] Built target ed25519-donna
+[  9%] No update step for 'generate_translations_header'
+Scanning dependencies of target obj_cryptonote_basic
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 10%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash-extra-groestl.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 10%] Building C object external/db_drivers/liblmdb/CMakeFiles/lmdb.dir/midl.c.obj
+[ 10%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/account.cpp.obj
+[ 12%] Performing configure step for 'generate_translations_header'
+[ 12%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash-extra-jh.c.obj
+Scanning dependencies of target obj_cryptonote_core
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 13%] Building C object external/unbound/CMakeFiles/unbound.dir/services/cache/dns.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 14%] Linking C static library liblmdb.a
+[ 14%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/blockchain.cpp.obj
+[ 14%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash-extra-skein.c.obj
+-- The C compiler identification is GNU 9.2.0
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 14%] Built target obj_device_trezor
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 16%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hash.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+-- The CXX compiler identification is GNU 9.2.0
+[ 16%] Built target lmdb
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_multisig
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 16%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/hmac-keccak.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 16%] Building C object external/unbound/CMakeFiles/unbound.dir/services/cache/infra.c.obj
+[ 16%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/jh.c.obj
+Scanning dependencies of target obj_blockchain_db
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 17%] Building CXX object src/multisig/CMakeFiles/obj_multisig.dir/multisig.cpp.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 17%] Building CXX object src/ringct/CMakeFiles/obj_ringct_basic.dir/bulletproofs.cc.obj
+[ 17%] Building CXX object src/blockchain_db/CMakeFiles/obj_blockchain_db.dir/blockchain_db.cpp.obj
+[ 18%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/keccak.c.obj
+[ 18%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/oaes_lib.c.obj
+[ 20%] Linking CXX static library libeasylogging.a
+[ 20%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/random.c.obj
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+[ 20%] Building C object external/unbound/CMakeFiles/unbound.dir/services/cache/rrset.c.obj
+[ 21%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/skein.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 21%] Building C object external/unbound/CMakeFiles/unbound.dir/util/data/dname.c.obj
+[ 21%] Built target easylogging
+[ 21%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/slow-hash.c.obj
+[ 21%] Building CXX object src/device/CMakeFiles/obj_device.dir/device_default.cpp.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_net
+[ 21%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/CryptonightR_JIT.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 21%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/cryptonote_basic_impl.cpp.obj
+[ 22%] Building C object external/unbound/CMakeFiles/unbound.dir/util/data/msgencode.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 22%] Building CXX object src/net/CMakeFiles/obj_net.dir/error.cpp.obj
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/msys64/mingw64/bin/g++.exe
+[ 24%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/tree-hash.c.obj
+[ 24%] Building C object external/unbound/CMakeFiles/unbound.dir/util/data/msgparse.c.obj
+[ 24%] Building CXX object src/net/CMakeFiles/obj_net.dir/i2p_address.cpp.obj
+[ 24%] Building C object src/crypto/CMakeFiles/obj_cncrypto.dir/CryptonightR_template.S.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 24%] Building C object external/unbound/CMakeFiles/unbound.dir/util/data/msgreply.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_mnemonics
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 25%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/cryptonote_format_utils.cpp.obj
+[ 25%] Built target obj_cncrypto
+[ 25%] Building CXX object src/mnemonics/CMakeFiles/obj_mnemonics.dir/electrum-words.cpp.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+-- Check for working CXX compiler: C:/msys64/mingw64/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+[ 26%] Building C object external/unbound/CMakeFiles/unbound.dir/util/data/packed_rrset.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_wallet
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 26%] Built target obj_ringct
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 26%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iterator.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 28%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/wallet2.cpp.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 28%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iter_delegpt.c.obj
+[ 28%] Built target obj_ringct_basic
+[ 28%] Built target obj_multisig
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_wallet_api
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_rpc_base
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_daemonizer
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 28%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/wallet.cpp.obj
+lrelease version 5.13.2
+-- Configuring done
+[ 30%] Building CXX object src/daemonizer/CMakeFiles/obj_daemonizer.dir/windows_service.cpp.obj
+[ 30%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iter_donotq.c.obj
+-- Generating done
+[ 30%] Building CXX object src/rpc/CMakeFiles/obj_rpc_base.dir/rpc_args.cpp.obj
+-- Build files have been written to: C:/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations
+[ 30%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iter_fwd.c.obj
+[ 32%] Building CXX object src/device/CMakeFiles/obj_device.dir/log.cpp.obj
+[ 30%] Performing build step for 'generate_translations_header'
+[ 33%] Building CXX object src/blockchain_db/CMakeFiles/obj_blockchain_db.dir/lmdb/db_lmdb.cpp.obj
+make[3]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations'
+[ 33%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/difficulty.cpp.obj
+make[4]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations'
+make[5]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations'
+[ 33%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iter_hints.c.obj
+Scanning dependencies of target generate_translations_header
+make[5]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations'
+make[5]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations'
+[ 34%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iter_priv.c.obj
+[ 50%] Building C object CMakeFiles/generate_translations_header.dir/generate_translations_header.c.obj
+Scanning dependencies of target blocks
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 34%] Building CXX object src/blocks/CMakeFiles/blocks.dir/blocks.cpp.obj
+[100%] Linking C executable generate_translations_header.exe
+[ 34%] Built target obj_mnemonics
+Updating 'electroneum.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 501 untranslated source text(s)
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Updating 'electroneum_fr.qm'...
+    Generated 485 translation(s) (485 finished and 0 unfinished)
+    Ignored 16 untranslated source text(s)
+[ 34%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iter_resptype.c.obj
+Updating 'electroneum_it.qm'...
+    Generated 481 translation(s) (481 finished and 0 unfinished)
+    Ignored 20 untranslated source text(s)
+Updating 'monero.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 1068 untranslated source text(s)
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 34%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iter_scrub.c.obj
+Updating 'monero_fr.qm'...
+    Generated 791 translation(s) (788 finished and 3 unfinished)
+    Ignored 278 untranslated source text(s)
+[ 34%] Built target obj_checkpoints
+Scanning dependencies of target epee
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Updating 'monero_it.qm'...
+    Generated 778 translation(s) (754 finished and 24 unfinished)
+    Ignored 291 untranslated source text(s)
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Updating 'monero_ja.qm'...
+    Generated 317 translation(s) (291 finished and 26 unfinished)
+    Ignored 752 untranslated source text(s)
+[ 34%] Building C object src/blocks/CMakeFiles/blocks.dir/generated_checkpoints.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Updating 'monero_sv.qm'...
+    Generated 611 translation(s) (589 finished and 22 unfinished)
+    Ignored 458 untranslated source text(s)
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 36%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/hex.cpp.obj
+[ 36%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/hardfork.cpp.obj
+[ 36%] Built target obj_version
+[ 36%] Built target obj_daemonizer
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 37%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/cryptonote_core.cpp.obj
+[ 38%] Building C object external/unbound/CMakeFiles/unbound.dir/iterator/iter_utils.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 38%] Building C object external/unbound/CMakeFiles/unbound.dir/respip/respip.c.obj
+[ 38%] Built target version
+Generating embedded translations header
+[ 38%] Building C object external/unbound/CMakeFiles/unbound.dir/services/listen_dnsport.c.obj
+make[5]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations'
+[ 38%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/http_auth.cpp.obj
+[100%] Built target generate_translations_header
+make[4]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[3]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static/translations'
+[ 40%] Building C object external/unbound/CMakeFiles/unbound.dir/services/localzone.c.obj
+[ 40%] Built target obj_rpc_base
+[ 40%] Building C object external/unbound/CMakeFiles/unbound.dir/services/mesh.c.obj
+[ 40%] Building CXX object src/device/CMakeFiles/obj_device.dir/device_ledger.cpp.obj
+[ 41%] Building CXX object src/net/CMakeFiles/obj_net.dir/parse.cpp.obj
+[ 41%] Performing install step for 'generate_translations_header'
+
+[ 42%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/miner.cpp.obj
+[ 42%] Building C object external/unbound/CMakeFiles/unbound.dir/services/modstack.c.obj
+[ 44%] Completed 'generate_translations_header'
+[ 44%] Building C object external/unbound/CMakeFiles/unbound.dir/services/outside_network.c.obj
+[ 45%] Building C object external/unbound/CMakeFiles/unbound.dir/services/outbound_list.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 45%] Building C object external/unbound/CMakeFiles/unbound.dir/services/view.c.obj
+[ 45%] Built target generate_translations_header
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 45%] Building C object external/unbound/CMakeFiles/unbound.dir/util/alloc.c.obj
+Scanning dependencies of target obj_common
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 45%] Building CXX object src/net/CMakeFiles/obj_net.dir/socks.cpp.obj
+[ 46%] Building C object external/unbound/CMakeFiles/unbound.dir/util/as112.c.obj
+[ 46%] Building CXX object src/common/CMakeFiles/obj_common.dir/base58.cpp.obj
+[ 46%] Building C object external/unbound/CMakeFiles/unbound.dir/util/config_file.c.obj
+[ 46%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/mlog.cpp.obj
+[ 46%] Building C object external/unbound/CMakeFiles/unbound.dir/util/configlexer.c.obj
+[ 46%] Building CXX object src/net/CMakeFiles/obj_net.dir/socks_connect.cpp.obj
+[ 48%] Building CXX object src/common/CMakeFiles/obj_common.dir/command_line.cpp.obj
+[ 48%] Building CXX object src/cryptonote_basic/CMakeFiles/obj_cryptonote_basic.dir/validators.cpp.obj
+[ 49%] Building C object external/unbound/CMakeFiles/unbound.dir/util/configparser.c.obj
+[ 49%] Building C object external/unbound/CMakeFiles/unbound.dir/util/fptr_wlist.c.obj
+[ 49%] Building CXX object src/device/CMakeFiles/obj_device.dir/device_io_hid.cpp.obj
+[ 49%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/tx_pool.cpp.obj
+[ 49%] Building C object external/unbound/CMakeFiles/unbound.dir/util/locks.c.obj
+[ 49%] Building CXX object src/net/CMakeFiles/obj_net.dir/tor_address.cpp.obj
+[ 49%] Building CXX object src/common/CMakeFiles/obj_common.dir/dns_utils.cpp.obj
+[ 50%] Building C object external/unbound/CMakeFiles/unbound.dir/util/log.c.obj
+[ 50%] Building C object external/unbound/CMakeFiles/unbound.dir/util/mini_event.c.obj
+[ 52%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/net_helper.cpp.obj
+[ 52%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/net_utils_base.cpp.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 52%] Building C object external/unbound/CMakeFiles/unbound.dir/util/module.c.obj
+[ 52%] Built target obj_blockchain_db
+[ 53%] Building C object external/unbound/CMakeFiles/unbound.dir/util/netevent.c.obj
+[ 53%] Building C object external/unbound/CMakeFiles/unbound.dir/util/net_help.c.obj
+[ 53%] Building C object external/unbound/CMakeFiles/unbound.dir/util/random.c.obj
+[ 54%] Building C object external/unbound/CMakeFiles/unbound.dir/util/rbtree.c.obj
+[ 54%] Building C object external/unbound/CMakeFiles/unbound.dir/util/regional.c.obj
+[ 54%] Building C object external/unbound/CMakeFiles/unbound.dir/util/rtt.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 56%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/wallet_manager.cpp.obj
+[ 56%] Building CXX object src/common/CMakeFiles/obj_common.dir/download.cpp.obj
+[ 57%] Built target obj_device
+[ 57%] Building C object external/unbound/CMakeFiles/unbound.dir/util/storage/dnstree.c.obj
+[ 57%] Building C object external/unbound/CMakeFiles/unbound.dir/util/storage/lookup3.c.obj
+[ 57%] Building C object external/unbound/CMakeFiles/unbound.dir/util/storage/lruhash.c.obj
+[ 58%] Building C object external/unbound/CMakeFiles/unbound.dir/util/storage/slabhash.c.obj
+[ 60%] Building CXX object src/common/CMakeFiles/obj_common.dir/error.cpp.obj
+[ 60%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/string_tools.cpp.obj
+[ 60%] Building C object external/unbound/CMakeFiles/unbound.dir/util/timehist.c.obj
+[ 60%] Building CXX object src/common/CMakeFiles/obj_common.dir/expect.cpp.obj
+[ 60%] Building C object external/unbound/CMakeFiles/unbound.dir/util/tube.c.obj
+[ 60%] Building C object external/unbound/CMakeFiles/unbound.dir/util/ub_event.c.obj
+[ 61%] Building C object external/unbound/CMakeFiles/unbound.dir/util/winsock_event.c.obj
+[ 61%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/autotrust.c.obj
+[ 61%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_anchor.c.obj
+[ 62%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/validator.c.obj
+[ 62%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/transaction_info.cpp.obj
+[ 62%] Building CXX object src/common/CMakeFiles/obj_common.dir/util.cpp.obj
+[ 64%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/wipeable_string.cpp.obj
+[ 64%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/transaction_history.cpp.obj
+[ 64%] Building C object contrib/epee/src/CMakeFiles/epee.dir/memwipe.c.obj
+[ 64%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_kcache.c.obj
+[ 64%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_kentry.c.obj
+[ 65%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_neg.c.obj
+[ 66%] Building C object src/blocks/CMakeFiles/blocks.dir/generated_testnet_blocks.c.obj
+[ 66%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_nsec3.c.obj
+[ 66%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_nsec.c.obj
+[ 66%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/connection_basic.cpp.obj
+[ 68%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_secalgo.c.obj
+[ 68%] Building C object src/blocks/CMakeFiles/blocks.dir/generated_stagenet_blocks.c.obj
+[ 68%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_sigcrypt.c.obj
+[ 68%] Building C object external/unbound/CMakeFiles/unbound.dir/validator/val_utils.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 69%] Building C object external/unbound/CMakeFiles/unbound.dir/dns64/dns64.c.obj
+[ 70%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/network_throttle.cpp.obj
+[ 70%] Built target obj_net
+[ 70%] Building C object external/unbound/CMakeFiles/unbound.dir/testcode/checklocks.c.obj
+[ 70%] Building C object external/unbound/CMakeFiles/unbound.dir/sldns/keyraw.c.obj
+[ 72%] Building C object external/unbound/CMakeFiles/unbound.dir/sldns/sbuffer.c.obj
+[ 72%] Building C object external/unbound/CMakeFiles/unbound.dir/sldns/wire2str.c.obj
+[ 72%] Building C object external/unbound/CMakeFiles/unbound.dir/sldns/parse.c.obj
+[ 73%] Building C object external/unbound/CMakeFiles/unbound.dir/sldns/parseutil.c.obj
+[ 73%] Building C object external/unbound/CMakeFiles/unbound.dir/sldns/rrdef.c.obj
+[ 73%] Building C object external/unbound/CMakeFiles/unbound.dir/sldns/str2wire.c.obj
+[ 73%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/tx_sanity_check.cpp.obj
+[ 73%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/ctime_r.c.obj
+[ 74%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/gmtime_r.c.obj
+[ 74%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/inet_aton.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 74%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/strsep.c.obj
+[ 74%] Built target obj_cryptonote_basic
+[ 76%] Building CXX object src/cryptonote_core/CMakeFiles/obj_cryptonote_core.dir/cryptonote_tx_utils.cpp.obj
+[ 77%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/pending_transaction.cpp.obj
+[ 78%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/strlcat.c.obj
+[ 78%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/strlcpy.c.obj
+[ 78%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/strptime.c.obj
+[ 80%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/explicit_bzero.c.obj
+[ 80%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/arc4random.c.obj
+[ 80%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/arc4random_uniform.c.obj
+[ 81%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/reallocarray.c.obj
+[ 81%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/arc4_lock.c.obj
+[ 81%] Building C object external/unbound/CMakeFiles/unbound.dir/compat/getentropy_win.c.obj
+[ 82%] Building C object external/unbound/CMakeFiles/unbound.dir/libunbound/context.c.obj
+[ 82%] Building CXX object src/common/CMakeFiles/obj_common.dir/i18n.cpp.obj
+[ 82%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/network_throttle-detail.cpp.obj
+[ 82%] Building C object external/unbound/CMakeFiles/unbound.dir/libunbound/libunbound.c.obj
+[ 82%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/mlocker.cpp.obj
+[ 82%] Building C object external/unbound/CMakeFiles/unbound.dir/libunbound/libworker.c.obj
+[ 84%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/buffer.cpp.obj
+[ 84%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/utils.cpp.obj
+[ 84%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/address_book.cpp.obj
+[ 84%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/wallet_args.cpp.obj
+[ 86%] Building CXX object src/common/CMakeFiles/obj_common.dir/notify.cpp.obj
+[ 86%] Linking C static library libunbound.a
+[ 86%] Building CXX object contrib/epee/src/CMakeFiles/epee.dir/net_ssl.cpp.obj
+[ 86%] Linking CXX static library libblocks.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 86%] Building CXX object src/common/CMakeFiles/obj_common.dir/password.cpp.obj
+[ 86%] Built target unbound
+[ 88%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/subaddress.cpp.obj
+[ 88%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/subaddress_account.cpp.obj
+[ 88%] Building CXX object src/wallet/api/CMakeFiles/obj_wallet_api.dir/unsigned_transaction.cpp.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 88%] Built target blocks
+[ 88%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/ringdb.cpp.obj
+[ 88%] Building CXX object src/common/CMakeFiles/obj_common.dir/perf_timer.cpp.obj
+[ 89%] Building CXX object src/common/CMakeFiles/obj_common.dir/pruning.cpp.obj
+[ 89%] Building CXX object src/common/CMakeFiles/obj_common.dir/spawn.cpp.obj
+[ 89%] Building CXX object src/common/CMakeFiles/obj_common.dir/threadpool.cpp.obj
+[ 90%] Building CXX object src/common/CMakeFiles/obj_common.dir/updates.cpp.obj
+[ 92%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/node_rpc_proxy.cpp.obj
+[ 92%] Building C object src/common/CMakeFiles/obj_common.dir/aligned.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 92%] Built target obj_cryptonote_core
+[ 93%] Building CXX object src/common/CMakeFiles/obj_common.dir/combinator.cpp.obj
+[ 93%] Building CXX object src/common/CMakeFiles/obj_common.dir/timings.cc.obj
+[ 93%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/message_store.cpp.obj
+[ 93%] Building CXX object src/wallet/CMakeFiles/obj_wallet.dir/message_transporter.cpp.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Linking CXX static library libepee.a
+[ 93%] Built target obj_common
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target epee
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target cncrypto
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target mnemonics
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Linking CXX static library libcncrypto.a
+[ 93%] Linking CXX static library libmnemonics.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target mnemonics
+[ 93%] Built target cncrypto
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target device_trezor
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target common
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Linking CXX static library libdevice_trezor.a
+[ 93%] Linking CXX static library libcommon.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target device_trezor
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target common
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target ringct_basic
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target checkpoints
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target net
+Scanning dependencies of target rpc_base
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target daemonizer
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Linking CXX static library libringct_basic.a
+[ 94%] Linking CXX static library libcheckpoints.a
+[ 94%] Linking CXX static library libnet.a
+[ 94%] Linking CXX static library libdaemonizer.a
+[ 94%] Linking CXX static library librpc_base.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 94%] Built target ringct_basic
+[ 94%] Built target daemonizer
+[ 94%] Built target checkpoints
+[ 94%] Built target rpc_base
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 94%] Built target net
+Scanning dependencies of target device
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Linking CXX static library libdevice.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Built target device
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target cryptonote_basic
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 97%] Linking CXX static library libcryptonote_basic.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 97%] Built target cryptonote_basic
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target ringct
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 97%] Linking CXX static library libringct.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 97%] Built target ringct
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target blockchain_db
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target multisig
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 97%] Linking CXX static library libblockchain_db.a
+[ 98%] Linking CXX static library libmultisig.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target multisig
+[ 98%] Built target obj_wallet_api
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target blockchain_db
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target cryptonote_core
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Linking CXX static library libcryptonote_core.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target cryptonote_core
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target obj_wallet
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target wallet_merged
+Scanning dependencies of target wallet
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Linking CXX static library ../../lib/libwallet.a
+[ 98%] Linking CXX static library ../../lib/libwallet_merged.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target wallet
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target wallet_rpc_server
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Building CXX object src/wallet/CMakeFiles/wallet_rpc_server.dir/wallet_rpc_server.cpp.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target wallet_merged
+[100%] Linking CXX executable ../../bin/electroneum-wallet-rpc.exe
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[100%] Built target wallet_rpc_server
+make[1]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[1]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  1%] Built target obj_device_trezor
+[  1%] Built target ed25519-donna
+[  2%] Built target easylogging
+[ 12%] Built target obj_cncrypto
+[ 12%] Built target obj_checkpoints
+[ 13%] Built target lmdb
+[ 13%] Built target genversion
+[ 17%] Built target generate_translations_header
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 54%] Built target unbound
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 56%] Built target obj_device
+[ 56%] Built target obj_ringct
+[ 58%] Built target obj_ringct_basic
+[ 61%] Built target blocks
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 62%] Built target obj_blockchain_db
+[ 65%] Built target obj_cryptonote_basic
+[ 66%] Built target obj_multisig
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 69%] Built target obj_cryptonote_core
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 70%] Built target obj_net
+[ 70%] Built target obj_mnemonics
+[ 73%] Built target obj_wallet
+[ 73%] Built target obj_rpc_base
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 77%] Built target obj_wallet_api
+[ 78%] Built target obj_daemonizer
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 78%] Built target obj_version
+[ 85%] Built target epee
+[ 93%] Built target obj_common
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target version
+[ 93%] Built target mnemonics
+[ 93%] Built target cncrypto
+[ 93%] Built target wallet_merged
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target device_trezor
+[ 93%] Built target common
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 94%] Built target checkpoints
+[ 94%] Built target net
+[ 94%] Built target daemonizer
+[ 94%] Built target ringct_basic
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 94%] Built target rpc_base
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Built target device
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 97%] Built target cryptonote_basic
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 97%] Built target ringct
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target multisig
+[ 98%] Built target blockchain_db
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target cryptonote_core
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 98%] Built target wallet
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[100%] Built target wallet_rpc_server
+make[1]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/bin/electroneum-wallet-rpc.exe
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/lib/libwallet_merged.a
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/lib/trezor_link_flags.txt
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/include/wallet/api/wallet2_api.h
+~/electroneum-gui/electroneum/build/release-static ~/electroneum-gui ~/electroneum-gui
+~/electroneum-gui/electroneum/build/release-static/src/daemon ~/electroneum-gui/electroneum/build/release-static ~/electroneum-gui ~/electroneum-gui
+make[1]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  1%] Built target obj_device
+[  1%] Built target ed25519-donna
+[  2%] Built target easylogging
+[ 17%] Built target generate_translations_header
+[ 28%] Built target blocks
+[ 42%] Built target unbound
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 42%] Built target genversion
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 45%] Built target obj_ringct_basic
+[ 53%] Built target obj_cncrypto
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target libminiupnpc-static
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 54%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/igd_desc_parse.c.obj
+[ 54%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/miniupnpc.c.obj
+[ 56%] Built target lmdb
+[ 56%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/minixml.c.obj
+[ 56%] Built target obj_ringct
+[ 57%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/minisoap.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 60%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/upnpdev.c.obj
+[ 60%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/miniwget.c.obj
+[ 62%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/upnpreplyparse.c.obj
+[ 63%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/upnperrors.c.obj
+[ 63%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/minissdpc.c.obj
+[ 63%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/upnpcommands.c.obj
+[ 65%] Built target obj_multisig
+[ 65%] Built target obj_checkpoints
+[ 65%] Built target obj_blockchain_db
+[ 65%] Built target obj_cryptonote_basic
+[ 65%] Built target obj_cryptonote_core
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 67%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/connecthostport.c.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 68%] Built target obj_net
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 68%] Built target obj_rpc_base
+[ 68%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/portlistingparse.c.obj
+Scanning dependencies of target obj_rpc
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_p2p
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 68%] Building C object external/miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/receivedata.c.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_cryptonote_protocol
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_daemon_messages
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target obj_serialization
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 68%] Building CXX object src/rpc/CMakeFiles/obj_rpc.dir/core_rpc_server.cpp.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 69%] Building CXX object src/rpc/CMakeFiles/obj_rpc.dir/rpc_handler.cpp.obj
+[ 70%] Building CXX object src/p2p/CMakeFiles/obj_p2p.dir/net_node.cpp.obj
+[ 70%] Building CXX object src/rpc/CMakeFiles/obj_rpc.dir/instanciations.cpp.obj
+Scanning dependencies of target obj_daemon_rpc_server
+[ 70%] Building CXX object src/p2p/CMakeFiles/obj_p2p.dir/net_peerlist.cpp.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 70%] Building CXX object src/cryptonote_protocol/CMakeFiles/obj_cryptonote_protocol.dir/block_queue.cpp.obj
+[ 70%] Building CXX object src/cryptonote_protocol/CMakeFiles/obj_cryptonote_protocol.dir/cryptonote_protocol_handler-base.cpp.obj
+[ 71%] Built target obj_daemonizer
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 71%] Building CXX object src/rpc/CMakeFiles/obj_daemon_messages.dir/message.cpp.obj
+[ 74%] Building CXX object src/rpc/CMakeFiles/obj_daemon_messages.dir/daemon_messages.cpp.obj
+[ 74%] Building CXX object src/serialization/CMakeFiles/obj_serialization.dir/json_object.cpp.obj
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 74%] Building CXX object src/rpc/CMakeFiles/obj_daemon_rpc_server.dir/daemon_handler.cpp.obj
+[ 74%] Building CXX object src/rpc/CMakeFiles/obj_daemon_rpc_server.dir/zmq_server.cpp.obj
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 75%] Linking C static library libminiupnpc.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 81%] Built target epee
+[ 89%] Built target obj_common
+[ 89%] Built target obj_version
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 89%] Built target libminiupnpc-static
+[ 89%] Built target version
+[ 89%] Built target cncrypto
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 89%] Built target common
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 90%] Built target checkpoints
+[ 90%] Built target net
+[ 90%] Built target ringct_basic
+[ 90%] Built target rpc_base
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 90%] Built target daemonizer
+[ 91%] Built target device
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 92%] Built target cryptonote_basic
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 92%] Built target ringct
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 92%] Built target blockchain_db
+[ 93%] Built target multisig
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target cryptonote_core
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target obj_daemon_messages
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target obj_serialization
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target obj_cryptonote_protocol
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target obj_p2p
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target p2p
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Linking CXX static library libp2p.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Built target obj_daemon_rpc_server
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Built target p2p
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target cryptonote_protocol
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Linking CXX static library libcryptonote_protocol.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Built target cryptonote_protocol
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target serialization
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Linking CXX static library libserialization.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Built target serialization
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target daemon_messages
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Linking CXX static library libdaemon_messages.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Built target daemon_messages
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Built target obj_rpc
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target rpc
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Linking CXX static library librpc.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Built target rpc
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target daemon_rpc_server
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Linking CXX static library libdaemon_rpc_server.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Built target daemon_rpc_server
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target daemon
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 97%] Building CXX object src/daemon/CMakeFiles/daemon.dir/command_parser_executor.cpp.obj
+[ 97%] Building CXX object src/daemon/CMakeFiles/daemon.dir/command_server.cpp.obj
+[ 97%] Building CXX object src/daemon/CMakeFiles/daemon.dir/daemon.cpp.obj
+[ 98%] Building CXX object src/daemon/CMakeFiles/daemon.dir/executor.cpp.obj
+[ 98%] Building CXX object src/daemon/CMakeFiles/daemon.dir/main.cpp.obj
+[ 98%] Building CXX object src/daemon/CMakeFiles/daemon.dir/rpc_command_executor.cpp.obj
+[100%] Linking CXX executable ../../bin/electroneumd.exe
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[100%] Built target daemon
+make[1]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[1]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[  1%] Built target obj_device
+[  1%] Built target ed25519-donna
+[  2%] Built target easylogging
+[ 36%] Built target unbound
+[ 40%] Built target generate_translations_header
+[ 42%] Built target obj_ringct_basic
+[ 42%] Built target genversion
+[ 51%] Built target obj_cncrypto
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 53%] Built target blocks
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 59%] Built target libminiupnpc-static
+[ 60%] Built target lmdb
+[ 60%] Built target obj_ringct
+[ 60%] Built target obj_checkpoints
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 62%] Built target obj_blockchain_db
+[ 63%] Built target obj_multisig
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 68%] Built target obj_cryptonote_core
+[ 68%] Built target obj_cryptonote_basic
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 68%] Built target obj_rpc_base
+[ 69%] Built target obj_rpc
+[ 69%] Built target obj_cryptonote_protocol
+[ 70%] Built target obj_serialization
+[ 71%] Built target obj_daemon_messages
+[ 73%] Built target obj_net
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 74%] Built target obj_daemonizer
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 74%] Built target obj_daemon_rpc_server
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 75%] Built target obj_p2p
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 81%] Built target epee
+[ 81%] Built target obj_version
+[ 89%] Built target obj_common
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 89%] Built target cncrypto
+[ 89%] Built target version
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 89%] Built target common
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 89%] Built target ringct_basic
+[ 90%] Built target checkpoints
+[ 90%] Built target net
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 90%] Built target daemonizer
+[ 90%] Built target rpc_base
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 91%] Built target device
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 92%] Built target cryptonote_basic
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 92%] Built target ringct
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target multisig
+[ 93%] Built target blockchain_db
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 93%] Built target cryptonote_core
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Built target p2p
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 95%] Built target cryptonote_protocol
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Built target rpc
+[ 96%] Built target serialization
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Built target daemon_messages
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 96%] Built target daemon_rpc_server
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[100%] Built target daemon
+make[1]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/bin/electroneumd.exe
+~/electroneum-gui/electroneum/build/release-static ~/electroneum-gui ~/electroneum-gui
+make: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static/contrib/epee'
+make[1]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 14%] Built target easylogging
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Scanning dependencies of target epee_readline
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 14%] Building CXX object contrib/epee/src/CMakeFiles/epee_readline.dir/readline_buffer.cpp.obj
+[ 28%] Linking CXX static library libepee_readline.a
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[ 28%] Built target epee_readline
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[100%] Built target epee
+make[1]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/lib/libepee.a
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/lib/libepee_readline.a
+make: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static/contrib/epee'
+make: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static/external/easylogging++'
+make[1]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[100%] Built target easylogging
+make[1]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/lib/libeasylogging.a
+make: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static/external/easylogging++'
+make: Entering directory '/home/andre/electroneum-gui/electroneum/build/release-static/external/db_drivers/liblmdb'
+make[1]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[100%] Built target lmdb
+make[1]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/lib/liblmdb.a
+make: Leaving directory '/home/andre/electroneum-gui/electroneum/build/release-static/external/db_drivers/liblmdb'
+Installing libunbound...
+~/electroneum-gui/electroneum/build/release-static/external/unbound ~/electroneum-gui/electroneum/build/release-static ~/electroneum-gui ~/electroneum-gui
+make[1]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Entering directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+make[2]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+[100%] Built target unbound
+make[1]: Leaving directory '/C/msys64/home/andre/electroneum-gui/electroneum/build/release-static'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/msys64/home/andre/electroneum-gui/electroneum/lib/libunbound.a
+~/electroneum-gui/electroneum/build/release-static ~/electroneum-gui ~/electroneum-gui
+~/electroneum-gui ~/electroneum-gui
+make: Entering directory '/home/andre/electroneum-gui/src/zxcvbn-c'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/andre/electroneum-gui/src/zxcvbn-c'
+You are currently on commit 12fd493
+Cannot determine most recent tag. Make sure that you are building either from a Git working tree or from a source archive.
+~/electroneum-gui/electroneum ~/electroneum-gui ~/electroneum-gui ~/electroneum-gui
+You are currently on commit bf3f46cb
+The most recent tag was at bf3f46cb
+You are building a tagged release
+~/electroneum-gui ~/electroneum-gui ~/electroneum-gui
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ar.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ar.qm'...
+    Generated 419 translation(s) (419 finished and 0 unfinished)
+    Ignored 256 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bg.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bg.qm'...
+    Generated 584 translation(s) (584 finished and 0 unfinished)
+    Ignored 88 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bn.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bn.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cat.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cat.qm'...
+    Generated 645 translation(s) (645 finished and 0 unfinished)
+    Ignored 5 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cs.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cs.qm'...
+    Generated 417 translation(s) (417 finished and 0 unfinished)
+    Ignored 238 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_da.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_da.qm'...
+    Generated 480 translation(s) (480 finished and 0 unfinished)
+    Ignored 146 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_de.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_de.qm'...
+    Generated 641 translation(s) (641 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_el.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_el.qm'...
+    Generated 109 translation(s) (109 finished and 0 unfinished)
+    Ignored 565 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_eo.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_eo.qm'...
+    Generated 584 translation(s) (584 finished and 0 unfinished)
+    Ignored 79 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_es.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_es.qm'...
+    Generated 603 translation(s) (603 finished and 0 unfinished)
+    Ignored 45 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fa.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fa.qm'...
+    Generated 60 translation(s) (60 finished and 0 unfinished)
+    Ignored 615 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fi.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fi.qm'...
+    Generated 524 translation(s) (524 finished and 0 unfinished)
+    Ignored 129 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fr.qm'...
+    Generated 625 translation(s) (625 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ga.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ga.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_he.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_he.qm'...
+    Generated 395 translation(s) (395 finished and 0 unfinished)
+    Ignored 272 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hi.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hi.qm'...
+    Generated 452 translation(s) (452 finished and 0 unfinished)
+    Ignored 223 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hr.qm'...
+    Generated 380 translation(s) (380 finished and 0 unfinished)
+    Ignored 280 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hu.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hu.qm'...
+    Generated 566 translation(s) (566 finished and 0 unfinished)
+    Ignored 84 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_id.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_id.qm'...
+    Generated 410 translation(s) (410 finished and 0 unfinished)
+    Ignored 243 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_it.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_it.qm'...
+    Generated 640 translation(s) (640 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ja.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ja.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_kmr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_kmr.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ko.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ko.qm'...
+    Generated 264 translation(s) (264 finished and 0 unfinished)
+    Ignored 402 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_lt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_lt.qm'...
+    Generated 415 translation(s) (415 finished and 0 unfinished)
+    Ignored 247 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ne.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ne.qm'...
+    Generated 12 translation(s) (12 finished and 0 unfinished)
+    Ignored 663 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_nl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_nl.qm'...
+    Generated 655 translation(s) (655 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pl.qm'...
+    Generated 656 translation(s) (656 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_prt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_prt.qm'...
+    Generated 331 translation(s) (331 finished and 0 unfinished)
+    Ignored 343 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-br.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-br.qm'...
+    Generated 649 translation(s) (649 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-pt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-pt.qm'...
+    Generated 645 translation(s) (645 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ro.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ro.qm'...
+    Generated 646 translation(s) (646 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ru.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ru.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+    Ignored 14 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sk.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sk.qm'...
+    Generated 579 translation(s) (579 finished and 0 unfinished)
+    Ignored 71 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sl.qm'...
+    Generated 631 translation(s) (631 finished and 0 unfinished)
+    Ignored 21 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sr.qm'...
+    Generated 647 translation(s) (647 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sv.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sv.qm'...
+    Generated 542 translation(s) (542 finished and 0 unfinished)
+    Ignored 105 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_tr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_tr.qm'...
+    Generated 651 translation(s) (651 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_uk.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_uk.qm'...
+    Generated 425 translation(s) (425 finished and 0 unfinished)
+    Ignored 239 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ur.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ur.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-cn.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-cn.qm'...
+    Generated 662 translation(s) (662 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-tw.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-tw.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zu.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zu.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ar.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ar.qm'...
+    Generated 419 translation(s) (419 finished and 0 unfinished)
+    Ignored 256 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bg.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bg.qm'...
+    Generated 584 translation(s) (584 finished and 0 unfinished)
+    Ignored 88 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bn.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bn.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cat.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cat.qm'...
+    Generated 645 translation(s) (645 finished and 0 unfinished)
+    Ignored 5 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cs.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cs.qm'...
+    Generated 417 translation(s) (417 finished and 0 unfinished)
+    Ignored 238 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_da.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_da.qm'...
+    Generated 480 translation(s) (480 finished and 0 unfinished)
+    Ignored 146 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_de.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_de.qm'...
+    Generated 641 translation(s) (641 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_el.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_el.qm'...
+    Generated 109 translation(s) (109 finished and 0 unfinished)
+    Ignored 565 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_eo.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_eo.qm'...
+    Generated 584 translation(s) (584 finished and 0 unfinished)
+    Ignored 79 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_es.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_es.qm'...
+    Generated 603 translation(s) (603 finished and 0 unfinished)
+    Ignored 45 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fa.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fa.qm'...
+    Generated 60 translation(s) (60 finished and 0 unfinished)
+    Ignored 615 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fi.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fi.qm'...
+    Generated 524 translation(s) (524 finished and 0 unfinished)
+    Ignored 129 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fr.qm'...
+    Generated 625 translation(s) (625 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ga.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ga.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_he.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_he.qm'...
+    Generated 395 translation(s) (395 finished and 0 unfinished)
+    Ignored 272 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hi.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hi.qm'...
+    Generated 452 translation(s) (452 finished and 0 unfinished)
+    Ignored 223 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hr.qm'...
+    Generated 380 translation(s) (380 finished and 0 unfinished)
+    Ignored 280 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hu.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hu.qm'...
+    Generated 566 translation(s) (566 finished and 0 unfinished)
+    Ignored 84 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_id.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_id.qm'...
+    Generated 410 translation(s) (410 finished and 0 unfinished)
+    Ignored 243 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_it.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_it.qm'...
+    Generated 640 translation(s) (640 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ja.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ja.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_kmr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_kmr.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ko.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ko.qm'...
+    Generated 264 translation(s) (264 finished and 0 unfinished)
+    Ignored 402 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_lt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_lt.qm'...
+    Generated 415 translation(s) (415 finished and 0 unfinished)
+    Ignored 247 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ne.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ne.qm'...
+    Generated 12 translation(s) (12 finished and 0 unfinished)
+    Ignored 663 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_nl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_nl.qm'...
+    Generated 655 translation(s) (655 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pl.qm'...
+    Generated 656 translation(s) (656 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_prt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_prt.qm'...
+    Generated 331 translation(s) (331 finished and 0 unfinished)
+    Ignored 343 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-br.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-br.qm'...
+    Generated 649 translation(s) (649 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-pt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-pt.qm'...
+    Generated 645 translation(s) (645 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ro.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ro.qm'...
+    Generated 646 translation(s) (646 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ru.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ru.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+    Ignored 14 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sk.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sk.qm'...
+    Generated 579 translation(s) (579 finished and 0 unfinished)
+    Ignored 71 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sl.qm'...
+    Generated 631 translation(s) (631 finished and 0 unfinished)
+    Ignored 21 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sr.qm'...
+    Generated 647 translation(s) (647 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sv.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sv.qm'...
+    Generated 542 translation(s) (542 finished and 0 unfinished)
+    Ignored 105 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_tr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_tr.qm'...
+    Generated 651 translation(s) (651 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_uk.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_uk.qm'...
+    Generated 425 translation(s) (425 finished and 0 unfinished)
+    Ignored 239 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ur.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ur.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-cn.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-cn.qm'...
+    Generated 662 translation(s) (662 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-tw.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-tw.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zu.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zu.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ar.qm'...
+    Generated 420 translation(s) (420 finished and 0 unfinished)
+    Ignored 256 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bg.qm'...
+    Generated 588 translation(s) (588 finished and 0 unfinished)
+    Ignored 88 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bn.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cat.qm'...
+    Generated 671 translation(s) (671 finished and 0 unfinished)
+    Ignored 5 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cs.qm'...
+    Generated 439 translation(s) (439 finished and 0 unfinished)
+    Ignored 238 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_da.qm'...
+    Generated 530 translation(s) (530 finished and 0 unfinished)
+    Ignored 146 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_de.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_el.qm'...
+    Generated 111 translation(s) (111 finished and 0 unfinished)
+    Ignored 565 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_eo.qm'...
+    Generated 597 translation(s) (597 finished and 0 unfinished)
+    Ignored 79 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_es.qm'...
+    Generated 631 translation(s) (631 finished and 0 unfinished)
+    Ignored 45 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fa.qm'...
+    Generated 61 translation(s) (61 finished and 0 unfinished)
+    Ignored 615 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fi.qm'...
+    Generated 547 translation(s) (545 finished and 2 unfinished)
+    Ignored 129 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fr.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ga.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_he.qm'...
+    Generated 404 translation(s) (404 finished and 0 unfinished)
+    Ignored 272 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hi.qm'...
+    Generated 453 translation(s) (453 finished and 0 unfinished)
+    Ignored 223 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hr.qm'...
+    Generated 396 translation(s) (396 finished and 0 unfinished)
+    Ignored 280 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hu.qm'...
+    Generated 592 translation(s) (592 finished and 0 unfinished)
+    Ignored 84 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_id.qm'...
+    Generated 433 translation(s) (433 finished and 0 unfinished)
+    Ignored 243 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_it.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ja.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_kmr.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ko.qm'...
+    Generated 274 translation(s) (274 finished and 0 unfinished)
+    Ignored 402 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_lt.qm'...
+    Generated 429 translation(s) (429 finished and 0 unfinished)
+    Ignored 247 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ne.qm'...
+    Generated 13 translation(s) (13 finished and 0 unfinished)
+    Ignored 663 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_nl.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pl.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_prt.qm'...
+    Generated 333 translation(s) (333 finished and 0 unfinished)
+    Ignored 343 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-br.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-pt.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ro.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ru.qm'...
+    Generated 662 translation(s) (662 finished and 0 unfinished)
+    Ignored 14 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sk.qm'...
+    Generated 605 translation(s) (605 finished and 0 unfinished)
+    Ignored 71 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sl.qm'...
+    Generated 655 translation(s) (655 finished and 0 unfinished)
+    Ignored 21 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sr.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sv.qm'...
+    Generated 571 translation(s) (571 finished and 0 unfinished)
+    Ignored 105 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_tr.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_uk.qm'...
+    Generated 437 translation(s) (437 finished and 0 unfinished)
+    Ignored 239 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ur.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-cn.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-tw.qm'...
+    Generated 676 translation(s) (676 finished and 0 unfinished)
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zu.qm'...
+    Generated 1 translation(s) (1 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+make -f Makefile.Release
+make[1]: Entering directory '/home/andre/electroneum-gui/build'
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_ar.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ar.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ar.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ar.qm'...
+    Generated 419 translation(s) (419 finished and 0 unfinished)
+    Ignored 256 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_bg.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bg.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bg.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bg.qm'...
+    Generated 584 translation(s) (584 finished and 0 unfinished)
+    Ignored 88 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_bn.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bn.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bn.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_bn.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_cat.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cat.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cat.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cat.qm'...
+    Generated 645 translation(s) (645 finished and 0 unfinished)
+    Ignored 5 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_cs.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cs.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cs.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_cs.qm'...
+    Generated 417 translation(s) (417 finished and 0 unfinished)
+    Ignored 238 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_da.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_da.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_da.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_da.qm'...
+    Generated 480 translation(s) (480 finished and 0 unfinished)
+    Ignored 146 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_de.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_de.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_de.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_de.qm'...
+    Generated 641 translation(s) (641 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_el.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_el.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_el.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_el.qm'...
+    Generated 109 translation(s) (109 finished and 0 unfinished)
+    Ignored 565 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_eo.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_eo.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_eo.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_eo.qm'...
+    Generated 584 translation(s) (584 finished and 0 unfinished)
+    Ignored 79 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_es.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_es.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_es.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_es.qm'...
+    Generated 603 translation(s) (603 finished and 0 unfinished)
+    Ignored 45 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_fa.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fa.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fa.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fa.qm'...
+    Generated 60 translation(s) (60 finished and 0 unfinished)
+    Ignored 615 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_fi.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fi.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fi.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fi.qm'...
+    Generated 524 translation(s) (524 finished and 0 unfinished)
+    Ignored 129 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_fr.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fr.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_fr.qm'...
+    Generated 625 translation(s) (625 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_ga.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ga.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ga.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ga.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_he.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_he.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_he.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_he.qm'...
+    Generated 395 translation(s) (395 finished and 0 unfinished)
+    Ignored 272 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_hi.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hi.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hi.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hi.qm'...
+    Generated 452 translation(s) (452 finished and 0 unfinished)
+    Ignored 223 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_hr.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hr.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hr.qm'...
+    Generated 380 translation(s) (380 finished and 0 unfinished)
+    Ignored 280 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_hu.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hu.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hu.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_hu.qm'...
+    Generated 566 translation(s) (566 finished and 0 unfinished)
+    Ignored 84 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_id.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_id.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_id.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_id.qm'...
+    Generated 410 translation(s) (410 finished and 0 unfinished)
+    Ignored 243 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_it.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_it.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_it.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_it.qm'...
+    Generated 640 translation(s) (640 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_ja.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ja.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ja.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ja.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_kmr.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_kmr.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_kmr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_kmr.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_ko.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ko.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ko.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ko.qm'...
+    Generated 264 translation(s) (264 finished and 0 unfinished)
+    Ignored 402 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_lt.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_lt.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_lt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_lt.qm'...
+    Generated 415 translation(s) (415 finished and 0 unfinished)
+    Ignored 247 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_ne.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ne.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ne.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ne.qm'...
+    Generated 12 translation(s) (12 finished and 0 unfinished)
+    Ignored 663 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_nl.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_nl.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_nl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_nl.qm'...
+    Generated 655 translation(s) (655 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_pl.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pl.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pl.qm'...
+    Generated 656 translation(s) (656 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_prt.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_prt.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_prt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_prt.qm'...
+    Generated 331 translation(s) (331 finished and 0 unfinished)
+    Ignored 343 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_pt-br.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-br.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-br.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-br.qm'...
+    Generated 649 translation(s) (649 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_pt-pt.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-pt.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-pt.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_pt-pt.qm'...
+    Generated 645 translation(s) (645 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_ro.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ro.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ro.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ro.qm'...
+    Generated 646 translation(s) (646 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_ru.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ru.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ru.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ru.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+    Ignored 14 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_sk.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sk.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sk.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sk.qm'...
+    Generated 579 translation(s) (579 finished and 0 unfinished)
+    Ignored 71 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_sl.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sl.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sl.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sl.qm'...
+    Generated 631 translation(s) (631 finished and 0 unfinished)
+    Ignored 21 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_sr.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sr.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sr.qm'...
+    Generated 647 translation(s) (647 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_sv.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sv.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sv.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_sv.qm'...
+    Generated 542 translation(s) (542 finished and 0 unfinished)
+    Ignored 105 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_tr.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_tr.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_tr.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_tr.qm'...
+    Generated 651 translation(s) (651 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_uk.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_uk.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_uk.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_uk.qm'...
+    Generated 425 translation(s) (425 finished and 0 unfinished)
+    Ignored 239 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_ur.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ur.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ur.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_ur.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_zh-cn.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-cn.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-cn.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-cn.qm'...
+    Generated 662 translation(s) (662 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_zh-tw.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-tw.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-tw.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zh-tw.qm'...
+    Generated 661 translation(s) (661 finished and 0 unfinished)
+C:/msys64/mingw64/bin\lrelease.exe -compress -nounfinished -removeidentical ../translations/electroneum-core_zu.ts -qm C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zu.qm
+Updating 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zu.qm'...
+Removing translations equal to source text in 'C:/msys64/home/andre/electroneum-gui/build/translations/electroneum-core_zu.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 675 untranslated source text(s)
+/C/msys64/mingw64/bin/rcc.exe -name translations translations/translations.qrc -o release/qrc_translations.cpp
+g++ -c -fno-keep-inline-dllexport -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_NO_DEBUG -DQT_SVG_LIB -DQT_WIDGETS_LIB -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN -I../../electroneum-gui -I. -I../electroneum/include -I../src/libwalletqt -I../src/QR-Code-generator -I../src -I../electroneum/src -I../../../../mingw64/include/QtSvg -I../../../../mingw64/include/QtWidgets -I../../../../mingw64/include/QtGui/5.13.2 -I../../../../mingw64/include/QtGui/5.13.2/QtGui -I../../../../mingw64/include/QtQuick -I../../../../mingw64/include/QtGui -I../../../../mingw64/include/QtQml -I../../../../mingw64/include/QtNetwork -I../../../../mingw64/include/QtCore/5.13.2 -I../../../../mingw64/include/QtCore/5.13.2/QtCore -I../../../../mingw64/include/QtCore -Irelease -I../../../../mingw64/share/qt5/mkspecs/win32-g++  -o release/qrc_translations.o release/qrc_translations.cpp
+/C/msys64/mingw64/bin/rcc.exe -name qml_qmlcache qml_qmlcache.qrc -o release/qrc_qml_qmlcache.cpp
+g++ -c -fno-keep-inline-dllexport -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_NO_DEBUG -DQT_SVG_LIB -DQT_WIDGETS_LIB -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN -I../../electroneum-gui -I. -I../electroneum/include -I../src/libwalletqt -I../src/QR-Code-generator -I../src -I../electroneum/src -I../../../../mingw64/include/QtSvg -I../../../../mingw64/include/QtWidgets -I../../../../mingw64/include/QtGui/5.13.2 -I../../../../mingw64/include/QtGui/5.13.2/QtGui -I../../../../mingw64/include/QtQuick -I../../../../mingw64/include/QtGui -I../../../../mingw64/include/QtQml -I../../../../mingw64/include/QtNetwork -I../../../../mingw64/include/QtCore/5.13.2 -I../../../../mingw64/include/QtCore/5.13.2/QtCore -I../../../../mingw64/include/QtCore -Irelease -I../../../../mingw64/share/qt5/mkspecs/win32-g++  -o release/qrc_qml_qmlcache.o release/qrc_qml_qmlcache.cpp
+/C/msys64/mingw64/bin/qmlcachegen.exe --resource=C:/msys64/home/andre/electroneum-gui/qml.qrc -o release/version_js.cpp ../version.js
+g++ -c -fno-keep-inline-dllexport -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1 -Wformat -Wformat-security -O2 -std=gnu++11 -Wall -W -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_NO_DEBUG -DQT_SVG_LIB -DQT_WIDGETS_LIB -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN -I../../electroneum-gui -I. -I../electroneum/include -I../src/libwalletqt -I../src/QR-Code-generator -I../src -I../electroneum/src -I../../../../mingw64/include/QtSvg -I../../../../mingw64/include/QtWidgets -I../../../../mingw64/include/QtGui/5.13.2 -I../../../../mingw64/include/QtGui/5.13.2/QtGui -I../../../../mingw64/include/QtQuick -I../../../../mingw64/include/QtGui -I../../../../mingw64/include/QtQml -I../../../../mingw64/include/QtNetwork -I../../../../mingw64/include/QtCore/5.13.2 -I../../../../mingw64/include/QtCore/5.13.2/QtCore -I../../../../mingw64/include/QtCore -Irelease -I../../../../mingw64/share/qt5/mkspecs/win32-g++  -o release/version_js.o release/version_js.cpp
+/C/msys64/mingw64/bin/qmlcachegen.exe --resource-file-mapping=C:/msys64/home/andre/electroneum-gui/qml.qrc=C:/msys64/home/andre/electroneum-gui/build/qml_qmlcache.qrc -o release/qmlcache_loader.cpp ../qml.qrc
+make[1]: Leaving directory '/home/andre/electroneum-gui/build'
+[H[2J[3J

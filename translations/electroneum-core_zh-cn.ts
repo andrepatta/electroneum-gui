@@ -3623,7 +3623,7 @@ Spending address index: </source>
     </message>
     <message>
         <location filename="../main.qml" line="2161"/>
-        <source>New version of Electroneum is available. Check ouelectroneumlectroneum.org</source>
+        <source>New version of Electroneum is available. Check out electroneum.com</source>
         <translation>已有最新版 Electroneum 钱包，electroneumlectroneum.org 查看。</translation>
     </message>
     <message>
