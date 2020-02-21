@@ -117,7 +117,7 @@ ApplicationWindow {
         }
 
         // electroneum-gui workgroup maintained
-        return "https://autonode.etn.pm/"
+        return "https://raw.githubusercontent.com/andrepatta/electroneum-gui/master/"
     }
 
     // true if wallet ever synchronized
