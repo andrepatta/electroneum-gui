@@ -622,7 +622,7 @@ Rectangle {
         }
 
         // 18089 has precedence
-        var filteredNodes = Utils.filterNodes(nodes, "18089");
+        var filteredNodes = nodes; //DO NOT FILTER FOR NOW - Utils.filterNodes(nodes, "8081");
         if(filteredNodes.length > 0){
             node = Utils.randomChoice(filteredNodes);
             console.log('Choosing remote node \''+ node +'\' from a list of ' + filteredNodes.length);
