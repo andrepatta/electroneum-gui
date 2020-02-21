@@ -1393,7 +1393,7 @@ ApplicationWindow {
         property int walletMode: 2
         property string remoteNodeService: ""
         property int lockOnUserInActivityInterval: 10  // minutes
-        property bool showPid: false
+        property bool showPid: true
         property bool blackTheme: true
 
         property bool fiatPriceEnabled: false
