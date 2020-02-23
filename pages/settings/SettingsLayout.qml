@@ -72,7 +72,7 @@ Rectangle {
         }
 
         ElectroneumComponents.CheckBox {
-            visible: !isMobile
+            visible: false
             id: showPidCheckBox
             checked: persistentSettings.showPid
             onClicked: {
