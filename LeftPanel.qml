@@ -584,7 +584,7 @@ Rectangle {
             }
 
             // ------------- Advanced tab ---------------
-            /*
+            
             ElectroneumComponents.MenuButton {
                 id: advancedButton
                 visible: appWindow.walletMode >= 2
@@ -605,7 +605,7 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.leftMargin: 16
             }
-            */
+            
 
             // ------------- Mining tab ---------------
             /*
@@ -635,7 +635,7 @@ Rectangle {
             */
 
             // ------------- TxKey tab ---------------
-            /*
+            
             ElectroneumComponents.MenuButton {
                 id: txkeyButton
                 visible: appWindow.walletMode >= 2
@@ -658,7 +658,7 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.leftMargin: 16
             }
-            */
+            
 
             // ------------- Shared RingDB tab ---------------
             /*
@@ -687,7 +687,7 @@ Rectangle {
             */
 
             // ------------- Sign/verify tab ---------------
-            /*
+            
             ElectroneumComponents.MenuButton {
                 id: signButton
                 visible: appWindow.walletMode >= 2
@@ -710,7 +710,7 @@ Rectangle {
                 anchors.right: parent.right
                 anchors.leftMargin: 16
             }
-            */
+            
 
             // ------------- Settings tab ---------------
             ElectroneumComponents.MenuButton {
