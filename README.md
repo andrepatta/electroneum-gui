@@ -40,7 +40,7 @@ A **Moderated Blockchain**, powered by the **Proof of Responsibility** consensus
 * [Mobile Application](https://electroneum.com/features/mobile-application/)
 * [Instant Payments](https://electroneum.com/features/instant-payments/)
 * [ETN Rewards](https://electroneum.com/features/mobile-mining-cloud-mining/)
-* [KYC & AML Complience](https://electroneum.com/features/kyc-aml-compliance/)
+* [KYC & AML Compliance](https://electroneum.com/features/kyc-aml-compliance/)
 * [Gig Economy: AnyTask](https://electroneum.com/features/gig-economy/)
 
 # Development Resources
@@ -52,12 +52,6 @@ As with many development projects, the repository on Github is considered to be 
 ## Building Electroneum Desktop Wallet from Source
 
 See [Build & Run Documentation](docs/build-and-run.md).
-
-# Vulnerability Response Process
-
-HackerOne is a vulnerability coordination and bug bounty platform that connects businesses with penetration testers and cybersecurity researchers. It was one of the first companies, along with Synack and Bugcrowd, to embrace and utilize crowd-sourced security and cybersecurity researchers as linchpins of its business model; it is the largest cybersecurity firm of its kind. As of July 2018, HackerOne's network consisted of approximately 200,000 researchers, had resolved 72,000 vulnerabilities across over 1,000 customer programs, and had paid $31 million in bounties.
-
-See [HackerOne Electroneum's Page](https://hackerone.com/electroneum).
 
 # License
 
