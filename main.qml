@@ -594,7 +594,7 @@ ApplicationWindow {
             console.log("New block found - updating history")
             currentWallet.history.refresh(currentWallet.currentSubaddressAccount)
             var timeToUnlock = currentWallet.history.minutesToUnlock
-            leftPanel.minutesToUnlockTxt = (timeToUnlock > 0)? (timeToUnlock == 20)? qsTr("Unlocked balance (waiting for block)") : qsTr("Unlocked balance (~%1 min)").arg(timeToUnlock) : qsTr("Unlocked balance");
+            leftPanel.minutesToUnlockTxt = (timeToUnlock > 0)? (timeToUnlock == 20)? qsTr("Available balance (waiting for block)") : qsTr("Available balance (~%1 min)").arg(timeToUnlock) : qsTr("Available balance");
 
             if(middlePanel.state == "History")
                 middlePanel.historyView.update();
@@ -865,7 +865,7 @@ ApplicationWindow {
             } else if (amountetn > currentWallet.unlockedBalance) {
                 hideProcessingSplash()
                 informationPopup.title = qsTr("Error") + translationManager.emptyString;
-                informationPopup.text  = qsTr("Insufficient funds. Unlocked balance: %1")
+                informationPopup.text  = qsTr("Insufficient funds. Available balance: %1")
                         .arg(walletManager.displayAmount(currentWallet.unlockedBalance))
                         + translationManager.emptyString
 
@@ -2180,7 +2180,7 @@ ApplicationWindow {
 
     // reset label text. othewise potential privacy leak showing unlock time when switching wallets
     function clearElectroneumCardLabelText(){
-        leftPanel.minutesToUnlockTxt = qsTr("Unlocked balance")
+        leftPanel.minutesToUnlockTxt = qsTr("Available balance")
         leftPanel.balanceLabelText = qsTr("Balance")
     }
 

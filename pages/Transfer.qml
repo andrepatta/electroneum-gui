@@ -749,7 +749,7 @@ Rectangle {
 
         // There are sufficient unlocked funds available
         if(parseFloat(amountLine.text) > parseFloat(middlePanel.unlockedBalanceText)){
-            root.sendButtonWarning = qsTr("Amount is more than unlocked balance.") + translationManager.emptyString;
+            root.sendButtonWarning = qsTr("Amount is more than available balance.") + translationManager.emptyString;
             return false;
         }
 
