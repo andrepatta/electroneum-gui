@@ -3083,7 +3083,7 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Inkluzivas aldonajn funkciojn, kiel minado kaj mesaĝkontrolo. La blokĉeno elŝutiĝas al via komputilo.</translation>
     </message>
     <message>

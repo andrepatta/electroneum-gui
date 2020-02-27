@@ -3077,7 +3077,7 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

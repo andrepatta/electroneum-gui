@@ -3085,7 +3085,7 @@ V primeru dokazila o plačilu, naslov prejemnika ni potreben.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Vključuje dodatne funkcionalnosti, kot npr. rudarjenje in verifikacija. Blockchain se prenese na vaš računalnik.</translation>
     </message>
     <message>

@@ -3085,7 +3085,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>包含一些额外功能，例如挖矿和消息验证。区块被下载到你的电脑中。</translation>
     </message>
     <message>

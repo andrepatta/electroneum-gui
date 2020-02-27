@@ -3082,7 +3082,7 @@ In caso di prova di spesa, non serve specificare l&apos;indirizzo del ricevente.
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Include funzionalità extra come il mining e la verifica dei messaggi. La blockchain viene scaricata sul proprio computer.</translation>
     </message>
     <message>

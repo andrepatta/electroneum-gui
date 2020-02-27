@@ -3087,7 +3087,7 @@ U slučaju sa Dokazom Troška, ne morate navesti adresu primaoca.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Ukljucuje dodatne funkcije kao sto je rudarenje i verifikacija poruka. Blockchain ce biti preuzet na Vas racunar.</translation>
     </message>
     <message>

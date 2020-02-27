@@ -3088,7 +3088,7 @@ Pentru cazurile cu Dovadă de plată, nu e necesară adresa destinatarului.</tra
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Include caracteristici suplimentare, cum ar fi mineritul și verificarea mesajelor. Fișierul blockchain este descărcat pe computer.</translation>
     </message>
     <message>

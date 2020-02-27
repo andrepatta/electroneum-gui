@@ -3088,7 +3088,7 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>マイニングやメッセージ検証といった機能を含みます。ブロックチェーンがコンピュータにダウンロードされます。</translation>
     </message>
     <message>

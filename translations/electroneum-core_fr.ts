@@ -3089,7 +3089,7 @@ Pour le cas d&apos;une preuve de dépense, il n&apos;est pas nécessaire de spé
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Inclut des fonctionnalités supplémentaires telles que l&apos;extraction minière et la vérification de messages. La chaîne de blocs est téléchargée sur votre ordinateur.</translation>
     </message>
     <message>

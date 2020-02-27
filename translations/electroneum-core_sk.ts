@@ -3083,7 +3083,7 @@ V prípade Spend Proof, nie je potrebné špecifikovať prijímateľovu adresu.<
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Zahŕňa ďalšie funkcie, ako je ťaženie meny a overenie správ. Blockchain sa stiahne do vášho počítača.</translation>
     </message>
     <message>

@@ -3082,7 +3082,7 @@ Harcama Kanıtı ile ilgili davada, alıcı adresini belirtmeniz gerekmez. </tra
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Madencilik ve mesaj doğrulama gibi ekstra özellikler içerir. Blockchain bilgisayarınıza indirilir.</translation>
     </message>
     <message>

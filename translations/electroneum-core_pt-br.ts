@@ -3090,7 +3090,7 @@ Para o caso com &apos;Prova de Pagamento&apos;, você não precisa especificar o
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Inclui funcionalidades extras como mineração e verificação de mensagens. A carteira fará o download do blockchain no seu computador.</translation>
     </message>
     <message>

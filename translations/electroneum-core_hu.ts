@@ -3075,7 +3075,7 @@ Egyszerű költési bizonylat esetén nem kell megadni a kedvezményezett címé
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="125"/>
-        <source>Includes extra features like mining and message verification. The blockchain is downloaded to your computer.</source>
+        <source>Includes extra features. The blockchain is downloaded to your computer.</source>
         <translation>Plusz beállítási lehetőségek. Úgymint bányászat, üzenet aláírás/ellenőrzés. A blokklánc le van töltve a számítógépre.</translation>
     </message>
     <message>
