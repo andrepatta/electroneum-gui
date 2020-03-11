@@ -123,7 +123,7 @@ Rectangle {
                 Layout.topMargin: 10
 
                 ElectroneumComponents.TextPlain {
-                    text: qsTr("Total unlocked balance: ") + translationManager.emptyString
+                    text: qsTr("Total available balance: ") + translationManager.emptyString
                     Layout.fillWidth: true
                     color: ElectroneumComponents.Style.defaultFontColor
                     font.pixelSize: 16

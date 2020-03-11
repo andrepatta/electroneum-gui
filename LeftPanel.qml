@@ -380,7 +380,7 @@ Rectangle {
                 ElectroneumComponents.Label {
                     id: unlockedBalanceLabel
                     visible: true
-                    text: qsTr("Unlocked balance") + translationManager.emptyString
+                    text: qsTr("Available balance") + translationManager.emptyString
                     color: "white"
                     fontSize: 14
                     anchors.left: parent.left

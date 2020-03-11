@@ -50,7 +50,7 @@ Rectangle {
     property bool basicMode : isMobile
     property string balanceLabelText: qsTr("Balance") + translationManager.emptyString
     property string balanceText
-    property string unlockedBalanceLabelText: qsTr("Unlocked Balance") + translationManager.emptyString
+    property string unlockedBalanceLabelText: qsTr("Available Balance") + translationManager.emptyString
     property string unlockedBalanceText
     property int minHeight: (appWindow.height > 800) ? appWindow.height : 800
     property alias contentHeight: mainFlickable.contentHeight

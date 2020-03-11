@@ -90,7 +90,7 @@ Rectangle {
             horizontalAlignment: Text.AlignLeft
             verticalAlignment: Text.AlignBottom
             color: "#535353"
-            text: qsTr("Unlocked Balance:")
+            text: qsTr("Available Balance:")
         }
 
         ElectroneumComponents.TextPlain {
