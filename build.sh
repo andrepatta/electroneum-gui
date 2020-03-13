@@ -34,10 +34,10 @@ elif [ "$BUILD_TYPE" == "release-static" ]; then
     if [ "$platform" != "darwin" ]; then
 	    CONFIG="CONFIG+=release static";
     else
-        # OS X: build static libwallet but dynamic Qt. 
+        # OS X: build static libwallet but dynamic Qt.
         echo "OS X: Building Qt project without static flag"
         CONFIG="CONFIG+=release";
-    fi    
+    fi
     BIN_PATH=release/bin
 elif [ "$BUILD_TYPE" == "release-android" ]; then
     echo "Building release for ANDROID"
@@ -65,7 +65,7 @@ source ./utils.sh
 pushd $(pwd)
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ELECTRONEUM_DIR=electroneum
-ELECTRONEUM_EXEC=electroneumd
+ELECTRONEUMD_EXEC=electroneumd
 
 MAKE='make'
 if [[ $platform == *bsd* ]]; then
@@ -75,7 +75,7 @@ fi
 # build libwallet
 export BUILD_TREZOR
 ./get_libwallet_api.sh $BUILD_TYPE
- 
+
 # build zxcvbn
 if [ "$DISABLE_PASS_STRENGTH_METER" != true ]; then
     $MAKE -C src/zxcvbn-c || exit
@@ -112,13 +112,12 @@ if ! QMAKE=$(find_command qmake qmake-qt5); then
     exit 1
 fi
 $QMAKE ../electroneum-wallet-gui.pro "$CONFIG" || exit
-$MAKE || exit 
+$MAKE || exit
 
 # Copy electroneumd to bin folder
 if [ "$platform" != "mingw32" ] && [ "$ANDROID" != true ]; then
-cp ../$ELECTRONEUM_DIR/bin/$ELECTRONEUMD_EXEC $BIN_PATH
+  cp ../$ELECTRONEUM_DIR/bin/$ELECTRONEUMD_EXEC $BIN_PATH
 fi
 
 # make deploy
 popd
-
