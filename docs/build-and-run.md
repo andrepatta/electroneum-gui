@@ -49,12 +49,12 @@ The following instructions will fetch Qt from your distribution's repositories i
 
 3. Clone repository
 
-    `git clone https://github.com/andrepatta/electroneum-gui.git`
+    `git clone https://github.com/andrepatta/etn-desktop-wallet.git`
 
 4. Build
 
     ```
-    cd electroneum-gui
+    cd etn-desktop-wallet
     QT_SELECT=5 ./build.sh
     ```
 
@@ -85,7 +85,7 @@ The executable can be found in the build/release/bin folder.
   `brew install qt5`  (or download QT 5.9.7+ from [qt.io](https://www.qt.io/download-open-source/))
 
   If you have an older version of Qt installed via homebrew, you can force it to use 5.x like so:
-  
+
   `brew link --force --overwrite qt5`
 
 5. Add the Qt bin directory to your path
@@ -93,13 +93,13 @@ The executable can be found in the build/release/bin folder.
   - Example for Qt: `export PATH=$PATH:$HOME/Qt/5.9.7/clang_64/bin`
   - Example for Homebrew: `export PATH=$PATH:/usr/local/opt/qt/bin`
 
-6. Grab an up-to-date copy of the electroneum-gui repository
+6. Grab an up-to-date copy of the etn-desktop-wallet repository
 
-  `git clone https://github.com/andrepatta/electroneum-gui.git`
+  `git clone https://github.com/andrepatta/etn-desktop-wallet.git`
 
 7. Go into the repository
 
-  `cd electroneum-gui`
+  `cd etn-desktop-wallet`
 
 8. Start the build
 
@@ -159,13 +159,13 @@ The Electroneum Desktop Wallet on Windows is 64 bits only; 32-bit Windows GUI bu
 6. Clone repository
 
     ```
-    git clone https://github.com/andrepatta/electroneum-gui.git
+    git clone https://github.com/andrepatta/etn-desktop-wallet.git
     ```
 
 7. Build
 
     ```
-    cd electroneum-gui
+    cd etn-desktop-wallet
     source ./build.sh release-static
     cd build
     make deploy
