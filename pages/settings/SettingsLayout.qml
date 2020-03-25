@@ -159,6 +159,7 @@ Rectangle {
         }
 
         //! Manage pricing
+        /*
         RowLayout {
             ElectroneumComponents.CheckBox {
                 id: enableConvertCurrency
@@ -276,6 +277,8 @@ Rectangle {
             Layout.fillWidth: true
             text: qsTr("No Layout options exist yet in mobile mode.") + translationManager.emptyString;
         }
+
+        */
     }
 
     ListModel {
