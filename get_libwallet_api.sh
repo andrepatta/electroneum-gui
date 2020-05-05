@@ -1,5 +1,5 @@
 #!/bin/bash
-ELECTRONEUM_URL=https://github.com/electroneum-project/electroneum.git
+ELECTRONEUM_URL=https://github.com/electroneum/electroneum.git
 ELECTRONEUM_BRANCH=master
 
 pushd $(pwd)
