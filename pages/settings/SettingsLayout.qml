@@ -232,7 +232,6 @@ Rectangle {
 
             z: parent.z + 1
         }
-        */
 
         ColumnLayout {
             // Feature needs to be double enabled for security purposes (miss-clicks)
