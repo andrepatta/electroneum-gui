@@ -3,7 +3,7 @@
     "as":["node-as.etnblockchain.com:26968"],
     "ca":[],
     "na":["node-na.etnblockchain.com:26968"],
-    "eu":["52.138.176.219:8081", "node.postkasten.xyz:26968"],
+    "eu":["13.74.171.8:8081", "node.postkasten.xyz:26968"],
     "oc":["etn-remote-node.thorshammer.cc:26968"],
     "sa":[]
 }
